@@ -5,7 +5,10 @@ import { defaultLocale, locales } from "@/i18n/routing";
 
 const POSTS_PER_PAGE = 6;
 
-export function generateStaticParams() {
+export const dynamic = "force-static";
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
   const totalPages = Math.ceil(
     getPostFrontmatter(defaultLocale).length / POSTS_PER_PAGE
   );
