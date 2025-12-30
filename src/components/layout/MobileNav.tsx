@@ -63,20 +63,21 @@ export default function MobileNav({
         ? createPortal(
             <AnimatePresence>
               {open && (
-                <motion.div
-                  className="fixed inset-0 z-[200] bg-black/50 backdrop-blur-sm"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  exit={{ opacity: 0 }}
-                  transition={reduceMotion ? { duration: 0 } : transition}
-                  onClick={() => setOpen(false)}
-                >
+                <>
+                  <motion.div
+                    className="fixed inset-0 z-[200] bg-black/50 backdrop-blur-sm"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    transition={reduceMotion ? { duration: 0 } : transition}
+                    onClick={() => setOpen(false)}
+                  />
                   <motion.div
                     id="mobile-nav"
                     role="dialog"
                     aria-modal="true"
                     aria-label={navigationLabel}
-                    className="absolute inset-0 flex h-full flex-col bg-white"
+                    className="fixed inset-0 z-[210] flex h-full flex-col bg-white"
                     initial={{ y: "8%", opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     exit={{ y: "8%", opacity: 0 }}
@@ -137,7 +138,7 @@ export default function MobileNav({
                       </Link>
                     </div>
                   </motion.div>
-                </motion.div>
+                </>
               )}
             </AnimatePresence>,
             document.body

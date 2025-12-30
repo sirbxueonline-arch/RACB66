@@ -15,9 +15,9 @@ const labels: Record<string, string> = {
 };
 
 const flagSources: Record<Locale, { primary: string; fallback: string }> = {
-  az: { primary: "/icons/flags/az.png", fallback: "/icons/flags/az.jpg" },
-  en: { primary: "/icons/flags/en.png", fallback: "/icons/flags/en.jpg" },
-  ru: { primary: "/icons/flags/ru.png", fallback: "/icons/flags/ru.jpg" },
+  az: { primary: "/icons/AZ.png", fallback: "/icons/AZ.png" },
+  en: { primary: "/icons/EN.png", fallback: "/icons/EN.png" },
+  ru: { primary: "/icons/RU.png", fallback: "/icons/RU.png" },
 };
 
 export default function LanguageSwitcher() {
