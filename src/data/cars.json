@@ -16,9 +16,7 @@
     "fuelEconomy": "6.0 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/car-01.jpg",
-      "/images/cars/car-02.jpg",
-      "/images/cars/car-03.jpg"
+      "/images/cars/toyota-yaris.jpg"
     ],
     "description": {
       "az": "Şəhər üçün çevik və qənaətli seçim.",
@@ -60,9 +58,7 @@
     "fuelEconomy": "6.2 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/car-02.jpg",
-      "/images/cars/car-03.jpg",
-      "/images/cars/car-04.jpg"
+      "/images/cars/kia-rio.jpg"
     ],
     "description": {
       "az": "Rahat salon və sabit idarəetmə.",
@@ -104,9 +100,7 @@
     "fuelEconomy": "6.4 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/car-03.jpg",
-      "/images/cars/car-04.jpg",
-      "/images/cars/car-05.jpg"
+      "/images/cars/hyundai-accent.jpg"
     ],
     "description": {
       "az": "Gündəlik sürüş üçün balanslı sedan.",
@@ -148,9 +142,7 @@
     "fuelEconomy": "6.5 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/car-04.jpg",
-      "/images/cars/car-05.jpg",
-      "/images/cars/car-06.jpg"
+      "/images/cars/nissan-sunny.jpg"
     ],
     "description": {
       "az": "Səssiz və etibarlı gündəlik sedan.",
@@ -192,9 +184,7 @@
     "fuelEconomy": "7.8 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/car-05.jpg",
-      "/images/cars/car-06.jpg",
-      "/images/cars/car-07.jpg"
+      "/images/cars/toyota-camry.jpg"
     ],
     "description": {
       "az": "Biznes səfərləri üçün sakit və prestijli seçim.",
@@ -236,9 +226,7 @@
     "fuelEconomy": "7.5 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/car-06.jpg",
-      "/images/cars/car-07.jpg",
-      "/images/cars/car-08.jpg"
+      "/images/cars/hyundai-sonata.jpg"
     ],
     "description": {
       "az": "Rahat oturacaqlar və yüksək komfort.",
@@ -280,9 +268,7 @@
     "fuelEconomy": "7.4 L/100km",
     "availability": "limited",
     "images": [
-      "/images/cars/car-07.jpg",
-      "/images/cars/car-08.jpg",
-      "/images/cars/car-01.jpg"
+      "/images/cars/mazda-6.jpg"
     ],
     "description": {
       "az": "Dinamik dizayn və hamar idarəetmə.",
@@ -324,9 +310,7 @@
     "fuelEconomy": "8.2 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/car-08.jpg",
-      "/images/cars/car-01.jpg",
-      "/images/cars/car-02.jpg"
+      "/images/cars/mercedes-e-class.jpg"
     ],
     "description": {
       "az": "Premium səviyyədə komfort və texnologiya.",
@@ -368,9 +352,7 @@
     "fuelEconomy": "8.4 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/car-01.jpg",
-      "/images/cars/car-02.jpg",
-      "/images/cars/car-03.jpg"
+      "/images/cars/bmw-5-series.jpg"
     ],
     "description": {
       "az": "İdman ruhu və premium rahatlıq.",
@@ -412,9 +394,7 @@
     "fuelEconomy": "8.0 L/100km",
     "availability": "limited",
     "images": [
-      "/images/cars/car-02.jpg",
-      "/images/cars/car-03.jpg",
-      "/images/cars/car-04.jpg"
+      "/images/cars/audi-a6.jpg"
     ],
     "description": {
       "az": "Səssiz salon və premium materiallar.",
@@ -456,9 +436,7 @@
     "fuelEconomy": "5.8 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/car-03.jpg",
-      "/images/cars/car-04.jpg",
-      "/images/cars/car-05.jpg"
+      "/images/cars/toyota-rav4.jpg"
     ],
     "description": {
       "az": "Krossover rahatlığı və hibrid qənaət.",
@@ -500,9 +478,7 @@
     "fuelEconomy": "7.6 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/car-04.jpg",
-      "/images/cars/car-05.jpg",
-      "/images/cars/car-06.jpg"
+      "/images/cars/nissan-x-trail.jpg"
     ],
     "description": {
       "az": "Səfərlər üçün praktik SUV.",
@@ -544,9 +520,7 @@
     "fuelEconomy": "7.0 L/100km",
     "availability": "limited",
     "images": [
-      "/images/cars/car-05.jpg",
-      "/images/cars/car-06.jpg",
-      "/images/cars/car-07.jpg"
+      "/images/cars/hyundai-santa-fe.jpg"
     ],
     "description": {
       "az": "Ailə səfərləri üçün 7 yerlik komfort.",
@@ -588,9 +562,7 @@
     "fuelEconomy": "8.2 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/car-06.jpg",
-      "/images/cars/car-07.jpg",
-      "/images/cars/car-08.jpg"
+      "/images/cars/mercedes-vito.jpg"
     ],
     "description": {
       "az": "Qrup səfərləri üçün geniş minivan.",
@@ -632,9 +604,7 @@
     "fuelEconomy": "8.4 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/car-07.jpg",
-      "/images/cars/car-08.jpg",
-      "/images/cars/car-01.jpg"
+      "/images/cars/volkswagen-caravelle.jpg"
     ],
     "description": {
       "az": "Şəhər və region turları üçün rahat.",
@@ -676,9 +646,7 @@
     "fuelEconomy": "9.4 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/car-08.jpg",
-      "/images/cars/car-01.jpg",
-      "/images/cars/car-02.jpg"
+      "/images/cars/ford-transit.jpg"
     ],
     "description": {
       "az": "Çoxsaylı sərnişinlər üçün nəqliyyat.",
@@ -720,9 +688,7 @@
     "fuelEconomy": "9.8 L/100km",
     "availability": "limited",
     "images": [
-      "/images/cars/car-02.jpg",
-      "/images/cars/car-03.jpg",
-      "/images/cars/car-04.jpg"
+      "/images/cars/mercedes-sprinter.jpg"
     ],
     "description": {
       "az": "Böyük qruplar üçün peşəkar transfer.",
@@ -764,9 +730,7 @@
     "fuelEconomy": "9.0 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/car-03.jpg",
-      "/images/cars/car-04.jpg",
-      "/images/cars/car-05.jpg"
+      "/images/cars/toyota-alphard.jpg"
     ],
     "description": {
       "az": "VIP transfer üçün lüks minivan.",
@@ -808,9 +772,7 @@
     "fuelEconomy": "8.8 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/car-04.jpg",
-      "/images/cars/car-05.jpg",
-      "/images/cars/car-06.jpg"
+      "/images/cars/mercedes-v-class.jpg"
     ],
     "description": {
       "az": "İşgüzar görüşlər üçün prestijli transfer.",
@@ -852,9 +814,7 @@
     "fuelEconomy": "5.9 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/car-05.jpg",
-      "/images/cars/car-06.jpg",
-      "/images/cars/car-07.jpg"
+      "/images/cars/lexus-es.jpg"
     ],
     "description": {
       "az": "Sakit gediş və premium xidmət.",
