@@ -19,6 +19,8 @@ import PricingBreakdown from "@/components/ui/PricingBreakdown";
 import { useToast } from "@/components/ui/ToastProvider";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 
+type InsuranceTier = "basic" | "standard" | "premium";
+
 const step1Schema = z.object({
   carSlug: z.string().min(1),
   pickupLocation: z.string().min(1),
@@ -68,14 +70,36 @@ export default function BookingFlow() {
   const defaultCar = carsData[0]?.slug ?? "";
   const [step, setStep] = useState(0);
   const [errors, setErrors] = useState<string[]>([]);
-  const baseFormData = useMemo(() => {
+  type FormData = {
+    carSlug: string;
+    pickupLocation: string;
+    dropoffLocation: string;
+    pickupDate: string;
+    dropoffDate: string;
+    insurance: InsuranceTier;
+    promoCode: string;
+    extras: {
+      gps: boolean;
+      childSeat: boolean;
+      additionalDriver: boolean;
+    };
+    name: string;
+    phone: string;
+    email: string;
+    licenseNumber: string;
+    licenseIssue: string;
+    licenseExpiry: string;
+    termsAccepted: boolean;
+  };
+
+  const baseFormData = useMemo<FormData>(() => {
     return {
       carSlug: defaultCar,
       pickupLocation: fallbackLocation,
       dropoffLocation: fallbackLocation,
       pickupDate: "",
       dropoffDate: "",
-      insurance: "standard" as const,
+      insurance: "standard",
       promoCode: "",
       extras: {
         gps: false,
@@ -92,7 +116,7 @@ export default function BookingFlow() {
     };
   }, [defaultCar, fallbackLocation]);
 
-  const [formData, setFormData] = useState(baseFormData);
+  const [formData, setFormData] = useState<FormData>(baseFormData);
   const initialized = useRef(false);
 
   useEffect(() => {
