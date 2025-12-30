@@ -9,12 +9,12 @@ export const dynamic = "force-static";
 export const dynamicParams = false;
 
 export async function generateStaticParams() {
-  const totalPages = Math.ceil(
-    getPostFrontmatter(defaultLocale).length / POSTS_PER_PAGE
+  const totalPages = Math.max(
+    1,
+    Math.ceil(getPostFrontmatter(defaultLocale).length / POSTS_PER_PAGE)
   );
-  if (totalPages <= 1) return [];
-  return Array.from({ length: totalPages - 1 }, (_, index) => ({
-    page: `${index + 2}`,
+  return Array.from({ length: totalPages }, (_, index) => ({
+    page: `${index + 1}`,
   }));
 }
 
