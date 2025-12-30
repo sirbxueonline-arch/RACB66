@@ -2,6 +2,7 @@
   "nav": {
     "cars": "Автомобили",
     "services": "Услуги",
+    "corporate": "Корпоратив",
     "cities": "Города",
     "blog": "Блог",
     "about": "О нас",
@@ -10,8 +11,7 @@
     "menu": "Меню",
     "close": "Закрыть",
     "navigation": "Навигация",
-    "language": "Язык",
-    "corporate": "??????????"
+    "language": "Язык"
   },
   "footer": {
     "brand": "Rent A Car Baku 66",
@@ -22,20 +22,20 @@
     "company": "Компания",
     "about": "О нас",
     "services": "Услуги",
+    "corporate": "Корпоратив",
     "blog": "Блог",
     "contact": "Контакты",
     "legal": "Правила",
     "terms": "Условия",
     "privacy": "Конфиденциальность",
     "cookies": "Cookies",
-    "copyright": "(c) 2025 Rent A Car Baku 66. Все права защищены.",
-    "addressValue": "AZ1025, ????, ?????????? ?????, 8 ??????, ??? 3, M31",
-    "social": "???????",
+    "social": "Соцсети",
     "instagram": "Instagram",
     "facebook": "Facebook",
     "telegram": "Telegram",
     "whatsapp": "WhatsApp",
-    "corporate": "??????????"
+    "copyright": "(c) 2025 Rent A Car Baku 66. Все права защищены.",
+    "addressValue": "AZ1025, Баку, Хатаинский район, 8 Ноября, дом 3, M31"
   },
   "categories": {
     "economy": "Эконом",
@@ -50,58 +50,96 @@
     "base": "Дневной тариф x {days}",
     "weekend": "Надбавка за выходные",
     "delivery": "Доставка и возврат",
-    "insurance": "Пакет страховки",
+    "insurance": "Уровень страховки",
     "extras": "Доп. опции",
     "total": "Итого",
-    "viewBreakdown": "Детализация",
-    "promoBaku66": "Скидка BAKU66",
-    "promoWeekend": "Выходные без надбавки",
-    "promoLongstay": "Бонус за долгий срок",
-    "promoAirport": "Кредит на аэропорт",
+    "viewBreakdown": "Смотреть детали",
+    "promoBaku66": "Промо BAKU66",
+    "promoWeekend": "Надбавка за выходные отменена",
+    "promoLongstay": "Бонус за длительную аренду",
+    "promoAirport": "Скидка аэропорт",
     "promoVip": "Скидка VIP15"
   },
   "home": {
     "hero": {
       "badge": "Премиальная аренда",
-      "title": "Баку —",
-      "titleAccent": "уровень 66",
-      "subtitle": "Премиальный парк, прозрачные цены и команда, которая делает поездки лёгкими.",
+      "title": "Баку,",
+      "titleAccent": "элегантно в 66",
+      "subtitle": "Премиальный парк, прозрачные цены и команда для комфортных поездок.",
       "ctaPrimary": "Смотреть парк",
       "ctaSecondary": "Связаться",
       "trust1": "Поддержка 24/7",
       "trust2": "Прозрачные цены",
-      "trust3": "Премиум сервис",
-      "imageAltCity": "Скайлайн Баку",
+      "trust3": "Премиальный сервис",
+      "imageAltCity": "Силуэт Баку",
       "imageAltCar": "Премиальный автомобиль"
     },
     "search": {
-      "pickup": "Получение",
+      "pickup": "Подача",
       "dropoff": "Возврат",
-      "pickupDate": "Дата получения",
+      "pickupDate": "Дата подачи",
       "dropoffDate": "Дата возврата",
       "category": "Категория",
-      "submit": "Показать бронь",
+      "submit": "Показать бронирование",
       "pickupPlaceholder": "Центр Баку",
       "dropoffPlaceholder": "Аэропорт Гейдара Алиева"
     },
     "promos": {
-      "eyebrow": "Акции",
-      "title": "Спецпредложения",
+      "eyebrow": "Промо",
+      "title": "Специальные предложения",
       "badge": "Активно"
+    },
+    "whyChoose": {
+      "eyebrow": "Почему Rent66",
+      "title": "Создано для премиальных поездок",
+      "subtitle": "Мы берем на себя детали, чтобы вы ездили уверенно по Баку.",
+      "cta": "Начать бронирование",
+      "steps": {
+        "one": {
+          "title": "Запрос за минуты",
+          "text": "Укажите даты, маршрут и класс."
+        },
+        "two": {
+          "title": "Прозрачная цена",
+          "text": "Без скрытых платежей, все заранее."
+        },
+        "three": {
+          "title": "Поддержка 24/7",
+          "text": "Быстрая связь и помощь."
+        },
+        "four": {
+          "title": "Готовый автомобиль",
+          "text": "Чистая подача, документы готовы заранее."
+        }
+      },
+      "guarantees": {
+        "one": {
+          "title": "Подача вовремя",
+          "text": "Авто готово и подано в срок."
+        },
+        "two": {
+          "title": "Резервная замена",
+          "text": "Быстрая замена при необходимости."
+        },
+        "three": {
+          "title": "Прозрачный договор",
+          "text": "Все условия фиксированы и понятны."
+        }
+      }
     },
     "destinations": {
       "eyebrow": "Маршруты",
-      "title": "Популярные направления",
+      "title": "Выбранные направления",
       "cta": "Все города"
     },
     "testimonials": {
       "eyebrow": "Отзывы",
       "title": "Что говорят клиенты",
-      "subtitle": "Рейтинг и реальные отзывы",
+      "subtitle": "Рейтинги и реальные отзывы",
       "reviewMeta": "Отзыв от {date}",
       "carouselLabel": "Карусель отзывов",
       "prev": "Назад",
-      "next": "Вперёд",
+      "next": "Вперед",
       "slideLabel": "Перейти к слайду {index}"
     },
     "faq": {
@@ -111,63 +149,26 @@
     },
     "blog": {
       "eyebrow": "Блог",
-      "title": "Свежие статьи",
+      "title": "Последние истории",
       "cta": "Все статьи",
       "news": "Новости",
       "readTime": "{minutes} мин чтения"
-    },
-    "whyChoose": {
-      "eyebrow": "?????? Rent66",
-      "title": "??????? ??? ??????????? ???????",
-      "subtitle": "?? ????? ?? ???? ??????, ????? ?? ?????? ??? ?????? ??????.",
-      "cta": "?????? ????????????",
-      "steps": {
-        "one": {
-          "title": "?????? ?? ??????",
-          "text": "??????? ????, ??????? ? ?????."
-        },
-        "two": {
-          "title": "?????????? ????",
-          "text": "??? ??????? ????????, ??? ???????."
-        },
-        "three": {
-          "title": "????????? 24/7",
-          "text": "??????? ????? ? ??????."
-        },
-        "four": {
-          "title": "??????? ??????????",
-          "text": "?????? ??????, ????????? ?????? ???????."
-        }
-      },
-      "guarantees": {
-        "one": {
-          "title": "?????? ???????",
-          "text": "???? ?????? ? ?????? ? ????."
-        },
-        "two": {
-          "title": "????????? ??????",
-          "text": "??????? ?????? ??? ?????????????."
-        },
-        "three": {
-          "title": "?????????? ???????",
-          "text": "??? ??????? ??????????? ? ???????."
-        }
-      }
     }
   },
   "cars": {
     "eyebrow": "Парк",
     "title": "Автопарк",
-    "subtitle": "Премиальные варианты для каждой категории",
+    "subtitle": "Премиальные авто в каждом классе",
+    "compareCta": "Сравнить парк",
     "filtersLabel": "Фильтры",
     "sort": "Сортировка",
     "sortAsc": "Цена: ниже",
     "sortDesc": "Цена: выше",
     "sortRating": "Рейтинг",
     "availability": {
-      "available": "Доступен",
-      "limited": "Ограниченно",
-      "unavailable": "Недоступен"
+      "available": "Доступно",
+      "limited": "Ограничено",
+      "unavailable": "Недоступно"
     },
     "fuel": {
       "petrol": "Бензин",
@@ -199,8 +200,89 @@
       "priceRange": "Диапазон цен",
       "min": "Мин",
       "max": "Макс"
+    }
+  },
+  "compare": {
+    "eyebrow": "Сравнение",
+    "title": "Сравнение автопарка",
+    "subtitle": "Выберите до 3 авто и сравните характеристики.",
+    "selectedTitle": "Выбрано: {count}",
+    "selectedHint": "Максимум {max} авто",
+    "clear": "Очистить",
+    "empty": "Пока ничего не выбрано.",
+    "remove": "Удалить {name}",
+    "selectCta": "Выбрать",
+    "removeCta": "Убрать",
+    "tableLabel": "Параметр",
+    "tableEmpty": "Выберите авто для сравнения.",
+    "rows": {
+      "price": "Цена в день",
+      "category": "Категория",
+      "transmission": "Трансмиссия",
+      "fuel": "Топливо",
+      "seats": "Места",
+      "luggage": "Багаж",
+      "year": "Год",
+      "engine": "Двигатель",
+      "economy": "Расход",
+      "availability": "Доступность"
+    }
+  },
+  "corporate": {
+    "eyebrow": "Корпоративная аренда",
+    "title": "Долгосрочные решения для команд",
+    "subtitle": "Гибкие контракты, приоритетная поддержка и отобранные автомобили.",
+    "ctaFleet": "Смотреть парк",
+    "ctaBooking": "Забронировать",
+    "benefits": {
+      "one": "Персональный менеджер",
+      "two": "Приоритетная замена",
+      "three": "Ежемесячные счета",
+      "four": "Варианты с водителем"
     },
-    "compareCta": "???????? ????"
+    "packagesTitle": "Корпоративные пакеты",
+    "packagesSubtitle": "Прозрачные уровни для деловых поездок.",
+    "packages": {
+      "standard": {
+        "title": "Standard",
+        "text": "Стабильные тарифы для небольших команд.",
+        "range": "1-3 авто"
+      },
+      "plus": {
+        "title": "Plus",
+        "text": "Приоритетный сервис и больше гибкости.",
+        "range": "4-10 авто"
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "text": "Индивидуальные условия для крупных парков.",
+        "range": "11+ авто"
+      }
+    },
+    "form": {
+      "title": "Корпоративный запрос",
+      "subtitle": "Ответим в течение 1 рабочего дня.",
+      "company": "Название компании",
+      "companyPlaceholder": "Ваша компания",
+      "contact": "Контактное лицо",
+      "contactPlaceholder": "Имя и фамилия",
+      "email": "Email",
+      "emailPlaceholder": "name@company.com",
+      "phone": "Телефон",
+      "phonePlaceholder": "+994 00 000 00 00",
+      "fleetSize": "Размер парка",
+      "fleetPlaceholder": "Выберите",
+      "duration": "Срок аренды",
+      "durationPlaceholder": "Выберите",
+      "durationShort": "1-7 дней",
+      "durationMid": "8-30 дней",
+      "durationLong": "30+ дней",
+      "message": "Требования",
+      "messagePlaceholder": "Модели, место подачи, доп. услуги...",
+      "submit": "Отправить запрос",
+      "success": "Запрос отправлен. Мы свяжемся с вами.",
+      "error": "Пожалуйста, заполните все поля."
+    }
   },
   "carDetail": {
     "eyebrow": "Автомобиль",
@@ -219,27 +301,27 @@
     "specs": "Характеристики",
     "year": "Год",
     "engine": "Двигатель",
-    "economy": "Расход топлива",
+    "economy": "Расход",
     "availability": "Доступность",
     "availabilityStatus": {
-      "available": "Доступен",
-      "limited": "Ограниченно",
-      "unavailable": "Недоступен"
+      "available": "Доступно",
+      "limited": "Ограничено",
+      "unavailable": "Недоступно"
     },
-    "highlights": "Особенности",
-    "reviews": "Отзывы о модели",
+    "highlights": "Преимущества",
+    "reviews": "Отзывы",
     "similar": "Похожие авто",
     "pricing": {
-      "title": "Калькулятор стоимости",
-      "pickup": "Получение",
+      "title": "Калькулятор цены",
+      "pickup": "Подача",
       "dropoff": "Возврат",
       "startDate": "Начало",
-      "endDate": "Окончание",
+      "endDate": "Конец",
       "insurance": "Страховка",
-      "insuranceBasic": "Базовый",
+      "insuranceBasic": "Базовая",
       "insuranceStandard": "Стандарт",
       "insurancePremium": "Премиум",
-      "promo": "Промокод",
+      "promo": "Промо-код",
       "extraGps": "GPS",
       "extraChildSeat": "Детское кресло",
       "extraDriver": "Доп. водитель",
@@ -250,9 +332,9 @@
   },
   "services": {
     "eyebrow": "Услуги",
-    "title": "Премиальные сервисы",
-    "subtitle": "Трансфер в аэропорт, водитель и туры",
-    "cta": "Заказать"
+    "title": "Премиальные пакеты услуг",
+    "subtitle": "Аэропорт, водитель и туры",
+    "cta": "Заказать услугу"
   },
   "cities": {
     "eyebrow": "Направления",
@@ -260,7 +342,7 @@
   },
   "blog": {
     "eyebrow": "Блог",
-    "title": "Истории поездок",
+    "title": "Истории путешествий",
     "subtitle": "Маршруты, советы и новости",
     "categoryFallback": "Обновления",
     "readTime": "{minutes} мин чтения",
@@ -277,7 +359,7 @@
   },
   "booking": {
     "title": "Бронирование",
-    "subtitle": "Заполните данные и подтвердите стоимость",
+    "subtitle": "Заполните данные и проверьте цену",
     "steps": {
       "vehicle": "Авто",
       "contact": "Контакты",
@@ -285,47 +367,47 @@
       "review": "Проверка"
     },
     "termsError": "Примите условия",
-    "validationError": "Заполните все обязательные поля.",
+    "validationError": "Пожалуйста, заполните все поля.",
     "vehicle": "Выбор авто",
-    "pickup": "Получение",
+    "pickup": "Подача",
     "dropoff": "Возврат",
-    "pickupDate": "Дата получения",
+    "pickupDate": "Дата подачи",
     "dropoffDate": "Дата возврата",
     "insurance": "Страховка",
-    "insuranceBasic": "Базовый",
+    "insuranceBasic": "Базовая",
     "insuranceStandard": "Стандарт",
     "insurancePremium": "Премиум",
-    "promo": "Промокод",
+    "promo": "Промо-код",
     "extraGps": "GPS",
     "extraChildSeat": "Детское кресло",
     "extraDriver": "Доп. водитель",
-    "name": "Имя и фамилия",
+    "name": "ФИО",
     "phone": "Телефон",
     "email": "Email",
     "licenseNumber": "Номер удостоверения",
     "licenseIssue": "Дата выдачи",
     "licenseExpiry": "Срок действия",
-    "summary": "Итог брони",
+    "summary": "Итог",
     "summaryCar": "Авто: {car}",
     "summaryDates": "Даты: {start} - {end}",
-    "summaryLocations": "Получение: {pickup} / Возврат: {dropoff}",
+    "summaryLocations": "Подача: {pickup} / Возврат: {dropoff}",
     "terms": "Я принимаю условия",
     "back": "Назад",
     "next": "Далее",
-    "confirm": "Подтвердить бронь",
+    "confirm": "Подтвердить",
     "priceTitle": "Итоговая цена",
     "perDay": " / день",
     "selectCar": "Выберите авто",
-    "successToast": "Заявка отправлена",
+    "successToast": "Запрос отправлен",
     "defaultLocation": "Центр Баку"
   },
   "bookingSuccess": {
-    "eyebrow": "Успех",
-    "title": "Бронь подтверждена",
-    "subtitle": "Заявка получена, мы свяжемся с вами.",
-    "reference": "Референс:",
+    "eyebrow": "Успешно",
+    "title": "Бронирование подтверждено",
+    "subtitle": "Запрос получен, мы свяжемся с вами.",
+    "reference": "Номер:",
     "car": "Авто: {car}",
-    "locations": "Получение: {pickup} / Возврат: {dropoff}",
+    "locations": "Подача: {pickup} / Возврат: {dropoff}",
     "dates": "Даты: {start} - {end}",
     "browse": "Смотреть авто",
     "contact": "Контакты"
@@ -334,15 +416,17 @@
     "eyebrow": "Контакты",
     "title": "Свяжитесь с нами",
     "subtitle": "Быстрый ответ и профессиональная поддержка",
-    "details": "Контактная информация",
+    "details": "Контактные данные",
     "phone": "Телефон",
     "whatsapp": "WhatsApp",
     "telegram": "Telegram",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
     "email": "Email",
     "address": "Адрес",
     "hours": "Часы работы",
     "formTitle": "Отправить сообщение",
-    "formSubtitle": "Заполните форму и мы ответим",
+    "formSubtitle": "Заполните форму, мы ответим",
     "form": {
       "name": "Имя",
       "email": "Email",
@@ -351,58 +435,56 @@
       "success": "Сообщение отправлено",
       "error": "Пожалуйста, заполните все поля."
     },
-    "addressValue": "AZ1025, ????, ?????????? ?????, 8 ??????, ??? 3, M31",
+    "addressValue": "AZ1025, Баку, Хатаинский район, 8 Ноября, дом 3, M31",
     "hoursValue": "08:00 - 22:00",
-    "mapTitle": "Карта Баку",
-    "instagram": "Instagram",
-    "facebook": "Facebook"
+    "mapTitle": "Карта Баку"
   },
   "about": {
     "eyebrow": "О нас",
     "title": "Rent A Car Baku 66",
-    "story": "Мы предоставляем премиальную аренду автомобилей в Баку и регионах. Наша миссия — прозрачные цены и комфорт.",
-    "fleet": "Парк 80+ автомобилей",
+    "story": "Предлагаем премиальную аренду авто в Баку и регионах с прозрачными ценами.",
+    "fleet": "Парк 80+ авто",
     "support": "Поддержка 24/7",
-    "transparent": "Прозрачные условия",
+    "transparent": "Прозрачная цена",
     "missionTitle": "Наша миссия",
-    "missionText": "Обеспечить быстрый, безопасный и премиальный сервис аренды.",
+    "missionText": "Обеспечить быструю, безопасную и премиальную аренду.",
     "valuesTitle": "Наши ценности",
-    "value1": "Удовлетворённость клиентов",
+    "value1": "Удовлетворенность клиентов",
     "value2": "Качество и безопасность",
-    "value3": "Честное партнёрство"
+    "value3": "Честное партнерство"
   },
   "meta": {
     "home": {
       "title": "Rent A Car Baku 66 - Премиальная аренда авто",
-      "description": "Премиальная аренда автомобилей в Баку с прозрачными ценами и отличным сервисом."
+      "description": "Премиальная аренда авто в Баку с прозрачными ценами."
     },
     "cars": {
       "title": "Автопарк - Rent A Car Baku 66",
-      "description": "Эконом, бизнес и премиум автомобили для любых поездок."
+      "description": "Эконом, бизнес и премиум авто."
     },
     "carDetail": {
-      "title": "Детали автомобиля",
-      "description": "Характеристики и прозрачная стоимость."
+      "title": "Детали авто",
+      "description": "Характеристики и прозрачные цены."
     },
     "booking": {
       "title": "Бронирование - Rent A Car Baku 66",
-      "description": "Подтвердите бронирование и проверьте стоимость."
+      "description": "Подтвердите бронирование и цену."
     },
     "bookingSuccess": {
-      "title": "Бронь подтверждена",
-      "description": "Ваша заявка принята."
+      "title": "Бронирование подтверждено",
+      "description": "Запрос получен."
     },
     "blog": {
       "title": "Блог - Rent A Car Baku 66",
-      "description": "Истории поездок и советы."
+      "description": "Истории путешествий и советы."
     },
     "blogDetail": {
-      "title": "Статья блога",
-      "description": "Маршруты и полезные заметки."
+      "title": "Статья",
+      "description": "История и рекомендации."
     },
     "services": {
       "title": "Услуги - Rent A Car Baku 66",
-      "description": "Трансфер, водитель и туры."
+      "description": "Трансферы, водитель и туры."
     },
     "city": {
       "title": "Гид по городу",
@@ -419,92 +501,10 @@
   },
   "notFound": {
     "title": "Страница не найдена",
-    "subtitle": "Запрашиваемая страница не существует.",
+    "subtitle": "Страница, которую вы ищете, не существует.",
     "cta": "На главную"
   },
   "layout": {
     "skip": "Перейти к содержимому"
-  },
-  "compare": {
-    "eyebrow": "?????????",
-    "title": "????????? ?????????",
-    "subtitle": "???????? ?? 3 ???? ? ???????? ??????????????.",
-    "selectedTitle": "???????: {count}",
-    "selectedHint": "???????? {max} ????",
-    "clear": "????????",
-    "empty": "???? ?????? ?? ???????.",
-    "remove": "??????? {name}",
-    "selectCta": "???????",
-    "removeCta": "??????",
-    "tableLabel": "????????",
-    "tableEmpty": "???????? ???? ??? ?????????.",
-    "rows": {
-      "price": "???? ? ????",
-      "category": "?????????",
-      "transmission": "???????????",
-      "fuel": "???????",
-      "seats": "?????",
-      "luggage": "?????",
-      "year": "???",
-      "engine": "?????????",
-      "economy": "??????",
-      "availability": "???????????"
-    }
-  },
-  "corporate": {
-    "eyebrow": "????????????? ??????",
-    "title": "???????????? ??????? ??? ??????",
-    "subtitle": "?????? ?????????, ???????????? ????????? ? ?????????? ??????????.",
-    "ctaFleet": "???????? ????",
-    "ctaBooking": "?????????????",
-    "benefits": {
-      "one": "???????????? ????????",
-      "two": "???????????? ??????",
-      "three": "??????????? ?????",
-      "four": "???????? ? ?????????"
-    },
-    "packagesTitle": "????????????? ??????",
-    "packagesSubtitle": "?????????? ?????? ??? ??????? ???????.",
-    "packages": {
-      "standard": {
-        "title": "Standard",
-        "text": "?????????? ?????? ??? ????????? ??????.",
-        "range": "1-3 ????"
-      },
-      "plus": {
-        "title": "Plus",
-        "text": "???????????? ?????? ? ?????? ????????.",
-        "range": "4-10 ????"
-      },
-      "enterprise": {
-        "title": "Enterprise",
-        "text": "?????????????? ??????? ??? ??????? ??????.",
-        "range": "11+ ????"
-      }
-    },
-    "form": {
-      "title": "????????????? ??????",
-      "subtitle": "??????? ? ??????? 1 ???????? ???.",
-      "company": "???????? ????????",
-      "companyPlaceholder": "???? ????????",
-      "contact": "?????????? ????",
-      "contactPlaceholder": "??? ? ???????",
-      "email": "Email",
-      "emailPlaceholder": "name@company.com",
-      "phone": "???????",
-      "phonePlaceholder": "+994 00 000 00 00",
-      "fleetSize": "?????? ?????",
-      "fleetPlaceholder": "????????",
-      "duration": "???? ??????",
-      "durationPlaceholder": "????????",
-      "durationShort": "1-7 ????",
-      "durationMid": "8-30 ????",
-      "durationLong": "30+ ????",
-      "message": "??????????",
-      "messagePlaceholder": "??????, ????? ??????, ???. ??????...",
-      "submit": "????????? ??????",
-      "success": "?????? ?????????. ?? ???????? ? ????.",
-      "error": "??????????, ????????? ??? ????."
-    }
   }
 }
