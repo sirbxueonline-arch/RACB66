@@ -4,6 +4,7 @@ import Destinations from "@/components/sections/Destinations";
 import Testimonials from "@/components/sections/Testimonials";
 import FAQ from "@/components/sections/FAQ";
 import LatestBlog from "@/components/sections/LatestBlog";
+import WhyChoose from "@/components/sections/WhyChoose";
 import { buildMetadata, buildOrganizationJsonLd } from "@/lib/seo";
 import type { BlogFrontmatter } from "@/lib/blog";
 import { getPostFrontmatter } from "@/lib/blog";
@@ -29,6 +30,7 @@ export default function HomePage() {
       />
       <HomeHero />
       <Promotions />
+      <WhyChoose />
       <Destinations />
       <Testimonials />
       <FAQ />

@@ -2,6 +2,7 @@
   "nav": {
     "cars": "Avtomobillər",
     "services": "Xidmətlər",
+    "corporate": "Korporativ",
     "cities": "Şəhərlər",
     "blog": "Bloq",
     "about": "Haqqımızda",
@@ -21,6 +22,7 @@
     "company": "Şirkət",
     "about": "Haqqımızda",
     "services": "Xidmətlər",
+    "corporate": "Korporativ",
     "blog": "Bloq",
     "contact": "Əlaqə",
     "legal": "Qaydalar",
@@ -113,6 +115,44 @@
       "cta": "Bütün yazılar",
       "news": "Xəbərlər",
       "readTime": "{minutes} dəq oxu"
+    },
+    "whyChoose": {
+      "eyebrow": "Niy? Rent66",
+      "title": "Premium s?yah?t ???n d???n?l?b",
+      "subtitle": "Detallar? biz h?ll edirik, siz is? rahat s?yah?t edirsiniz.",
+      "cta": "Rezervasiya et",
+      "steps": {
+        "one": {
+          "title": "Sor?unu bir ne?? d?qiq?y? g?nd?rin",
+          "text": "Tarix, mar?rut v? sinfi se?in."
+        },
+        "two": {
+          "title": "??ffaf qiym?t",
+          "text": "Gizli ?d?ni? yoxdur, h?r ?ey ?vv?lc?d?n g?st?rilir."
+        },
+        "three": {
+          "title": "24/7 d?st?k",
+          "text": "S?r?tli ?laq? v? yerli komanda."
+        },
+        "four": {
+          "title": "Haz?r avtomobil",
+          "text": "T?miz, s?n?dl?ri haz?rlanm?? avtomobil."
+        }
+      },
+      "guarantees": {
+        "one": {
+          "title": "Vaxt?nda t?hvil",
+          "text": "Avtomobil vaxt?nda v? haz?r v?ziyy?td? ?atd?r?l?r."
+        },
+        "two": {
+          "title": "Ehtiyat avtomobil",
+          "text": "Laz?m olduqda s?r?tli ?v?zl?m?."
+        },
+        "three": {
+          "title": "Ayd?n m?qavil?",
+          "text": "B?t?n ??rtl?r ayd?n v? yaz?l?d?r."
+        }
+      }
     }
   },
   "cars": {
@@ -159,7 +199,8 @@
       "priceRange": "Qiymət aralığı",
       "min": "Min",
       "max": "Maks"
-    }
+    },
+    "compareCta": "M?qayis? et"
   },
   "carDetail": {
     "eyebrow": "Avtomobil",
@@ -383,5 +424,87 @@
   },
   "layout": {
     "skip": "Məzmuna keç"
+  },
+  "compare": {
+    "eyebrow": "M?qayis?",
+    "title": "Avtopark m?qayis?si",
+    "subtitle": "3 avtomobil?d?k se?in v? x?susiyy?tl?ri m?qayis? edin.",
+    "selectedTitle": "{count} se?ildi",
+    "selectedHint": "Maksimum {max} avtomobil",
+    "clear": "T?mizl?",
+    "empty": "H?l? avtomobil se?ilm?yib.",
+    "remove": "{name} sil",
+    "selectCta": "Se?",
+    "removeCta": "??xar",
+    "tableLabel": "G?st?rici",
+    "tableEmpty": "M?qayis? ???n avtomobil se?in.",
+    "rows": {
+      "price": "G?nl?k qiym?t",
+      "category": "Kateqoriya",
+      "transmission": "Transmissiya",
+      "fuel": "Yanacaq",
+      "seats": "Oturacaq",
+      "luggage": "Baqaj",
+      "year": "?l",
+      "engine": "M?h?rrik",
+      "economy": "Yanacaq s?rfiyyat?",
+      "availability": "M?vcudluq"
+    }
+  },
+  "corporate": {
+    "eyebrow": "Korporativ icar?",
+    "title": "Komandalar ???n uzunm?dd?tli h?ll?r",
+    "subtitle": "?evik m?qavil?l?r, prioritet d?st?k v? se?ilmi? avtomobill?r.",
+    "ctaFleet": "Avtoparka bax",
+    "ctaBooking": "Rezervasiya et",
+    "benefits": {
+      "one": "??xsi menecer",
+      "two": "Prioritet ?v?zl?m?",
+      "three": "Ayl?q hesabla?ma",
+      "four": "S?r?c?l? se?iml?r"
+    },
+    "packagesTitle": "Korporativ paketl?r",
+    "packagesSubtitle": "?? s?f?rl?ri ???n ayd?n paketl?r.",
+    "packages": {
+      "standard": {
+        "title": "Standard",
+        "text": "Ki?ik komandalar ???n sabit tarifl?r.",
+        "range": "1-3 avtomobil"
+      },
+      "plus": {
+        "title": "Plus",
+        "text": "Prioritet xidm?t v? ?lav? ?eviklik.",
+        "range": "4-10 avtomobil"
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "text": "B?y?k parklar ???n f?rdi ??rtl?r.",
+        "range": "11+ avtomobil"
+      }
+    },
+    "form": {
+      "title": "Korporativ sor?u g?nd?rin",
+      "subtitle": "1 i? g?n? ?rzind? cavab veririk.",
+      "company": "?irk?t ad?",
+      "companyPlaceholder": "?irk?tiniz",
+      "contact": "?laq? ??xsi",
+      "contactPlaceholder": "Ad v? soyad",
+      "email": "Email",
+      "emailPlaceholder": "name@company.com",
+      "phone": "Telefon",
+      "phonePlaceholder": "+994 00 000 00 00",
+      "fleetSize": "Avtopark ?l??s?",
+      "fleetPlaceholder": "Se?in",
+      "duration": "?car? m?dd?ti",
+      "durationPlaceholder": "Se?in",
+      "durationShort": "1-7 g?n",
+      "durationMid": "8-30 g?n",
+      "durationLong": "30+ g?n",
+      "message": "T?l?bl?r",
+      "messagePlaceholder": "Model, t?hvil yeri, ?lav? xidm?tl?r...",
+      "submit": "Sor?u g?nd?r",
+      "success": "Sor?u g?nd?rildi. Tezlikl? ?laq? saxlayaca??q.",
+      "error": "Z?hm?t olmasa b?t?n sah?l?ri doldurun."
+    }
   }
 }

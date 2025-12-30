@@ -2,6 +2,7 @@
   "nav": {
     "cars": "Cars",
     "services": "Services",
+    "corporate": "Corporate",
     "cities": "Cities",
     "blog": "Blog",
     "about": "About",
@@ -21,6 +22,7 @@
     "company": "Company",
     "about": "About",
     "services": "Services",
+    "corporate": "Corporate",
     "blog": "Blog",
     "contact": "Contact",
     "legal": "Legal",
@@ -87,6 +89,44 @@
       "title": "Special offers",
       "badge": "Active"
     },
+    "whyChoose": {
+      "eyebrow": "Why Rent66",
+      "title": "Designed for premium travel",
+      "subtitle": "We handle the details so your team moves with confidence across Baku.",
+      "cta": "Start booking",
+      "steps": {
+        "one": {
+          "title": "Request in minutes",
+          "text": "Share dates, route, and preferred class."
+        },
+        "two": {
+          "title": "Transparent pricing",
+          "text": "No surprises. Every fee is itemized upfront."
+        },
+        "three": {
+          "title": "Always-on support",
+          "text": "Priority communication and a responsive local team."
+        },
+        "four": {
+          "title": "Ready-to-go delivery",
+          "text": "Clean vehicles with documents prepared in advance."
+        }
+      },
+      "guarantees": {
+        "one": {
+          "title": "On-time delivery",
+          "text": "We deliver on schedule with a ready vehicle."
+        },
+        "two": {
+          "title": "Backup replacement",
+          "text": "Fast swap if plans change or issues arise."
+        },
+        "three": {
+          "title": "Clear agreements",
+          "text": "All terms are documented and easy to review."
+        }
+      }
+    },
     "destinations": {
       "eyebrow": "Routes",
       "title": "Curated destinations",
@@ -119,6 +159,7 @@
     "eyebrow": "Fleet",
     "title": "Car fleet",
     "subtitle": "Premium selections across every class",
+    "compareCta": "Compare fleet",
     "filtersLabel": "Filters",
     "sort": "Sort",
     "sortAsc": "Price: low",
@@ -159,6 +200,88 @@
       "priceRange": "Price range",
       "min": "Min",
       "max": "Max"
+    }
+  },
+  "compare": {
+    "eyebrow": "Compare",
+    "title": "Compare fleet",
+    "subtitle": "Select up to 3 cars and compare key specs instantly.",
+    "selectedTitle": "{count} selected",
+    "selectedHint": "Select up to {max} cars",
+    "clear": "Clear",
+    "empty": "No cars selected yet.",
+    "remove": "Remove {name}",
+    "selectCta": "Select",
+    "removeCta": "Remove",
+    "tableLabel": "Specs",
+    "tableEmpty": "Select cars to see a side-by-side comparison.",
+    "rows": {
+      "price": "Daily price",
+      "category": "Category",
+      "transmission": "Transmission",
+      "fuel": "Fuel",
+      "seats": "Seats",
+      "luggage": "Luggage",
+      "year": "Year",
+      "engine": "Engine",
+      "economy": "Fuel economy",
+      "availability": "Availability"
+    }
+  },
+  "corporate": {
+    "eyebrow": "Corporate rentals",
+    "title": "Long-term fleet solutions for teams",
+    "subtitle": "Flexible contracts, priority support, and a curated fleet for executive travel.",
+    "ctaFleet": "View fleet",
+    "ctaBooking": "Book now",
+    "benefits": {
+      "one": "Dedicated account manager",
+      "two": "Priority vehicle replacement",
+      "three": "Monthly invoicing",
+      "four": "Chauffeur-ready options"
+    },
+    "packagesTitle": "Corporate packages",
+    "packagesSubtitle": "Clear tiers for every scale of business travel.",
+    "packages": {
+      "standard": {
+        "title": "Standard",
+        "text": "Stable pricing for small teams with predictable travel.",
+        "range": "1-3 cars"
+      },
+      "plus": {
+        "title": "Plus",
+        "text": "Priority support and added flexibility for growing teams.",
+        "range": "4-10 cars"
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "text": "Custom terms, larger fleets, and dedicated coordination.",
+        "range": "11+ cars"
+      }
+    },
+    "form": {
+      "title": "Send a corporate request",
+      "subtitle": "We reply within 1 business day.",
+      "company": "Company name",
+      "companyPlaceholder": "Your company",
+      "contact": "Contact person",
+      "contactPlaceholder": "Full name",
+      "email": "Email",
+      "emailPlaceholder": "name@company.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+994 00 000 00 00",
+      "fleetSize": "Fleet size",
+      "fleetPlaceholder": "Select",
+      "duration": "Rental duration",
+      "durationPlaceholder": "Select",
+      "durationShort": "1-7 days",
+      "durationMid": "8-30 days",
+      "durationLong": "30+ days",
+      "message": "Requirements",
+      "messagePlaceholder": "Preferred models, pickup location, extras...",
+      "submit": "Send request",
+      "success": "Request sent. We'll contact you shortly.",
+      "error": "Please complete all required fields."
     }
   },
   "carDetail": {

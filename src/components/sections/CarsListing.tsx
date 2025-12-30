@@ -104,10 +104,16 @@ export default function CarsListing() {
             </h1>
             <p className="mt-2 text-sm text-black/60">{t("subtitle")}</p>
           </div>
-          <div className="flex gap-3">
-            <Button variant="outline" onClick={() => setFiltersOpen(true)}>
-              {t("filtersLabel")}
-            </Button>
+        <div className="flex gap-3">
+          <Link
+            href="/compare"
+            className="focus-ring inline-flex items-center rounded-full border border-black/15 px-5 py-2 text-sm font-semibold text-black transition hover:border-black/40 hover:bg-black/5"
+          >
+            {t("compareCta")}
+          </Link>
+          <Button variant="outline" onClick={() => setFiltersOpen(true)}>
+            {t("filtersLabel")}
+          </Button>
             <Select
               value={sort}
               onChange={(event) => setSort(event.target.value)}

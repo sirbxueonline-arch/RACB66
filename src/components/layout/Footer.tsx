@@ -32,6 +32,9 @@ export default function Footer() {
             <Link href="/services" className="block hover:text-white">
               {t("services")}
             </Link>
+            <Link href="/corporate" className="block hover:text-white">
+              {t("corporate")}
+            </Link>
             <Link href="/blog" className="block hover:text-white">
               {t("blog")}
             </Link>

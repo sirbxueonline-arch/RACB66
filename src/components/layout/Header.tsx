@@ -11,6 +11,7 @@ export default function Header() {
   const navItems = [
     { href: "/cars", label: t("cars") },
     { href: "/services", label: t("services") },
+    { href: "/corporate", label: t("corporate") },
     { href: "/cities/gabala", label: t("cities") },
     { href: "/blog", label: t("blog") },
     { href: "/about", label: t("about") },

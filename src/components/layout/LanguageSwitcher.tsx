@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import type { Locale } from "@/i18n/routing";
@@ -13,16 +14,45 @@ const labels: Record<string, string> = {
   ru: "RU",
 };
 
-const flags: Record<Locale, string> = {
-  az: "/icons/flags/az.png",
-  en: "/icons/flags/en.png",
-  ru: "/icons/flags/ru.png",
+const flagSources: Record<Locale, { primary: string; fallback: string }> = {
+  az: { primary: "/icons/flags/az.png", fallback: "/icons/flags/az.jpg" },
+  en: { primary: "/icons/flags/en.png", fallback: "/icons/flags/en.jpg" },
+  ru: { primary: "/icons/flags/ru.png", fallback: "/icons/flags/ru.jpg" },
 };
 
 export default function LanguageSwitcher() {
   const locale = useLocale() as Locale;
   const t = useTranslations("nav");
   const { setLocale } = useLocaleActions();
+  const [flagSrcs, setFlagSrcs] = useState<Record<Locale, string>>({
+    az: flagSources.az.primary,
+    en: flagSources.en.primary,
+    ru: flagSources.ru.primary,
+  });
+  const [flagHidden, setFlagHidden] = useState<Record<Locale, boolean>>({
+    az: false,
+    en: false,
+    ru: false,
+  });
+
+  const handleFlagError = (loc: Locale) => {
+    setFlagSrcs((prev) => {
+      const current = prev[loc];
+      const { primary, fallback } = flagSources[loc];
+      if (current === primary && fallback !== primary) {
+        return { ...prev, [loc]: fallback };
+      }
+      return prev;
+    });
+    setFlagHidden((prev) => {
+      const current = flagSrcs[loc];
+      const { primary } = flagSources[loc];
+      if (current === primary) {
+        return prev;
+      }
+      return { ...prev, [loc]: true };
+    });
+  };
 
   return (
     <div
@@ -42,14 +72,23 @@ export default function LanguageSwitcher() {
               : "text-black/70 hover:bg-black/5"
           )}
           aria-pressed={loc === locale}
+          aria-label={labels[loc]}
         >
-          <Image
-            src={flags[loc]}
-            alt={`${labels[loc]} flag`}
-            width={18}
-            height={18}
-            className="h-4 w-4 rounded-full object-cover"
-          />
+          {flagHidden[loc] ? (
+            <span
+              aria-hidden="true"
+              className="h-4 w-4 rounded-full bg-black/10"
+            />
+          ) : (
+            <Image
+              src={flagSrcs[loc]}
+              alt=""
+              width={18}
+              height={18}
+              className="h-4 w-4 rounded-full object-cover"
+              onError={() => handleFlagError(loc)}
+            />
+          )}
           <span>{labels[loc]}</span>
         </button>
       ))}
