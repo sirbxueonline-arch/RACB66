@@ -226,6 +226,7 @@
     "page": "Page"
   },
   "blogDetail": {
+    "loading": "Loading...",
     "meta": "{author} - {date} - {minutes} min",
     "share": "Share",
     "shareTwitter": "Twitter",

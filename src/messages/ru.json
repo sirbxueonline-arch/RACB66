@@ -226,6 +226,7 @@
     "page": "Страница"
   },
   "blogDetail": {
+    "loading": "Загрузка...",
     "meta": "{author} - {date} - {minutes} мин",
     "share": "Поделиться",
     "shareTwitter": "Twitter",

@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { MDXRemote, type MDXRemoteSerializeResult } from "next-mdx-remote";
@@ -21,7 +22,12 @@ export default function BlogDetailClient({
 }) {
   const locale = useLocale() as Locale;
   const t = useTranslations("blogDetail");
+  const [mounted, setMounted] = useState(false);
   const activePost = posts[locale] ?? posts[defaultLocale];
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   if (!activePost) {
     return null;
@@ -70,7 +76,11 @@ export default function BlogDetailClient({
           />
         </div>
         <article className="prose prose-neutral mt-10 max-w-none">
-          <MDXRemote {...source} components={mdxComponents} />
+          {mounted ? (
+            <MDXRemote {...source} components={mdxComponents} />
+          ) : (
+            <p className="text-sm text-black/60">{t("loading")}</p>
+          )}
         </article>
         <div className="mt-10 flex flex-wrap items-center gap-3">
           <span className="text-sm font-semibold text-black/60">

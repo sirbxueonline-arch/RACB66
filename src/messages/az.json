@@ -226,6 +226,7 @@
     "page": "Səhifə"
   },
   "blogDetail": {
+    "loading": "Yüklənir...",
     "meta": "{author} - {date} - {minutes} dəq",
     "share": "Paylaş",
     "shareTwitter": "Twitter",

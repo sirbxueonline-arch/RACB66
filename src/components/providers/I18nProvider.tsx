@@ -15,6 +15,7 @@ type LocaleContextValue = {
 
 const LocaleContext = createContext<LocaleContextValue | undefined>(undefined);
 const storageKey = "rent66-locale";
+const timeZone = "Asia/Baku";
 const messagesByLocale: Record<Locale, Record<string, unknown>> = {
   az: azMessages,
   en: enMessages,
@@ -66,7 +67,16 @@ export default function I18nProvider({
 
   return (
     <LocaleContext.Provider value={contextValue}>
-      <NextIntlClientProvider locale={locale} messages={messages}>
+      <NextIntlClientProvider
+        locale={locale}
+        messages={messages}
+        timeZone={timeZone}
+        onError={(error) => {
+          const intlError = error as { code?: string };
+          if (intlError.code === "ENVIRONMENT_FALLBACK") return;
+          console.error(error);
+        }}
+      >
         {children}
       </NextIntlClientProvider>
     </LocaleContext.Provider>
