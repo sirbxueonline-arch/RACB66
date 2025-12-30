@@ -99,7 +99,10 @@ export default function BookingFlow() {
     if (initialized.current) return;
     initialized.current = true;
 
-    const next = { ...baseFormData };
+    const next = {
+      ...baseFormData,
+      insurance: baseFormData.insurance as "basic" | "standard" | "premium",
+    };
     const draft = localStorage.getItem(storageKey);
     if (draft) {
       try {
@@ -118,8 +121,13 @@ export default function BookingFlow() {
       next.dropoffLocation = params.dropoffLocation ?? next.dropoffLocation;
       next.pickupDate = params.pickupDate ?? next.pickupDate;
       next.dropoffDate = params.dropoffDate ?? next.dropoffDate;
-      next.insurance =
-        (params.insurance as "basic" | "standard" | "premium") ?? next.insurance;
+      if (
+        params.insurance === "basic" ||
+        params.insurance === "standard" ||
+        params.insurance === "premium"
+      ) {
+        next.insurance = params.insurance;
+      }
       next.promoCode = params.promoCode ?? next.promoCode;
       next.extras = {
         ...next.extras,
