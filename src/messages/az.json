@@ -35,7 +35,7 @@
     "telegram": "Telegram",
     "whatsapp": "WhatsApp",
     "copyright": "(c) 2025 Rent A Car Baku 66. Bütün hüquqlar qorunur.",
-    "addressValue": "AZ1025, Bakı, Xətai rayonu, 8 Noyabr, bina 3, M31"
+    "addressValue": "AZ1025, Bakı, Xətai rayonu, 8 Noyabr prospekti, bina 3, M31"
   },
   "categories": {
     "economy": "Ekonom",
@@ -49,30 +49,30 @@
   "pricing": {
     "base": "Günlük tarif x {days}",
     "weekend": "Həftəsonu əlavəsi",
-    "delivery": "Çatdırılma və qaytarma",
-    "insurance": "Sığorta səviyyəsi",
+    "delivery": "Çatdırılma və geri təhvil",
+    "insurance": "Sığorta paketi",
     "extras": "Əlavə seçimlər",
     "total": "Cəmi",
-    "viewBreakdown": "Detalları göstər",
-    "promoBaku66": "BAKU66 endirimi",
-    "promoWeekend": "Həftəsonu əlavəsi ləğv edildi",
-    "promoLongstay": "Uzun müddət bonusu",
-    "promoAirport": "Aeroport endirimi",
+    "viewBreakdown": "Təfərrüatları göstər",
+    "promoBaku66": "BAKU66 promosu",
+    "promoWeekend": "Həftəsonu əlavəsi ləğv",
+    "promoLongstay": "Uzunmüddətli bonus",
+    "promoAirport": "Hava limanı krediti",
     "promoVip": "VIP15 endirimi"
   },
   "home": {
     "hero": {
       "badge": "Premium kirayə",
       "title": "Bakı,",
-      "titleAccent": "66-da seçilmiş",
-      "subtitle": "Premium avtopark, şəffaf qiymətlər və rahat səyahət üçün peşəkar komanda.",
-      "ctaPrimary": "Avtoparka bax",
-      "ctaSecondary": "Əlaqə",
+      "titleAccent": "66-da zərif",
+      "subtitle": "Premium park, şəffaf qiymətlər və rahat səyahət üçün komanda.",
+      "ctaPrimary": "Parkı kəşf et",
+      "ctaSecondary": "Bizimlə əlaqə",
       "trust1": "24/7 dəstək",
       "trust2": "Şəffaf qiymət",
       "trust3": "Premium xidmət",
-      "imageAltCity": "Bakı silueti",
-      "imageAltCar": "Premium kirayə avtomobili"
+      "imageAltCity": "Bakı panoraması",
+      "imageAltCar": "Premium kirayə avtomobil"
     },
     "search": {
       "pickup": "Götürmə",
@@ -86,44 +86,44 @@
     },
     "promos": {
       "eyebrow": "Endirimlər",
-      "title": "Xüsusi təkliflər",
+      "title": "Xüsusi promosiyalar",
       "badge": "Aktiv"
     },
     "whyChoose": {
       "eyebrow": "Niyə Rent66",
-      "title": "Premium səyahət üçün düşünülüb",
-      "subtitle": "Detalları biz həll edirik, siz isə rahat səyahət edirsiniz.",
-      "cta": "Rezervasiya et",
+      "title": "Premium səyahət üçün yaradılıb",
+      "subtitle": "Detalları biz həll edirik ki, komandanız Bakıda inamla hərəkət etsin.",
+      "cta": "Sifarişə başla",
       "steps": {
         "one": {
-          "title": "Sorğunu bir neçə dəqiqəyə göndərin",
-          "text": "Tarix, marşrut və sinfi seçin."
+          "title": "Bir neçə dəqiqəyə sorğu",
+          "text": "Tarixləri, marşrutu və sinfi paylaşın."
         },
         "two": {
-          "title": "Şəffaf qiymət",
-          "text": "Gizli ödəniş yoxdur, hər şey əvvəlcədən göstərilir."
+          "title": "Şəffaf qiymətlər",
+          "text": "Sürpriz yoxdur. Hər ödəniş əvvəlcədən göstərilir."
         },
         "three": {
-          "title": "24/7 dəstək",
-          "text": "Sürətli əlaqə və yerli komanda."
+          "title": "Həmişə aktiv dəstək",
+          "text": "Prioritet əlaqə və çevik yerli komanda."
         },
         "four": {
-          "title": "Hazır avtomobil",
-          "text": "Təmiz, sənədləri hazırlanmış avtomobil."
+          "title": "Hazır çatdırılma",
+          "text": "Təmiz avtomobillər və sənədlər öncədən hazırlanır."
         }
       },
       "guarantees": {
         "one": {
-          "title": "Vaxtında təhvil",
+          "title": "Vaxtında çatdırılma",
           "text": "Avtomobil vaxtında və hazır vəziyyətdə çatdırılır."
         },
         "two": {
-          "title": "Ehtiyat avtomobil",
-          "text": "Lazım olduqda sürətli əvəzləmə."
+          "title": "Ehtiyat əvəzləmə",
+          "text": "Plan dəyişsə belə, tez dəyişdirmə."
         },
         "three": {
-          "title": "Aydın müqavilə",
-          "text": "Bütün şərtlər aydın və yazılıdır."
+          "title": "Aydın müqavilələr",
+          "text": "Bütün şərtlər sənədləşdirilir və rahat oxunur."
         }
       }
     },
@@ -136,11 +136,11 @@
       "eyebrow": "Rəylər",
       "title": "Müştərilər nə deyir",
       "subtitle": "Reytinqlər və real rəylər",
-      "reviewMeta": "{date} tarixində",
+      "reviewMeta": "Rəy tarixi: {date}",
       "carouselLabel": "Rəylər karuseli",
       "prev": "Əvvəl",
       "next": "Növbəti",
-      "slideLabel": "{index} slayda keç"
+      "slideLabel": "Slayd {index}-ə keç"
     },
     "faq": {
       "eyebrow": "FAQ",
@@ -149,7 +149,7 @@
     },
     "blog": {
       "eyebrow": "Bloq",
-      "title": "Son hekayələr",
+      "title": "Son yazılar",
       "cta": "Bütün yazılar",
       "news": "Xəbərlər",
       "readTime": "{minutes} dəq oxu"
@@ -158,17 +158,17 @@
   "cars": {
     "eyebrow": "Park",
     "title": "Avtomobil parkı",
-    "subtitle": "Hər sinif üzrə premium seçimlər",
-    "compareCta": "Avtoparkı müqayisə et",
+    "subtitle": "Hər sinifdə premium seçimlər",
+    "compareCta": "Parkı müqayisə et",
     "filtersLabel": "Filtrlər",
     "sort": "Sıralama",
     "sortAsc": "Qiymət: aşağı",
     "sortDesc": "Qiymət: yüksək",
     "sortRating": "Reytinq",
     "availability": {
-      "available": "Mövcud",
+      "available": "Mövcuddur",
       "limited": "Məhdud",
-      "unavailable": "Mövcud deyil"
+      "unavailable": "Yoxdur"
     },
     "fuel": {
       "petrol": "Benzin",
@@ -177,7 +177,7 @@
       "electric": "Elektrik"
     },
     "transmission": {
-      "automatic": "Avtomatik",
+      "automatic": "Avtomat",
       "manual": "Mexaniki"
     },
     "seats": "oturacaq",
@@ -204,81 +204,81 @@
   },
   "compare": {
     "eyebrow": "Müqayisə",
-    "title": "Avtopark müqayisəsi",
-    "subtitle": "3 avtomobilədək seçin və əsas göstəriciləri müqayisə edin.",
+    "title": "Parkı müqayisə et",
+    "subtitle": "3 avtomobilə qədər seçin və əsas xüsusiyyətləri müqayisə edin.",
     "selectedTitle": "{count} seçildi",
     "selectedHint": "Maksimum {max} avtomobil",
     "clear": "Təmizlə",
     "empty": "Hələ avtomobil seçilməyib.",
-    "remove": "{name} sil",
+    "remove": "Sil: {name}",
     "selectCta": "Seç",
-    "removeCta": "Çıxar",
-    "tableLabel": "Göstərici",
+    "removeCta": "Sil",
+    "tableLabel": "Xüsusiyyətlər",
     "tableEmpty": "Müqayisə üçün avtomobil seçin.",
     "rows": {
       "price": "Günlük qiymət",
       "category": "Kateqoriya",
-      "transmission": "Transmissiya",
+      "transmission": "Sürətlər qutusu",
       "fuel": "Yanacaq",
       "seats": "Oturacaq",
       "luggage": "Baqaj",
       "year": "İl",
       "engine": "Mühərrik",
-      "economy": "Yanacaq sərfiyyatı",
+      "economy": "Yanacaq sərfi",
       "availability": "Mövcudluq"
     }
   },
   "corporate": {
-    "eyebrow": "Korporativ icarə",
-    "title": "Komandalar üçün uzunmüddətli avtopark həlləri",
-    "subtitle": "Çevik müqavilələr, prioritet dəstək və seçilmiş avtomobillər.",
-    "ctaFleet": "Avtoparka bax",
-    "ctaBooking": "İndi sifariş et",
+    "eyebrow": "Korporativ kirayə",
+    "title": "Komandalar üçün uzunmüddətli həllər",
+    "subtitle": "Çevik müqavilələr, prioritet dəstək və seçilmiş park.",
+    "ctaFleet": "Parkı gör",
+    "ctaBooking": "İndi sifariş",
     "benefits": {
       "one": "Şəxsi menecer",
-      "two": "Prioritet əvəzləmə",
+      "two": "Prioritet avtomobil dəyişimi",
       "three": "Aylıq hesablaşma",
       "four": "Sürücülü seçimlər"
     },
     "packagesTitle": "Korporativ paketlər",
-    "packagesSubtitle": "Biznes səyahətləri üçün aydın paketlər.",
+    "packagesSubtitle": "Hər ölçü üçün aydın paketlər.",
     "packages": {
       "standard": {
-        "title": "Standard",
-        "text": "Kiçik komandalar üçün sabit qiymətlər.",
+        "title": "Standart",
+        "text": "Kiçik komandalar üçün sabit qiymət.",
         "range": "1-3 avtomobil"
       },
       "plus": {
         "title": "Plus",
-        "text": "Prioritet xidmət və əlavə çeviklik.",
+        "text": "Böyüyən komandalar üçün prioritet dəstək və çeviklik.",
         "range": "4-10 avtomobil"
       },
       "enterprise": {
         "title": "Enterprise",
-        "text": "Böyük parklar üçün fərdi şərtlər.",
+        "text": "Xüsusi şərtlər, böyük park və koordinasiya.",
         "range": "11+ avtomobil"
       }
     },
     "form": {
-      "title": "Korporativ sorğu göndərin",
+      "title": "Korporativ sorğu göndər",
       "subtitle": "1 iş günü ərzində cavab veririk.",
       "company": "Şirkət adı",
       "companyPlaceholder": "Şirkətiniz",
-      "contact": "Əlaqə şəxsi",
-      "contactPlaceholder": "Ad və soyad",
+      "contact": "Əlaqədar şəxs",
+      "contactPlaceholder": "Tam ad",
       "email": "Email",
       "emailPlaceholder": "name@company.com",
       "phone": "Telefon",
       "phonePlaceholder": "+994 00 000 00 00",
-      "fleetSize": "Avtopark ölçüsü",
+      "fleetSize": "Park ölçüsü",
       "fleetPlaceholder": "Seçin",
-      "duration": "İcarə müddəti",
+      "duration": "Kirayə müddəti",
       "durationPlaceholder": "Seçin",
       "durationShort": "1-7 gün",
       "durationMid": "8-30 gün",
       "durationLong": "30+ gün",
       "message": "Tələblər",
-      "messagePlaceholder": "Model, götürmə yeri, əlavə xidmətlər...",
+      "messagePlaceholder": "Seçilən modellər, götürmə yeri, əlavələr...",
       "submit": "Sorğu göndər",
       "success": "Sorğu göndərildi. Tezliklə əlaqə saxlayacağıq.",
       "error": "Zəhmət olmasa bütün sahələri doldurun."
@@ -293,7 +293,7 @@
       "electric": "Elektrik"
     },
     "transmission": {
-      "automatic": "Avtomatik",
+      "automatic": "Avtomat",
       "manual": "Mexaniki"
     },
     "seats": "oturacaq",
@@ -301,12 +301,12 @@
     "specs": "Xüsusiyyətlər",
     "year": "İl",
     "engine": "Mühərrik",
-    "economy": "Yanacaq sərfiyyatı",
+    "economy": "Yanacaq sərfi",
     "availability": "Mövcudluq",
     "availabilityStatus": {
-      "available": "Mövcud",
+      "available": "Mövcuddur",
       "limited": "Məhdud",
-      "unavailable": "Mövcud deyil"
+      "unavailable": "Yoxdur"
     },
     "highlights": "Üstünlüklər",
     "reviews": "Rəylər",
@@ -326,15 +326,15 @@
       "extraChildSeat": "Uşaq oturacağı",
       "extraDriver": "Əlavə sürücü",
       "order": "Sifariş",
-      "askAgent": "Məsləhət al",
+      "askAgent": "Mütəxəssisə soruş",
       "defaultLocation": "Bakı şəhər mərkəzi"
     }
   },
   "services": {
     "eyebrow": "Xidmətlər",
     "title": "Premium xidmət paketləri",
-    "subtitle": "Aeroport, sürücülü və tur xidmətləri",
-    "cta": "Xidməti sifariş et"
+    "subtitle": "Aeroport, sürücü və tur xidmətləri",
+    "cta": "Xidmət sifariş et"
   },
   "cities": {
     "eyebrow": "İstiqamətlər",
@@ -364,10 +364,10 @@
       "vehicle": "Avtomobil",
       "contact": "Əlaqə",
       "license": "Vəsiqə",
-      "review": "Yekun"
+      "review": "Yoxlama"
     },
     "termsError": "Şərtləri qəbul edin",
-    "validationError": "Zəhmət olmasa bütün sahələri doldurun.",
+    "validationError": "Zəhmət olmasa bütün tələb olunan sahələri doldurun.",
     "vehicle": "Avtomobil seçimi",
     "pickup": "Götürmə",
     "dropoff": "Təhvil",
@@ -381,7 +381,7 @@
     "extraGps": "GPS",
     "extraChildSeat": "Uşaq oturacağı",
     "extraDriver": "Əlavə sürücü",
-    "name": "Ad, soyad",
+    "name": "Tam ad",
     "phone": "Telefon",
     "email": "Email",
     "licenseNumber": "Vəsiqə nömrəsi",
@@ -402,9 +402,9 @@
     "defaultLocation": "Bakı şəhər mərkəzi"
   },
   "bookingSuccess": {
-    "eyebrow": "Uğurlu",
+    "eyebrow": "Uğur",
     "title": "Sifariş təsdiqləndi",
-    "subtitle": "Sorğunuz qəbul edildi, komanda sizinlə əlaqə saxlayacaq.",
+    "subtitle": "Sorğunuz qəbul edildi və komandamız əlaqə saxlayacaq.",
     "reference": "Referans:",
     "car": "Avtomobil: {car}",
     "locations": "Götürmə: {pickup} / Təhvil: {dropoff}",
@@ -414,7 +414,7 @@
   },
   "contact": {
     "eyebrow": "Əlaqə",
-    "title": "Bizimlə əlaqə saxlayın",
+    "title": "Bizimlə əlaqə",
     "subtitle": "Sürətli cavab və peşəkar dəstək",
     "details": "Əlaqə məlumatları",
     "phone": "Telefon",
@@ -426,28 +426,28 @@
     "address": "Ünvan",
     "hours": "İş saatları",
     "formTitle": "Mesaj göndərin",
-    "formSubtitle": "Formu doldurun, cavab verəcəyik",
+    "formSubtitle": "Formu doldurun, cavab verək",
     "form": {
       "name": "Ad",
       "email": "Email",
       "message": "Mesaj",
       "submit": "Göndər",
       "success": "Mesaj göndərildi",
-      "error": "Zəhmət olmasa bütün sahələri doldurun."
+      "error": "Zəhmət olmasa bütün tələb olunan sahələri doldurun."
     },
-    "addressValue": "AZ1025, Bakı, Xətai rayonu, 8 Noyabr, bina 3, M31",
+    "addressValue": "AZ1025, Bakı, Xətai rayonu, 8 Noyabr prospekti, bina 3, M31",
     "hoursValue": "08:00 - 22:00",
     "mapTitle": "Bakı xəritəsi"
   },
   "about": {
     "eyebrow": "Haqqımızda",
     "title": "Rent A Car Baku 66",
-    "story": "Bakıda və regionlarda şəffaf qiymətlərlə premium avtomobil icarəsi təqdim edirik.",
+    "story": "Bakı və regionlarda şəffaf qiymətlərlə premium kirayə xidmətləri təqdim edirik.",
     "fleet": "80+ avtomobil parkı",
     "support": "24/7 müştəri dəstəyi",
     "transparent": "Şəffaf qiymət",
     "missionTitle": "Missiyamız",
-    "missionText": "Sürətli, təhlükəsiz və premium icarə təcrübəsi təqdim etmək.",
+    "missionText": "Sürətli, təhlükəsiz və premium kirayə təcrübəsi təqdim etmək.",
     "valuesTitle": "Dəyərlərimiz",
     "value1": "Müştəri məmnuniyyəti",
     "value2": "Keyfiyyət və təhlükəsizlik",
@@ -455,16 +455,16 @@
   },
   "meta": {
     "home": {
-      "title": "Rent A Car Baku 66 - Premium avtomobil icarəsi",
-      "description": "Bakıda şəffaf qiymətlərlə premium avtomobil icarəsi."
+      "title": "Rent A Car Baku 66 - Premium avtomobil kirayəsi",
+      "description": "Bakıda premium avtomobil kirayəsi, şəffaf qiymətlər və seçilmiş park."
     },
     "cars": {
       "title": "Avtomobil parkı - Rent A Car Baku 66",
-      "description": "Ekonom, biznes və premium avtomobillər."
+      "description": "Ekonom, biznes və premium avtomobilləri kəşf edin."
     },
     "carDetail": {
-      "title": "Avtomobil detallar",
-      "description": "Xüsusiyyətlər və şəffaf qiymətlər."
+      "title": "Avtomobil detalları",
+      "description": "Xüsusiyyətlər və şəffaf qiymət."
     },
     "booking": {
       "title": "Sifariş - Rent A Car Baku 66",
@@ -472,7 +472,7 @@
     },
     "bookingSuccess": {
       "title": "Sifariş təsdiqləndi",
-      "description": "Sorğunuz qəbul edildi."
+      "description": "Sifariş sorğunuz qəbul edildi."
     },
     "blog": {
       "title": "Bloq - Rent A Car Baku 66",
@@ -480,11 +480,11 @@
     },
     "blogDetail": {
       "title": "Bloq yazısı",
-      "description": "Səyahət hekayəsi və tövsiyələr."
+      "description": "Səyahət hekayəsi və məlumatlar."
     },
     "services": {
       "title": "Xidmətlər - Rent A Car Baku 66",
-      "description": "Aeroport transferi, sürücülü xidmət və turlar."
+      "description": "Aeroport transferi, sürücü və turlar."
     },
     "city": {
       "title": "Şəhər bələdçisi",
@@ -502,7 +502,7 @@
   "notFound": {
     "title": "Səhifə tapılmadı",
     "subtitle": "Axtardığınız səhifə mövcud deyil.",
-    "cta": "Ana səhifəyə qayıt"
+    "cta": "Ana səhifə"
   },
   "layout": {
     "skip": "Məzmunu keç"

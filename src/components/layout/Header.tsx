@@ -23,24 +23,26 @@ export default function Header() {
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 px-6 py-4">
         <Link
           href="/"
-          className="flex items-center gap-3 text-lg font-semibold text-black"
+          className="flex min-w-[140px] shrink-0 items-center gap-3 text-black sm:min-w-[160px]"
         >
           <Image
             src="/images/logo.png"
             alt="Rent A Car Baku 66"
             width={44}
             height={44}
-            className="rounded-full border border-black/10 bg-white p-1"
+            className="h-11 w-11 shrink-0 rounded-full border border-black/10 bg-white p-1"
           />
-          <div className="flex flex-col leading-tight">
-            <span className="font-display text-lg">Rent A Car</span>
-            <span className="text-xs uppercase tracking-[0.3em] text-black/60">
+          <div className="flex shrink-0 flex-col leading-none">
+            <span className="font-display text-base leading-none tracking-tight whitespace-nowrap">
+              Rent A Car
+            </span>
+            <span className="text-[11px] uppercase tracking-[0.28em] text-black/60 whitespace-nowrap">
               Baku 66
             </span>
           </div>
         </Link>
 
-        <nav className="hidden items-center gap-4 text-sm font-medium text-black/70 lg:flex lg:flex-nowrap">
+        <nav className="hidden items-center gap-2 text-xs font-medium text-black/70 lg:flex lg:flex-nowrap xl:gap-4 xl:text-sm">
           {navItems.map((item) => (
             <Link
               key={item.href}
