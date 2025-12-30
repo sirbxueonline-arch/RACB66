@@ -15,12 +15,13 @@ export function generateStaticParams() {
   }));
 }
 
-export default function BlogPaginatedPage({
-  params,
-}: {
-  params: { page: string };
-}) {
-  const pageNumber = Number(params.page);
+type PageProps = {
+  params: Promise<{ page: string }>;
+};
+
+export default async function BlogPaginatedPage({ params }: PageProps) {
+  const { page } = await params;
+  const pageNumber = Number(page);
   const pagesByLocale = Object.fromEntries(
     locales.map((locale) => [
       locale,

@@ -12,12 +12,13 @@ export function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: { slug: string };
-}) {
-  const post = getPostSource(defaultLocale, params.slug);
+type PageProps = {
+  params: Promise<{ slug: string }>;
+};
+
+export async function generateMetadata({ params }: PageProps) {
+  const { slug } = await params;
+  const post = getPostSource(defaultLocale, slug);
   if (!post) {
     return buildMetadata({
       title: "Blog post - Rent A Car Baku 66",
@@ -31,11 +32,8 @@ export async function generateMetadata({
   });
 }
 
-export default async function BlogDetailPage({
-  params,
-}: {
-  params: { slug: string };
-}) {
+export default async function BlogDetailPage({ params }: PageProps) {
+  const { slug } = await params;
   type PostPayload = {
     frontmatter: BlogFrontmatter;
     source: MDXRemoteSerializeResult;
@@ -43,7 +41,7 @@ export default async function BlogDetailPage({
 
   const entries = await Promise.all(
     locales.map(async (locale) => {
-      const post = getPostSource(locale, params.slug);
+      const post = getPostSource(locale, slug);
       if (!post) {
         return [locale, null] as const;
       }

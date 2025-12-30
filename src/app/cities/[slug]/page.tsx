@@ -8,12 +8,13 @@ export function generateStaticParams() {
   return destinationsData.map((city) => ({ slug: city.slug }));
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: { slug: string };
-}) {
-  const city = destinationsData.find((item) => item.slug === params.slug);
+type PageProps = {
+  params: Promise<{ slug: string }>;
+};
+
+export async function generateMetadata({ params }: PageProps) {
+  const { slug } = await params;
+  const city = destinationsData.find((item) => item.slug === slug);
   return buildMetadata({
     title: city
       ? `${getLocalizedText(city.name, defaultLocale)} - City guide`
@@ -24,12 +25,9 @@ export async function generateMetadata({
   });
 }
 
-export default function CityPage({
-  params,
-}: {
-  params: { slug: string };
-}) {
-  const city = destinationsData.find((item) => item.slug === params.slug);
+export default async function CityPage({ params }: PageProps) {
+  const { slug } = await params;
+  const city = destinationsData.find((item) => item.slug === slug);
   if (!city) {
     notFound();
   }

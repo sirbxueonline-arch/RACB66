@@ -7,24 +7,22 @@ export function generateStaticParams() {
   return carsData.map((car) => ({ slug: car.slug }));
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: { slug: string };
-}) {
-  const car = carsData.find((item) => item.slug === params.slug);
+type PageProps = {
+  params: Promise<{ slug: string }>;
+};
+
+export async function generateMetadata({ params }: PageProps) {
+  const { slug } = await params;
+  const car = carsData.find((item) => item.slug === slug);
   return buildMetadata({
     title: car ? `${car.name} - Car details` : "Car details",
     description: car ? car.name : "Vehicle specifications and pricing.",
   });
 }
 
-export default function CarDetailPage({
-  params,
-}: {
-  params: { slug: string };
-}) {
-  const car = carsData.find((item) => item.slug === params.slug);
+export default async function CarDetailPage({ params }: PageProps) {
+  const { slug } = await params;
+  const car = carsData.find((item) => item.slug === slug);
   if (!car) {
     notFound();
   }
