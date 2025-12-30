@@ -1,0 +1,882 @@
+[
+  {
+    "id": "car-01",
+    "slug": "toyota-yaris",
+    "name": "Toyota Yaris",
+    "brand": "Toyota",
+    "category": "economy",
+    "dailyPrice": 45,
+    "rating": 4.7,
+    "seats": 4,
+    "luggage": 2,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2022,
+    "engine": "1.5L",
+    "fuelEconomy": "6.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/car-01.jpg",
+      "/images/cars/car-02.jpg",
+      "/images/cars/car-03.jpg"
+    ],
+    "description": {
+      "az": "Şəhər üçün çevik və qənaətli seçim.",
+      "en": "Agile and efficient for city driving.",
+      "ru": "Манёвренный и экономичный вариант для города."
+    },
+    "highlights": [
+      {
+        "az": "Bluetooth multimedia",
+        "en": "Bluetooth multimedia",
+        "ru": "Bluetooth мультимедиа"
+      },
+      {
+        "az": "Kondisioner",
+        "en": "Air conditioning",
+        "ru": "Кондиционер"
+      },
+      {
+        "az": "Ağıllı təhlükəsizlik sistemi",
+        "en": "Smart safety suite",
+        "ru": "Интеллектуальная система безопасности"
+      }
+    ]
+  },
+  {
+    "id": "car-02",
+    "slug": "kia-rio",
+    "name": "Kia Rio",
+    "brand": "Kia",
+    "category": "economy",
+    "dailyPrice": 48,
+    "rating": 4.6,
+    "seats": 4,
+    "luggage": 2,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2021,
+    "engine": "1.4L",
+    "fuelEconomy": "6.2 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/car-02.jpg",
+      "/images/cars/car-03.jpg",
+      "/images/cars/car-04.jpg"
+    ],
+    "description": {
+      "az": "Rahat salon və sabit idarəetmə.",
+      "en": "Comfortable cabin with steady handling.",
+      "ru": "Комфортный салон и устойчивое управление."
+    },
+    "highlights": [
+      {
+        "az": "Arxa kamera",
+        "en": "Rear camera",
+        "ru": "Камера заднего вида"
+      },
+      {
+        "az": "Səs izolyasiyası",
+        "en": "Sound insulation",
+        "ru": "Шумоизоляция"
+      },
+      {
+        "az": "Geniş baqaj",
+        "en": "Spacious trunk",
+        "ru": "Вместительный багажник"
+      }
+    ]
+  },
+  {
+    "id": "car-03",
+    "slug": "hyundai-accent",
+    "name": "Hyundai Accent",
+    "brand": "Hyundai",
+    "category": "economy",
+    "dailyPrice": 50,
+    "rating": 4.5,
+    "seats": 4,
+    "luggage": 2,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2022,
+    "engine": "1.6L",
+    "fuelEconomy": "6.4 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/car-03.jpg",
+      "/images/cars/car-04.jpg",
+      "/images/cars/car-05.jpg"
+    ],
+    "description": {
+      "az": "Gündəlik sürüş üçün balanslı sedan.",
+      "en": "Balanced sedan for daily rides.",
+      "ru": "Сбалансированный седан для ежедневных поездок."
+    },
+    "highlights": [
+      {
+        "az": "Avtomatik klimat",
+        "en": "Automatic climate",
+        "ru": "Автоматический климат"
+      },
+      {
+        "az": "Rahat oturacaqlar",
+        "en": "Comfort seats",
+        "ru": "Комфортные сиденья"
+      },
+      {
+        "az": "USB dəstəyi",
+        "en": "USB support",
+        "ru": "Поддержка USB"
+      }
+    ]
+  },
+  {
+    "id": "car-04",
+    "slug": "nissan-sunny",
+    "name": "Nissan Sunny",
+    "brand": "Nissan",
+    "category": "economy",
+    "dailyPrice": 52,
+    "rating": 4.4,
+    "seats": 4,
+    "luggage": 2,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2021,
+    "engine": "1.5L",
+    "fuelEconomy": "6.5 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/car-04.jpg",
+      "/images/cars/car-05.jpg",
+      "/images/cars/car-06.jpg"
+    ],
+    "description": {
+      "az": "Səssiz və etibarlı gündəlik sedan.",
+      "en": "Quiet and reliable daily sedan.",
+      "ru": "Тихий и надёжный седан на каждый день."
+    },
+    "highlights": [
+      {
+        "az": "Geniş ayaq yeri",
+        "en": "Generous legroom",
+        "ru": "Простор для ног"
+      },
+      {
+        "az": "Sabit yanacaq sərfiyyatı",
+        "en": "Stable fuel economy",
+        "ru": "Стабильный расход топлива"
+      },
+      {
+        "az": "Start/stop sistemi",
+        "en": "Start/stop system",
+        "ru": "Система start/stop"
+      }
+    ]
+  },
+  {
+    "id": "car-05",
+    "slug": "toyota-camry",
+    "name": "Toyota Camry",
+    "brand": "Toyota",
+    "category": "business",
+    "dailyPrice": 85,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2023,
+    "engine": "2.5L",
+    "fuelEconomy": "7.8 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/car-05.jpg",
+      "/images/cars/car-06.jpg",
+      "/images/cars/car-07.jpg"
+    ],
+    "description": {
+      "az": "Biznes səfərləri üçün sakit və prestijli seçim.",
+      "en": "Quiet, prestigious choice for business trips.",
+      "ru": "Тихий и престижный выбор для бизнес-поездок."
+    },
+    "highlights": [
+      {
+        "az": "Premium salon",
+        "en": "Premium cabin",
+        "ru": "Премиальный салон"
+      },
+      {
+        "az": "Adaptiv kruiz",
+        "en": "Adaptive cruise",
+        "ru": "Адаптивный круиз"
+      },
+      {
+        "az": "Sürücü köməkçiləri",
+        "en": "Driver assist",
+        "ru": "Помощники водителя"
+      }
+    ]
+  },
+  {
+    "id": "car-06",
+    "slug": "hyundai-sonata",
+    "name": "Hyundai Sonata",
+    "brand": "Hyundai",
+    "category": "business",
+    "dailyPrice": 80,
+    "rating": 4.7,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2022,
+    "engine": "2.0L",
+    "fuelEconomy": "7.5 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/car-06.jpg",
+      "/images/cars/car-07.jpg",
+      "/images/cars/car-08.jpg"
+    ],
+    "description": {
+      "az": "Rahat oturacaqlar və yüksək komfort.",
+      "en": "Comfort seats with refined ride.",
+      "ru": "Комфортные сиденья и высокий уровень комфорта."
+    },
+    "highlights": [
+      {
+        "az": "Panoramik dam",
+        "en": "Panoramic roof",
+        "ru": "Панорамная крыша"
+      },
+      {
+        "az": "Premium səs sistemi",
+        "en": "Premium audio",
+        "ru": "Премиальная аудиосистема"
+      },
+      {
+        "az": "Avtomatik park",
+        "en": "Auto parking",
+        "ru": "Автопарковка"
+      }
+    ]
+  },
+  {
+    "id": "car-07",
+    "slug": "mazda-6",
+    "name": "Mazda 6",
+    "brand": "Mazda",
+    "category": "business",
+    "dailyPrice": 78,
+    "rating": 4.6,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2021,
+    "engine": "2.0L",
+    "fuelEconomy": "7.4 L/100km",
+    "availability": "limited",
+    "images": [
+      "/images/cars/car-07.jpg",
+      "/images/cars/car-08.jpg",
+      "/images/cars/car-01.jpg"
+    ],
+    "description": {
+      "az": "Dinamik dizayn və hamar idarəetmə.",
+      "en": "Dynamic design with smooth handling.",
+      "ru": "Динамичный дизайн и плавное управление."
+    },
+    "highlights": [
+      {
+        "az": "Dəri oturacaqlar",
+        "en": "Leather seats",
+        "ru": "Кожаные сиденья"
+      },
+      {
+        "az": "Geniş multimedia",
+        "en": "Wide infotainment",
+        "ru": "Широкая мультимедиа"
+      },
+      {
+        "az": "İşıq paketi",
+        "en": "Lighting package",
+        "ru": "Пакет освещения"
+      }
+    ]
+  },
+  {
+    "id": "car-08",
+    "slug": "mercedes-e-class",
+    "name": "Mercedes-Benz E-Class",
+    "brand": "Mercedes-Benz",
+    "category": "premium",
+    "dailyPrice": 150,
+    "rating": 4.9,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2023,
+    "engine": "2.0L Turbo",
+    "fuelEconomy": "8.2 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/car-08.jpg",
+      "/images/cars/car-01.jpg",
+      "/images/cars/car-02.jpg"
+    ],
+    "description": {
+      "az": "Premium səviyyədə komfort və texnologiya.",
+      "en": "Premium comfort with advanced tech.",
+      "ru": "Комфорт премиум-уровня и технологии."
+    },
+    "highlights": [
+      {
+        "az": "Ambient işıqlandırma",
+        "en": "Ambient lighting",
+        "ru": "Ambient-подсветка"
+      },
+      {
+        "az": "Sürücü assistentləri",
+        "en": "Driver assistants",
+        "ru": "Ассистенты водителя"
+      },
+      {
+        "az": "Sürüş rejimləri",
+        "en": "Drive modes",
+        "ru": "Режимы езды"
+      }
+    ]
+  },
+  {
+    "id": "car-09",
+    "slug": "bmw-5-series",
+    "name": "BMW 5 Series",
+    "brand": "BMW",
+    "category": "premium",
+    "dailyPrice": 155,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2022,
+    "engine": "2.0L TwinPower",
+    "fuelEconomy": "8.4 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/car-01.jpg",
+      "/images/cars/car-02.jpg",
+      "/images/cars/car-03.jpg"
+    ],
+    "description": {
+      "az": "İdman ruhu və premium rahatlıq.",
+      "en": "Sporty feel with executive comfort.",
+      "ru": "Спортивный характер и премиальный комфорт."
+    },
+    "highlights": [
+      {
+        "az": "Harman Kardon audio",
+        "en": "Harman Kardon audio",
+        "ru": "Аудио Harman Kardon"
+      },
+      {
+        "az": "Head-up display",
+        "en": "Head-up display",
+        "ru": "Проекция на лобовое стекло"
+      },
+      {
+        "az": "Sport rejimi",
+        "en": "Sport mode",
+        "ru": "Спортивный режим"
+      }
+    ]
+  },
+  {
+    "id": "car-10",
+    "slug": "audi-a6",
+    "name": "Audi A6",
+    "brand": "Audi",
+    "category": "premium",
+    "dailyPrice": 148,
+    "rating": 4.7,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2022,
+    "engine": "2.0L TFSI",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "limited",
+    "images": [
+      "/images/cars/car-02.jpg",
+      "/images/cars/car-03.jpg",
+      "/images/cars/car-04.jpg"
+    ],
+    "description": {
+      "az": "Səssiz salon və premium materiallar.",
+      "en": "Quiet cabin with premium materials.",
+      "ru": "Тихий салон и премиальные материалы."
+    },
+    "highlights": [
+      {
+        "az": "Matrix faralar",
+        "en": "Matrix headlights",
+        "ru": "Matrix фары"
+      },
+      {
+        "az": "Virtual kokpit",
+        "en": "Virtual cockpit",
+        "ru": "Виртуальная приборная панель"
+      },
+      {
+        "az": "Quattro idarəetmə",
+        "en": "Quattro drive",
+        "ru": "Привод Quattro"
+      }
+    ]
+  },
+  {
+    "id": "car-11",
+    "slug": "toyota-rav4",
+    "name": "Toyota RAV4",
+    "brand": "Toyota",
+    "category": "suv",
+    "dailyPrice": 95,
+    "rating": 4.7,
+    "seats": 5,
+    "luggage": 4,
+    "transmission": "automatic",
+    "fuelType": "hybrid",
+    "year": 2023,
+    "engine": "2.5L Hybrid",
+    "fuelEconomy": "5.8 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/car-03.jpg",
+      "/images/cars/car-04.jpg",
+      "/images/cars/car-05.jpg"
+    ],
+    "description": {
+      "az": "Krossover rahatlığı və hibrid qənaət.",
+      "en": "Crossover comfort with hybrid efficiency.",
+      "ru": "Комфорт кроссовера и гибридная экономия."
+    },
+    "highlights": [
+      {
+        "az": "AWD sistem",
+        "en": "AWD system",
+        "ru": "Система AWD"
+      },
+      {
+        "az": "Rahat oturacaqlar",
+        "en": "Comfort seats",
+        "ru": "Комфортные сиденья"
+      },
+      {
+        "az": "Geniş baqaj",
+        "en": "Large cargo",
+        "ru": "Большой багажник"
+      }
+    ]
+  },
+  {
+    "id": "car-12",
+    "slug": "nissan-x-trail",
+    "name": "Nissan X-Trail",
+    "brand": "Nissan",
+    "category": "suv",
+    "dailyPrice": 90,
+    "rating": 4.6,
+    "seats": 5,
+    "luggage": 4,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2022,
+    "engine": "2.0L",
+    "fuelEconomy": "7.6 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/car-04.jpg",
+      "/images/cars/car-05.jpg",
+      "/images/cars/car-06.jpg"
+    ],
+    "description": {
+      "az": "Səfərlər üçün praktik SUV.",
+      "en": "Practical SUV for road trips.",
+      "ru": "Практичный SUV для поездок."
+    },
+    "highlights": [
+      {
+        "az": "Yüksək klirens",
+        "en": "High clearance",
+        "ru": "Высокий клиренс"
+      },
+      {
+        "az": "Sürüş rejimləri",
+        "en": "Drive modes",
+        "ru": "Режимы езды"
+      },
+      {
+        "az": "Panoramik dam",
+        "en": "Panoramic roof",
+        "ru": "Панорамная крыша"
+      }
+    ]
+  },
+  {
+    "id": "car-13",
+    "slug": "hyundai-santa-fe",
+    "name": "Hyundai Santa Fe",
+    "brand": "Hyundai",
+    "category": "suv",
+    "dailyPrice": 105,
+    "rating": 4.7,
+    "seats": 7,
+    "luggage": 5,
+    "transmission": "automatic",
+    "fuelType": "diesel",
+    "year": 2023,
+    "engine": "2.2L Diesel",
+    "fuelEconomy": "7.0 L/100km",
+    "availability": "limited",
+    "images": [
+      "/images/cars/car-05.jpg",
+      "/images/cars/car-06.jpg",
+      "/images/cars/car-07.jpg"
+    ],
+    "description": {
+      "az": "Ailə səfərləri üçün 7 yerlik komfort.",
+      "en": "Seven-seat comfort for family trips.",
+      "ru": "Комфорт на 7 мест для семейных поездок."
+    },
+    "highlights": [
+      {
+        "az": "3 zonalı klimat",
+        "en": "3-zone climate",
+        "ru": "Климат на 3 зоны"
+      },
+      {
+        "az": "Geniş salon",
+        "en": "Spacious cabin",
+        "ru": "Просторный салон"
+      },
+      {
+        "az": "Təhlükəsizlik paketi",
+        "en": "Safety package",
+        "ru": "Пакет безопасности"
+      }
+    ]
+  },
+  {
+    "id": "car-14",
+    "slug": "mercedes-vito",
+    "name": "Mercedes Vito",
+    "brand": "Mercedes-Benz",
+    "category": "minivan",
+    "dailyPrice": 120,
+    "rating": 4.6,
+    "seats": 8,
+    "luggage": 6,
+    "transmission": "automatic",
+    "fuelType": "diesel",
+    "year": 2022,
+    "engine": "2.0L Diesel",
+    "fuelEconomy": "8.2 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/car-06.jpg",
+      "/images/cars/car-07.jpg",
+      "/images/cars/car-08.jpg"
+    ],
+    "description": {
+      "az": "Qrup səfərləri üçün geniş minivan.",
+      "en": "Spacious minivan for group travel.",
+      "ru": "Просторный минивэн для группы."
+    },
+    "highlights": [
+      {
+        "az": "8 sərnişin",
+        "en": "8 passengers",
+        "ru": "8 пассажиров"
+      },
+      {
+        "az": "Kondisioner",
+        "en": "Air conditioning",
+        "ru": "Кондиционер"
+      },
+      {
+        "az": "Geniş baqaj",
+        "en": "Large luggage",
+        "ru": "Большой багажник"
+      }
+    ]
+  },
+  {
+    "id": "car-15",
+    "slug": "volkswagen-caravelle",
+    "name": "Volkswagen Caravelle",
+    "brand": "Volkswagen",
+    "category": "minivan",
+    "dailyPrice": 115,
+    "rating": 4.5,
+    "seats": 8,
+    "luggage": 6,
+    "transmission": "automatic",
+    "fuelType": "diesel",
+    "year": 2021,
+    "engine": "2.0L TDI",
+    "fuelEconomy": "8.4 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/car-07.jpg",
+      "/images/cars/car-08.jpg",
+      "/images/cars/car-01.jpg"
+    ],
+    "description": {
+      "az": "Şəhər və region turları üçün rahat.",
+      "en": "Comfortable for city and regional tours.",
+      "ru": "Комфортен для городских и региональных туров."
+    },
+    "highlights": [
+      {
+        "az": "Rahat oturacaqlar",
+        "en": "Comfort seating",
+        "ru": "Комфортные сиденья"
+      },
+      {
+        "az": "USB və Wi-Fi",
+        "en": "USB and Wi-Fi",
+        "ru": "USB и Wi-Fi"
+      },
+      {
+        "az": "Sürüş sabitliyi",
+        "en": "Stable ride",
+        "ru": "Стабильная езда"
+      }
+    ]
+  },
+  {
+    "id": "car-16",
+    "slug": "ford-transit",
+    "name": "Ford Transit",
+    "brand": "Ford",
+    "category": "transport",
+    "dailyPrice": 140,
+    "rating": 4.4,
+    "seats": 12,
+    "luggage": 10,
+    "transmission": "manual",
+    "fuelType": "diesel",
+    "year": 2021,
+    "engine": "2.2L Diesel",
+    "fuelEconomy": "9.4 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/car-08.jpg",
+      "/images/cars/car-01.jpg",
+      "/images/cars/car-02.jpg"
+    ],
+    "description": {
+      "az": "Çoxsaylı sərnişinlər üçün nəqliyyat.",
+      "en": "Transport solution for larger groups.",
+      "ru": "Транспорт для больших групп."
+    },
+    "highlights": [
+      {
+        "az": "12 yer",
+        "en": "12 seats",
+        "ru": "12 мест"
+      },
+      {
+        "az": "Geniş yük sahəsi",
+        "en": "Large cargo",
+        "ru": "Большой грузовой отсек"
+      },
+      {
+        "az": "Sabit idarəetmə",
+        "en": "Stable handling",
+        "ru": "Стабильное управление"
+      }
+    ]
+  },
+  {
+    "id": "car-17",
+    "slug": "mercedes-sprinter",
+    "name": "Mercedes Sprinter",
+    "brand": "Mercedes-Benz",
+    "category": "transport",
+    "dailyPrice": 165,
+    "rating": 4.6,
+    "seats": 16,
+    "luggage": 12,
+    "transmission": "manual",
+    "fuelType": "diesel",
+    "year": 2022,
+    "engine": "2.2L Diesel",
+    "fuelEconomy": "9.8 L/100km",
+    "availability": "limited",
+    "images": [
+      "/images/cars/car-02.jpg",
+      "/images/cars/car-03.jpg",
+      "/images/cars/car-04.jpg"
+    ],
+    "description": {
+      "az": "Böyük qruplar üçün peşəkar transfer.",
+      "en": "Professional transfer for large groups.",
+      "ru": "Профессиональный трансфер для больших групп."
+    },
+    "highlights": [
+      {
+        "az": "16 sərnişin",
+        "en": "16 passengers",
+        "ru": "16 пассажиров"
+      },
+      {
+        "az": "Salon işıqlandırması",
+        "en": "Cabin lighting",
+        "ru": "Освещение салона"
+      },
+      {
+        "az": "Yüksək təhlükəsizlik",
+        "en": "Enhanced safety",
+        "ru": "Повышенная безопасность"
+      }
+    ]
+  },
+  {
+    "id": "car-18",
+    "slug": "toyota-alphard",
+    "name": "Toyota Alphard",
+    "brand": "Toyota",
+    "category": "transfer",
+    "dailyPrice": 180,
+    "rating": 4.9,
+    "seats": 6,
+    "luggage": 5,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2023,
+    "engine": "3.5L",
+    "fuelEconomy": "9.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/car-03.jpg",
+      "/images/cars/car-04.jpg",
+      "/images/cars/car-05.jpg"
+    ],
+    "description": {
+      "az": "VIP transfer üçün lüks minivan.",
+      "en": "Luxury minivan for VIP transfers.",
+      "ru": "Люкс-минивэн для VIP-трансфера."
+    },
+    "highlights": [
+      {
+        "az": "Kapitan oturacaqlar",
+        "en": "Captain seats",
+        "ru": "Капитанские кресла"
+      },
+      {
+        "az": "Sükut rejimi",
+        "en": "Silent mode",
+        "ru": "Тихий режим"
+      },
+      {
+        "az": "Premium salon",
+        "en": "Premium lounge",
+        "ru": "Премиальный салон"
+      }
+    ]
+  },
+  {
+    "id": "car-19",
+    "slug": "mercedes-v-class",
+    "name": "Mercedes V-Class",
+    "brand": "Mercedes-Benz",
+    "category": "transfer",
+    "dailyPrice": 190,
+    "rating": 4.8,
+    "seats": 6,
+    "luggage": 5,
+    "transmission": "automatic",
+    "fuelType": "diesel",
+    "year": 2023,
+    "engine": "2.0L Diesel",
+    "fuelEconomy": "8.8 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/car-04.jpg",
+      "/images/cars/car-05.jpg",
+      "/images/cars/car-06.jpg"
+    ],
+    "description": {
+      "az": "İşgüzar görüşlər üçün prestijli transfer.",
+      "en": "Prestigious transfer for business meetings.",
+      "ru": "Престижный трансфер для бизнес-встреч."
+    },
+    "highlights": [
+      {
+        "az": "Dəri salon",
+        "en": "Leather interior",
+        "ru": "Кожаный салон"
+      },
+      {
+        "az": "Premium səs sistemi",
+        "en": "Premium audio",
+        "ru": "Премиальная аудиосистема"
+      },
+      {
+        "az": "Rahat giriş",
+        "en": "Easy access",
+        "ru": "Удобный доступ"
+      }
+    ]
+  },
+  {
+    "id": "car-20",
+    "slug": "lexus-es",
+    "name": "Lexus ES",
+    "brand": "Lexus",
+    "category": "transfer",
+    "dailyPrice": 170,
+    "rating": 4.7,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "hybrid",
+    "year": 2022,
+    "engine": "2.5L Hybrid",
+    "fuelEconomy": "5.9 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/car-05.jpg",
+      "/images/cars/car-06.jpg",
+      "/images/cars/car-07.jpg"
+    ],
+    "description": {
+      "az": "Sakit gediş və premium xidmət.",
+      "en": "Quiet ride with premium service.",
+      "ru": "Тихий ход и премиальный сервис."
+    },
+    "highlights": [
+      {
+        "az": "Hibrid qənaət",
+        "en": "Hybrid efficiency",
+        "ru": "Гибридная экономия"
+      },
+      {
+        "az": "Lüks salon",
+        "en": "Luxury cabin",
+        "ru": "Люксовый салон"
+      },
+      {
+        "az": "Sürücü rahatlığı",
+        "en": "Driver comfort",
+        "ru": "Комфорт водителя"
+      }
+    ]
+  }
+]

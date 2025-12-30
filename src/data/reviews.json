@@ -1,0 +1,342 @@
+[
+  {
+    "id": "rev-01",
+    "name": "Leyla M.",
+    "rating": 5,
+    "carSlug": "mercedes-e-class",
+    "date": "2024-10-08",
+    "text": {
+      "az": "Təmiz, yeni avtomobil və çox nəzakətli xidmət.",
+      "en": "Clean, new car and very polite service.",
+      "ru": "Чистая новая машина и очень вежливый сервис."
+    }
+  },
+  {
+    "id": "rev-02",
+    "name": "Elvin R.",
+    "rating": 4,
+    "carSlug": "bmw-5-series",
+    "date": "2024-10-12",
+    "text": {
+      "az": "Sifariş prosesi sürətli idi, qiymət də şəffaf.",
+      "en": "Booking was fast with transparent pricing.",
+      "ru": "Бронь быстрая, цена прозрачная."
+    }
+  },
+  {
+    "id": "rev-03",
+    "name": "Nigar A.",
+    "rating": 5,
+    "carSlug": "toyota-camry",
+    "date": "2024-10-18",
+    "text": {
+      "az": "Aeroportda qarşılanma vaxtında oldu, transfer rahat.",
+      "en": "On-time airport pickup and smooth transfer.",
+      "ru": "Встреча в аэропорту вовремя, трансфер комфортный."
+    }
+  },
+  {
+    "id": "rev-04",
+    "name": "Rashad K.",
+    "rating": 4,
+    "carSlug": "hyundai-sonata",
+    "date": "2024-10-22",
+    "text": {
+      "az": "Avtomobil texniki baxımdan ideal idi.",
+      "en": "Car was technically perfect.",
+      "ru": "Автомобиль в отличном техническом состоянии."
+    }
+  },
+  {
+    "id": "rev-05",
+    "name": "Samir H.",
+    "rating": 5,
+    "carSlug": "toyota-rav4",
+    "date": "2024-11-02",
+    "text": {
+      "az": "Həftəsonu turu üçün ideal seçim.",
+      "en": "Perfect choice for a weekend trip.",
+      "ru": "Идеальный вариант для уикенда."
+    }
+  },
+  {
+    "id": "rev-06",
+    "name": "Aysel T.",
+    "rating": 5,
+    "carSlug": "mercedes-v-class",
+    "date": "2024-11-08",
+    "text": {
+      "az": "Sürücü xidməti peşəkar və etibarlı.",
+      "en": "Driver service was professional and reliable.",
+      "ru": "Водитель — профессионал и надёжен."
+    }
+  },
+  {
+    "id": "rev-07",
+    "name": "Kamran J.",
+    "rating": 4,
+    "carSlug": "toyota-alphard",
+    "date": "2024-11-12",
+    "text": {
+      "az": "Qəbələ səfəri üçün rahat SUV.",
+      "en": "Comfortable SUV for our Gabala trip.",
+      "ru": "Комфортный SUV для поездки в Габалу."
+    }
+  },
+  {
+    "id": "rev-08",
+    "name": "Rustam S.",
+    "rating": 4,
+    "carSlug": "nissan-x-trail",
+    "date": "2024-11-18",
+    "text": {
+      "az": "Salonda komfort yüksək idi, hər şey işlək.",
+      "en": "Cabin comfort was high, everything worked.",
+      "ru": "Салон комфортный, всё работало."
+    }
+  },
+  {
+    "id": "rev-09",
+    "name": "Farida Q.",
+    "rating": 5,
+    "carSlug": "hyundai-santa-fe",
+    "date": "2024-11-25",
+    "text": {
+      "az": "Qiymət/keyfiyyət nisbəti əladır.",
+      "en": "Great value for money.",
+      "ru": "Отличное соотношение цены и качества."
+    }
+  },
+  {
+    "id": "rev-10",
+    "name": "Tural G.",
+    "rating": 5,
+    "carSlug": "mercedes-sprinter",
+    "date": "2024-12-02",
+    "text": {
+      "az": "Komanda tez cavab verdi və kömək etdi.",
+      "en": "Team responded quickly and helped.",
+      "ru": "Команда быстро ответила и помогла."
+    }
+  },
+  {
+    "id": "rev-11",
+    "name": "Elena V.",
+    "rating": 4,
+    "date": "2024-12-07",
+    "text": {
+      "az": "Təmiz, yeni avtomobil və çox nəzakətli xidmət.",
+      "en": "Clean, new car and very polite service.",
+      "ru": "Чистая новая машина и очень вежливый сервис."
+    }
+  },
+  {
+    "id": "rev-12",
+    "name": "Dmitry P.",
+    "rating": 5,
+    "date": "2024-12-12",
+    "text": {
+      "az": "Sifariş prosesi sürətli idi, qiymət də şəffaf.",
+      "en": "Booking was fast with transparent pricing.",
+      "ru": "Бронь быстрая, цена прозрачная."
+    }
+  },
+  {
+    "id": "rev-13",
+    "name": "Anna K.",
+    "rating": 4,
+    "date": "2024-12-18",
+    "text": {
+      "az": "Aeroportda qarşılanma vaxtında oldu, transfer rahat.",
+      "en": "On-time airport pickup and smooth transfer.",
+      "ru": "Встреча в аэропорту вовремя, трансфер комфортный."
+    }
+  },
+  {
+    "id": "rev-14",
+    "name": "Olga S.",
+    "rating": 5,
+    "date": "2024-12-22",
+    "text": {
+      "az": "Avtomobil texniki baxımdan ideal idi.",
+      "en": "Car was technically perfect.",
+      "ru": "Автомобиль в отличном техническом состоянии."
+    }
+  },
+  {
+    "id": "rev-15",
+    "name": "Sergey N.",
+    "rating": 4,
+    "date": "2024-12-28",
+    "text": {
+      "az": "Həftəsonu turu üçün ideal seçim.",
+      "en": "Perfect choice for a weekend trip.",
+      "ru": "Идеальный вариант для уикенда."
+    }
+  },
+  {
+    "id": "rev-16",
+    "name": "Zarina I.",
+    "rating": 5,
+    "date": "2025-01-04",
+    "text": {
+      "az": "Sürücü xidməti peşəkar və etibarlı.",
+      "en": "Driver service was professional and reliable.",
+      "ru": "Водитель — профессионал и надёжен."
+    }
+  },
+  {
+    "id": "rev-17",
+    "name": "Murad L.",
+    "rating": 4,
+    "date": "2025-01-08",
+    "text": {
+      "az": "Qəbələ səfəri üçün rahat SUV.",
+      "en": "Comfortable SUV for our Gabala trip.",
+      "ru": "Комфортный SUV для поездки в Габалу."
+    }
+  },
+  {
+    "id": "rev-18",
+    "name": "Gunay A.",
+    "rating": 5,
+    "date": "2025-01-12",
+    "text": {
+      "az": "Salonda komfort yüksək idi, hər şey işlək.",
+      "en": "Cabin comfort was high, everything worked.",
+      "ru": "Салон комфортный, всё работало."
+    }
+  },
+  {
+    "id": "rev-19",
+    "name": "Tariyel M.",
+    "rating": 4,
+    "date": "2025-01-18",
+    "text": {
+      "az": "Qiymət/keyfiyyət nisbəti əladır.",
+      "en": "Great value for money.",
+      "ru": "Отличное соотношение цены и качества."
+    }
+  },
+  {
+    "id": "rev-20",
+    "name": "Fidan B.",
+    "rating": 5,
+    "date": "2025-01-24",
+    "text": {
+      "az": "Komanda tez cavab verdi və kömək etdi.",
+      "en": "Team responded quickly and helped.",
+      "ru": "Команда быстро ответила и помогла."
+    }
+  },
+  {
+    "id": "rev-21",
+    "name": "Aydin N.",
+    "rating": 4,
+    "date": "2025-02-02",
+    "text": {
+      "az": "Təmiz, yeni avtomobil və çox nəzakətli xidmət.",
+      "en": "Clean, new car and very polite service.",
+      "ru": "Чистая новая машина и очень вежливый сервис."
+    }
+  },
+  {
+    "id": "rev-22",
+    "name": "Ramin Z.",
+    "rating": 5,
+    "date": "2025-02-07",
+    "text": {
+      "az": "Sifariş prosesi sürətli idi, qiymət də şəffaf.",
+      "en": "Booking was fast with transparent pricing.",
+      "ru": "Бронь быстрая, цена прозрачная."
+    }
+  },
+  {
+    "id": "rev-23",
+    "name": "Zehra M.",
+    "rating": 4,
+    "date": "2025-02-12",
+    "text": {
+      "az": "Aeroportda qarşılanma vaxtında oldu, transfer rahat.",
+      "en": "On-time airport pickup and smooth transfer.",
+      "ru": "Встреча в аэропорту вовремя, трансфер комфортный."
+    }
+  },
+  {
+    "id": "rev-24",
+    "name": "Ilham V.",
+    "rating": 5,
+    "date": "2025-02-16",
+    "text": {
+      "az": "Avtomobil texniki baxımdan ideal idi.",
+      "en": "Car was technically perfect.",
+      "ru": "Автомобиль в отличном техническом состоянии."
+    }
+  },
+  {
+    "id": "rev-25",
+    "name": "Vusala H.",
+    "rating": 4,
+    "date": "2025-02-20",
+    "text": {
+      "az": "Həftəsonu turu üçün ideal seçim.",
+      "en": "Perfect choice for a weekend trip.",
+      "ru": "Идеальный вариант для уикенда."
+    }
+  },
+  {
+    "id": "rev-26",
+    "name": "Jamila R.",
+    "rating": 5,
+    "date": "2025-02-25",
+    "text": {
+      "az": "Sürücü xidməti peşəkar və etibarlı.",
+      "en": "Driver service was professional and reliable.",
+      "ru": "Водитель — профессионал и надёжен."
+    }
+  },
+  {
+    "id": "rev-27",
+    "name": "Mehdi T.",
+    "rating": 4,
+    "date": "2025-03-02",
+    "text": {
+      "az": "Qəbələ səfəri üçün rahat SUV.",
+      "en": "Comfortable SUV for our Gabala trip.",
+      "ru": "Комфортный SUV для поездки в Габалу."
+    }
+  },
+  {
+    "id": "rev-28",
+    "name": "Kanan E.",
+    "rating": 5,
+    "date": "2025-03-08",
+    "text": {
+      "az": "Salonda komfort yüksək idi, hər şey işlək.",
+      "en": "Cabin comfort was high, everything worked.",
+      "ru": "Салон комфортный, всё работало."
+    }
+  },
+  {
+    "id": "rev-29",
+    "name": "Safa L.",
+    "rating": 4,
+    "date": "2025-03-12",
+    "text": {
+      "az": "Qiymət/keyfiyyət nisbəti əladır.",
+      "en": "Great value for money.",
+      "ru": "Отличное соотношение цены и качества."
+    }
+  },
+  {
+    "id": "rev-30",
+    "name": "Elnur S.",
+    "rating": 5,
+    "date": "2025-03-18",
+    "text": {
+      "az": "Komanda tez cavab verdi və kömək etdi.",
+      "en": "Team responded quickly and helped.",
+      "ru": "Команда быстро ответила и помогла."
+    }
+  }
+]

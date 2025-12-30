@@ -1,0 +1,59 @@
+[
+  {
+    "id": "service-01",
+    "title": {
+      "az": "Aeroport transferi",
+      "en": "Airport transfer",
+      "ru": "Трансфер в аэропорт"
+    },
+    "description": {
+      "az": "24/7 qarşılanma, uçuş izləmə və rahat transfer.",
+      "en": "24/7 meet & greet with flight tracking and comfort.",
+      "ru": "Встреча 24/7, отслеживание рейса и комфортный трансфер."
+    },
+    "priceRange": {
+      "az": "35-70 AZN",
+      "en": "35-70 AZN",
+      "ru": "35-70 AZN"
+    },
+    "icon": "airport"
+  },
+  {
+    "id": "service-02",
+    "title": {
+      "az": "Şəxsi sürücü",
+      "en": "Chauffeur service",
+      "ru": "Персональный водитель"
+    },
+    "description": {
+      "az": "Günlük və ya saatlıq peşəkar sürücü xidməti.",
+      "en": "Professional driver on daily or hourly basis.",
+      "ru": "Профессиональный водитель на день или почасово."
+    },
+    "priceRange": {
+      "az": "80-150 AZN",
+      "en": "80-150 AZN",
+      "ru": "80-150 AZN"
+    },
+    "icon": "chauffeur"
+  },
+  {
+    "id": "service-03",
+    "title": {
+      "az": "Şəhər turları",
+      "en": "City tours",
+      "ru": "Городские туры"
+    },
+    "description": {
+      "az": "Bakı və regionlar üzrə fərdi tur proqramları.",
+      "en": "Custom tours across Baku and regions.",
+      "ru": "Индивидуальные туры по Баку и регионам."
+    },
+    "priceRange": {
+      "az": "120-250 AZN",
+      "en": "120-250 AZN",
+      "ru": "120-250 AZN"
+    },
+    "icon": "tours"
+  }
+]

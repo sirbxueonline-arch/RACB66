@@ -1,0 +1,386 @@
+{
+  "nav": {
+    "cars": "Автомобили",
+    "services": "Услуги",
+    "cities": "Города",
+    "blog": "Блог",
+    "about": "О нас",
+    "contact": "Контакты",
+    "bookNow": "Забронировать",
+    "menu": "Меню",
+    "close": "Закрыть",
+    "navigation": "Навигация",
+    "language": "Язык"
+  },
+  "footer": {
+    "brand": "Rent A Car Baku 66",
+    "tagline": "Премиальная аренда в Баку и регионах.",
+    "phone": "Телефон",
+    "email": "Email",
+    "address": "Адрес",
+    "company": "Компания",
+    "about": "О нас",
+    "services": "Услуги",
+    "blog": "Блог",
+    "contact": "Контакты",
+    "legal": "Правила",
+    "terms": "Условия",
+    "privacy": "Конфиденциальность",
+    "cookies": "Cookies",
+    "copyright": "(c) 2025 Rent A Car Baku 66. Все права защищены.",
+    "addressValue": "AZ1025, ????, ?????????? ?????, 8 ??????, ??? 3, M31",
+    "social": "???????",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp"
+  },
+  "categories": {
+    "economy": "Эконом",
+    "business": "Бизнес",
+    "premium": "Премиум",
+    "suv": "Кроссовер/SUV",
+    "minivan": "Минивэн",
+    "transport": "Транспорт",
+    "transfer": "Трансфер"
+  },
+  "pricing": {
+    "base": "Дневной тариф x {days}",
+    "weekend": "Надбавка за выходные",
+    "delivery": "Доставка и возврат",
+    "insurance": "Пакет страховки",
+    "extras": "Доп. опции",
+    "total": "Итого",
+    "viewBreakdown": "Детализация",
+    "promoBaku66": "Скидка BAKU66",
+    "promoWeekend": "Выходные без надбавки",
+    "promoLongstay": "Бонус за долгий срок",
+    "promoAirport": "Кредит на аэропорт",
+    "promoVip": "Скидка VIP15"
+  },
+  "home": {
+    "hero": {
+      "badge": "Премиальная аренда",
+      "title": "Баку —",
+      "titleAccent": "уровень 66",
+      "subtitle": "Премиальный парк, прозрачные цены и команда, которая делает поездки лёгкими.",
+      "ctaPrimary": "Смотреть парк",
+      "ctaSecondary": "Связаться",
+      "trust1": "Поддержка 24/7",
+      "trust2": "Прозрачные цены",
+      "trust3": "Премиум сервис",
+      "imageAltCity": "Скайлайн Баку",
+      "imageAltCar": "Премиальный автомобиль"
+    },
+    "search": {
+      "pickup": "Получение",
+      "dropoff": "Возврат",
+      "pickupDate": "Дата получения",
+      "dropoffDate": "Дата возврата",
+      "category": "Категория",
+      "submit": "Показать бронь",
+      "pickupPlaceholder": "Центр Баку",
+      "dropoffPlaceholder": "Аэропорт Гейдара Алиева"
+    },
+    "promos": {
+      "eyebrow": "Акции",
+      "title": "Спецпредложения",
+      "badge": "Активно"
+    },
+    "destinations": {
+      "eyebrow": "Маршруты",
+      "title": "Популярные направления",
+      "cta": "Все города"
+    },
+    "testimonials": {
+      "eyebrow": "Отзывы",
+      "title": "Что говорят клиенты",
+      "subtitle": "Рейтинг и реальные отзывы",
+      "reviewMeta": "Отзыв от {date}",
+      "carouselLabel": "Карусель отзывов",
+      "prev": "Назад",
+      "next": "Вперёд",
+      "slideLabel": "Перейти к слайду {index}"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Частые вопросы",
+      "subtitle": "Короткие ответы"
+    },
+    "blog": {
+      "eyebrow": "Блог",
+      "title": "Свежие статьи",
+      "cta": "Все статьи",
+      "news": "Новости",
+      "readTime": "{minutes} мин чтения"
+    }
+  },
+  "cars": {
+    "eyebrow": "Парк",
+    "title": "Автопарк",
+    "subtitle": "Премиальные варианты для каждой категории",
+    "filtersLabel": "Фильтры",
+    "sort": "Сортировка",
+    "sortAsc": "Цена: ниже",
+    "sortDesc": "Цена: выше",
+    "sortRating": "Рейтинг",
+    "availability": {
+      "available": "Доступен",
+      "limited": "Ограниченно",
+      "unavailable": "Недоступен"
+    },
+    "fuel": {
+      "petrol": "Бензин",
+      "diesel": "Дизель",
+      "hybrid": "Гибрид",
+      "electric": "Электро"
+    },
+    "transmission": {
+      "automatic": "Автомат",
+      "manual": "Механика"
+    },
+    "seats": "мест",
+    "luggage": "багаж",
+    "daily": "В день",
+    "details": "Детали",
+    "order": "Заказать",
+    "apply": "Применить",
+    "tabsLabel": "Категории",
+    "filters": {
+      "brand": "Бренд",
+      "all": "Все",
+      "seats": "Места",
+      "any": "Любые",
+      "fuel": "Топливо",
+      "petrol": "Бензин",
+      "diesel": "Дизель",
+      "hybrid": "Гибрид",
+      "electric": "Электро",
+      "priceRange": "Диапазон цен",
+      "min": "Мин",
+      "max": "Макс"
+    }
+  },
+  "carDetail": {
+    "eyebrow": "Автомобиль",
+    "fuel": {
+      "petrol": "Бензин",
+      "diesel": "Дизель",
+      "hybrid": "Гибрид",
+      "electric": "Электро"
+    },
+    "transmission": {
+      "automatic": "Автомат",
+      "manual": "Механика"
+    },
+    "seats": "мест",
+    "luggage": "багаж",
+    "specs": "Характеристики",
+    "year": "Год",
+    "engine": "Двигатель",
+    "economy": "Расход топлива",
+    "availability": "Доступность",
+    "availabilityStatus": {
+      "available": "Доступен",
+      "limited": "Ограниченно",
+      "unavailable": "Недоступен"
+    },
+    "highlights": "Особенности",
+    "reviews": "Отзывы о модели",
+    "similar": "Похожие авто",
+    "pricing": {
+      "title": "Калькулятор стоимости",
+      "pickup": "Получение",
+      "dropoff": "Возврат",
+      "startDate": "Начало",
+      "endDate": "Окончание",
+      "insurance": "Страховка",
+      "insuranceBasic": "Базовый",
+      "insuranceStandard": "Стандарт",
+      "insurancePremium": "Премиум",
+      "promo": "Промокод",
+      "extraGps": "GPS",
+      "extraChildSeat": "Детское кресло",
+      "extraDriver": "Доп. водитель",
+      "order": "Заказать",
+      "askAgent": "Спросить менеджера",
+      "defaultLocation": "Центр Баку"
+    }
+  },
+  "services": {
+    "eyebrow": "Услуги",
+    "title": "Премиальные сервисы",
+    "subtitle": "Трансфер в аэропорт, водитель и туры",
+    "cta": "Заказать"
+  },
+  "cities": {
+    "eyebrow": "Направления",
+    "recommended": "Рекомендуемые авто"
+  },
+  "blog": {
+    "eyebrow": "Блог",
+    "title": "Истории поездок",
+    "subtitle": "Маршруты, советы и новости",
+    "categoryFallback": "Обновления",
+    "readTime": "{minutes} мин чтения",
+    "page": "Страница"
+  },
+  "blogDetail": {
+    "meta": "{author} - {date} - {minutes} мин",
+    "share": "Поделиться",
+    "shareTwitter": "Twitter",
+    "shareFacebook": "Facebook",
+    "shareEmail": "Email",
+    "comments": "Комментарии включены"
+  },
+  "booking": {
+    "title": "Бронирование",
+    "subtitle": "Заполните данные и подтвердите стоимость",
+    "steps": {
+      "vehicle": "Авто",
+      "contact": "Контакты",
+      "license": "Вод. удостоверение",
+      "review": "Проверка"
+    },
+    "termsError": "Примите условия",
+    "validationError": "Заполните все обязательные поля.",
+    "vehicle": "Выбор авто",
+    "pickup": "Получение",
+    "dropoff": "Возврат",
+    "pickupDate": "Дата получения",
+    "dropoffDate": "Дата возврата",
+    "insurance": "Страховка",
+    "insuranceBasic": "Базовый",
+    "insuranceStandard": "Стандарт",
+    "insurancePremium": "Премиум",
+    "promo": "Промокод",
+    "extraGps": "GPS",
+    "extraChildSeat": "Детское кресло",
+    "extraDriver": "Доп. водитель",
+    "name": "Имя и фамилия",
+    "phone": "Телефон",
+    "email": "Email",
+    "licenseNumber": "Номер удостоверения",
+    "licenseIssue": "Дата выдачи",
+    "licenseExpiry": "Срок действия",
+    "summary": "Итог брони",
+    "summaryCar": "Авто: {car}",
+    "summaryDates": "Даты: {start} - {end}",
+    "summaryLocations": "Получение: {pickup} / Возврат: {dropoff}",
+    "terms": "Я принимаю условия",
+    "back": "Назад",
+    "next": "Далее",
+    "confirm": "Подтвердить бронь",
+    "priceTitle": "Итоговая цена",
+    "perDay": " / день",
+    "selectCar": "Выберите авто",
+    "successToast": "Заявка отправлена",
+    "defaultLocation": "Центр Баку"
+  },
+  "bookingSuccess": {
+    "eyebrow": "Успех",
+    "title": "Бронь подтверждена",
+    "subtitle": "Заявка получена, мы свяжемся с вами.",
+    "reference": "Референс:",
+    "car": "Авто: {car}",
+    "locations": "Получение: {pickup} / Возврат: {dropoff}",
+    "dates": "Даты: {start} - {end}",
+    "browse": "Смотреть авто",
+    "contact": "Контакты"
+  },
+  "contact": {
+    "eyebrow": "Контакты",
+    "title": "Свяжитесь с нами",
+    "subtitle": "Быстрый ответ и профессиональная поддержка",
+    "details": "Контактная информация",
+    "phone": "Телефон",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "email": "Email",
+    "address": "Адрес",
+    "hours": "Часы работы",
+    "formTitle": "Отправить сообщение",
+    "formSubtitle": "Заполните форму и мы ответим",
+    "form": {
+      "name": "Имя",
+      "email": "Email",
+      "message": "Сообщение",
+      "submit": "Отправить",
+      "success": "Сообщение отправлено",
+      "error": "Пожалуйста, заполните все поля."
+    },
+    "addressValue": "AZ1025, ????, ?????????? ?????, 8 ??????, ??? 3, M31",
+    "hoursValue": "08:00 - 22:00",
+    "mapTitle": "Карта Баку",
+    "instagram": "Instagram",
+    "facebook": "Facebook"
+  },
+  "about": {
+    "eyebrow": "О нас",
+    "title": "Rent A Car Baku 66",
+    "story": "Мы предоставляем премиальную аренду автомобилей в Баку и регионах. Наша миссия — прозрачные цены и комфорт.",
+    "fleet": "Парк 80+ автомобилей",
+    "support": "Поддержка 24/7",
+    "transparent": "Прозрачные условия",
+    "missionTitle": "Наша миссия",
+    "missionText": "Обеспечить быстрый, безопасный и премиальный сервис аренды.",
+    "valuesTitle": "Наши ценности",
+    "value1": "Удовлетворённость клиентов",
+    "value2": "Качество и безопасность",
+    "value3": "Честное партнёрство"
+  },
+  "meta": {
+    "home": {
+      "title": "Rent A Car Baku 66 - Премиальная аренда авто",
+      "description": "Премиальная аренда автомобилей в Баку с прозрачными ценами и отличным сервисом."
+    },
+    "cars": {
+      "title": "Автопарк - Rent A Car Baku 66",
+      "description": "Эконом, бизнес и премиум автомобили для любых поездок."
+    },
+    "carDetail": {
+      "title": "Детали автомобиля",
+      "description": "Характеристики и прозрачная стоимость."
+    },
+    "booking": {
+      "title": "Бронирование - Rent A Car Baku 66",
+      "description": "Подтвердите бронирование и проверьте стоимость."
+    },
+    "bookingSuccess": {
+      "title": "Бронь подтверждена",
+      "description": "Ваша заявка принята."
+    },
+    "blog": {
+      "title": "Блог - Rent A Car Baku 66",
+      "description": "Истории поездок и советы."
+    },
+    "blogDetail": {
+      "title": "Статья блога",
+      "description": "Маршруты и полезные заметки."
+    },
+    "services": {
+      "title": "Услуги - Rent A Car Baku 66",
+      "description": "Трансфер, водитель и туры."
+    },
+    "city": {
+      "title": "Гид по городу",
+      "description": "Маршруты и рекомендации."
+    },
+    "about": {
+      "title": "О нас - Rent A Car Baku 66",
+      "description": "История компании и ценности."
+    },
+    "contact": {
+      "title": "Контакты - Rent A Car Baku 66",
+      "description": "Телефон, email и форма связи."
+    }
+  },
+  "notFound": {
+    "title": "Страница не найдена",
+    "subtitle": "Запрашиваемая страница не существует.",
+    "cta": "На главную"
+  },
+  "layout": {
+    "skip": "Перейти к содержимому"
+  }
+}

@@ -1,0 +1,386 @@
+{
+  "nav": {
+    "cars": "Cars",
+    "services": "Services",
+    "cities": "Cities",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "bookNow": "Book now",
+    "menu": "Menu",
+    "close": "Close",
+    "navigation": "Navigation",
+    "language": "Language"
+  },
+  "footer": {
+    "brand": "Rent A Car Baku 66",
+    "tagline": "Premium rental experience in Baku and beyond.",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "company": "Company",
+    "about": "About",
+    "services": "Services",
+    "blog": "Blog",
+    "contact": "Contact",
+    "legal": "Legal",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "cookies": "Cookies",
+    "social": "Social",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "copyright": "(c) 2025 Rent A Car Baku 66. All rights reserved.",
+    "addressValue": "AZ1025, Baku, Khatai district, 8 November, building 3, M31"
+  },
+  "categories": {
+    "economy": "Economy",
+    "business": "Business",
+    "premium": "Premium",
+    "suv": "Crossover/SUV",
+    "minivan": "Minivan",
+    "transport": "Transport",
+    "transfer": "Transfer"
+  },
+  "pricing": {
+    "base": "Daily rate x {days}",
+    "weekend": "Weekend surcharge",
+    "delivery": "Delivery & return",
+    "insurance": "Insurance tier",
+    "extras": "Optional extras",
+    "total": "Total",
+    "viewBreakdown": "View breakdown",
+    "promoBaku66": "BAKU66 promo",
+    "promoWeekend": "Weekend surcharge waived",
+    "promoLongstay": "Long stay bonus",
+    "promoAirport": "Airport credit",
+    "promoVip": "VIP15 discount"
+  },
+  "home": {
+    "hero": {
+      "badge": "Premium rental",
+      "title": "Baku,",
+      "titleAccent": "refined in 66",
+      "subtitle": "Premium fleet, transparent pricing, and a team built for effortless travel.",
+      "ctaPrimary": "Explore fleet",
+      "ctaSecondary": "Contact us",
+      "trust1": "24/7 support",
+      "trust2": "Transparent pricing",
+      "trust3": "Premium service",
+      "imageAltCity": "Baku skyline",
+      "imageAltCar": "Premium rental car"
+    },
+    "search": {
+      "pickup": "Pickup",
+      "dropoff": "Drop-off",
+      "pickupDate": "Pickup date",
+      "dropoffDate": "Drop-off date",
+      "category": "Category",
+      "submit": "Show booking",
+      "pickupPlaceholder": "Baku City Center",
+      "dropoffPlaceholder": "Heydar Aliyev Airport"
+    },
+    "promos": {
+      "eyebrow": "Promos",
+      "title": "Special offers",
+      "badge": "Active"
+    },
+    "destinations": {
+      "eyebrow": "Routes",
+      "title": "Curated destinations",
+      "cta": "All cities"
+    },
+    "testimonials": {
+      "eyebrow": "Reviews",
+      "title": "What clients say",
+      "subtitle": "Ratings and real feedback",
+      "reviewMeta": "Reviewed on {date}",
+      "carouselLabel": "Testimonials carousel",
+      "prev": "Prev",
+      "next": "Next",
+      "slideLabel": "Go to slide {index}"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently asked",
+      "subtitle": "Quick answers"
+    },
+    "blog": {
+      "eyebrow": "Blog",
+      "title": "Latest stories",
+      "cta": "All posts",
+      "news": "News",
+      "readTime": "{minutes} min read"
+    }
+  },
+  "cars": {
+    "eyebrow": "Fleet",
+    "title": "Car fleet",
+    "subtitle": "Premium selections across every class",
+    "filtersLabel": "Filters",
+    "sort": "Sort",
+    "sortAsc": "Price: low",
+    "sortDesc": "Price: high",
+    "sortRating": "Rating",
+    "availability": {
+      "available": "Available",
+      "limited": "Limited",
+      "unavailable": "Unavailable"
+    },
+    "fuel": {
+      "petrol": "Petrol",
+      "diesel": "Diesel",
+      "hybrid": "Hybrid",
+      "electric": "Electric"
+    },
+    "transmission": {
+      "automatic": "Automatic",
+      "manual": "Manual"
+    },
+    "seats": "seats",
+    "luggage": "luggage",
+    "daily": "Daily",
+    "details": "Details",
+    "order": "Order",
+    "apply": "Apply",
+    "tabsLabel": "Categories",
+    "filters": {
+      "brand": "Brand",
+      "all": "All",
+      "seats": "Seats",
+      "any": "Any",
+      "fuel": "Fuel",
+      "petrol": "Petrol",
+      "diesel": "Diesel",
+      "hybrid": "Hybrid",
+      "electric": "Electric",
+      "priceRange": "Price range",
+      "min": "Min",
+      "max": "Max"
+    }
+  },
+  "carDetail": {
+    "eyebrow": "Vehicle",
+    "fuel": {
+      "petrol": "Petrol",
+      "diesel": "Diesel",
+      "hybrid": "Hybrid",
+      "electric": "Electric"
+    },
+    "transmission": {
+      "automatic": "Automatic",
+      "manual": "Manual"
+    },
+    "seats": "seats",
+    "luggage": "luggage",
+    "specs": "Specifications",
+    "year": "Year",
+    "engine": "Engine",
+    "economy": "Fuel economy",
+    "availability": "Availability",
+    "availabilityStatus": {
+      "available": "Available",
+      "limited": "Limited",
+      "unavailable": "Unavailable"
+    },
+    "highlights": "Highlights",
+    "reviews": "Reviews",
+    "similar": "Similar cars",
+    "pricing": {
+      "title": "Pricing calculator",
+      "pickup": "Pickup",
+      "dropoff": "Drop-off",
+      "startDate": "Start",
+      "endDate": "End",
+      "insurance": "Insurance",
+      "insuranceBasic": "Basic",
+      "insuranceStandard": "Standard",
+      "insurancePremium": "Premium",
+      "promo": "Promo code",
+      "extraGps": "GPS",
+      "extraChildSeat": "Child seat",
+      "extraDriver": "Additional driver",
+      "order": "Order",
+      "askAgent": "Ask an agent",
+      "defaultLocation": "Baku City Center"
+    }
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "Premium service packages",
+    "subtitle": "Airport, chauffeur, and tour experiences",
+    "cta": "Book service"
+  },
+  "cities": {
+    "eyebrow": "Destinations",
+    "recommended": "Recommended cars"
+  },
+  "blog": {
+    "eyebrow": "Blog",
+    "title": "Travel stories",
+    "subtitle": "Routes, tips, and news",
+    "categoryFallback": "Updates",
+    "readTime": "{minutes} min read",
+    "page": "Page"
+  },
+  "blogDetail": {
+    "meta": "{author} - {date} - {minutes} min",
+    "share": "Share",
+    "shareTwitter": "Twitter",
+    "shareFacebook": "Facebook",
+    "shareEmail": "Email",
+    "comments": "Comments are enabled"
+  },
+  "booking": {
+    "title": "Booking",
+    "subtitle": "Complete your details and review pricing",
+    "steps": {
+      "vehicle": "Vehicle",
+      "contact": "Contact",
+      "license": "License",
+      "review": "Review"
+    },
+    "termsError": "Accept the terms",
+    "validationError": "Please complete all required fields.",
+    "vehicle": "Vehicle selection",
+    "pickup": "Pickup",
+    "dropoff": "Drop-off",
+    "pickupDate": "Pickup date",
+    "dropoffDate": "Drop-off date",
+    "insurance": "Insurance",
+    "insuranceBasic": "Basic",
+    "insuranceStandard": "Standard",
+    "insurancePremium": "Premium",
+    "promo": "Promo code",
+    "extraGps": "GPS",
+    "extraChildSeat": "Child seat",
+    "extraDriver": "Additional driver",
+    "name": "Full name",
+    "phone": "Phone",
+    "email": "Email",
+    "licenseNumber": "License number",
+    "licenseIssue": "Issue date",
+    "licenseExpiry": "Expiry date",
+    "summary": "Booking summary",
+    "summaryCar": "Car: {car}",
+    "summaryDates": "Dates: {start} - {end}",
+    "summaryLocations": "Pickup: {pickup} / Drop-off: {dropoff}",
+    "terms": "I accept the terms",
+    "back": "Back",
+    "next": "Next",
+    "confirm": "Confirm booking",
+    "priceTitle": "Pricing summary",
+    "perDay": " / day",
+    "selectCar": "Select a car",
+    "successToast": "Booking submitted",
+    "defaultLocation": "Baku City Center"
+  },
+  "bookingSuccess": {
+    "eyebrow": "Success",
+    "title": "Booking confirmed",
+    "subtitle": "Your request is received and our team will contact you.",
+    "reference": "Reference:",
+    "car": "Car: {car}",
+    "locations": "Pickup: {pickup} / Drop-off: {dropoff}",
+    "dates": "Dates: {start} - {end}",
+    "browse": "Browse cars",
+    "contact": "Contact"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Get in touch",
+    "subtitle": "Fast response and professional support",
+    "details": "Contact details",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "email": "Email",
+    "address": "Address",
+    "hours": "Hours",
+    "formTitle": "Send a message",
+    "formSubtitle": "Fill out the form and we will reply",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send",
+      "success": "Message sent",
+      "error": "Please complete all required fields."
+    },
+    "addressValue": "AZ1025, Baku, Khatai district, 8 November, building 3, M31",
+    "hoursValue": "08:00 - 22:00",
+    "mapTitle": "Baku map"
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "Rent A Car Baku 66",
+    "story": "We provide premium car rentals across Baku and regions with transparent pricing and comfort.",
+    "fleet": "80+ vehicle fleet",
+    "support": "24/7 customer care",
+    "transparent": "Transparent pricing",
+    "missionTitle": "Our mission",
+    "missionText": "Deliver fast, safe, and premium rental experiences.",
+    "valuesTitle": "Our values",
+    "value1": "Customer satisfaction",
+    "value2": "Quality and safety",
+    "value3": "Honest partnership"
+  },
+  "meta": {
+    "home": {
+      "title": "Rent A Car Baku 66 - Premium car rental",
+      "description": "Premium car rental in Baku with transparent pricing and curated fleet."
+    },
+    "cars": {
+      "title": "Car fleet - Rent A Car Baku 66",
+      "description": "Explore economy, business, and premium cars."
+    },
+    "carDetail": {
+      "title": "Car details",
+      "description": "Specifications and transparent pricing."
+    },
+    "booking": {
+      "title": "Booking - Rent A Car Baku 66",
+      "description": "Confirm your booking and review pricing."
+    },
+    "bookingSuccess": {
+      "title": "Booking confirmed",
+      "description": "Your booking request is received."
+    },
+    "blog": {
+      "title": "Blog - Rent A Car Baku 66",
+      "description": "Travel stories and tips."
+    },
+    "blogDetail": {
+      "title": "Blog post",
+      "description": "Travel story and insights."
+    },
+    "services": {
+      "title": "Services - Rent A Car Baku 66",
+      "description": "Airport transfers, chauffeurs, and tours."
+    },
+    "city": {
+      "title": "City guide",
+      "description": "Routes and recommendations."
+    },
+    "about": {
+      "title": "About - Rent A Car Baku 66",
+      "description": "Company story and values."
+    },
+    "contact": {
+      "title": "Contact - Rent A Car Baku 66",
+      "description": "Phone, email, and contact form."
+    }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "subtitle": "The page you are looking for does not exist.",
+    "cta": "Back home"
+  },
+  "layout": {
+    "skip": "Skip to content"
+  }
+}

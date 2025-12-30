@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+:root {
+  --brand-yellow: #f6b80c;
+  --brand-black: #000000;
+  --brand-white: #ffffff;
+  --surface: #f7f5f0;
+  --surface-dark: #101010;
+  --muted: #6b7280;
+  --ring: #f6b80c;
+  --shadow-soft: 0 24px 60px rgba(0, 0, 0, 0.15);
+}
+
+@theme inline {
+  --color-brand-yellow: var(--brand-yellow);
+  --color-brand-black: var(--brand-black);
+  --color-brand-white: var(--brand-white);
+  --color-surface: var(--surface);
+  --color-surface-dark: var(--surface-dark);
+  --color-muted: var(--muted);
+  --font-sans: var(--font-inter), "Inter", sans-serif;
+  --font-display: var(--font-playfair), var(--font-inter), serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--brand-white);
+  color: #0b0b0b;
+  font-family: var(--font-inter), "Inter", sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: rgba(246, 184, 12, 0.35);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.focus-ring {
+  outline: 2px solid transparent;
+  outline-offset: 4px;
+}
+
+.focus-ring:focus-visible {
+  outline-color: var(--ring);
+}
+
+.noise-bg {
+  position: relative;
+}
+
+.noise-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/images/noise.png");
+  opacity: 0.06;
+  pointer-events: none;
+}
+
+.hero-glow {
+  background: radial-gradient(
+      1200px 600px at 20% 20%,
+      rgba(246, 184, 12, 0.22),
+      transparent 55%
+    ),
+    radial-gradient(
+      900px 480px at 80% 10%,
+      rgba(0, 0, 0, 0.3),
+      transparent 60%
+    ),
+    linear-gradient(120deg, #111111, #1b1b1b 50%, #0c0c0c 100%);
+}
+
+.section-grid {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.08) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.08) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: var(--shadow-soft);
+}
+
+.dark-panel {
+  background: rgba(12, 12, 12, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}

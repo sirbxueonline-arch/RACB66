@@ -1,0 +1,56 @@
+[
+  {
+    "id": "loc-01",
+    "location": {
+      "az": "Bakı şəhər mərkəzi",
+      "en": "Baku City Center",
+      "ru": "Центр Баку"
+    },
+    "fee": 0
+  },
+  {
+    "id": "loc-02",
+    "location": {
+      "az": "Heydər Əliyev Hava Limanı",
+      "en": "Heydar Aliyev Airport",
+      "ru": "Аэропорт Гейдара Алиева"
+    },
+    "fee": 15
+  },
+  {
+    "id": "loc-03",
+    "location": {
+      "az": "Qəbələ",
+      "en": "Gabala",
+      "ru": "Габала"
+    },
+    "fee": 45
+  },
+  {
+    "id": "loc-04",
+    "location": {
+      "az": "Quba",
+      "en": "Quba",
+      "ru": "Губа"
+    },
+    "fee": 40
+  },
+  {
+    "id": "loc-05",
+    "location": {
+      "az": "Qusar",
+      "en": "Qusar",
+      "ru": "Гусар"
+    },
+    "fee": 45
+  },
+  {
+    "id": "loc-06",
+    "location": {
+      "az": "Şamaxı",
+      "en": "Shamakhi",
+      "ru": "Шамахы"
+    },
+    "fee": 30
+  }
+]

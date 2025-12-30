@@ -1,0 +1,97 @@
+[
+  {
+    "id": "promo-01",
+    "code": "BAKU66",
+    "title": {
+      "az": "3+ gün bronla 10% endirim",
+      "en": "10% off on 3+ day bookings",
+      "ru": "10% скидка при бронировании от 3 дней"
+    },
+    "description": {
+      "az": "Şəhər sürüşü üçün ideal paket və endirim.",
+      "en": "Ideal city package with instant savings.",
+      "ru": "Идеальный городской пакет со скидкой."
+    },
+    "badge": {
+      "az": "Şəhər təklifi",
+      "en": "City deal",
+      "ru": "Городская акция"
+    }
+  },
+  {
+    "id": "promo-02",
+    "code": "WEEKEND66",
+    "title": {
+      "az": "Həftəsonu əlavə haqqı sıfır",
+      "en": "Weekend surcharge waived",
+      "ru": "Надбавка за выходные отменена"
+    },
+    "description": {
+      "az": "Şənbə-bazar sifarişlərində əlavə ödəniş yoxdur.",
+      "en": "No extra fee for Saturday-Sunday rentals.",
+      "ru": "Без доплаты за аренду в выходные."
+    },
+    "badge": {
+      "az": "Həftəsonu",
+      "en": "Weekend",
+      "ru": "Выходные"
+    }
+  },
+  {
+    "id": "promo-03",
+    "code": "LONGSTAY",
+    "title": {
+      "az": "7+ günə 1 gün hədiyyə",
+      "en": "7+ days get 1 free",
+      "ru": "7+ дней — 1 день бесплатно"
+    },
+    "description": {
+      "az": "Uzunmüddətli kirayə üçün xüsusi bonus.",
+      "en": "Special bonus for long-term rentals.",
+      "ru": "Специальный бонус для долгосрочной аренды."
+    },
+    "badge": {
+      "az": "Uzunmüddətli",
+      "en": "Long stay",
+      "ru": "Долгий срок"
+    }
+  },
+  {
+    "id": "promo-04",
+    "code": "AIRPORT5",
+    "title": {
+      "az": "Aeroport çatdırılmasına endirim",
+      "en": "Airport delivery credit",
+      "ru": "Скидка на доставку в аэропорт"
+    },
+    "description": {
+      "az": "Heydər Əliyev Hava Limanına çatdırılmada xüsusi endirim.",
+      "en": "Special credit for airport deliveries.",
+      "ru": "Спецскидка на доставку в аэропорт."
+    },
+    "badge": {
+      "az": "Aeroport",
+      "en": "Airport",
+      "ru": "Аэропорт"
+    }
+  },
+  {
+    "id": "promo-05",
+    "code": "VIP15",
+    "title": {
+      "az": "Premium sinifə 15% endirim",
+      "en": "15% off premium class",
+      "ru": "Скидка 15% на премиум"
+    },
+    "description": {
+      "az": "Premium avtomobillərə xüsusi endirim.",
+      "en": "Exclusive savings on premium vehicles.",
+      "ru": "Эксклюзивная скидка на премиальные авто."
+    },
+    "badge": {
+      "az": "VIP",
+      "en": "VIP",
+      "ru": "VIP"
+    }
+  }
+]

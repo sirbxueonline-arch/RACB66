@@ -1,0 +1,132 @@
+[
+  {
+    "id": "faq-01",
+    "question": {
+      "az": "Hansı sənədlər tələb olunur?",
+      "en": "What documents are required?",
+      "ru": "Какие документы нужны?"
+    },
+    "answer": {
+      "az": "Şəxsiyyət vəsiqəsi və etibarlı sürücülük vəsiqəsi kifayətdir.",
+      "en": "A valid ID and driver's license are required.",
+      "ru": "Нужны удостоверение личности и действующее водительское удостоверение."
+    }
+  },
+  {
+    "id": "faq-02",
+    "question": {
+      "az": "Depozit məbləği varmı?",
+      "en": "Is there a security deposit?",
+      "ru": "Есть ли депозит?"
+    },
+    "answer": {
+      "az": "Bəzi avtomobillər üçün depozit tələb oluna bilər, sifarişdə göstərilir.",
+      "en": "A deposit may apply for select cars and is shown at checkout.",
+      "ru": "Для некоторых авто требуется депозит, он указан при оформлении."
+    }
+  },
+  {
+    "id": "faq-03",
+    "question": {
+      "az": "Sürücünün minimum yaşı neçədir?",
+      "en": "What is the minimum driver age?",
+      "ru": "Какой минимальный возраст водителя?"
+    },
+    "answer": {
+      "az": "Minimum yaş 21-dir və ən azı 2 illik sürücülük təcrübəsi tələb olunur.",
+      "en": "Drivers must be 21+ with at least 2 years of experience.",
+      "ru": "Минимальный возраст — 21 год и минимум 2 года стажа."
+    }
+  },
+  {
+    "id": "faq-04",
+    "question": {
+      "az": "Əlavə sürücü əlavə etmək mümkündürmü?",
+      "en": "Can I add an additional driver?",
+      "ru": "Можно добавить дополнительного водителя?"
+    },
+    "answer": {
+      "az": "Bəli, sifariş zamanı əlavə sürücü seçimi mövcuddur.",
+      "en": "Yes, add an extra driver during booking.",
+      "ru": "Да, можно добавить при оформлении."
+    }
+  },
+  {
+    "id": "faq-05",
+    "question": {
+      "az": "Aeroport çatdırılması necə işləyir?",
+      "en": "How does airport delivery work?",
+      "ru": "Как работает доставка в аэропорт?"
+    },
+    "answer": {
+      "az": "Avtomobil sizi hava limanında qarşılayır və orada təhvil verilir.",
+      "en": "We meet you at the airport and hand over the car on arrival.",
+      "ru": "Мы встречаем вас в аэропорту и передаём автомобиль."
+    }
+  },
+  {
+    "id": "faq-06",
+    "question": {
+      "az": "Yanacaq siyasəti nədir?",
+      "en": "What is the fuel policy?",
+      "ru": "Какова топливная политика?"
+    },
+    "answer": {
+      "az": "Avtomobil dolu verilir və eyni səviyyədə qaytarılır.",
+      "en": "Cars are delivered full and should be returned full.",
+      "ru": "Авто выдаётся с полным баком и возвращается полным."
+    }
+  },
+  {
+    "id": "faq-07",
+    "question": {
+      "az": "Sığorta paketləri nələri əhatə edir?",
+      "en": "What do insurance tiers cover?",
+      "ru": "Что покрывают уровни страховки?"
+    },
+    "answer": {
+      "az": "Standart və premium paketlər əlavə müdafiə və daha yüksək limitlər təqdim edir.",
+      "en": "Standard and premium tiers add extra coverage and higher limits.",
+      "ru": "Стандарт и премиум дают больше покрытия и лимитов."
+    }
+  },
+  {
+    "id": "faq-08",
+    "question": {
+      "az": "Sifarişi necə dəyişə bilərəm?",
+      "en": "How can I change my booking?",
+      "ru": "Как изменить бронирование?"
+    },
+    "answer": {
+      "az": "Əlaqə bölməsindən bizimlə əlaqə saxlayın, sifarişi yeniləyək.",
+      "en": "Contact our team and we will update your booking.",
+      "ru": "Свяжитесь с нами, мы обновим бронь."
+    }
+  },
+  {
+    "id": "faq-09",
+    "question": {
+      "az": "Kilometr limiti varmı?",
+      "en": "Is there a mileage limit?",
+      "ru": "Есть ли лимит пробега?"
+    },
+    "answer": {
+      "az": "Standart paketdə gündə 300 km, daha çoxu üçün əlavə təklif var.",
+      "en": "Standard plan includes 300 km/day, extra mileage is available.",
+      "ru": "Стандарт — 300 км/день, дополнительные км доступны."
+    }
+  },
+  {
+    "id": "faq-10",
+    "question": {
+      "az": "Ödəniş üsulları hansılardır?",
+      "en": "Which payment methods are accepted?",
+      "ru": "Какие способы оплаты?"
+    },
+    "answer": {
+      "az": "Nağd, kart və korporativ köçürmə qəbul olunur.",
+      "en": "Cash, card, and corporate transfer are accepted.",
+      "ru": "Принимаем наличные, карты и корпоративный перевод."
+    }
+  }
+]

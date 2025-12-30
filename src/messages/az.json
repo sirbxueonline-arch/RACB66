@@ -1,0 +1,386 @@
+{
+  "nav": {
+    "cars": "Avtomobillər",
+    "services": "Xidmətlər",
+    "cities": "Şəhərlər",
+    "blog": "Bloq",
+    "about": "Haqqımızda",
+    "contact": "Əlaqə",
+    "bookNow": "İndi sifariş et",
+    "menu": "Menyu",
+    "close": "Bağla",
+    "navigation": "Naviqasiya",
+    "language": "Dil seçimi"
+  },
+  "footer": {
+    "brand": "Rent A Car Baku 66",
+    "tagline": "Bakıda və regionlarda premium kirayə təcrübəsi.",
+    "phone": "Telefon",
+    "email": "Email",
+    "address": "Ünvan",
+    "company": "Şirkət",
+    "about": "Haqqımızda",
+    "services": "Xidmətlər",
+    "blog": "Bloq",
+    "contact": "Əlaqə",
+    "legal": "Qaydalar",
+    "terms": "İstifadə şərtləri",
+    "privacy": "Məxfilik",
+    "cookies": "Cookie siyasəti",
+    "social": "Sosial",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "copyright": "(c) 2025 Rent A Car Baku 66. Bütün hüquqlar qorunur.",
+    "addressValue": "AZ1025, Bakı şəhəri, Xətai rayonu, 8 Noyabr ev 3, M31"
+  },
+  "categories": {
+    "economy": "Ekonom",
+    "business": "Biznes",
+    "premium": "Premium",
+    "suv": "Krossover/SUV",
+    "minivan": "Minivan",
+    "transport": "Nəqliyyat",
+    "transfer": "Transfer"
+  },
+  "pricing": {
+    "base": "Günlük tarif x {days}",
+    "weekend": "Həftəsonu əlavə haqqı",
+    "delivery": "Çatdırılma və geri qaytarma",
+    "insurance": "Sığorta paketi",
+    "extras": "Əlavə xidmətlər",
+    "total": "Cəm",
+    "viewBreakdown": "Qiymət detallar",
+    "promoBaku66": "BAKU66 endirimi",
+    "promoWeekend": "Həftəsonu əlavə haqqı sıfır",
+    "promoLongstay": "Uzunmüddətli bonus",
+    "promoAirport": "Aeroport krediti",
+    "promoVip": "VIP15 endirimi"
+  },
+  "home": {
+    "hero": {
+      "badge": "Premium kirayə",
+      "title": "Bakı üçün",
+      "titleAccent": "66 səviyyəli xidmət",
+      "subtitle": "Şəhər və region turları üçün premium avtomobil parkı, şəffaf qiymətlər və peşəkar komanda.",
+      "ctaPrimary": "Parkı araşdır",
+      "ctaSecondary": "Əlaqə saxla",
+      "trust1": "24/7 dəstək",
+      "trust2": "Şəffaf qiymət",
+      "trust3": "Premium servis",
+      "imageAltCity": "Bakı səma xətti",
+      "imageAltCar": "Premium icarə avtomobili"
+    },
+    "search": {
+      "pickup": "Götürmə",
+      "dropoff": "Təhvil",
+      "pickupDate": "Götürmə tarixi",
+      "dropoffDate": "Təhvil tarixi",
+      "category": "Kateqoriya",
+      "submit": "Sifarişi göstər",
+      "pickupPlaceholder": "Bakı şəhər mərkəzi",
+      "dropoffPlaceholder": "Heydər Əliyev Hava Limanı"
+    },
+    "promos": {
+      "eyebrow": "Endirimlər",
+      "title": "Xüsusi promosiyalar",
+      "badge": "Aktiv"
+    },
+    "destinations": {
+      "eyebrow": "Marşrutlar",
+      "title": "Seçilmiş istiqamətlər",
+      "cta": "Bütün şəhərlər"
+    },
+    "testimonials": {
+      "eyebrow": "Rəylər",
+      "title": "Müştərilər nə deyir",
+      "subtitle": "Reytinq və real təcrübələr",
+      "reviewMeta": "{date} tarixli rəy",
+      "carouselLabel": "Müştəri rəyləri",
+      "prev": "Əvvəlki",
+      "next": "Növbəti",
+      "slideLabel": "Slayda keç: {index}"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Sual-cavab",
+      "subtitle": "Ən çox verilən suallar"
+    },
+    "blog": {
+      "eyebrow": "Bloq",
+      "title": "Son yazılar",
+      "cta": "Bütün yazılar",
+      "news": "Xəbərlər",
+      "readTime": "{minutes} dəq oxu"
+    }
+  },
+  "cars": {
+    "eyebrow": "Park",
+    "title": "Avtomobil parkı",
+    "subtitle": "Hər kateqoriya üçün premium seçim",
+    "filtersLabel": "Filtrlər",
+    "sort": "Sıralama",
+    "sortAsc": "Qiymət: aşağı",
+    "sortDesc": "Qiymət: yüksək",
+    "sortRating": "Reytinq",
+    "availability": {
+      "available": "Mövcud",
+      "limited": "Məhdud",
+      "unavailable": "Mövcud deyil"
+    },
+    "fuel": {
+      "petrol": "Benzin",
+      "diesel": "Dizel",
+      "hybrid": "Hibrid",
+      "electric": "Elektrik"
+    },
+    "transmission": {
+      "automatic": "Avtomatik",
+      "manual": "Mexaniki"
+    },
+    "seats": "oturacaq",
+    "luggage": "baqaj",
+    "daily": "Günlük",
+    "details": "Detallar",
+    "order": "Sifariş",
+    "apply": "Tətbiq et",
+    "tabsLabel": "Kateqoriyalar",
+    "filters": {
+      "brand": "Brend",
+      "all": "Hamısı",
+      "seats": "Oturacaq",
+      "any": "Fərq etmir",
+      "fuel": "Yanacaq",
+      "petrol": "Benzin",
+      "diesel": "Dizel",
+      "hybrid": "Hibrid",
+      "electric": "Elektrik",
+      "priceRange": "Qiymət aralığı",
+      "min": "Min",
+      "max": "Maks"
+    }
+  },
+  "carDetail": {
+    "eyebrow": "Avtomobil",
+    "fuel": {
+      "petrol": "Benzin",
+      "diesel": "Dizel",
+      "hybrid": "Hibrid",
+      "electric": "Elektrik"
+    },
+    "transmission": {
+      "automatic": "Avtomatik",
+      "manual": "Mexaniki"
+    },
+    "seats": "oturacaq",
+    "luggage": "baqaj",
+    "specs": "Texniki göstəricilər",
+    "year": "İl",
+    "engine": "Mühərrik",
+    "economy": "Yanacaq sərfiyyatı",
+    "availability": "Mövcudluq",
+    "availabilityStatus": {
+      "available": "Mövcud",
+      "limited": "Məhdud",
+      "unavailable": "Mövcud deyil"
+    },
+    "highlights": "Üstünlüklər",
+    "reviews": "Bu model üçün rəylər",
+    "similar": "Oxşar avtomobillər",
+    "pricing": {
+      "title": "Qiymət hesablanması",
+      "pickup": "Götürmə",
+      "dropoff": "Təhvil",
+      "startDate": "Başlama",
+      "endDate": "Bitmə",
+      "insurance": "Sığorta",
+      "insuranceBasic": "Basic",
+      "insuranceStandard": "Standard",
+      "insurancePremium": "Premium",
+      "promo": "Promo kod",
+      "extraGps": "GPS",
+      "extraChildSeat": "Uşaq oturacağı",
+      "extraDriver": "Əlavə sürücü",
+      "order": "Sifariş et",
+      "askAgent": "Məsləhət al",
+      "defaultLocation": "Bakı şəhər mərkəzi"
+    }
+  },
+  "services": {
+    "eyebrow": "Xidmətlər",
+    "title": "Premium xidmət paketləri",
+    "subtitle": "Aeroport, sürücü və tur xidmətləri",
+    "cta": "Sifariş et"
+  },
+  "cities": {
+    "eyebrow": "İstiqamətlər",
+    "recommended": "Tövsiyə olunan avtomobillər"
+  },
+  "blog": {
+    "eyebrow": "Bloq",
+    "title": "Səyahət hekayələri",
+    "subtitle": "Marşrutlar, məsləhətlər və xəbərlər",
+    "categoryFallback": "Yenilik",
+    "readTime": "{minutes} dəq oxu",
+    "page": "Səhifə"
+  },
+  "blogDetail": {
+    "meta": "{author} - {date} - {minutes} dəq",
+    "share": "Paylaş",
+    "shareTwitter": "Twitter",
+    "shareFacebook": "Facebook",
+    "shareEmail": "Email",
+    "comments": "Şərh bölməsi aktivdir"
+  },
+  "booking": {
+    "title": "Sifariş",
+    "subtitle": "Məlumatları doldurun və qiyməti təsdiq edin",
+    "steps": {
+      "vehicle": "Avtomobil",
+      "contact": "Əlaqə",
+      "license": "Vəsiqə",
+      "review": "Yekun"
+    },
+    "termsError": "Şərtləri qəbul edin",
+    "validationError": "Bütün sahələri düzgün doldurun.",
+    "vehicle": "Avtomobil seçimi",
+    "pickup": "Götürmə",
+    "dropoff": "Təhvil",
+    "pickupDate": "Götürmə tarixi",
+    "dropoffDate": "Təhvil tarixi",
+    "insurance": "Sığorta",
+    "insuranceBasic": "Basic",
+    "insuranceStandard": "Standard",
+    "insurancePremium": "Premium",
+    "promo": "Promo kod",
+    "extraGps": "GPS",
+    "extraChildSeat": "Uşaq oturacağı",
+    "extraDriver": "Əlavə sürücü",
+    "name": "Ad, soyad",
+    "phone": "Telefon",
+    "email": "Email",
+    "licenseNumber": "Sürücülük vəsiqəsi",
+    "licenseIssue": "Verilmə tarixi",
+    "licenseExpiry": "Bitmə tarixi",
+    "summary": "Sifariş xülasəsi",
+    "summaryCar": "Avtomobil: {car}",
+    "summaryDates": "Tarixlər: {start} - {end}",
+    "summaryLocations": "Götürmə: {pickup} / Təhvil: {dropoff}",
+    "terms": "Şərtləri qəbul edirəm",
+    "back": "Geri",
+    "next": "Davam",
+    "confirm": "Sifarişi təsdiqlə",
+    "priceTitle": "Qiymət yekunu",
+    "perDay": " / gün",
+    "selectCar": "Avtomobil seçin",
+    "successToast": "Sifariş uğurla göndərildi",
+    "defaultLocation": "Bakı şəhər mərkəzi"
+  },
+  "bookingSuccess": {
+    "eyebrow": "Uğur",
+    "title": "Sifariş təsdiqləndi",
+    "subtitle": "Sifarişiniz qəbul edildi, komandamız əlaqə saxlayacaq.",
+    "reference": "Referans:",
+    "car": "Avtomobil: {car}",
+    "locations": "Götürmə: {pickup} / Təhvil: {dropoff}",
+    "dates": "Tarixlər: {start} - {end}",
+    "browse": "Avtomobillərə bax",
+    "contact": "Əlaqə"
+  },
+  "contact": {
+    "eyebrow": "Əlaqə",
+    "title": "Bizimlə əlaqə",
+    "subtitle": "Sürətli cavab və peşəkar dəstək",
+    "details": "Əlaqə məlumatları",
+    "phone": "Telefon",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "instagram": "Instagram",
+    "facebook": "Facebook",
+    "email": "Email",
+    "address": "Ünvan",
+    "hours": "İş saatları",
+    "formTitle": "Mesaj göndərin",
+    "formSubtitle": "Formu doldurun, biz geri dönəcəyik",
+    "form": {
+      "name": "Ad",
+      "email": "Email",
+      "message": "Mesaj",
+      "submit": "Göndər",
+      "success": "Mesaj göndərildi",
+      "error": "Zəhmət olmasa bütün sahələri doldurun."
+    },
+    "addressValue": "AZ1025, Bakı şəhəri, Xətai rayonu, 8 Noyabr ev 3, M31",
+    "hoursValue": "08:00 - 22:00",
+    "mapTitle": "Bakı xəritəsi"
+  },
+  "about": {
+    "eyebrow": "Haqqımızda",
+    "title": "Rent A Car Baku 66",
+    "story": "Biz Bakıda və regionlarda premium avtomobil kirayəsi təqdim edirik. Missiyamız şəffaf qiymət və yüksək komfort təcrübəsi yaratmaqdır.",
+    "fleet": "80+ avtomobildən ibarət park",
+    "support": "24/7 müştəri dəstəyi",
+    "transparent": "Şəffaf qiymət və müqavilə",
+    "missionTitle": "Missiyamız",
+    "missionText": "Sürətli, təhlükəsiz və premium kirayə təcrübəsi təmin etmək.",
+    "valuesTitle": "Dəyərlərimiz",
+    "value1": "Müştəri məmnuniyyəti",
+    "value2": "Keyfiyyət və təhlükəsizlik",
+    "value3": "Dürüst əməkdaşlıq"
+  },
+  "meta": {
+    "home": {
+      "title": "Rent A Car Baku 66 - Premium avtomobil kirayəsi",
+      "description": "Bakıda premium avtomobil kirayəsi, şəffaf qiymətlər və sürətli xidmət."
+    },
+    "cars": {
+      "title": "Avtomobil parkı - Rent A Car Baku 66",
+      "description": "Ekonomdan premiuma qədər geniş avtomobil seçimi."
+    },
+    "carDetail": {
+      "title": "Avtomobil detallar",
+      "description": "Model haqqında texniki və qiymət məlumatları."
+    },
+    "booking": {
+      "title": "Sifariş - Rent A Car Baku 66",
+      "description": "Sifarişi təsdiq edin və qiymət detalını görün."
+    },
+    "bookingSuccess": {
+      "title": "Sifariş təsdiqləndi",
+      "description": "Sifarişiniz qəbul edildi."
+    },
+    "blog": {
+      "title": "Bloq - Rent A Car Baku 66",
+      "description": "Səyahət hekayələri və məsləhətlər."
+    },
+    "blogDetail": {
+      "title": "Bloq yazısı",
+      "description": "Marşrutlar və məsləhətlər."
+    },
+    "services": {
+      "title": "Xidmətlər - Rent A Car Baku 66",
+      "description": "Aeroport transferi, sürücü və turlar."
+    },
+    "city": {
+      "title": "Şəhər bələdçisi",
+      "description": "Marşrutlar və tövsiyələr."
+    },
+    "about": {
+      "title": "Haqqımızda - Rent A Car Baku 66",
+      "description": "Şirkət hekayəsi və dəyərlər."
+    },
+    "contact": {
+      "title": "Əlaqə - Rent A Car Baku 66",
+      "description": "Telefon, email və əlaqə formu."
+    }
+  },
+  "notFound": {
+    "title": "Səhifə tapılmadı",
+    "subtitle": "Axtardığınız səhifə mövcud deyil.",
+    "cta": "Ana səhifə"
+  },
+  "layout": {
+    "skip": "Məzmuna keç"
+  }
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "dest-01",
+    "slug": "gabala",
+    "name": {
+      "az": "Qəbələ",
+      "en": "Gabala",
+      "ru": "Габала"
+    },
+    "description": {
+      "az": "Dağ havası, göllər və ailəvi istirahət üçün ideal marşrut.",
+      "en": "Mountain air, lakes, and a perfect family escape.",
+      "ru": "Горный воздух, озёра и идеальный семейный отдых."
+    },
+    "image": "/images/destinations/gabala.jpg",
+    "highlight": {
+      "az": "Dağ mənzərələri",
+      "en": "Mountain views",
+      "ru": "Горные виды"
+    },
+    "attractions": [
+      {
+        "az": "Tufandağ xizək kompleksi",
+        "en": "Tufandag ski resort",
+        "ru": "Горнолыжный комплекс Туфандаг"
+      },
+      {
+        "az": "Nohur gölü",
+        "en": "Nohur lake",
+        "ru": "Озеро Нохур"
+      }
+    ]
+  },
+  {
+    "id": "dest-02",
+    "slug": "quba",
+    "name": {
+      "az": "Quba",
+      "en": "Quba",
+      "ru": "Губа"
+    },
+    "description": {
+      "az": "Şahdağ ətəklərində tarixi kəndlər və təbiət marşrutları.",
+      "en": "Historic villages and scenic routes near Shahdag.",
+      "ru": "Исторические сёла и маршруты у подножия Шахдага."
+    },
+    "image": "/images/destinations/quba.jpg",
+    "highlight": {
+      "az": "Xınalıq yolu",
+      "en": "Khinalig road",
+      "ru": "Дорога в Хыналыг"
+    },
+    "attractions": [
+      {
+        "az": "Xınalıq kəndi",
+        "en": "Khinalig village",
+        "ru": "Село Хыналыг"
+      },
+      {
+        "az": "Quba meşələri",
+        "en": "Quba forests",
+        "ru": "Леса Кубы"
+      }
+    ]
+  },
+  {
+    "id": "dest-03",
+    "slug": "qusar",
+    "name": {
+      "az": "Qusar",
+      "en": "Qusar",
+      "ru": "Гусар"
+    },
+    "description": {
+      "az": "Yay sərinliyi və Şahdağ mərkəzi ilə məşhur bölgə.",
+      "en": "Cool summers and the famous Shahdag center.",
+      "ru": "Прохладное лето и знаменитый центр Шахдаг."
+    },
+    "image": "/images/destinations/qusar.jpg",
+    "highlight": {
+      "az": "Şahdağ kurortu",
+      "en": "Shahdag resort",
+      "ru": "Курорт Шахдаг"
+    },
+    "attractions": [
+      {
+        "az": "Şahdağ turizm mərkəzi",
+        "en": "Shahdag tourist center",
+        "ru": "Туристический центр Шахдаг"
+      },
+      {
+        "az": "Qusar çayı",
+        "en": "Qusar river",
+        "ru": "Река Гусар"
+      }
+    ]
+  },
+  {
+    "id": "dest-04",
+    "slug": "shamakhi",
+    "name": {
+      "az": "Şamaxı",
+      "en": "Shamakhi",
+      "ru": "Шамахы"
+    },
+    "description": {
+      "az": "Şərab bağları və tarixə səyahət üçün yaxın marşrut.",
+      "en": "Vineyards and history in a nearby escape.",
+      "ru": "Виноградники и история в ближайшем маршруте."
+    },
+    "image": "/images/destinations/shamakhi.jpg",
+    "highlight": {
+      "az": "Şamaxı rəsədxanası",
+      "en": "Shamakhi observatory",
+      "ru": "Шамахинская обсерватория"
+    },
+    "attractions": [
+      {
+        "az": "Yeddi günbəz",
+        "en": "Seven domes",
+        "ru": "Семь куполов"
+      },
+      {
+        "az": "Şamaxı şərab evləri",
+        "en": "Shamakhi wine houses",
+        "ru": "Винные дома Шамахи"
+      }
+    ]
+  },
+  {
+    "id": "dest-05",
+    "slug": "sheki",
+    "name": {
+      "az": "Şəki",
+      "en": "Sheki",
+      "ru": "Шеки"
+    },
+    "description": {
+      "az": "Tarixi karvansaraylar və zəngin mətbəx təcrübəsi.",
+      "en": "Historic caravanserais and rich cuisine.",
+      "ru": "Исторические караван-сараи и богатая кухня."
+    },
+    "image": "/images/destinations/sheki.jpg",
+    "highlight": {
+      "az": "Şəki Xan Sarayı",
+      "en": "Sheki Khan Palace",
+      "ru": "Дворец Шекинских ханов"
+    },
+    "attractions": [
+      {
+        "az": "Karvansaray",
+        "en": "Caravanserai",
+        "ru": "Караван-сарай"
+      },
+      {
+        "az": "Şəki bazarı",
+        "en": "Sheki market",
+        "ru": "Шекинский базар"
+      }
+    ]
+  }
+]
