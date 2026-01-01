@@ -11,10 +11,7 @@ import { getPostFrontmatter } from "@/lib/blog";
 import type { Locale } from "@/i18n/routing";
 import { locales } from "@/i18n/routing";
 
-export const metadata = buildMetadata({
-  title: "Prime Rent A Car - Premium car rental",
-  description: "Premium car rental in Baku with transparent pricing and a modern fleet.",
-});
+export const metadata = buildMetadata();
 
 export default function HomePage() {
   const orgJsonLd = buildOrganizationJsonLd();

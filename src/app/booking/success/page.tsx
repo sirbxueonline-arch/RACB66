@@ -2,10 +2,7 @@ import { Suspense } from "react";
 import BookingSuccess from "@/components/sections/BookingSuccess";
 import { buildMetadata } from "@/lib/seo";
 
-export const metadata = buildMetadata({
-  title: "Booking confirmed - Prime Rent A Car",
-  description: "Your booking request is confirmed.",
-});
+export const metadata = buildMetadata();
 
 export default function BookingSuccessPage() {
   return (

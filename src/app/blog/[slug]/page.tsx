@@ -20,14 +20,9 @@ export async function generateMetadata({ params }: PageProps) {
   const { slug } = await params;
   const post = getPostSource(defaultLocale, slug);
   if (!post) {
-    return buildMetadata({
-      title: "Blog post - Prime Rent A Car",
-      description: "Travel stories and rental insights.",
-    });
+    return buildMetadata();
   }
   return buildMetadata({
-    title: post.frontmatter.title,
-    description: post.frontmatter.excerpt,
     image: post.frontmatter.cover,
   });
 }

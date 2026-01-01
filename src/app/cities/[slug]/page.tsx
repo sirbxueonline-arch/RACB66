@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
-import { destinationsData, getLocalizedText, carsData } from "@/lib/data";
-import { defaultLocale } from "@/i18n/routing";
+import { destinationsData, carsData } from "@/lib/data";
 import { buildMetadata } from "@/lib/seo";
 import CityContent from "@/components/sections/CityContent";
 
@@ -12,17 +11,8 @@ type PageProps = {
   params: Promise<{ slug: string }>;
 };
 
-export async function generateMetadata({ params }: PageProps) {
-  const { slug } = await params;
-  const city = destinationsData.find((item) => item.slug === slug);
-  return buildMetadata({
-    title: city
-      ? `${getLocalizedText(city.name, defaultLocale)} - City guide`
-      : "City guide",
-    description: city
-      ? getLocalizedText(city.description, defaultLocale)
-      : "Routes and recommendations.",
-  });
+export async function generateMetadata() {
+  return buildMetadata();
 }
 
 export default async function CityPage({ params }: PageProps) {

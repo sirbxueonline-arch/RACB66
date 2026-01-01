@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import I18nProvider from "@/components/providers/I18nProvider";
 import AppShell from "@/components/layout/AppShell";
+import {
+  DEFAULT_META_DESCRIPTION,
+  DEFAULT_META_KEYWORDS,
+  DEFAULT_META_TITLE,
+} from "@/lib/seo";
 import "./globals.css";
 
 const inter = Inter({
@@ -10,9 +15,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Prime Rent A Car",
-  description:
-    "Prime Rent A Car offers modern rentals in Baku with transparent pricing and professional support.",
+  title: DEFAULT_META_TITLE,
+  description: DEFAULT_META_DESCRIPTION,
+  keywords: DEFAULT_META_KEYWORDS,
 };
 
 export default function RootLayout({
