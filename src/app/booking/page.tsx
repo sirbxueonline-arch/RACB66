@@ -3,7 +3,7 @@ import BookingFlow from "@/components/sections/BookingFlow";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Booking - Rent A Car Baku 66",
+  title: "Booking - Prime Rent A Car",
   description: "Confirm your booking details and pricing.",
 });
 

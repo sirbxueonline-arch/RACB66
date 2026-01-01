@@ -14,8 +14,8 @@
     "language": "Dil"
   },
   "footer": {
-    "brand": "Rent A Car Baku 66",
-    "tagline": "Bakıda və regionlarda premium kirayə təcrübəsi.",
+    "brand": "Prime Rent A Car",
+    "tagline": "Prime s\u00fcr. Daha az \u00f6d\u0259.",
     "phone": "Telefon",
     "email": "Email",
     "address": "Ünvan",
@@ -34,7 +34,7 @@
     "facebook": "Facebook",
     "telegram": "Telegram",
     "whatsapp": "WhatsApp",
-    "copyright": "(c) 2025 Rent A Car Baku 66. Bütün hüquqlar qorunur.",
+    "copyright": "(c) 2025 Prime Rent A Car. Bütün hüquqlar qorunur.",
     "addressValue": "AZ1025, Bakı, Xətai rayonu, 8 Noyabr prospekti, bina 3, M31"
   },
   "categories": {
@@ -62,9 +62,9 @@
   },
   "home": {
     "hero": {
-      "badge": "Premium kirayə",
-      "title": "Bakı,",
-      "titleAccent": "66-da zərif",
+      "badge": "Prime Rent A Car",
+      "title": "Prime s\u00fcr.",
+      "titleAccent": "Daha az \u00f6d\u0259.",
       "subtitle": "Premium park, şəffaf qiymətlər və rahat səyahət üçün komanda.",
       "ctaPrimary": "Parkı kəşf et",
       "ctaSecondary": "Bizimlə əlaqə",
@@ -90,7 +90,7 @@
       "badge": "Aktiv"
     },
     "whyChoose": {
-      "eyebrow": "Niyə Rent66",
+      "eyebrow": "Niyə Prime",
       "title": "Premium səyahət üçün yaradılıb",
       "subtitle": "Detalları biz həll edirik ki, komandanız Bakıda inamla hərəkət etsin.",
       "cta": "Sifarişə başla",
@@ -399,6 +399,7 @@
     "perDay": " / gün",
     "selectCar": "Avtomobil seçin",
     "successToast": "Sifariş göndərildi",
+    "submitError": "Xəta baş verdi. Zəhmət olmasa yenidən cəhd edin.",
     "defaultLocation": "Bakı şəhər mərkəzi"
   },
   "bookingSuccess": {
@@ -428,20 +429,36 @@
     "formTitle": "Mesaj göndərin",
     "formSubtitle": "Formu doldurun, cavab verək",
     "form": {
-      "name": "Ad",
-      "email": "Email",
-      "message": "Mesaj",
-      "submit": "Göndər",
-      "success": "Mesaj göndərildi",
+      "pickup": "Götürmə yeri",
+      "dropoff": "Təhvil yeri",
+      "pickupDate": "Götürmə tarixi",
+      "returnDate": "Qaytarma tarixi",
+      "category": "Kateqoriya",
+      "car": "Maşın modeli",
+      "phone": "Telefon nömrəsi",
+      "name": "Ad Soyad",
+      "pickupPlaceholder": "Götürmə yeri",
+      "dropoffPlaceholder": "Təhvil yeri",
+      "carPlaceholder": "Maşın modeli (BMW X5 və s.)",
+      "phonePlaceholder": "Telefon nömrəsi",
+      "namePlaceholder": "Ad Soyad",
+      "submit": "Sifarişi göndər",
+      "success": "Müraciətiniz üçün təşəkkür edirik. Tezliklə əlaqə saxlayacağıq.",
       "error": "Zəhmət olmasa bütün tələb olunan sahələri doldurun."
     },
     "addressValue": "AZ1025, Bakı, Xətai rayonu, 8 Noyabr prospekti, bina 3, M31",
     "hoursValue": "08:00 - 22:00",
     "mapTitle": "Bakı xəritəsi"
   },
+  "thanks": {
+    "eyebrow": "Təşəkkürlər",
+    "title": "Müraciətiniz üçün təşəkkür edirik",
+    "subtitle": "Sorğunuz qəbul edildi, tezliklə əlaqə saxlayacağıq.",
+    "backHome": "Ana səhifəyə qayıt"
+  },
   "about": {
     "eyebrow": "Haqqımızda",
-    "title": "Rent A Car Baku 66",
+    "title": "Prime Rent A Car",
     "story": "Bakı və regionlarda şəffaf qiymətlərlə premium kirayə xidmətləri təqdim edirik.",
     "fleet": "80+ avtomobil parkı",
     "support": "24/7 müştəri dəstəyi",
@@ -455,11 +472,11 @@
   },
   "meta": {
     "home": {
-      "title": "Rent A Car Baku 66 - Premium avtomobil kirayəsi",
+      "title": "Prime Rent A Car - Premium avtomobil kirayəsi",
       "description": "Bakıda premium avtomobil kirayəsi, şəffaf qiymətlər və seçilmiş park."
     },
     "cars": {
-      "title": "Avtomobil parkı - Rent A Car Baku 66",
+      "title": "Avtomobil parkı - Prime Rent A Car",
       "description": "Ekonom, biznes və premium avtomobilləri kəşf edin."
     },
     "carDetail": {
@@ -467,7 +484,7 @@
       "description": "Xüsusiyyətlər və şəffaf qiymət."
     },
     "booking": {
-      "title": "Sifariş - Rent A Car Baku 66",
+      "title": "Sifariş - Prime Rent A Car",
       "description": "Sifarişi təsdiqləyin və qiyməti yoxlayın."
     },
     "bookingSuccess": {
@@ -475,7 +492,7 @@
       "description": "Sifariş sorğunuz qəbul edildi."
     },
     "blog": {
-      "title": "Bloq - Rent A Car Baku 66",
+      "title": "Bloq - Prime Rent A Car",
       "description": "Səyahət hekayələri və məsləhətlər."
     },
     "blogDetail": {
@@ -483,7 +500,7 @@
       "description": "Səyahət hekayəsi və məlumatlar."
     },
     "services": {
-      "title": "Xidmətlər - Rent A Car Baku 66",
+      "title": "Xidmətlər - Prime Rent A Car",
       "description": "Aeroport transferi, sürücü və turlar."
     },
     "city": {
@@ -491,11 +508,11 @@
       "description": "Marşrutlar və tövsiyələr."
     },
     "about": {
-      "title": "Haqqımızda - Rent A Car Baku 66",
+      "title": "Haqqımızda - Prime Rent A Car",
       "description": "Şirkət hekayəsi və dəyərlər."
     },
     "contact": {
-      "title": "Əlaqə - Rent A Car Baku 66",
+      "title": "Əlaqə - Prime Rent A Car",
       "description": "Telefon, email və əlaqə formu."
     }
   },

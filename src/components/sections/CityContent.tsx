@@ -63,13 +63,15 @@ export default function CityContent({
                 href={`/cars/${car.slug}`}
                 className="group overflow-hidden rounded-2xl border border-black/10 bg-white shadow-soft"
               >
-                <Image
-                  src={car.images[0]}
-                  alt={car.name}
-                  width={320}
-                  height={220}
-                  className="h-40 w-full object-cover transition duration-500 group-hover:scale-105"
-                />
+                <div className="relative h-40">
+                  <Image
+                    src={car.images[0]}
+                    alt={car.name}
+                    fill
+                    sizes="(min-width: 768px) 33vw, 100vw"
+                    className="object-cover transition duration-500 group-hover:scale-105"
+                  />
+                </div>
                 <div className="p-4">
                   <p className="text-sm font-semibold text-black">{car.name}</p>
                   <p className="text-xs text-black/60">{car.brand}</p>

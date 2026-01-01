@@ -5,11 +5,11 @@ type ButtonVariant = "primary" | "secondary" | "ghost" | "outline";
 type ButtonSize = "sm" | "md" | "lg";
 
 const baseStyles =
-  "focus-ring inline-flex items-center justify-center gap-2 rounded-full font-semibold transition hover:-translate-y-0.5 active:translate-y-0";
+  "focus-ring inline-flex items-center justify-center gap-2 rounded-lg font-semibold transition hover:-translate-y-0.5 active:translate-y-0";
 
 const variants: Record<ButtonVariant, string> = {
   primary:
-    "bg-brand-yellow text-black shadow-soft hover:bg-[#f5c12b] border border-transparent",
+    "bg-brand-yellow text-black shadow-soft hover:bg-[#f7b44a] border border-transparent",
   secondary:
     "bg-black text-white hover:bg-black/90 border border-black",
   ghost: "bg-transparent text-black hover:bg-black/5",

@@ -107,7 +107,7 @@ export default function CarsListing() {
         <div className="flex gap-3">
           <Link
             href="/compare"
-            className="focus-ring inline-flex items-center rounded-full border border-black/15 px-5 py-2 text-sm font-semibold text-black transition hover:border-black/40 hover:bg-black/5"
+            className="focus-ring inline-flex items-center whitespace-nowrap rounded-lg border border-black/15 px-5 py-2 text-sm font-semibold text-black transition hover:border-black/40 hover:bg-black/5"
           >
             {t("compareCta")}
           </Link>
@@ -169,13 +169,13 @@ export default function CarsListing() {
                     transition={{ duration: 0.3 }}
                     className="flex h-full flex-col overflow-hidden rounded-3xl border border-black/10 bg-white shadow-soft"
                   >
-                    <div className="relative">
+                    <div className="relative h-52">
                       <Image
                         src={car.images[0]}
                         alt={car.name}
-                        width={480}
-                        height={320}
-                        className="h-52 w-full object-cover"
+                        fill
+                        sizes="(min-width: 1024px) 420px, (min-width: 768px) 50vw, 100vw"
+                        className="object-cover"
                       />
                       <span
                         className={cn(
@@ -234,13 +234,13 @@ export default function CarsListing() {
                         <div className="flex gap-2">
                           <Link
                             href={`/cars/${car.slug}`}
-                            className="focus-ring rounded-full border border-black/10 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-black/70"
+                            className="focus-ring whitespace-nowrap rounded-lg border border-black/10 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-black/70"
                           >
                             {t("details")}
                           </Link>
                           <Link
                             href={`/booking?car=${car.slug}`}
-                            className="focus-ring rounded-full bg-brand-yellow px-4 py-2 text-xs font-semibold uppercase tracking-wide text-black"
+                            className="focus-ring whitespace-nowrap rounded-lg bg-brand-yellow px-4 py-2 text-xs font-semibold uppercase tracking-wide text-black"
                           >
                             {t("order")}
                           </Link>

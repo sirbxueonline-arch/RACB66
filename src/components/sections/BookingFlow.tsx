@@ -52,10 +52,27 @@ const step4Schema = z.object({
   termsAccepted: z.literal(true),
 });
 
-const storageKey = "rent66-booking-draft";
+const storageKey = "prime-rent-booking-draft";
+const formspreeEndpoint = "https://formspree.io/f/mjgkkdyg";
+
+const formatDateNumeric = (value: string) => {
+  if (!value) return "-";
+  const [year, month, day] = value.split("-");
+  if (!year || !month || !day) return value;
+  return `${day}/${month}/${year}`;
+};
+
+const formatDateTimeNumeric = (value: string) => {
+  if (!value) return "-";
+  const [datePart, timePart] = value.split("T");
+  const date = formatDateNumeric(datePart);
+  const time = timePart ? timePart.slice(0, 5) : "00:00";
+  return `${date} ${time}`;
+};
 
 export default function BookingFlow() {
   const t = useTranslations("booking");
+  const tCategories = useTranslations("categories");
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
@@ -70,6 +87,7 @@ export default function BookingFlow() {
   const defaultCar = carsData[0]?.slug ?? "";
   const [step, setStep] = useState(0);
   const [errors, setErrors] = useState<string[]>([]);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   type FormData = {
     carSlug: string;
     pickupLocation: string;
@@ -259,19 +277,93 @@ export default function BookingFlow() {
     setStep((prev) => Math.max(prev - 1, 0));
   };
 
-  const handleConfirm = () => {
+  const handleConfirm = async () => {
     if (!validateCurrentStep()) return;
+    if (isSubmitting) return;
+    if (!selectedCar) {
+      setErrors([t("validationError")]);
+      return;
+    }
+    setErrors([]);
+    setIsSubmitting(true);
+
     const reference = `RC66-${Math.random().toString(36).slice(2, 8).toUpperCase()}`;
+    const categoryLabel = tCategories(selectedCar.category);
+    const message = [
+      "🚗 Yeni Sifariş - Prime Rent A Car",
+      "",
+      "👤 Müştəri məlumatı:",
+      `Ad Soyad:  ${formData.name}`,
+      `Telefon:   ${formData.phone}`,
+      formData.email ? `Email:     ${formData.email}` : null,
+      "",
+      "🚘 Maşın məlumatı:",
+      `Model:             ${selectedCar.name}`,
+      `Kateqoriya:        ${categoryLabel}`,
+      "",
+      "📍 Marşrut:",
+      `Götürmə yeri:      ${formData.pickupLocation}`,
+      `Təhvil yeri:       ${formData.dropoffLocation}`,
+      "",
+      "🕒 Tarixlər:",
+      `Götürmə tarixi:    ${formatDateTimeNumeric(formData.pickupDate)}`,
+      `Təhvil tarixi:     ${formatDateTimeNumeric(formData.dropoffDate)}`,
+      "",
+      "🪪 Sürücülük vəsiqəsi:",
+      `Nömrə:            ${formData.licenseNumber}`,
+      `Verilmə tarixi:   ${formatDateNumeric(formData.licenseIssue)}`,
+      `Bitmə tarixi:     ${formatDateNumeric(formData.licenseExpiry)}`,
+    ]
+      .filter((line) => line !== null)
+      .join("\n");
+
     const payload = {
       reference,
       ...formData,
       total: pricing?.total ?? 0,
       carName: selectedCar?.name ?? "",
     };
-    localStorage.setItem("rent66-booking-confirmation", JSON.stringify(payload));
-    localStorage.removeItem(storageKey);
-    pushToast(t("successToast"), "success");
-    router.push(`${pathname}/success?ref=${reference}`);
+    try {
+      const formPayload = new FormData();
+      formPayload.append("name", formData.name);
+      formPayload.append("phone", formData.phone);
+      formPayload.append("email", formData.email);
+      formPayload.append("car", selectedCar.name);
+      formPayload.append("category", categoryLabel);
+      formPayload.append("pickup", formData.pickupLocation);
+      formPayload.append("dropoff", formData.dropoffLocation);
+      formPayload.append("pickupDate", formData.pickupDate);
+      formPayload.append("returnDate", formData.dropoffDate);
+      formPayload.append("licenseNumber", formData.licenseNumber);
+      formPayload.append("licenseIssue", formData.licenseIssue);
+      formPayload.append("licenseExpiry", formData.licenseExpiry);
+      formPayload.append("message", message);
+      formPayload.append("_subject", "Yeni Sifariş - Prime Rent A Car");
+      formPayload.append("_replyto", formData.email);
+
+      const response = await fetch(formspreeEndpoint, {
+        method: "POST",
+        headers: { Accept: "application/json" },
+        body: formPayload,
+      });
+
+      if (!response.ok) {
+        setErrors([t("submitError")]);
+        return;
+      }
+
+      localStorage.setItem(
+        "prime-rent-booking-confirmation",
+        JSON.stringify(payload)
+      );
+      localStorage.removeItem(storageKey);
+      pushToast(t("successToast"), "success");
+      router.push(`${pathname}/success?ref=${reference}`);
+    } catch {
+      setErrors([t("submitError")]);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -691,7 +783,13 @@ export default function BookingFlow() {
               {step < steps.length - 1 ? (
                 <Button onClick={handleNext}>{t("next")}</Button>
               ) : (
-                <Button onClick={handleConfirm}>{t("confirm")}</Button>
+                <Button
+                  onClick={handleConfirm}
+                  disabled={isSubmitting}
+                  className={isSubmitting ? "cursor-not-allowed opacity-70" : undefined}
+                >
+                  {t("confirm")}
+                </Button>
               )}
             </div>
           </div>

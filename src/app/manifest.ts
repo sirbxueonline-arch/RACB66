@@ -4,13 +4,13 @@ export const dynamic = "force-static";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Rent A Car Baku 66",
-    short_name: "Rent66",
-    description: "Premium car rental in Baku with a curated fleet and transparent pricing.",
+    name: "Prime Rent A Car",
+    short_name: "Prime Rent",
+    description: "Prime Rent A Car offers modern rentals in Baku with transparent pricing.",
     start_url: "/",
     display: "standalone",
-    background_color: "#FFFFFF",
-    theme_color: "#F6B80C",
+    background_color: "#F4F6FB",
+    theme_color: "#F5A524",
     icons: [
       {
         src: "/icons/icon-192.png",

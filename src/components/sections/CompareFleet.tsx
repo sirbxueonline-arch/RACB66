@@ -167,13 +167,13 @@ export default function CompareFleet() {
                     isSelected ? "border-brand-yellow" : "border-black/10"
                   )}
                 >
-                  <div className="relative">
+                  <div className="relative h-40">
                     <Image
                       src={car.images[0]}
                       alt={car.name}
-                      width={480}
-                      height={320}
-                      className="h-40 w-full object-cover"
+                      fill
+                      sizes="(min-width: 1024px) 320px, (min-width: 768px) 50vw, 100vw"
+                      className="object-cover"
                     />
                     <span className="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-black">
                       {tCategories(car.category)}

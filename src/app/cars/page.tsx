@@ -3,7 +3,7 @@ import { buildMetadata, buildCarListJsonLd } from "@/lib/seo";
 import { carsData } from "@/lib/data";
 
 export const metadata = buildMetadata({
-  title: "Car fleet - Rent A Car Baku 66",
+  title: "Car fleet - Prime Rent A Car",
   description: "Explore economy, business, SUV, and premium car options.",
 });
 

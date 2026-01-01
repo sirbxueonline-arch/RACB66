@@ -47,7 +47,7 @@ export function buildOrganizationJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Rent A Car Baku 66",
+    name: "Prime Rent A Car",
     url: siteUrl,
     logo: `${siteUrl}/images/logo.png`,
     sameAs: [

@@ -14,7 +14,7 @@ type LocaleContextValue = {
 };
 
 const LocaleContext = createContext<LocaleContextValue | undefined>(undefined);
-const storageKey = "rent66-locale";
+const storageKey = "prime-rent-locale";
 const timeZone = "Asia/Baku";
 const messagesByLocale: Record<Locale, Record<string, unknown>> = {
   az: azMessages,

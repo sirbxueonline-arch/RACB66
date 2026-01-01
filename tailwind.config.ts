@@ -7,17 +7,17 @@ const config: Config = {
     extend: {
       colors: {
         brand: {
-          yellow: "#F6B80C",
-          black: "#000000",
+          yellow: "#F5A524",
+          black: "#0B1D39",
           white: "#FFFFFF",
         },
       },
       fontFamily: {
         sans: ["var(--font-inter)", "Inter", "sans-serif"],
-        display: ["var(--font-playfair)", "Playfair Display", "serif"],
+        display: ["var(--font-inter)", "Inter", "sans-serif"],
       },
       boxShadow: {
-        soft: "0 24px 60px rgba(0, 0, 0, 0.15)",
+        soft: "0 24px 60px rgba(11, 29, 57, 0.18)",
       },
       keyframes: {
         "fade-up": {

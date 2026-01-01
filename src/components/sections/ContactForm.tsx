@@ -3,41 +3,97 @@
 import { useId, useState } from "react";
 import { z } from "zod";
 import { useTranslations } from "next-intl";
+import { useRouter } from "next/navigation";
 import Input from "@/components/ui/Input";
+import Select from "@/components/ui/Select";
 import Button from "@/components/ui/Button";
 import { useToast } from "@/components/ui/ToastProvider";
 
 const schema = z.object({
-  name: z.string().min(2),
-  email: z.string().email(),
-  message: z.string().min(5),
+  pickup: z.string().trim().min(2),
+  dropoff: z.string().trim().min(2),
+  pickupDate: z.string().min(1),
+  returnDate: z.string().min(1),
+  category: z.string().min(1),
+  car: z.string().trim().min(2),
+  phone: z.string().trim().min(5),
+  name: z.string().trim().min(2),
 });
+
+const categories = ["economy", "business", "premium", "suv", "minivan"];
+const formspreeEndpoint = "https://formspree.io/f/mjgkkdyg";
 
 export default function ContactForm() {
   const t = useTranslations("contact.form");
+  const tCategories = useTranslations("categories");
+  const router = useRouter();
   const { pushToast } = useToast();
   const id = useId();
   const [values, setValues] = useState({
+    pickup: "",
+    dropoff: "",
+    pickupDate: "",
+    returnDate: "",
+    category: "economy",
+    car: "",
+    phone: "",
     name: "",
-    email: "",
-    message: "",
   });
   const [errors, setErrors] = useState<string[]>([]);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (event: React.FormEvent) => {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    if (isSubmitting) {
+      return;
+    }
     const result = schema.safeParse(values);
     if (!result.success) {
       setErrors([t("error")]);
       return;
     }
     setErrors([]);
-    pushToast(t("success"), "success");
-    setValues({ name: "", email: "", message: "" });
+    setIsSubmitting(true);
+    try {
+      const formData = new FormData(event.currentTarget);
+      const response = await fetch(formspreeEndpoint, {
+        method: "POST",
+        headers: { Accept: "application/json" },
+        body: formData,
+      });
+      if (!response.ok) {
+        setErrors([t("error")]);
+        return;
+      }
+      pushToast(t("success"), "success");
+      setValues({
+        pickup: "",
+        dropoff: "",
+        pickupDate: "",
+        returnDate: "",
+        category: "economy",
+        car: "",
+        phone: "",
+        name: "",
+      });
+      event.currentTarget.reset();
+      setTimeout(() => {
+        router.push("/tesekkurler");
+      }, 900);
+    } catch {
+      setErrors([t("error")]);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-4">
+    <form
+      onSubmit={handleSubmit}
+      action={formspreeEndpoint}
+      method="POST"
+      className="space-y-4"
+    >
       {errors.length > 0 && (
         <div className="rounded-2xl border border-red-200 bg-red-50 p-3 text-sm text-red-700">
           {errors.map((error) => (
@@ -47,53 +103,165 @@ export default function ContactForm() {
       )}
       <div>
         <label
-          htmlFor={`${id}-name`}
+          htmlFor={`${id}-pickup`}
           className="text-xs font-semibold uppercase tracking-wide text-black/50"
         >
-          {t("name")}
+          {t("pickup")}
         </label>
         <Input
-          id={`${id}-name`}
-          value={values.name}
+          id={`${id}-pickup`}
+          name="pickup"
+          value={values.pickup}
+          placeholder={t("pickupPlaceholder")}
+          required
           onChange={(event) =>
-            setValues((prev) => ({ ...prev, name: event.target.value }))
+            setValues((prev) => ({ ...prev, pickup: event.target.value }))
           }
         />
       </div>
       <div>
         <label
-          htmlFor={`${id}-email`}
+          htmlFor={`${id}-dropoff`}
           className="text-xs font-semibold uppercase tracking-wide text-black/50"
         >
-          {t("email")}
+          {t("dropoff")}
         </label>
         <Input
-          id={`${id}-email`}
-          type="email"
-          value={values.email}
+          id={`${id}-dropoff`}
+          name="dropoff"
+          value={values.dropoff}
+          placeholder={t("dropoffPlaceholder")}
+          required
           onChange={(event) =>
-            setValues((prev) => ({ ...prev, email: event.target.value }))
+            setValues((prev) => ({ ...prev, dropoff: event.target.value }))
           }
         />
+      </div>
+      <div className="grid gap-4 md:grid-cols-2">
+        <div>
+          <label
+            htmlFor={`${id}-pickup-date`}
+            className="text-xs font-semibold uppercase tracking-wide text-black/50"
+          >
+            {t("pickupDate")}
+          </label>
+          <Input
+            id={`${id}-pickup-date`}
+            type="datetime-local"
+            name="pickupDate"
+            value={values.pickupDate}
+            required
+            onChange={(event) =>
+              setValues((prev) => ({ ...prev, pickupDate: event.target.value }))
+            }
+          />
+        </div>
+        <div>
+          <label
+            htmlFor={`${id}-return-date`}
+            className="text-xs font-semibold uppercase tracking-wide text-black/50"
+          >
+            {t("returnDate")}
+          </label>
+          <Input
+            id={`${id}-return-date`}
+            type="datetime-local"
+            name="returnDate"
+            value={values.returnDate}
+            required
+            onChange={(event) =>
+              setValues((prev) => ({ ...prev, returnDate: event.target.value }))
+            }
+          />
+        </div>
       </div>
       <div>
         <label
-          htmlFor={`${id}-message`}
+          htmlFor={`${id}-category`}
           className="text-xs font-semibold uppercase tracking-wide text-black/50"
         >
-          {t("message")}
+          {t("category")}
         </label>
-        <textarea
-          id={`${id}-message`}
-          value={values.message}
+        <Select
+          id={`${id}-category`}
+          name="category"
+          value={values.category}
           onChange={(event) =>
-            setValues((prev) => ({ ...prev, message: event.target.value }))
+            setValues((prev) => ({ ...prev, category: event.target.value }))
           }
-          className="focus-ring w-full rounded-2xl border border-black/10 bg-white px-4 py-3 text-sm text-black shadow-sm"
-          rows={5}
+        >
+          {categories.map((category) => (
+            <option key={category} value={category}>
+              {tCategories(category)}
+            </option>
+          ))}
+        </Select>
+      </div>
+      <div>
+        <label
+          htmlFor={`${id}-car`}
+          className="text-xs font-semibold uppercase tracking-wide text-black/50"
+        >
+          {t("car")}
+        </label>
+        <Input
+          id={`${id}-car`}
+          name="car"
+          value={values.car}
+          placeholder={t("carPlaceholder")}
+          required
+          onChange={(event) =>
+            setValues((prev) => ({ ...prev, car: event.target.value }))
+          }
         />
       </div>
-      <Button type="submit">{t("submit")}</Button>
+      <div className="grid gap-4 md:grid-cols-2">
+        <div>
+          <label
+            htmlFor={`${id}-phone`}
+            className="text-xs font-semibold uppercase tracking-wide text-black/50"
+          >
+            {t("phone")}
+          </label>
+          <Input
+            id={`${id}-phone`}
+            type="tel"
+            name="phone"
+            value={values.phone}
+            placeholder={t("phonePlaceholder")}
+            required
+            onChange={(event) =>
+              setValues((prev) => ({ ...prev, phone: event.target.value }))
+            }
+          />
+        </div>
+        <div>
+          <label
+            htmlFor={`${id}-name`}
+            className="text-xs font-semibold uppercase tracking-wide text-black/50"
+          >
+            {t("name")}
+          </label>
+          <Input
+            id={`${id}-name`}
+            name="name"
+            value={values.name}
+            placeholder={t("namePlaceholder")}
+            required
+            onChange={(event) =>
+              setValues((prev) => ({ ...prev, name: event.target.value }))
+            }
+          />
+        </div>
+      </div>
+      <input type="hidden" name="_next" value="/tesekkurler" />
+      <Button
+        type="submit"
+        disabled={isSubmitting}
+        className={isSubmitting ? "cursor-not-allowed opacity-70" : undefined}
+      >
+        {t("submit")}
+      </Button>
     </form>
   );
 }

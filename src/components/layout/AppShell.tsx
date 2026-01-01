@@ -13,7 +13,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
 
   return (
     <ToastProvider>
-      <div className="min-h-screen bg-white text-black" suppressHydrationWarning>
+      <div className="min-h-screen bg-surface text-black" suppressHydrationWarning>
         <a
           href="#content"
           className="focus-ring absolute left-4 top-4 z-[100] -translate-y-20 rounded-full bg-brand-yellow px-4 py-2 text-sm font-semibold text-black transition focus:translate-y-0"

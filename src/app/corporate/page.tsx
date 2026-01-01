@@ -2,7 +2,7 @@ import CorporateContent from "@/components/sections/CorporateContent";
 import { buildMetadata } from "@/lib/seo";
 
 export const metadata = buildMetadata({
-  title: "Corporate rentals - Rent A Car Baku 66",
+  title: "Corporate rentals - Prime Rent A Car",
   description: "Corporate and long-term rental solutions with tailored support.",
 });
 

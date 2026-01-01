@@ -1,4 +1,4 @@
-﻿# Rent A Car Baku 66 (Static)
+﻿# Prime Rent A Car (Static)
 
 Premium, static, multi-language car rental website built with Next.js, Tailwind CSS, next-intl, and Framer Motion.
 

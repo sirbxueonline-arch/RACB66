@@ -12,8 +12,8 @@ import type { Locale } from "@/i18n/routing";
 import { locales } from "@/i18n/routing";
 
 export const metadata = buildMetadata({
-  title: "Rent A Car Baku 66 - Premium car rental",
-  description: "Premium car rental in Baku with transparent pricing and curated fleet.",
+  title: "Prime Rent A Car - Premium car rental",
+  description: "Premium car rental in Baku with transparent pricing and a modern fleet.",
 });
 
 export default function HomePage() {

@@ -14,8 +14,8 @@
     "language": "Language"
   },
   "footer": {
-    "brand": "Rent A Car Baku 66",
-    "tagline": "Premium rental experience in Baku and beyond.",
+    "brand": "Prime Rent A Car",
+    "tagline": "Drive Prime. Pay Less.",
     "phone": "Phone",
     "email": "Email",
     "address": "Address",
@@ -34,7 +34,7 @@
     "facebook": "Facebook",
     "telegram": "Telegram",
     "whatsapp": "WhatsApp",
-    "copyright": "(c) 2025 Rent A Car Baku 66. All rights reserved.",
+    "copyright": "(c) 2025 Prime Rent A Car. All rights reserved.",
     "addressValue": "AZ1025, Baku, Khatai district, 8 November, building 3, M31"
   },
   "categories": {
@@ -62,9 +62,9 @@
   },
   "home": {
     "hero": {
-      "badge": "Premium rental",
-      "title": "Baku,",
-      "titleAccent": "refined in 66",
+      "badge": "Prime Rent A Car",
+      "title": "Drive Prime.",
+      "titleAccent": "Pay Less.",
       "subtitle": "Premium fleet, transparent pricing, and a team built for effortless travel.",
       "ctaPrimary": "Explore fleet",
       "ctaSecondary": "Contact us",
@@ -90,7 +90,7 @@
       "badge": "Active"
     },
     "whyChoose": {
-      "eyebrow": "Why Rent66",
+      "eyebrow": "Why Prime",
       "title": "Designed for premium travel",
       "subtitle": "We handle the details so your team moves with confidence across Baku.",
       "cta": "Start booking",
@@ -399,6 +399,7 @@
     "perDay": " / day",
     "selectCar": "Select a car",
     "successToast": "Booking submitted",
+    "submitError": "Something went wrong. Please try again.",
     "defaultLocation": "Baku City Center"
   },
   "bookingSuccess": {
@@ -428,20 +429,36 @@
     "formTitle": "Send a message",
     "formSubtitle": "Fill out the form and we will reply",
     "form": {
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "submit": "Send",
-      "success": "Message sent",
+      "pickup": "Pickup location",
+      "dropoff": "Drop-off location",
+      "pickupDate": "Pickup date",
+      "returnDate": "Return date",
+      "category": "Category",
+      "car": "Car model",
+      "phone": "Phone number",
+      "name": "Full name",
+      "pickupPlaceholder": "Pickup location",
+      "dropoffPlaceholder": "Drop-off location",
+      "carPlaceholder": "Car model (BMW X5, etc.)",
+      "phonePlaceholder": "Phone number",
+      "namePlaceholder": "Full name",
+      "submit": "Send request",
+      "success": "Thanks for contacting us. We'll reply soon.",
       "error": "Please complete all required fields."
     },
     "addressValue": "AZ1025, Baku, Khatai district, 8 November, building 3, M31",
     "hoursValue": "08:00 - 22:00",
     "mapTitle": "Baku map"
   },
+  "thanks": {
+    "eyebrow": "Thank you",
+    "title": "Thanks for contacting us",
+    "subtitle": "We received your request and will get back to you shortly.",
+    "backHome": "Back to home"
+  },
   "about": {
     "eyebrow": "About",
-    "title": "Rent A Car Baku 66",
+    "title": "Prime Rent A Car",
     "story": "We provide premium car rentals across Baku and regions with transparent pricing and comfort.",
     "fleet": "80+ vehicle fleet",
     "support": "24/7 customer care",
@@ -455,11 +472,11 @@
   },
   "meta": {
     "home": {
-      "title": "Rent A Car Baku 66 - Premium car rental",
+      "title": "Prime Rent A Car - Premium car rental",
       "description": "Premium car rental in Baku with transparent pricing and curated fleet."
     },
     "cars": {
-      "title": "Car fleet - Rent A Car Baku 66",
+      "title": "Car fleet - Prime Rent A Car",
       "description": "Explore economy, business, and premium cars."
     },
     "carDetail": {
@@ -467,7 +484,7 @@
       "description": "Specifications and transparent pricing."
     },
     "booking": {
-      "title": "Booking - Rent A Car Baku 66",
+      "title": "Booking - Prime Rent A Car",
       "description": "Confirm your booking and review pricing."
     },
     "bookingSuccess": {
@@ -475,7 +492,7 @@
       "description": "Your booking request is received."
     },
     "blog": {
-      "title": "Blog - Rent A Car Baku 66",
+      "title": "Blog - Prime Rent A Car",
       "description": "Travel stories and tips."
     },
     "blogDetail": {
@@ -483,7 +500,7 @@
       "description": "Travel story and insights."
     },
     "services": {
-      "title": "Services - Rent A Car Baku 66",
+      "title": "Services - Prime Rent A Car",
       "description": "Airport transfers, chauffeurs, and tours."
     },
     "city": {
@@ -491,11 +508,11 @@
       "description": "Routes and recommendations."
     },
     "about": {
-      "title": "About - Rent A Car Baku 66",
+      "title": "About - Prime Rent A Car",
       "description": "Company story and values."
     },
     "contact": {
-      "title": "Contact - Rent A Car Baku 66",
+      "title": "Contact - Prime Rent A Car",
       "description": "Phone, email, and contact form."
     }
   },

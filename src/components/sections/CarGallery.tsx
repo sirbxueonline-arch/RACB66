@@ -26,13 +26,14 @@ export default function CarGallery({
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.98 }}
             transition={reduceMotion ? { duration: 0 } : transition}
+            className="relative h-[320px] md:h-[420px]"
           >
             <Image
               src={images[active]}
               alt={name}
-              width={720}
-              height={480}
-              className="h-[320px] w-full object-cover md:h-[420px]"
+              fill
+              sizes="(min-width: 768px) 720px, 100vw"
+              className="object-cover"
               priority
             />
           </motion.div>
@@ -44,7 +45,7 @@ export default function CarGallery({
             key={image}
             onClick={() => setActive(index)}
             className={cn(
-              "focus-ring overflow-hidden rounded-2xl border",
+              "focus-ring relative h-20 overflow-hidden rounded-2xl border",
               index === active
                 ? "border-brand-yellow"
                 : "border-black/10 opacity-60"
@@ -53,9 +54,9 @@ export default function CarGallery({
             <Image
               src={image}
               alt={`${name} thumbnail`}
-              width={180}
-              height={120}
-              className="h-20 w-full object-cover"
+              fill
+              sizes="80px"
+              className="object-cover"
             />
           </button>
         ))}

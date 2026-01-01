@@ -7,7 +7,7 @@ import { locales } from "@/i18n/routing";
 const POSTS_PER_PAGE = 6;
 
 export const metadata = buildMetadata({
-  title: "Blog - Rent A Car Baku 66",
+  title: "Blog - Prime Rent A Car",
   description: "Travel stories, routes, and rental tips in Baku.",
 });
 

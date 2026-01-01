@@ -25,7 +25,7 @@ export default function BookingSuccess() {
   const [data, setData] = useState<Confirmation | null>(null);
 
   useEffect(() => {
-    const stored = localStorage.getItem("rent66-booking-confirmation");
+    const stored = localStorage.getItem("prime-rent-booking-confirmation");
     setData(stored ? JSON.parse(stored) : null);
   }, []);
 

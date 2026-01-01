@@ -14,8 +14,8 @@
     "language": "Язык"
   },
   "footer": {
-    "brand": "Rent A Car Baku 66",
-    "tagline": "Премиальная аренда в Баку и регионах.",
+    "brand": "Prime Rent A Car",
+    "tagline": "\u0415\u0437\u0434\u0438 Prime. \u041f\u043b\u0430\u0442\u0438 \u043c\u0435\u043d\u044c\u0448\u0435.",
     "phone": "Телефон",
     "email": "Email",
     "address": "Адрес",
@@ -34,7 +34,7 @@
     "facebook": "Facebook",
     "telegram": "Telegram",
     "whatsapp": "WhatsApp",
-    "copyright": "(c) 2025 Rent A Car Baku 66. Все права защищены.",
+    "copyright": "(c) 2025 Prime Rent A Car. Все права защищены.",
     "addressValue": "AZ1025, Баку, район Хатаи, 8 Ноября, дом 3, M31"
   },
   "categories": {
@@ -62,9 +62,9 @@
   },
   "home": {
     "hero": {
-      "badge": "Премиальная аренда",
-      "title": "Баку,",
-      "titleAccent": "изысканно в 66",
+      "badge": "Prime Rent A Car",
+      "title": "\u0415\u0437\u0434\u0438 Prime.",
+      "titleAccent": "\u041f\u043b\u0430\u0442\u0438 \u043c\u0435\u043d\u044c\u0448\u0435.",
       "subtitle": "Премиальный парк, прозрачные цены и команда для легких поездок.",
       "ctaPrimary": "Смотреть парк",
       "ctaSecondary": "Связаться",
@@ -90,7 +90,7 @@
       "badge": "Активно"
     },
     "whyChoose": {
-      "eyebrow": "Почему Rent66",
+      "eyebrow": "Почему Prime",
       "title": "Создано для премиальных поездок",
       "subtitle": "Мы берем на себя детали, чтобы ваша команда уверенно перемещалась по Баку.",
       "cta": "Начать бронирование",
@@ -399,6 +399,7 @@
     "perDay": " / день",
     "selectCar": "Выберите авто",
     "successToast": "Бронирование отправлено",
+    "submitError": "Произошла ошибка. Повторите попытку.",
     "defaultLocation": "Центр Баку"
   },
   "bookingSuccess": {
@@ -428,20 +429,36 @@
     "formTitle": "Отправить сообщение",
     "formSubtitle": "Заполните форму и мы ответим",
     "form": {
-      "name": "Имя",
-      "email": "Email",
-      "message": "Сообщение",
-      "submit": "Отправить",
-      "success": "Сообщение отправлено",
+      "pickup": "Место получения",
+      "dropoff": "Место возврата",
+      "pickupDate": "Дата получения",
+      "returnDate": "Дата возврата",
+      "category": "Категория",
+      "car": "Модель авто",
+      "phone": "Телефон",
+      "name": "Имя и фамилия",
+      "pickupPlaceholder": "Место получения",
+      "dropoffPlaceholder": "Место возврата",
+      "carPlaceholder": "Модель авто (BMW X5 и т.д.)",
+      "phonePlaceholder": "Телефон",
+      "namePlaceholder": "Имя и фамилия",
+      "submit": "Отправить заявку",
+      "success": "Спасибо за обращение. Мы свяжемся с вами.",
       "error": "Пожалуйста, заполните все обязательные поля."
     },
     "addressValue": "AZ1025, Баку, район Хатаи, 8 Ноября, дом 3, M31",
     "hoursValue": "08:00 - 22:00",
     "mapTitle": "Карта Баку"
   },
+  "thanks": {
+    "eyebrow": "Спасибо",
+    "title": "Спасибо за обращение",
+    "subtitle": "Мы получили ваш запрос и скоро свяжемся с вами.",
+    "backHome": "На главную"
+  },
   "about": {
     "eyebrow": "О нас",
-    "title": "Rent A Car Baku 66",
+    "title": "Prime Rent A Car",
     "story": "Мы предоставляем премиальные авто в аренду в Баку и регионах с прозрачными ценами и комфортом.",
     "fleet": "Автопарк 80+",
     "support": "Поддержка 24/7",
@@ -455,11 +472,11 @@
   },
   "meta": {
     "home": {
-      "title": "Rent A Car Baku 66 - Премиальная аренда авто",
+      "title": "Prime Rent A Car - Премиальная аренда авто",
       "description": "Премиальная аренда авто в Баку с прозрачными ценами и отобранным парком."
     },
     "cars": {
-      "title": "Автопарк - Rent A Car Baku 66",
+      "title": "Автопарк - Prime Rent A Car",
       "description": "Эконом, бизнес и премиальные автомобили."
     },
     "carDetail": {
@@ -467,7 +484,7 @@
       "description": "Характеристики и прозрачные цены."
     },
     "booking": {
-      "title": "Бронирование - Rent A Car Baku 66",
+      "title": "Бронирование - Prime Rent A Car",
       "description": "Подтвердите бронирование и проверьте цену."
     },
     "bookingSuccess": {
@@ -475,7 +492,7 @@
       "description": "Ваш запрос на бронирование получен."
     },
     "blog": {
-      "title": "Блог - Rent A Car Baku 66",
+      "title": "Блог - Prime Rent A Car",
       "description": "Истории о путешествиях и советы."
     },
     "blogDetail": {
@@ -483,7 +500,7 @@
       "description": "История и полезные детали."
     },
     "services": {
-      "title": "Услуги - Rent A Car Baku 66",
+      "title": "Услуги - Prime Rent A Car",
       "description": "Трансферы из аэропорта, шофер и туры."
     },
     "city": {
@@ -491,11 +508,11 @@
       "description": "Маршруты и рекомендации."
     },
     "about": {
-      "title": "О нас - Rent A Car Baku 66",
+      "title": "О нас - Prime Rent A Car",
       "description": "История компании и ценности."
     },
     "contact": {
-      "title": "Контакты - Rent A Car Baku 66",
+      "title": "Контакты - Prime Rent A Car",
       "description": "Телефон, email и контактная форма."
     }
   },

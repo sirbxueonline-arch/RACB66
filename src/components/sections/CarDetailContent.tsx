@@ -136,13 +136,15 @@ export default function CarDetailContent({
                   href={`/cars/${item.slug}`}
                   className="flex items-center gap-4 rounded-2xl border border-black/10 bg-white p-4"
                 >
-                  <Image
-                    src={item.images[0]}
-                    alt={item.name}
-                    width={120}
-                    height={80}
-                    className="h-20 w-28 rounded-xl object-cover"
-                  />
+                  <div className="relative h-20 w-28 shrink-0 overflow-hidden rounded-xl">
+                    <Image
+                      src={item.images[0]}
+                      alt={item.name}
+                      fill
+                      sizes="112px"
+                      className="object-cover"
+                    />
+                  </div>
                   <div>
                     <p className="text-sm font-semibold text-black">
                       {item.name}

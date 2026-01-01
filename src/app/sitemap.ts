@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/about",
     "/contact",
     "/booking",
+    "/tesekkurler",
   ];
 
   const items: MetadataRoute.Sitemap = [];

@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --brand-yellow: #f6b80c;
-  --brand-black: #000000;
+  --brand-yellow: #f5a524;
+  --brand-black: #0b1d39;
   --brand-white: #ffffff;
-  --surface: #f7f5f0;
-  --surface-dark: #101010;
-  --muted: #6b7280;
-  --ring: #f6b80c;
-  --shadow-soft: 0 24px 60px rgba(0, 0, 0, 0.15);
+  --surface: #f4f6fb;
+  --surface-dark: #07162c;
+  --muted: #5b6b82;
+  --ring: #f5a524;
+  --shadow-soft: 0 24px 60px rgba(11, 29, 57, 0.18);
 }
 
 @theme inline {
@@ -18,8 +18,10 @@
   --color-surface: var(--surface);
   --color-surface-dark: var(--surface-dark);
   --color-muted: var(--muted);
+  --color-black: var(--brand-black);
+  --color-white: var(--brand-white);
   --font-sans: var(--font-inter), "Inter", sans-serif;
-  --font-display: var(--font-playfair), var(--font-inter), serif;
+  --font-display: var(--font-inter), "Inter", sans-serif;
 }
 
 * {
@@ -31,14 +33,14 @@ html {
 }
 
 body {
-  background: var(--brand-white);
-  color: #0b0b0b;
+  background: var(--surface);
+  color: var(--brand-black);
   font-family: var(--font-inter), "Inter", sans-serif;
   text-rendering: optimizeLegibility;
 }
 
 ::selection {
-  background: rgba(246, 184, 12, 0.35);
+  background: rgba(245, 165, 36, 0.35);
 }
 
 a {
@@ -76,23 +78,23 @@ img {
 .hero-glow {
   background: radial-gradient(
       1200px 600px at 20% 20%,
-      rgba(246, 184, 12, 0.22),
+      rgba(245, 165, 36, 0.22),
       transparent 55%
     ),
     radial-gradient(
       900px 480px at 80% 10%,
-      rgba(0, 0, 0, 0.3),
+      rgba(11, 29, 57, 0.45),
       transparent 60%
     ),
-    linear-gradient(120deg, #111111, #1b1b1b 50%, #0c0c0c 100%);
+    linear-gradient(120deg, #0b1d39, #122a4f 50%, #081326 100%);
 }
 
 .section-grid {
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.08) 1px,
+      rgba(11, 29, 57, 0.08) 1px,
       transparent 1px
     ),
-    linear-gradient(90deg, rgba(0, 0, 0, 0.08) 1px, transparent 1px);
+    linear-gradient(90deg, rgba(11, 29, 57, 0.08) 1px, transparent 1px);
   background-size: 40px 40px;
 }
 
@@ -104,6 +106,6 @@ img {
 }
 
 .dark-panel {
-  background: rgba(12, 12, 12, 0.92);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(7, 22, 44, 0.92);
+  border: 1px solid rgba(255, 255, 255, 0.12);
 }

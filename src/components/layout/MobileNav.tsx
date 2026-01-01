@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
-import Image from "next/image";
 import Link from "next/link";
 import { createPortal } from "react-dom";
 import LanguageSwitcher from "@/components/layout/LanguageSwitcher";
@@ -85,21 +84,11 @@ export default function MobileNav({
                     onClick={(event) => event.stopPropagation()}
                   >
                     <div className="flex items-center justify-between border-b border-black/10 px-6 py-4">
-                      <div className="flex items-center gap-3">
-                        <Image
-                          src="/images/logo.png"
-                          alt="Rent A Car Baku 66"
-                          width={40}
-                          height={40}
-                          className="h-10 w-10 rounded-full border border-black/10 bg-white p-1"
-                        />
-                        <div className="leading-none">
-                          <p className="text-sm font-semibold">Rent A Car</p>
-                          <p className="text-[11px] uppercase tracking-[0.24em] text-black/60">
-                            Baku 66
-                          </p>
-                        </div>
-                      </div>
+                      <span className="text-black">
+                        <span className="font-display text-lg font-semibold tracking-tight">
+                          Prime<span className="text-brand-yellow">.</span>
+                        </span>
+                      </span>
                       <button
                         className="focus-ring rounded-full border border-black/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-black/60"
                         onClick={() => setOpen(false)}
