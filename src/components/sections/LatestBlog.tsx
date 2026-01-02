@@ -38,12 +38,12 @@ export default function LatestBlog({
             </Link>
           </div>
         </Reveal>
-        <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 grid items-stretch gap-6 md:grid-cols-2 lg:grid-cols-3">
           {posts.map((post, index) => (
-            <Reveal key={post.slug} delay={index * 0.05}>
+            <Reveal key={post.slug} delay={index * 0.05} className="h-full">
               <Link
                 href={`/blog/${post.slug}`}
-                className="group block overflow-hidden rounded-3xl border border-black/10 bg-white shadow-soft"
+                className="group flex h-full flex-col overflow-hidden rounded-3xl border border-black/10 bg-white shadow-soft"
               >
                 <Image
                   src={post.cover}
@@ -52,7 +52,7 @@ export default function LatestBlog({
                   height={280}
                   className="h-48 w-full object-cover transition duration-500 group-hover:scale-105"
                 />
-                <div className="p-6">
+                <div className="flex flex-1 flex-col p-6">
                   <p className="text-xs font-semibold uppercase tracking-[0.25em] text-black/50">
                     {post.categories[0] ?? t("news")}
                   </p>
@@ -62,7 +62,7 @@ export default function LatestBlog({
                   <p className="mt-3 text-sm text-black/70">
                     {post.excerpt}
                   </p>
-                  <p className="mt-4 text-xs font-medium text-black/50">
+                  <p className="mt-auto pt-4 text-xs font-medium text-black/50">
                     {t("readTime", { minutes: post.readingMinutes })}
                   </p>
                 </div>

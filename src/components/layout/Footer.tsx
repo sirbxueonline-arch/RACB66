@@ -48,15 +48,12 @@ export default function Footer() {
             {t("legal")}
           </p>
           <div className="mt-4 space-y-2 text-sm text-white/70">
-            <a href="#" className="block hover:text-white">
+            <Link href="/terms" className="block hover:text-white">
               {t("terms")}
-            </a>
-            <a href="#" className="block hover:text-white">
+            </Link>
+            <Link href="/privacy" className="block hover:text-white">
               {t("privacy")}
-            </a>
-            <a href="#" className="block hover:text-white">
-              {t("cookies")}
-            </a>
+            </Link>
           </div>
           <p className="mt-6 text-sm font-semibold uppercase tracking-wide text-white/70">
             {t("social")}
