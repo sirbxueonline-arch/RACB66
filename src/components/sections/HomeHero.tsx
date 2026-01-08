@@ -16,21 +16,21 @@ export default function HomeHero() {
       <div className="mx-auto w-full max-w-6xl px-6 pb-16 pt-14 md:pb-20">
         <div className="grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="space-y-6">
-            <Reveal>
+            <Reveal direction="down" duration={0.6}>
               <Badge className="bg-white/10 text-white">{t("badge")}</Badge>
             </Reveal>
-            <Reveal delay={0.05}>
+            <Reveal delay={0.1}>
               <h1 className="font-display text-4xl leading-tight md:text-5xl">
                 {t("title")}{" "}
                 <span className="text-brand-yellow">{t("titleAccent")}</span>
               </h1>
             </Reveal>
-            <Reveal delay={0.1}>
+            <Reveal delay={0.2}>
               <p className="text-base text-white/70 md:text-lg">
                 {t("subtitle")}
               </p>
             </Reveal>
-            <Reveal delay={0.15}>
+            <Reveal delay={0.3}>
               <div className="flex flex-wrap gap-3">
                 <Link href="/cars">
                   <Button variant="primary">{t("ctaPrimary")}</Button>
@@ -42,7 +42,7 @@ export default function HomeHero() {
                 </Link>
               </div>
             </Reveal>
-            <Reveal delay={0.2}>
+            <Reveal delay={0.4}>
               <div className="flex flex-wrap gap-6 text-xs uppercase tracking-[0.25em] text-white/60">
                 <span>{t("trust1")}</span>
                 <span>{t("trust2")}</span>
@@ -51,7 +51,7 @@ export default function HomeHero() {
             </Reveal>
           </div>
           <div className="relative">
-            <Reveal>
+            <Reveal direction="left" duration={0.8}>
               <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-black/40 p-4">
                 <Image
                   src="/images/hero-baku.jpg"
@@ -64,8 +64,8 @@ export default function HomeHero() {
                 <div className="absolute -bottom-10 -left-10 hidden h-36 w-36 rounded-full bg-brand-yellow/30 blur-3xl md:block" />
               </div>
             </Reveal>
-            <Reveal delay={0.15}>
-              <div className="absolute -bottom-8 -right-4 hidden w-56 rounded-3xl border border-white/10 bg-black/70 p-4 md:block">
+            <Reveal delay={0.4} direction="up" className="absolute -bottom-8 -right-4 hidden w-56 md:block">
+              <div className="rounded-3xl border border-white/10 bg-black/70 p-4">
                 <Image
                   src="/images/hero-car.jpg"
                   alt={t("imageAltCar")}
@@ -77,7 +77,7 @@ export default function HomeHero() {
             </Reveal>
           </div>
         </div>
-        <Reveal delay={0.25} className="mt-12">
+        <Reveal delay={0.6} direction="up" className="mt-12">
           <SearchBar />
         </Reveal>
       </div>

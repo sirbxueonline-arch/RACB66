@@ -5,6 +5,9 @@ import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import { destinationsData, getLocalizedText } from "@/lib/data";
 import Reveal from "@/components/ui/Reveal";
+import Stagger from "@/components/ui/Stagger";
+import { motion } from "framer-motion";
+import { fadeUp } from "@/lib/motion";
 
 export default function Destinations() {
   const t = useTranslations("home.destinations");
@@ -32,35 +35,26 @@ export default function Destinations() {
             </Link>
           </div>
         </Reveal>
-        <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {featured.map((destination, index) => (
-            <Reveal key={destination.id} delay={index * 0.05}>
-              <Link
-                href={`/cities/${destination.slug}`}
-                className="group block overflow-hidden rounded-3xl border border-black/10 bg-white shadow-soft"
-              >
+        <Stagger className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {destinationsData.slice(0, 3).map((city) => (
+            <motion.div key={city.slug} variants={fadeUp}>
+              <Link href={`/cities/${city.slug}`} className="group relative block aspect-[4/5] overflow-hidden rounded-2xl">
                 <Image
-                  src={destination.image}
-                  alt={getLocalizedText(destination.name, locale as never)}
-                  width={420}
-                  height={280}
-                  className="h-56 w-full object-cover transition duration-500 group-hover:scale-105"
+                  src={city.image}
+                  alt={getLocalizedText(city.name, locale as any)}
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-                <div className="p-6">
-                  <h3 className="text-xl font-semibold text-black">
-                    {getLocalizedText(destination.name, locale as never)}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent p-6 flex flex-col justify-end">
+                  <h3 className="text-2xl font-bold text-white">
+                    {getLocalizedText(city.name, locale as any)}
                   </h3>
-                  <p className="mt-2 text-sm text-black/70">
-                    {getLocalizedText(destination.description, locale as never)}
-                  </p>
-                  <p className="mt-4 text-xs font-semibold uppercase tracking-[0.2em] text-black/50">
-                    {getLocalizedText(destination.highlight, locale as never)}
-                  </p>
+                  <p className="text-white/80">49 {t("recommended").toLowerCase().replace(":", "")}</p>
                 </div>
               </Link>
-            </Reveal>
+            </motion.div>
           ))}
-        </div>
+        </Stagger>
       </div>
     </section>
   );

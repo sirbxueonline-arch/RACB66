@@ -130,7 +130,8 @@
     "destinations": {
       "eyebrow": "Routes",
       "title": "Curated destinations",
-      "cta": "All cities"
+      "cta": "All cities",
+      "recommended": "Available cars"
     },
     "testimonials": {
       "eyebrow": "Reviews",

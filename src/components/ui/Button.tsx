@@ -1,5 +1,6 @@
-import type { ButtonHTMLAttributes } from "react";
+import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
+import type { ButtonHTMLAttributes } from "react";
 
 type ButtonVariant = "primary" | "secondary" | "ghost" | "outline";
 type ButtonSize = "sm" | "md" | "lg";
@@ -33,8 +34,10 @@ export default function Button({
   size?: ButtonSize;
 }) {
   return (
-    <button
-      {...props}
+    <motion.button
+      whileHover={{ scale: 1.02 }}
+      whileTap={{ scale: 0.98 }}
+      {...(props as any)}
       className={cn(baseStyles, variants[variant], sizes[size], className)}
     />
   );

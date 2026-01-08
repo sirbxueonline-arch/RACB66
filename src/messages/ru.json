@@ -130,7 +130,8 @@
     "destinations": {
       "eyebrow": "Маршруты",
       "title": "Подобранные направления",
-      "cta": "Все города"
+      "cta": "Все города",
+      "recommended": "Доступные авто"
     },
     "testimonials": {
       "eyebrow": "Отзывы",

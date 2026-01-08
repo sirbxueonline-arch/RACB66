@@ -130,7 +130,8 @@
     "destinations": {
       "eyebrow": "Marşrutlar",
       "title": "Seçilmiş istiqamətlər",
-      "cta": "Bütün şəhərlər"
+      "cta": "Bütün şəhərlər",
+      "recommended": "Mövcud avtomobillər"
     },
     "testimonials": {
       "eyebrow": "Rəylər",
