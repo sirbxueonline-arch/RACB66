@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
-const siteUrl = "https://rentacarbaku66.az";
+const siteUrl = "https://primerentacar.az";
 
 export const DEFAULT_META_TITLE =
-  "Prime Rent A Car Baku | Best Car Rental in Azerbaijan";
+  "Prime Rent A Car Baku";
 export const DEFAULT_META_DESCRIPTION =
   "Premium, affordable and trusted Rent a Car service in Baku, Azerbaijan. 24/7 support, airport delivery, SUVs, economy, business and premium cars. Book now.";
 export const DEFAULT_META_KEYWORDS =

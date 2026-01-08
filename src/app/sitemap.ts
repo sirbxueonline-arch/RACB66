@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { carsData, destinationsData } from "@/lib/data";
 import { getAllSlugs } from "@/lib/blog";
 
-const baseUrl = "https://rentacarbaku66.az";
+const baseUrl = "https://primerentacar.az";
 
 export const dynamic = "force-static";
 

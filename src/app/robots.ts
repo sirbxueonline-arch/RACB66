@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://rentacarbaku66.az/sitemap.xml",
+    sitemap: "https://primerentacar.az/sitemap.xml",
   };
 }
