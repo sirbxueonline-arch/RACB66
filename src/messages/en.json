@@ -38,6 +38,7 @@
     "addressValue": "AZ1025, Baku, Khatai district, 8 November, building 3, M31"
   },
   "categories": {
+    "all": "All",
     "economy": "Economy",
     "business": "Business",
     "premium": "Premium",

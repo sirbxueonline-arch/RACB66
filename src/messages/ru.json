@@ -38,6 +38,7 @@
     "addressValue": "AZ1025, Баку, район Хатаи, 8 Ноября, дом 3, M31"
   },
   "categories": {
+    "all": "Все",
     "economy": "Эконом",
     "business": "Бизнес",
     "premium": "Премиум",

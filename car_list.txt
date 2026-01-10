@@ -1,0 +1,93 @@
+Cars by Category:
+
+### Category: MINIVAN (4 total, 3 models)
+- Kia Kia Carnival
+- Hyundai Hyundai H-1
+- Mercedes-Benz Mercedes-Benz V-Class
+
+### Category: PREMIUM (7 total, 6 models)
+- Mercedes-Benz Mercedes-Benz V-Class
+- BMW BMW 428 Cabriolet
+- BMW BMW X5
+- Land Rover Range Rover
+- Land Rover Land Rover Defender
+- Mercedes-Benz Mercedes-Benz G-Class
+
+### Category: SUV (16 total, 14 models)
+- Hyundai Hyundai Santa Fe
+- Toyota Toyota Corolla Cross (hybrid)
+- Lada Lada Niva
+- Changan Changan CS55plus
+- Changan Changan UNI-Z
+- Toyota Toyota Land Cruiser Prado
+- Jetour Jetour T-2
+- Land Rover Range Rover
+- BMW BMW X5
+- Toyota Toyota Land Cruiser
+- Land Rover Land Rover Defender
+- Mercedes-Benz Mercedes-Benz G-Class
+- Bestune Bestune T-77
+- Changan Changan UNI-K
+
+### Category: TRANSPORT (3 total, 2 models)
+- Hyundai Hyundai H-1
+- Mercedes-Benz Mercedes-Benz V-Class
+
+### Category: TRANSFER (34 total, 29 models)
+- Hyundai Hyundai Accent
+- Chevrolet Chevrolet Cruze
+- Kia Kia Forte
+- Toyota Toyota Corolla (hybrid)
+- Hyundai Hyundai Elantra
+- Toyota Toyota Corolla Cross (hybrid)
+- Lada Lada Niva
+- Hyundai Hyundai Santa Fe
+- Hyundai Hyundai Sonata
+- Changan Changan CS55plus
+- Changan Changan UNI-Z
+- BMW BMW 5-Series F10
+- Kia Kia Carnival
+- Toyota Toyota Land Cruiser Prado
+- Hyundai Hyundai H-1
+- Toyota Toyota Camry
+- Mercedes-Benz Mercedes-Benz E-Class
+- Mercedes-Benz Mercedes-Benz V-Class
+- Ford Ford Mustang
+- BMW BMW 428 Cabriolet
+- Chevrolet Chevrolet Camaro
+- Land Rover Range Rover
+- Land Rover Land Rover Defender
+- Mercedes-Benz Mercedes-Benz G-Class
+- Bestune Bestune T-77
+- Jetour Jetour T-2
+- BMW BMW X5
+- Toyota Toyota Land Cruiser
+- Changan Changan UNI-K
+
+### Category: ECONOMY (7 total, 6 models)
+- Hyundai Hyundai Accent
+- Chevrolet Chevrolet Cruze
+- Kia Kia Forte
+- Toyota Toyota Corolla (hybrid)
+- Hyundai Hyundai Elantra
+- Toyota Toyota Corolla Cross (hybrid)
+
+### Category: BUSINESS (20 total, 18 models)
+- Kia Kia K-5
+- Hyundai Hyundai Sonata
+- Changan Changan UNI-Z
+- BMW BMW 5-Series F10
+- Kia Kia Carnival
+- Toyota Toyota Camry
+- Mercedes-Benz Mercedes-Benz E-Class
+- Mercedes-Benz Mercedes-Benz V-Class
+- Ford Ford Mustang
+- BMW BMW 428 Cabriolet
+- Jetour Jetour T-2
+- Chevrolet Chevrolet Camaro
+- Land Rover Range Rover
+- BMW BMW X5
+- Toyota Toyota Land Cruiser
+- Land Rover Land Rover Defender
+- Mercedes-Benz Mercedes-Benz G-Class
+- Changan Changan UNI-K

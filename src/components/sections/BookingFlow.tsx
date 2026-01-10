@@ -325,6 +325,10 @@ export default function BookingFlow() {
       carName: selectedCar?.name ?? "",
     };
     try {
+      console.log("Service ID:", process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID);
+      console.log("Template ID:", process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID);
+      console.log("Public Key:", process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY);
+
       await emailjs.send(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
@@ -355,7 +359,8 @@ export default function BookingFlow() {
       localStorage.removeItem(storageKey);
       pushToast(t("successToast"), "success");
       router.push(`${pathname}/success?ref=${reference}`);
-    } catch {
+    } catch (error: any) {
+      console.error("FULL ERROR DETAILS:", JSON.stringify(error, Object.getOwnPropertyNames(error)));
       setErrors([t("submitError")]);
     } finally {
       setIsSubmitting(false);

@@ -18,6 +18,7 @@ import { IconFuel, IconGear, IconLuggage, IconSeat, IconStar } from "@/component
 import { cn } from "@/lib/utils";
 
 const categoryTabs = [
+  "all",
   "economy",
   "business",
   "premium",
@@ -36,7 +37,7 @@ export default function CarsListing() {
   const tCategories = useTranslations("categories");
   const tNav = useTranslations("nav");
   const locale = useLocale();
-  const [category, setCategory] = useState("economy");
+  const [category, setCategory] = useState("all");
   const [brand, setBrand] = useState("all");
   const [seats, setSeats] = useState("any");
   const [fuel, setFuel] = useState("any");
@@ -54,8 +55,20 @@ export default function CarsListing() {
   );
 
   const filteredCars = useMemo(() => {
-    return carsData
-      .filter((car) => car.category === category)
+    let data = carsData;
+
+    if (category === "all") {
+      const seen = new Set();
+      data = data.filter((car) => {
+        if (seen.has(car.name)) return false;
+        seen.add(car.name);
+        return true;
+      });
+    } else {
+      data = data.filter((car) => car.category === category);
+    }
+
+    return data
       .filter((car) => (brand === "all" ? true : car.brand === brand))
       .filter((car) => {
         if (seats === "any") return true;
