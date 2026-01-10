@@ -1,4 +1,5 @@
 import HomeHero from "@/components/sections/HomeHero";
+import CarsListing from "@/components/sections/CarsListing";
 import Promotions from "@/components/sections/Promotions";
 import Destinations from "@/components/sections/Destinations";
 import Testimonials from "@/components/sections/Testimonials";
@@ -26,6 +27,7 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
       />
       <HomeHero />
+      <CarsListing />
       <Promotions />
       <WhyChoose />
       <Destinations />
