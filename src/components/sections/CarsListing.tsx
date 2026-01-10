@@ -54,21 +54,20 @@ export default function CarsListing() {
     []
   );
 
+  /* Grouping logic logic changed to support price ranges */
   const filteredCars = useMemo(() => {
     let data = carsData;
 
-    if (category === "all") {
-      const seen = new Set();
-      data = data.filter((car) => {
-        if (seen.has(car.name)) return false;
-        seen.add(car.name);
-        return true;
-      });
-    } else {
+    // 1. Filter by Category
+    if (category !== "all") {
       data = data.filter((car) => car.category === category);
+    } else {
+      // Hide "Quote" items (price 0) from "All" view
+      data = data.filter((car) => car.dailyPrice > 0);
     }
 
-    return data
+    // 2. Filter by props
+    data = data
       .filter((car) => (brand === "all" ? true : car.brand === brand))
       .filter((car) => {
         if (seats === "any") return true;
@@ -79,12 +78,50 @@ export default function CarsListing() {
         const min = minPrice ? Number(minPrice) : 0;
         const max = maxPrice ? Number(maxPrice) : Number.POSITIVE_INFINITY;
         return car.dailyPrice >= min && car.dailyPrice <= max;
-      })
-      .sort((a, b) => {
-        if (sort === "price-asc") return a.dailyPrice - b.dailyPrice;
-        if (sort === "price-desc") return b.dailyPrice - a.dailyPrice;
-        return b.rating - a.rating;
       });
+
+    // 3. Group by Name
+    const groups = new Map<string, typeof carsData>();
+    data.forEach((car) => {
+      if (!groups.has(car.name)) {
+        groups.set(car.name, []);
+      }
+      groups.get(car.name)!.push(car);
+    });
+
+    // 4. Create display items (one per group)
+    const displayItems: Array<{
+      car: typeof carsData[0];
+      minPrice: number;
+      maxPrice: number;
+      count: number;
+      variants: typeof carsData;
+    }> = [];
+
+    groups.forEach((groupCars) => {
+      // Sort variants by price ASC
+      groupCars.sort((a, b) => a.dailyPrice - b.dailyPrice);
+      
+      const min = groupCars[0].dailyPrice;
+      const max = groupCars[groupCars.length - 1].dailyPrice;
+      
+      // Use the cheapest car as the representative for image/info
+      displayItems.push({
+        car: groupCars[0],
+        minPrice: min,
+        maxPrice: max,
+        count: groupCars.length,
+        variants: groupCars
+      });
+    });
+
+    // 5. Sort final list
+    return displayItems.sort((a, b) => {
+      if (sort === "price-asc") return a.minPrice - b.minPrice;
+      if (sort === "price-desc") return b.minPrice - a.minPrice;
+      // For rating, use the representative car's rating
+      return b.car.rating - a.car.rating;
+    });
   }, [brand, category, fuel, maxPrice, minPrice, seats, sort]);
 
   const pricingInput = useMemo(() => {
@@ -170,11 +207,15 @@ export default function CarsListing() {
 
           <div className="grid gap-6 md:grid-cols-2">
             <AnimatePresence mode="popLayout">
-              {filteredCars.map((car) => {
-                const result = calculatePricing(car, pricingInput);
+              {filteredCars.map((item) => {
+                const { car, minPrice, maxPrice, count } = item;
+                const result = calculatePricing(car, pricingInput); // Calculates based on the base car (min price)
+                
+                const isRange = minPrice !== maxPrice;
+
                 return (
                   <motion.div
-                    key={car.id}
+                    key={car.id} // Use the ID of the representative car
                     layout
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -230,6 +271,7 @@ export default function CarsListing() {
                           <IconSeat className="h-4 w-4" />
                           {car.seats} {t("seats")}
                         </span>
+                        {/* Show count/variants if range? Maybe just luggage is fine */}
                         <span className="inline-flex items-center gap-2">
                           <IconLuggage className="h-4 w-4" />
                           {car.luggage} {t("luggage")}
@@ -240,9 +282,24 @@ export default function CarsListing() {
                           <p className="text-xs uppercase tracking-[0.3em] text-black/40">
                             {t("daily")}
                           </p>
-                          <p className="text-2xl font-semibold text-black">
-                            {formatCurrency(car.dailyPrice, locale as never)}
-                          </p>
+                          <div className="flex items-baseline gap-1">
+                             {minPrice === 0 ? (
+                               <p className="text-xl font-bold uppercase text-black">
+                                 Quote
+                               </p>
+                             ) : isRange ? (
+                                <>
+                                  <p className="text-2xl font-semibold text-black">
+                                    {minPrice}-{maxPrice}
+                                  </p>
+                                  <span className="text-sm font-medium text-black/60">AZN</span>
+                                </>
+                             ) : (
+                              <p className="text-2xl font-semibold text-black">
+                                {formatCurrency(car.dailyPrice, locale as never)}
+                              </p>
+                             )}
+                          </div>
                         </div>
                         <div className="flex gap-2">
                           <Link
@@ -259,11 +316,18 @@ export default function CarsListing() {
                           </Link>
                         </div>
                       </div>
-                      <PricingBreakdown
-                        result={result}
-                        collapsible
-                        className="mt-4"
-                      />
+                      {!isRange && (
+                        <PricingBreakdown
+                          result={result}
+                          collapsible
+                          className="mt-4"
+                        />
+                      )}
+                      {isRange && (
+                         <div className="mt-4 text-xs text-black/40">
+                           {count} {count === 1 ? 'variant' : 'variants'} available
+                         </div>
+                      )}
                     </div>
                   </motion.div>
                 );

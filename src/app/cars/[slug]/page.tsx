@@ -18,15 +18,21 @@ export async function generateMetadata() {
 export default async function CarDetailPage({ params }: PageProps) {
   const { slug } = await params;
   const car = carsData.find((item) => item.slug === slug);
+  
   if (!car) {
     notFound();
   }
-  const related = carsData
-    .filter((item) => item.category === car.category && item.slug !== car.slug)
-    .slice(0, 3);
-  const carReviews = reviewsData.filter((review) => review.carSlug === car.slug);
 
+  // Find other variants of the same car (same name)
+  const variants = carsData.filter((item) => item.name === car.name);
+
+  // Still show related cars from same category (excluding current and variants)
+  const related = carsData
+    .filter((item) => item.category === car.category && item.name !== car.name)
+    .slice(0, 3);
+    
+  const carReviews = reviewsData.filter((review) => review.carSlug === car.slug);
   const reviews = carReviews.length ? carReviews : reviewsData.slice(0, 3);
 
-  return <CarDetailContent car={car} related={related} reviews={reviews} />;
+  return <CarDetailContent car={car} variants={variants} related={related} reviews={reviews} />;
 }

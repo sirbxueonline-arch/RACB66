@@ -11,16 +11,21 @@ import { IconFuel, IconGear, IconLuggage, IconSeat, IconStar } from "@/component
 
 export default function CarDetailContent({
   car,
+  variants = [],
   related,
   reviews,
 }: {
   car: Car;
+  variants?: Car[];
   related: Car[];
   reviews: Review[];
 }) {
   const t = useTranslations("carDetail");
   const locale = useLocale();
   const carReviews = reviews.length ? reviews : [];
+
+  // Sort variants by year descending
+  const sortedVariants = [...(variants || [])].sort((a, b) => b.year - a.year);
 
   return (
     <section className="py-12">
@@ -36,6 +41,31 @@ export default function CarDetailContent({
             <p className="mt-2 text-sm text-black/60">
               {getLocalizedText(car.description, locale as never)}
             </p>
+
+            {/* Year / Model Selector */}
+            {sortedVariants.length > 1 && (
+              <div className="mt-6">
+                <label className="mb-2 block text-xs font-semibold uppercase tracking-wide text-black/50">
+                   {t("selectYear") || "Select Year / Model"}
+                </label>
+                <div className="flex flex-wrap gap-2">
+                  {sortedVariants.map((variant) => (
+                    <Link
+                      key={variant.id}
+                      href={`/cars/${variant.slug}`}
+                      className={`rounded-lg border px-4 py-2 text-sm font-medium transition ${
+                        variant.slug === car.slug
+                          ? "border-black bg-black text-white"
+                          : "border-black/10 bg-white text-black hover:border-black/30"
+                      }`}
+                    >
+                      {variant.year} — {variant.dailyPrice > 0 ? `${variant.dailyPrice} AZN` : 'Quote'}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
+
             <div className="mt-6 flex flex-wrap gap-4 text-sm text-black/70">
               <span className="inline-flex items-center gap-2">
                 <IconFuel className="h-4 w-4" />

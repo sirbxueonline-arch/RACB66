@@ -1,2700 +1,264 @@
 [
   {
     "id": "car-001",
-    "slug": "kia-carnival-minivan-150",
-    "name": "Kia Carnival",
-    "brand": "Kia",
-    "category": "minivan",
-    "dailyPrice": 150,
-    "rating": 4.6,
-    "seats": 7,
-    "luggage": 6,
+    "slug": "hyundai-accent-economy-50-2017",
+    "name": "Hyundai Accent",
+    "brand": "Hyundai",
+    "category": "economy",
+    "dailyPrice": 50,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
     "transmission": "automatic",
     "fuelType": "petrol",
-    "year": 2023,
+    "year": 2017,
     "engine": "2.0L",
     "fuelEconomy": "8.0 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/kia-carnival.jpg"
+      "/images/cars/hyundai-accent.jpg"
     ],
     "description": {
-      "az": "Roomy minivan built for group travel.",
-      "en": "Roomy minivan built for group travel.",
-      "ru": "Roomy minivan built for group travel."
+      "az": "Hyundai Accent (2017) - Great choice for your trip.",
+      "en": "Hyundai Accent (2017) - Great choice for your trip.",
+      "ru": "Hyundai Accent (2017) - Great choice for your trip."
     },
     "highlights": [
       {
-        "az": "Group seating",
-        "en": "Group seating",
-        "ru": "Group seating"
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
       },
       {
-        "az": "Spacious luggage",
-        "en": "Spacious luggage",
-        "ru": "Spacious luggage"
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
       },
       {
-        "az": "Climate control",
-        "en": "Climate control",
-        "ru": "Climate control"
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
       }
     ]
   },
   {
     "id": "car-002",
-    "slug": "hyundai-h-1-minivan-150",
-    "name": "Hyundai H-1",
+    "slug": "hyundai-accent-economy-60-2018",
+    "name": "Hyundai Accent",
     "brand": "Hyundai",
-    "category": "minivan",
-    "dailyPrice": 150,
-    "rating": 4.6,
-    "seats": 8,
-    "luggage": 6,
+    "category": "economy",
+    "dailyPrice": 60,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
     "transmission": "automatic",
-    "fuelType": "diesel",
-    "year": 2023,
-    "engine": "2.2L Diesel",
-    "fuelEconomy": "9.0 L/100km",
+    "fuelType": "petrol",
+    "year": 2018,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/hyundai-h-1.jpg"
+      "/images/cars/hyundai-accent.jpg"
     ],
     "description": {
-      "az": "Roomy minivan built for group travel.",
-      "en": "Roomy minivan built for group travel.",
-      "ru": "Roomy minivan built for group travel."
+      "az": "Hyundai Accent (2018) - Great choice for your trip.",
+      "en": "Hyundai Accent (2018) - Great choice for your trip.",
+      "ru": "Hyundai Accent (2018) - Great choice for your trip."
     },
     "highlights": [
       {
-        "az": "Group seating",
-        "en": "Group seating",
-        "ru": "Group seating"
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
       },
       {
-        "az": "Spacious luggage",
-        "en": "Spacious luggage",
-        "ru": "Spacious luggage"
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
       },
       {
-        "az": "Climate control",
-        "en": "Climate control",
-        "ru": "Climate control"
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
       }
     ]
   },
   {
     "id": "car-003",
-    "slug": "hyundai-h-1-minivan-160",
-    "name": "Hyundai H-1",
-    "brand": "Hyundai",
-    "category": "minivan",
-    "dailyPrice": 160,
-    "rating": 4.6,
-    "seats": 8,
-    "luggage": 6,
+    "slug": "chevrolet-cruze-economy-60-2011",
+    "name": "Chevrolet Cruze",
+    "brand": "Chevrolet",
+    "category": "economy",
+    "dailyPrice": 60,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
     "transmission": "automatic",
-    "fuelType": "diesel",
-    "year": 2023,
-    "engine": "2.2L Diesel",
-    "fuelEconomy": "9.0 L/100km",
+    "fuelType": "petrol",
+    "year": 2011,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/hyundai-h-1.jpg"
+      "/images/cars/chevrolet-cruze.jpg"
     ],
     "description": {
-      "az": "Roomy minivan built for group travel.",
-      "en": "Roomy minivan built for group travel.",
-      "ru": "Roomy minivan built for group travel."
+      "az": "Chevrolet Cruze (2011) - Great choice for your trip.",
+      "en": "Chevrolet Cruze (2011) - Great choice for your trip.",
+      "ru": "Chevrolet Cruze (2011) - Great choice for your trip."
     },
     "highlights": [
       {
-        "az": "Group seating",
-        "en": "Group seating",
-        "ru": "Group seating"
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
       },
       {
-        "az": "Spacious luggage",
-        "en": "Spacious luggage",
-        "ru": "Spacious luggage"
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
       },
       {
-        "az": "Climate control",
-        "en": "Climate control",
-        "ru": "Climate control"
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
       }
     ]
   },
   {
     "id": "car-004",
-    "slug": "mercedes-benz-v-class-minivan-220",
-    "name": "Mercedes-Benz V-Class",
-    "brand": "Mercedes-Benz",
-    "category": "minivan",
-    "dailyPrice": 220,
-    "rating": 4.6,
-    "seats": 6,
-    "luggage": 5,
+    "slug": "kia-forte-economy-80-2020",
+    "name": "Kia Forte",
+    "brand": "Kia",
+    "category": "economy",
+    "dailyPrice": 80,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
     "transmission": "automatic",
-    "fuelType": "diesel",
-    "year": 2023,
-    "engine": "2.2L Diesel",
-    "fuelEconomy": "9.0 L/100km",
+    "fuelType": "petrol",
+    "year": 2020,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/mercedes-v-class.jpg"
+      "/images/cars/kia-forte.jpg"
     ],
     "description": {
-      "az": "Roomy minivan built for group travel.",
-      "en": "Roomy minivan built for group travel.",
-      "ru": "Roomy minivan built for group travel."
+      "az": "Kia Forte (2020) - Great choice for your trip.",
+      "en": "Kia Forte (2020) - Great choice for your trip.",
+      "ru": "Kia Forte (2020) - Great choice for your trip."
     },
     "highlights": [
       {
-        "az": "Group seating",
-        "en": "Group seating",
-        "ru": "Group seating"
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
       },
       {
-        "az": "Spacious luggage",
-        "en": "Spacious luggage",
-        "ru": "Spacious luggage"
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
       },
       {
-        "az": "Climate control",
-        "en": "Climate control",
-        "ru": "Climate control"
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
       }
     ]
   },
   {
     "id": "car-005",
-    "slug": "mercedes-benz-v-class-premium-220",
-    "name": "Mercedes-Benz V-Class",
-    "brand": "Mercedes-Benz",
-    "category": "premium",
-    "dailyPrice": 220,
-    "rating": 4.6,
-    "seats": 6,
-    "luggage": 5,
+    "slug": "toyota-corolla-hybrid--economy-85-2024",
+    "name": "Toyota Corolla (Hybrid)",
+    "brand": "Toyota",
+    "category": "economy",
+    "dailyPrice": 85,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
     "transmission": "automatic",
-    "fuelType": "diesel",
-    "year": 2023,
-    "engine": "2.2L Diesel",
-    "fuelEconomy": "9.0 L/100km",
+    "fuelType": "petrol",
+    "year": 2024,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/mercedes-v-class.jpg"
+      "/images/cars/toyota-corolla-hybrid.jpg"
     ],
     "description": {
-      "az": "Roomy minivan built for group travel.",
-      "en": "Roomy minivan built for group travel.",
-      "ru": "Roomy minivan built for group travel."
+      "az": "Toyota Corolla (Hybrid) (2024) - Great choice for your trip.",
+      "en": "Toyota Corolla (Hybrid) (2024) - Great choice for your trip.",
+      "ru": "Toyota Corolla (Hybrid) (2024) - Great choice for your trip."
     },
     "highlights": [
       {
-        "az": "Group seating",
-        "en": "Group seating",
-        "ru": "Group seating"
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
       },
       {
-        "az": "Spacious luggage",
-        "en": "Spacious luggage",
-        "ru": "Spacious luggage"
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
       },
       {
-        "az": "Climate control",
-        "en": "Climate control",
-        "ru": "Climate control"
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
       }
     ]
   },
   {
     "id": "car-006",
-    "slug": "bmw-428-cabriolet-premium-250",
-    "name": "BMW 428 Cabriolet",
-    "brand": "BMW",
-    "category": "premium",
-    "dailyPrice": 250,
-    "rating": 4.9,
-    "seats": 4,
-    "luggage": 2,
+    "slug": "hyundai-elantra-economy-85-2024",
+    "name": "Hyundai Elantra",
+    "brand": "Hyundai",
+    "category": "economy",
+    "dailyPrice": 85,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
     "transmission": "automatic",
     "fuelType": "petrol",
-    "year": 2023,
+    "year": 2024,
     "engine": "2.0L",
     "fuelEconomy": "8.0 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/bmw-428-cabriolet.jpg"
+      "/images/cars/hyundai-elantra.jpg"
     ],
     "description": {
-      "az": "Luxury ride with premium comfort features.",
-      "en": "Luxury ride with premium comfort features.",
-      "ru": "Luxury ride with premium comfort features."
+      "az": "Hyundai Elantra (2024) - Great choice for your trip.",
+      "en": "Hyundai Elantra (2024) - Great choice for your trip.",
+      "ru": "Hyundai Elantra (2024) - Great choice for your trip."
     },
     "highlights": [
       {
-        "az": "Luxury interior",
-        "en": "Luxury interior",
-        "ru": "Luxury interior"
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
       },
       {
-        "az": "Premium sound",
-        "en": "Premium sound",
-        "ru": "Premium sound"
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
       },
       {
-        "az": "Advanced safety",
-        "en": "Advanced safety",
-        "ru": "Advanced safety"
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
       }
     ]
   },
   {
     "id": "car-007",
-    "slug": "bmw-x5-premium-350",
-    "name": "BMW X5",
-    "brand": "BMW",
-    "category": "premium",
-    "dailyPrice": 350,
-    "rating": 4.9,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/bmw-x5.jpg"
-    ],
-    "description": {
-      "az": "Luxury ride with premium comfort features.",
-      "en": "Luxury ride with premium comfort features.",
-      "ru": "Luxury ride with premium comfort features."
-    },
-    "highlights": [
-      {
-        "az": "Luxury interior",
-        "en": "Luxury interior",
-        "ru": "Luxury interior"
-      },
-      {
-        "az": "Premium sound",
-        "en": "Premium sound",
-        "ru": "Premium sound"
-      },
-      {
-        "az": "Advanced safety",
-        "en": "Advanced safety",
-        "ru": "Advanced safety"
-      }
-    ]
-  },
-  {
-    "id": "car-008",
-    "slug": "range-rover-premium-450",
-    "name": "Range Rover",
-    "brand": "Land Rover",
-    "category": "premium",
-    "dailyPrice": 450,
-    "rating": 4.9,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/range-rover.jpg"
-    ],
-    "description": {
-      "az": "Luxury ride with premium comfort features.",
-      "en": "Luxury ride with premium comfort features.",
-      "ru": "Luxury ride with premium comfort features."
-    },
-    "highlights": [
-      {
-        "az": "Luxury interior",
-        "en": "Luxury interior",
-        "ru": "Luxury interior"
-      },
-      {
-        "az": "Premium sound",
-        "en": "Premium sound",
-        "ru": "Premium sound"
-      },
-      {
-        "az": "Advanced safety",
-        "en": "Advanced safety",
-        "ru": "Advanced safety"
-      }
-    ]
-  },
-  {
-    "id": "car-009",
-    "slug": "land-rover-defender-premium-450",
-    "name": "Land Rover Defender",
-    "brand": "Land Rover",
-    "category": "premium",
-    "dailyPrice": 450,
-    "rating": 4.9,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/land-rover-defender.jpg"
-    ],
-    "description": {
-      "az": "Luxury ride with premium comfort features.",
-      "en": "Luxury ride with premium comfort features.",
-      "ru": "Luxury ride with premium comfort features."
-    },
-    "highlights": [
-      {
-        "az": "Luxury interior",
-        "en": "Luxury interior",
-        "ru": "Luxury interior"
-      },
-      {
-        "az": "Premium sound",
-        "en": "Premium sound",
-        "ru": "Premium sound"
-      },
-      {
-        "az": "Advanced safety",
-        "en": "Advanced safety",
-        "ru": "Advanced safety"
-      }
-    ]
-  },
-  {
-    "id": "car-010",
-    "slug": "mercedes-benz-g-class-premium-1000",
-    "name": "Mercedes-Benz G-Class",
-    "brand": "Mercedes-Benz",
-    "category": "premium",
-    "dailyPrice": 1000,
-    "rating": 4.9,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/mercedes-g-class.jpg"
-    ],
-    "description": {
-      "az": "Luxury ride with premium comfort features.",
-      "en": "Luxury ride with premium comfort features.",
-      "ru": "Luxury ride with premium comfort features."
-    },
-    "highlights": [
-      {
-        "az": "Luxury interior",
-        "en": "Luxury interior",
-        "ru": "Luxury interior"
-      },
-      {
-        "az": "Premium sound",
-        "en": "Premium sound",
-        "ru": "Premium sound"
-      },
-      {
-        "az": "Advanced safety",
-        "en": "Advanced safety",
-        "ru": "Advanced safety"
-      }
-    ]
-  },
-  {
-    "id": "car-011",
-    "slug": "range-rover-premium-1500",
-    "name": "Range Rover",
-    "brand": "Land Rover",
-    "category": "premium",
-    "dailyPrice": 1500,
-    "rating": 4.9,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/range-rover.jpg"
-    ],
-    "description": {
-      "az": "Luxury ride with premium comfort features.",
-      "en": "Luxury ride with premium comfort features.",
-      "ru": "Luxury ride with premium comfort features."
-    },
-    "highlights": [
-      {
-        "az": "Luxury interior",
-        "en": "Luxury interior",
-        "ru": "Luxury interior"
-      },
-      {
-        "az": "Premium sound",
-        "en": "Premium sound",
-        "ru": "Premium sound"
-      },
-      {
-        "az": "Advanced safety",
-        "en": "Advanced safety",
-        "ru": "Advanced safety"
-      }
-    ]
-  },
-  {
-    "id": "car-012",
-    "slug": "hyundai-santa-fe-suv-90",
-    "name": "Hyundai Santa Fe",
-    "brand": "Hyundai",
-    "category": "suv",
-    "dailyPrice": 90,
-    "rating": 4.7,
-    "seats": 7,
-    "luggage": 5,
-    "transmission": "automatic",
-    "fuelType": "diesel",
-    "year": 2023,
-    "engine": "2.2L Diesel",
-    "fuelEconomy": "9.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/hyundai-santa-fe.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-013",
-    "slug": "toyota-corolla-cross-hybrid-suv-110",
-    "name": "Toyota Corolla Cross (hybrid)",
-    "brand": "Toyota",
-    "category": "suv",
-    "dailyPrice": 110,
-    "rating": 4.7,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "hybrid",
-    "year": 2023,
-    "engine": "1.8L Hybrid",
-    "fuelEconomy": "5.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/toyota-corolla-cross.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-014",
-    "slug": "lada-niva-suv-110",
-    "name": "Lada Niva",
-    "brand": "Lada",
-    "category": "suv",
-    "dailyPrice": 110,
-    "rating": 4.7,
-    "seats": 5,
-    "luggage": 3,
-    "transmission": "manual",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/lada-niva.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-015",
-    "slug": "changan-cs55plus-suv-130",
-    "name": "Changan CS55plus",
-    "brand": "Changan",
-    "category": "suv",
-    "dailyPrice": 130,
-    "rating": 4.7,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/changan-cs55plus.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-016",
-    "slug": "changan-uni-z-suv-140",
-    "name": "Changan UNI-Z",
-    "brand": "Changan",
-    "category": "suv",
-    "dailyPrice": 140,
-    "rating": 4.7,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/changan-uni-z.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-017",
-    "slug": "toyota-land-cruiser-prado-suv-150",
-    "name": "Toyota Land Cruiser Prado",
-    "brand": "Toyota",
-    "category": "suv",
-    "dailyPrice": 150,
-    "rating": 4.7,
-    "seats": 7,
-    "luggage": 5,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/toyota-land-cruiser-prado.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-018",
-    "slug": "toyota-land-cruiser-prado-suv-160",
-    "name": "Toyota Land Cruiser Prado",
-    "brand": "Toyota",
-    "category": "suv",
-    "dailyPrice": 160,
-    "rating": 4.7,
-    "seats": 7,
-    "luggage": 5,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/toyota-land-cruiser-prado.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-019",
-    "slug": "jetour-t-2-suv-240",
-    "name": "Jetour T-2",
-    "brand": "Jetour",
-    "category": "suv",
-    "dailyPrice": 240,
-    "rating": 4.7,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/jetour-t-2.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-020",
-    "slug": "range-rover-suv-350",
-    "name": "Range Rover",
-    "brand": "Land Rover",
-    "category": "suv",
-    "dailyPrice": 350,
-    "rating": 4.9,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/range-rover.jpg"
-    ],
-    "description": {
-      "az": "Luxury ride with premium comfort features.",
-      "en": "Luxury ride with premium comfort features.",
-      "ru": "Luxury ride with premium comfort features."
-    },
-    "highlights": [
-      {
-        "az": "Luxury interior",
-        "en": "Luxury interior",
-        "ru": "Luxury interior"
-      },
-      {
-        "az": "Premium sound",
-        "en": "Premium sound",
-        "ru": "Premium sound"
-      },
-      {
-        "az": "Advanced safety",
-        "en": "Advanced safety",
-        "ru": "Advanced safety"
-      }
-    ]
-  },
-  {
-    "id": "car-021",
-    "slug": "bmw-x5-suv-350",
-    "name": "BMW X5",
-    "brand": "BMW",
-    "category": "suv",
-    "dailyPrice": 350,
-    "rating": 4.9,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/bmw-x5.jpg"
-    ],
-    "description": {
-      "az": "Luxury ride with premium comfort features.",
-      "en": "Luxury ride with premium comfort features.",
-      "ru": "Luxury ride with premium comfort features."
-    },
-    "highlights": [
-      {
-        "az": "Luxury interior",
-        "en": "Luxury interior",
-        "ru": "Luxury interior"
-      },
-      {
-        "az": "Premium sound",
-        "en": "Premium sound",
-        "ru": "Premium sound"
-      },
-      {
-        "az": "Advanced safety",
-        "en": "Advanced safety",
-        "ru": "Advanced safety"
-      }
-    ]
-  },
-  {
-    "id": "car-022",
-    "slug": "toyota-land-cruiser-suv-400",
-    "name": "Toyota Land Cruiser",
-    "brand": "Toyota",
-    "category": "suv",
-    "dailyPrice": 400,
-    "rating": 4.7,
-    "seats": 7,
-    "luggage": 6,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/toyota-land-cruiser.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-023",
-    "slug": "land-rover-defender-suv-450",
-    "name": "Land Rover Defender",
-    "brand": "Land Rover",
-    "category": "suv",
-    "dailyPrice": 450,
-    "rating": 4.9,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/land-rover-defender.jpg"
-    ],
-    "description": {
-      "az": "Luxury ride with premium comfort features.",
-      "en": "Luxury ride with premium comfort features.",
-      "ru": "Luxury ride with premium comfort features."
-    },
-    "highlights": [
-      {
-        "az": "Luxury interior",
-        "en": "Luxury interior",
-        "ru": "Luxury interior"
-      },
-      {
-        "az": "Premium sound",
-        "en": "Premium sound",
-        "ru": "Premium sound"
-      },
-      {
-        "az": "Advanced safety",
-        "en": "Advanced safety",
-        "ru": "Advanced safety"
-      }
-    ]
-  },
-  {
-    "id": "car-024",
-    "slug": "mercedes-benz-g-class-suv-1000",
-    "name": "Mercedes-Benz G-Class",
-    "brand": "Mercedes-Benz",
-    "category": "suv",
-    "dailyPrice": 1000,
-    "rating": 4.9,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/mercedes-g-class.jpg"
-    ],
-    "description": {
-      "az": "Luxury ride with premium comfort features.",
-      "en": "Luxury ride with premium comfort features.",
-      "ru": "Luxury ride with premium comfort features."
-    },
-    "highlights": [
-      {
-        "az": "Luxury interior",
-        "en": "Luxury interior",
-        "ru": "Luxury interior"
-      },
-      {
-        "az": "Premium sound",
-        "en": "Premium sound",
-        "ru": "Premium sound"
-      },
-      {
-        "az": "Advanced safety",
-        "en": "Advanced safety",
-        "ru": "Advanced safety"
-      }
-    ]
-  },
-  {
-    "id": "car-025",
-    "slug": "range-rover-suv-1500",
-    "name": "Range Rover",
-    "brand": "Land Rover",
-    "category": "suv",
-    "dailyPrice": 1500,
-    "rating": 4.9,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/range-rover.jpg"
-    ],
-    "description": {
-      "az": "Luxury ride with premium comfort features.",
-      "en": "Luxury ride with premium comfort features.",
-      "ru": "Luxury ride with premium comfort features."
-    },
-    "highlights": [
-      {
-        "az": "Luxury interior",
-        "en": "Luxury interior",
-        "ru": "Luxury interior"
-      },
-      {
-        "az": "Premium sound",
-        "en": "Premium sound",
-        "ru": "Premium sound"
-      },
-      {
-        "az": "Advanced safety",
-        "en": "Advanced safety",
-        "ru": "Advanced safety"
-      }
-    ]
-  },
-  {
-    "id": "car-026",
-    "slug": "bestune-t-77-suv-110",
-    "name": "Bestune T-77",
-    "brand": "Bestune",
-    "category": "suv",
-    "dailyPrice": 110,
-    "rating": 4.7,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/bestune-t-77.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-027",
-    "slug": "changan-uni-k-suv-150",
-    "name": "Changan UNI-K",
-    "brand": "Changan",
-    "category": "suv",
-    "dailyPrice": 150,
-    "rating": 4.7,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/changan-uni-k.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-028",
-    "slug": "hyundai-h-1-transport-150",
-    "name": "Hyundai H-1",
-    "brand": "Hyundai",
-    "category": "transport",
-    "dailyPrice": 150,
-    "rating": 4.6,
-    "seats": 8,
-    "luggage": 6,
-    "transmission": "automatic",
-    "fuelType": "diesel",
-    "year": 2023,
-    "engine": "2.2L Diesel",
-    "fuelEconomy": "9.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/hyundai-h-1.jpg"
-    ],
-    "description": {
-      "az": "Roomy minivan built for group travel.",
-      "en": "Roomy minivan built for group travel.",
-      "ru": "Roomy minivan built for group travel."
-    },
-    "highlights": [
-      {
-        "az": "Group seating",
-        "en": "Group seating",
-        "ru": "Group seating"
-      },
-      {
-        "az": "Spacious luggage",
-        "en": "Spacious luggage",
-        "ru": "Spacious luggage"
-      },
-      {
-        "az": "Climate control",
-        "en": "Climate control",
-        "ru": "Climate control"
-      }
-    ]
-  },
-  {
-    "id": "car-029",
-    "slug": "hyundai-h-1-transport-160",
-    "name": "Hyundai H-1",
-    "brand": "Hyundai",
-    "category": "transport",
-    "dailyPrice": 160,
-    "rating": 4.6,
-    "seats": 8,
-    "luggage": 6,
-    "transmission": "automatic",
-    "fuelType": "diesel",
-    "year": 2023,
-    "engine": "2.2L Diesel",
-    "fuelEconomy": "9.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/hyundai-h-1.jpg"
-    ],
-    "description": {
-      "az": "Roomy minivan built for group travel.",
-      "en": "Roomy minivan built for group travel.",
-      "ru": "Roomy minivan built for group travel."
-    },
-    "highlights": [
-      {
-        "az": "Group seating",
-        "en": "Group seating",
-        "ru": "Group seating"
-      },
-      {
-        "az": "Spacious luggage",
-        "en": "Spacious luggage",
-        "ru": "Spacious luggage"
-      },
-      {
-        "az": "Climate control",
-        "en": "Climate control",
-        "ru": "Climate control"
-      }
-    ]
-  },
-  {
-    "id": "car-030",
-    "slug": "mercedes-benz-v-class-transport-220",
-    "name": "Mercedes-Benz V-Class",
-    "brand": "Mercedes-Benz",
-    "category": "transport",
-    "dailyPrice": 220,
-    "rating": 4.6,
-    "seats": 6,
-    "luggage": 5,
-    "transmission": "automatic",
-    "fuelType": "diesel",
-    "year": 2023,
-    "engine": "2.2L Diesel",
-    "fuelEconomy": "9.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/mercedes-v-class.jpg"
-    ],
-    "description": {
-      "az": "Roomy minivan built for group travel.",
-      "en": "Roomy minivan built for group travel.",
-      "ru": "Roomy minivan built for group travel."
-    },
-    "highlights": [
-      {
-        "az": "Group seating",
-        "en": "Group seating",
-        "ru": "Group seating"
-      },
-      {
-        "az": "Spacious luggage",
-        "en": "Spacious luggage",
-        "ru": "Spacious luggage"
-      },
-      {
-        "az": "Climate control",
-        "en": "Climate control",
-        "ru": "Climate control"
-      }
-    ]
-  },
-  {
-    "id": "car-031",
-    "slug": "hyundai-accent-transfer-50",
-    "name": "Hyundai Accent",
-    "brand": "Hyundai",
-    "category": "transfer",
-    "dailyPrice": 50,
-    "rating": 4.8,
-    "seats": 4,
-    "luggage": 2,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/hyundai-accent.jpg"
-    ],
-    "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
-    },
-    "highlights": [
-      {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
-      },
-      {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
-      },
-      {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
-      }
-    ]
-  },
-  {
-    "id": "car-032",
-    "slug": "chevrolet-cruze-transfer-60",
-    "name": "Chevrolet Cruze",
-    "brand": "Chevrolet",
-    "category": "transfer",
-    "dailyPrice": 60,
-    "rating": 4.8,
-    "seats": 4,
-    "luggage": 2,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/chevrolet-cruze.jpg"
-    ],
-    "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
-    },
-    "highlights": [
-      {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
-      },
-      {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
-      },
-      {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
-      }
-    ]
-  },
-  {
-    "id": "car-033",
-    "slug": "hyundai-accent-transfer-60",
-    "name": "Hyundai Accent",
-    "brand": "Hyundai",
-    "category": "transfer",
-    "dailyPrice": 60,
-    "rating": 4.8,
-    "seats": 4,
-    "luggage": 2,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/hyundai-accent.jpg"
-    ],
-    "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
-    },
-    "highlights": [
-      {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
-      },
-      {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
-      },
-      {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
-      }
-    ]
-  },
-  {
-    "id": "car-034",
-    "slug": "kia-forte-transfer-80",
-    "name": "Kia Forte",
-    "brand": "Kia",
-    "category": "transfer",
-    "dailyPrice": 80,
-    "rating": 4.8,
-    "seats": 4,
-    "luggage": 2,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/kia-forte.jpg"
-    ],
-    "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
-    },
-    "highlights": [
-      {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
-      },
-      {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
-      },
-      {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
-      }
-    ]
-  },
-  {
-    "id": "car-035",
-    "slug": "toyota-corolla-hybrid-transfer-85",
-    "name": "Toyota Corolla (hybrid)",
-    "brand": "Toyota",
-    "category": "transfer",
-    "dailyPrice": 85,
-    "rating": 4.8,
-    "seats": 4,
-    "luggage": 2,
-    "transmission": "automatic",
-    "fuelType": "hybrid",
-    "year": 2023,
-    "engine": "1.8L Hybrid",
-    "fuelEconomy": "5.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/toyota-corolla-hybrid.jpg"
-    ],
-    "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
-    },
-    "highlights": [
-      {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
-      },
-      {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
-      },
-      {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
-      }
-    ]
-  },
-  {
-    "id": "car-036",
-    "slug": "hyundai-elantra-transfer-85",
-    "name": "Hyundai Elantra",
-    "brand": "Hyundai",
-    "category": "transfer",
-    "dailyPrice": 85,
-    "rating": 4.8,
-    "seats": 4,
-    "luggage": 2,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/hyundai-elantra.jpg"
-    ],
-    "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
-    },
-    "highlights": [
-      {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
-      },
-      {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
-      },
-      {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
-      }
-    ]
-  },
-  {
-    "id": "car-037",
-    "slug": "toyota-corolla-cross-hybrid-transfer-110",
-    "name": "Toyota Corolla Cross (hybrid)",
-    "brand": "Toyota",
-    "category": "transfer",
-    "dailyPrice": 110,
-    "rating": 4.7,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "hybrid",
-    "year": 2023,
-    "engine": "1.8L Hybrid",
-    "fuelEconomy": "5.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/toyota-corolla-cross.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-038",
-    "slug": "lada-niva-transfer-110",
-    "name": "Lada Niva",
-    "brand": "Lada",
-    "category": "transfer",
-    "dailyPrice": 110,
-    "rating": 4.7,
-    "seats": 5,
-    "luggage": 3,
-    "transmission": "manual",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/lada-niva.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-039",
-    "slug": "hyundai-santa-fe-transfer-90",
-    "name": "Hyundai Santa Fe",
-    "brand": "Hyundai",
-    "category": "transfer",
-    "dailyPrice": 90,
-    "rating": 4.7,
-    "seats": 7,
-    "luggage": 5,
-    "transmission": "automatic",
-    "fuelType": "diesel",
-    "year": 2023,
-    "engine": "2.2L Diesel",
-    "fuelEconomy": "9.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/hyundai-santa-fe.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-040",
-    "slug": "hyundai-sonata-transfer-130",
-    "name": "Hyundai Sonata",
-    "brand": "Hyundai",
-    "category": "transfer",
-    "dailyPrice": 130,
-    "rating": 4.8,
-    "seats": 5,
-    "luggage": 3,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/hyundai-sonata.jpg"
-    ],
-    "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
-    },
-    "highlights": [
-      {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
-      },
-      {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
-      },
-      {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
-      }
-    ]
-  },
-  {
-    "id": "car-041",
-    "slug": "changan-cs55plus-transfer-130",
-    "name": "Changan CS55plus",
-    "brand": "Changan",
-    "category": "transfer",
-    "dailyPrice": 130,
-    "rating": 4.7,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/changan-cs55plus.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-042",
-    "slug": "changan-uni-z-transfer-140",
-    "name": "Changan UNI-Z",
-    "brand": "Changan",
-    "category": "transfer",
-    "dailyPrice": 140,
-    "rating": 4.7,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/changan-uni-z.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-043",
-    "slug": "bmw-5-series-f10-transfer-140",
-    "name": "BMW 5-Series F10",
-    "brand": "BMW",
-    "category": "transfer",
-    "dailyPrice": 140,
-    "rating": 4.8,
-    "seats": 5,
-    "luggage": 3,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/bmw-5-series-f10.jpg"
-    ],
-    "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
-    },
-    "highlights": [
-      {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
-      },
-      {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
-      },
-      {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
-      }
-    ]
-  },
-  {
-    "id": "car-044",
-    "slug": "kia-carnival-transfer-150",
-    "name": "Kia Carnival",
-    "brand": "Kia",
-    "category": "transfer",
-    "dailyPrice": 150,
-    "rating": 4.6,
-    "seats": 7,
-    "luggage": 6,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/kia-carnival.jpg"
-    ],
-    "description": {
-      "az": "Roomy minivan built for group travel.",
-      "en": "Roomy minivan built for group travel.",
-      "ru": "Roomy minivan built for group travel."
-    },
-    "highlights": [
-      {
-        "az": "Group seating",
-        "en": "Group seating",
-        "ru": "Group seating"
-      },
-      {
-        "az": "Spacious luggage",
-        "en": "Spacious luggage",
-        "ru": "Spacious luggage"
-      },
-      {
-        "az": "Climate control",
-        "en": "Climate control",
-        "ru": "Climate control"
-      }
-    ]
-  },
-  {
-    "id": "car-045",
-    "slug": "toyota-land-cruiser-prado-transfer-150",
-    "name": "Toyota Land Cruiser Prado",
-    "brand": "Toyota",
-    "category": "transfer",
-    "dailyPrice": 150,
-    "rating": 4.7,
-    "seats": 7,
-    "luggage": 5,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/toyota-land-cruiser-prado.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-046",
-    "slug": "hyundai-h-1-transfer-160",
-    "name": "Hyundai H-1",
-    "brand": "Hyundai",
-    "category": "transfer",
-    "dailyPrice": 160,
-    "rating": 4.6,
-    "seats": 8,
-    "luggage": 6,
-    "transmission": "automatic",
-    "fuelType": "diesel",
-    "year": 2023,
-    "engine": "2.2L Diesel",
-    "fuelEconomy": "9.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/hyundai-h-1.jpg"
-    ],
-    "description": {
-      "az": "Roomy minivan built for group travel.",
-      "en": "Roomy minivan built for group travel.",
-      "ru": "Roomy minivan built for group travel."
-    },
-    "highlights": [
-      {
-        "az": "Group seating",
-        "en": "Group seating",
-        "ru": "Group seating"
-      },
-      {
-        "az": "Spacious luggage",
-        "en": "Spacious luggage",
-        "ru": "Spacious luggage"
-      },
-      {
-        "az": "Climate control",
-        "en": "Climate control",
-        "ru": "Climate control"
-      }
-    ]
-  },
-  {
-    "id": "car-047",
-    "slug": "toyota-camry-transfer-170",
-    "name": "Toyota Camry",
-    "brand": "Toyota",
-    "category": "transfer",
-    "dailyPrice": 170,
-    "rating": 4.8,
-    "seats": 5,
-    "luggage": 3,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/toyota-camry.jpg"
-    ],
-    "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
-    },
-    "highlights": [
-      {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
-      },
-      {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
-      },
-      {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
-      }
-    ]
-  },
-  {
-    "id": "car-048",
-    "slug": "mercedes-benz-e-class-transfer-200",
-    "name": "Mercedes-Benz E-Class",
-    "brand": "Mercedes-Benz",
-    "category": "transfer",
-    "dailyPrice": 200,
-    "rating": 4.8,
-    "seats": 5,
-    "luggage": 3,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/mercedes-e-class.jpg"
-    ],
-    "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
-    },
-    "highlights": [
-      {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
-      },
-      {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
-      },
-      {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
-      }
-    ]
-  },
-  {
-    "id": "car-049",
-    "slug": "mercedes-benz-v-class-transfer-220",
-    "name": "Mercedes-Benz V-Class",
-    "brand": "Mercedes-Benz",
-    "category": "transfer",
-    "dailyPrice": 220,
-    "rating": 4.6,
-    "seats": 6,
-    "luggage": 5,
-    "transmission": "automatic",
-    "fuelType": "diesel",
-    "year": 2023,
-    "engine": "2.2L Diesel",
-    "fuelEconomy": "9.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/mercedes-v-class.jpg"
-    ],
-    "description": {
-      "az": "Roomy minivan built for group travel.",
-      "en": "Roomy minivan built for group travel.",
-      "ru": "Roomy minivan built for group travel."
-    },
-    "highlights": [
-      {
-        "az": "Group seating",
-        "en": "Group seating",
-        "ru": "Group seating"
-      },
-      {
-        "az": "Spacious luggage",
-        "en": "Spacious luggage",
-        "ru": "Spacious luggage"
-      },
-      {
-        "az": "Climate control",
-        "en": "Climate control",
-        "ru": "Climate control"
-      }
-    ]
-  },
-  {
-    "id": "car-050",
-    "slug": "ford-mustang-transfer-220",
-    "name": "Ford Mustang",
-    "brand": "Ford",
-    "category": "transfer",
-    "dailyPrice": 220,
-    "rating": 4.8,
-    "seats": 4,
-    "luggage": 2,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/ford-mustang.jpg"
-    ],
-    "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
-    },
-    "highlights": [
-      {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
-      },
-      {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
-      },
-      {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
-      }
-    ]
-  },
-  {
-    "id": "car-051",
-    "slug": "bmw-428-cabriolet-transfer-250",
-    "name": "BMW 428 Cabriolet",
-    "brand": "BMW",
-    "category": "transfer",
-    "dailyPrice": 250,
-    "rating": 4.9,
-    "seats": 4,
-    "luggage": 2,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/bmw-428-cabriolet.jpg"
-    ],
-    "description": {
-      "az": "Luxury ride with premium comfort features.",
-      "en": "Luxury ride with premium comfort features.",
-      "ru": "Luxury ride with premium comfort features."
-    },
-    "highlights": [
-      {
-        "az": "Luxury interior",
-        "en": "Luxury interior",
-        "ru": "Luxury interior"
-      },
-      {
-        "az": "Premium sound",
-        "en": "Premium sound",
-        "ru": "Premium sound"
-      },
-      {
-        "az": "Advanced safety",
-        "en": "Advanced safety",
-        "ru": "Advanced safety"
-      }
-    ]
-  },
-  {
-    "id": "car-052",
-    "slug": "chevrolet-camaro-transfer-250",
-    "name": "Chevrolet Camaro",
-    "brand": "Chevrolet",
-    "category": "transfer",
-    "dailyPrice": 250,
-    "rating": 4.8,
-    "seats": 4,
-    "luggage": 2,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/chevrolet-camaro.jpg"
-    ],
-    "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
-    },
-    "highlights": [
-      {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
-      },
-      {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
-      },
-      {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
-      }
-    ]
-  },
-  {
-    "id": "car-053",
-    "slug": "range-rover-transfer-450",
-    "name": "Range Rover",
-    "brand": "Land Rover",
-    "category": "transfer",
-    "dailyPrice": 450,
-    "rating": 4.9,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/range-rover.jpg"
-    ],
-    "description": {
-      "az": "Luxury ride with premium comfort features.",
-      "en": "Luxury ride with premium comfort features.",
-      "ru": "Luxury ride with premium comfort features."
-    },
-    "highlights": [
-      {
-        "az": "Luxury interior",
-        "en": "Luxury interior",
-        "ru": "Luxury interior"
-      },
-      {
-        "az": "Premium sound",
-        "en": "Premium sound",
-        "ru": "Premium sound"
-      },
-      {
-        "az": "Advanced safety",
-        "en": "Advanced safety",
-        "ru": "Advanced safety"
-      }
-    ]
-  },
-  {
-    "id": "car-054",
-    "slug": "land-rover-defender-transfer-450",
-    "name": "Land Rover Defender",
-    "brand": "Land Rover",
-    "category": "transfer",
-    "dailyPrice": 450,
-    "rating": 4.9,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/land-rover-defender.jpg"
-    ],
-    "description": {
-      "az": "Luxury ride with premium comfort features.",
-      "en": "Luxury ride with premium comfort features.",
-      "ru": "Luxury ride with premium comfort features."
-    },
-    "highlights": [
-      {
-        "az": "Luxury interior",
-        "en": "Luxury interior",
-        "ru": "Luxury interior"
-      },
-      {
-        "az": "Premium sound",
-        "en": "Premium sound",
-        "ru": "Premium sound"
-      },
-      {
-        "az": "Advanced safety",
-        "en": "Advanced safety",
-        "ru": "Advanced safety"
-      }
-    ]
-  },
-  {
-    "id": "car-055",
-    "slug": "mercedes-benz-g-class-transfer-1000",
-    "name": "Mercedes-Benz G-Class",
-    "brand": "Mercedes-Benz",
-    "category": "transfer",
-    "dailyPrice": 1000,
-    "rating": 4.9,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/mercedes-g-class.jpg"
-    ],
-    "description": {
-      "az": "Luxury ride with premium comfort features.",
-      "en": "Luxury ride with premium comfort features.",
-      "ru": "Luxury ride with premium comfort features."
-    },
-    "highlights": [
-      {
-        "az": "Luxury interior",
-        "en": "Luxury interior",
-        "ru": "Luxury interior"
-      },
-      {
-        "az": "Premium sound",
-        "en": "Premium sound",
-        "ru": "Premium sound"
-      },
-      {
-        "az": "Advanced safety",
-        "en": "Advanced safety",
-        "ru": "Advanced safety"
-      }
-    ]
-  },
-  {
-    "id": "car-056",
-    "slug": "range-rover-transfer-1500",
-    "name": "Range Rover",
-    "brand": "Land Rover",
-    "category": "transfer",
-    "dailyPrice": 1500,
-    "rating": 4.9,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/range-rover.jpg"
-    ],
-    "description": {
-      "az": "Luxury ride with premium comfort features.",
-      "en": "Luxury ride with premium comfort features.",
-      "ru": "Luxury ride with premium comfort features."
-    },
-    "highlights": [
-      {
-        "az": "Luxury interior",
-        "en": "Luxury interior",
-        "ru": "Luxury interior"
-      },
-      {
-        "az": "Premium sound",
-        "en": "Premium sound",
-        "ru": "Premium sound"
-      },
-      {
-        "az": "Advanced safety",
-        "en": "Advanced safety",
-        "ru": "Advanced safety"
-      }
-    ]
-  },
-  {
-    "id": "car-057",
-    "slug": "bestune-t-77-transfer-110",
-    "name": "Bestune T-77",
-    "brand": "Bestune",
-    "category": "transfer",
-    "dailyPrice": 110,
-    "rating": 4.7,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/bestune-t-77.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-058",
-    "slug": "hyundai-accent-economy-50",
-    "name": "Hyundai Accent",
-    "brand": "Hyundai",
-    "category": "economy",
-    "dailyPrice": 50,
-    "rating": 4.8,
-    "seats": 4,
-    "luggage": 2,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/hyundai-accent.jpg"
-    ],
-    "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
-    },
-    "highlights": [
-      {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
-      },
-      {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
-      },
-      {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
-      }
-    ]
-  },
-  {
-    "id": "car-059",
-    "slug": "chevrolet-cruze-economy-60",
-    "name": "Chevrolet Cruze",
-    "brand": "Chevrolet",
-    "category": "economy",
-    "dailyPrice": 60,
-    "rating": 4.8,
-    "seats": 4,
-    "luggage": 2,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/chevrolet-cruze.jpg"
-    ],
-    "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
-    },
-    "highlights": [
-      {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
-      },
-      {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
-      },
-      {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
-      }
-    ]
-  },
-  {
-    "id": "car-060",
-    "slug": "hyundai-accent-economy-60",
-    "name": "Hyundai Accent",
-    "brand": "Hyundai",
-    "category": "economy",
-    "dailyPrice": 60,
-    "rating": 4.8,
-    "seats": 4,
-    "luggage": 2,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/hyundai-accent.jpg"
-    ],
-    "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
-    },
-    "highlights": [
-      {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
-      },
-      {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
-      },
-      {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
-      }
-    ]
-  },
-  {
-    "id": "car-061",
-    "slug": "kia-forte-economy-80",
-    "name": "Kia Forte",
-    "brand": "Kia",
-    "category": "economy",
-    "dailyPrice": 80,
-    "rating": 4.8,
-    "seats": 4,
-    "luggage": 2,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/kia-forte.jpg"
-    ],
-    "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
-    },
-    "highlights": [
-      {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
-      },
-      {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
-      },
-      {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
-      }
-    ]
-  },
-  {
-    "id": "car-062",
-    "slug": "toyota-corolla-hybrid-economy-85",
-    "name": "Toyota Corolla (hybrid)",
-    "brand": "Toyota",
-    "category": "economy",
-    "dailyPrice": 85,
-    "rating": 4.8,
-    "seats": 4,
-    "luggage": 2,
-    "transmission": "automatic",
-    "fuelType": "hybrid",
-    "year": 2023,
-    "engine": "1.8L Hybrid",
-    "fuelEconomy": "5.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/toyota-corolla-hybrid.jpg"
-    ],
-    "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
-    },
-    "highlights": [
-      {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
-      },
-      {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
-      },
-      {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
-      }
-    ]
-  },
-  {
-    "id": "car-063",
-    "slug": "hyundai-elantra-economy-85",
-    "name": "Hyundai Elantra",
-    "brand": "Hyundai",
-    "category": "economy",
-    "dailyPrice": 85,
-    "rating": 4.8,
-    "seats": 4,
-    "luggage": 2,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/hyundai-elantra.jpg"
-    ],
-    "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
-    },
-    "highlights": [
-      {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
-      },
-      {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
-      },
-      {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
-      }
-    ]
-  },
-  {
-    "id": "car-064",
-    "slug": "toyota-corolla-cross-hybrid-economy-110",
-    "name": "Toyota Corolla Cross (hybrid)",
-    "brand": "Toyota",
-    "category": "economy",
-    "dailyPrice": 110,
-    "rating": 4.7,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "hybrid",
-    "year": 2023,
-    "engine": "1.8L Hybrid",
-    "fuelEconomy": "5.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/toyota-corolla-cross.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-065",
-    "slug": "kia-k-5-business-120",
-    "name": "Kia K-5",
+    "slug": "kia-k5-business-120-2023",
+    "name": "Kia K5",
     "brand": "Kia",
     "category": "business",
     "dailyPrice": 120,
-    "rating": 4.7,
+    "rating": 4.8,
     "seats": 5,
     "luggage": 3,
     "transmission": "automatic",
@@ -2707,31 +271,31 @@
       "/images/cars/kia-k-5.jpg"
     ],
     "description": {
-      "az": "Comfort-focused option for business travel.",
-      "en": "Comfort-focused option for business travel.",
-      "ru": "Comfort-focused option for business travel."
+      "az": "Kia K5 (2023) - Great choice for your trip.",
+      "en": "Kia K5 (2023) - Great choice for your trip.",
+      "ru": "Kia K5 (2023) - Great choice for your trip."
     },
     "highlights": [
       {
-        "az": "Quiet cabin",
-        "en": "Quiet cabin",
-        "ru": "Quiet cabin"
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
       },
       {
-        "az": "Comfort seating",
-        "en": "Comfort seating",
-        "ru": "Comfort seating"
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
       },
       {
-        "az": "Driver assist",
-        "en": "Driver assist",
-        "ru": "Driver assist"
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
       }
     ]
   },
   {
-    "id": "car-066",
-    "slug": "hyundai-sonata-business-130",
+    "id": "car-008",
+    "slug": "hyundai-sonata-business-130-2023",
     "name": "Hyundai Sonata",
     "brand": "Hyundai",
     "category": "business",
@@ -2749,73 +313,31 @@
       "/images/cars/hyundai-sonata.jpg"
     ],
     "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
+      "az": "Hyundai Sonata (2023) - Great choice for your trip.",
+      "en": "Hyundai Sonata (2023) - Great choice for your trip.",
+      "ru": "Hyundai Sonata (2023) - Great choice for your trip."
     },
     "highlights": [
       {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
       },
       {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
       },
       {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
       }
     ]
   },
   {
-    "id": "car-067",
-    "slug": "changan-uni-z-business-140",
-    "name": "Changan UNI-Z",
-    "brand": "Changan",
-    "category": "business",
-    "dailyPrice": 140,
-    "rating": 4.7,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/changan-uni-z.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-068",
-    "slug": "bmw-5-series-f10-business-140",
+    "id": "car-009",
+    "slug": "bmw-5-series-f10-business-140-2013",
     "name": "BMW 5-Series F10",
     "brand": "BMW",
     "category": "business",
@@ -2825,7 +347,7 @@
     "luggage": 3,
     "transmission": "automatic",
     "fuelType": "petrol",
-    "year": 2023,
+    "year": 2013,
     "engine": "2.0L",
     "fuelEconomy": "8.0 L/100km",
     "availability": "available",
@@ -2833,73 +355,73 @@
       "/images/cars/bmw-5-series-f10.jpg"
     ],
     "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
+      "az": "BMW 5-Series F10 (2013) - Great choice for your trip.",
+      "en": "BMW 5-Series F10 (2013) - Great choice for your trip.",
+      "ru": "BMW 5-Series F10 (2013) - Great choice for your trip."
     },
     "highlights": [
       {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
       },
       {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
       },
       {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
       }
     ]
   },
   {
-    "id": "car-069",
-    "slug": "kia-carnival-business-150",
-    "name": "Kia Carnival",
-    "brand": "Kia",
+    "id": "car-010",
+    "slug": "changan-uni-z-business-140-2025",
+    "name": "Changan UNI-Z",
+    "brand": "Changan",
     "category": "business",
-    "dailyPrice": 150,
-    "rating": 4.6,
-    "seats": 7,
-    "luggage": 6,
+    "dailyPrice": 140,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
     "transmission": "automatic",
     "fuelType": "petrol",
-    "year": 2023,
+    "year": 2025,
     "engine": "2.0L",
     "fuelEconomy": "8.0 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/kia-carnival.jpg"
+      "/images/cars/changan-uni-z.jpg"
     ],
     "description": {
-      "az": "Roomy minivan built for group travel.",
-      "en": "Roomy minivan built for group travel.",
-      "ru": "Roomy minivan built for group travel."
+      "az": "Changan UNI-Z (2025) - Great choice for your trip.",
+      "en": "Changan UNI-Z (2025) - Great choice for your trip.",
+      "ru": "Changan UNI-Z (2025) - Great choice for your trip."
     },
     "highlights": [
       {
-        "az": "Group seating",
-        "en": "Group seating",
-        "ru": "Group seating"
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
       },
       {
-        "az": "Spacious luggage",
-        "en": "Spacious luggage",
-        "ru": "Spacious luggage"
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
       },
       {
-        "az": "Climate control",
-        "en": "Climate control",
-        "ru": "Climate control"
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
       }
     ]
   },
   {
-    "id": "car-070",
-    "slug": "toyota-camry-business-170",
+    "id": "car-011",
+    "slug": "toyota-camry-business-170-2024",
     "name": "Toyota Camry",
     "brand": "Toyota",
     "category": "business",
@@ -2909,7 +431,7 @@
     "luggage": 3,
     "transmission": "automatic",
     "fuelType": "petrol",
-    "year": 2023,
+    "year": 2024,
     "engine": "2.0L",
     "fuelEconomy": "8.0 L/100km",
     "availability": "available",
@@ -2917,35 +439,749 @@
       "/images/cars/toyota-camry.jpg"
     ],
     "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
+      "az": "Toyota Camry (2024) - Great choice for your trip.",
+      "en": "Toyota Camry (2024) - Great choice for your trip.",
+      "ru": "Toyota Camry (2024) - Great choice for your trip."
     },
     "highlights": [
       {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
       },
       {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
       },
       {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
       }
     ]
   },
   {
-    "id": "car-071",
-    "slug": "mercedes-benz-e-class-business-200",
+    "id": "car-012",
+    "slug": "mercedes-benz-e-class-business-200-2018",
     "name": "Mercedes-Benz E-Class",
     "brand": "Mercedes-Benz",
     "category": "business",
     "dailyPrice": 200,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2018,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/mercedes-e-class.jpg"
+    ],
+    "description": {
+      "az": "Mercedes-Benz E-Class (2018) - Great choice for your trip.",
+      "en": "Mercedes-Benz E-Class (2018) - Great choice for your trip.",
+      "ru": "Mercedes-Benz E-Class (2018) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-013",
+    "slug": "ford-mustang-business-220-2019",
+    "name": "Ford Mustang",
+    "brand": "Ford",
+    "category": "business",
+    "dailyPrice": 220,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2019,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/ford-mustang.jpg"
+    ],
+    "description": {
+      "az": "Ford Mustang (2019) - Great choice for your trip.",
+      "en": "Ford Mustang (2019) - Great choice for your trip.",
+      "ru": "Ford Mustang (2019) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-014",
+    "slug": "bmw-428-cabriolet-business-250-2018",
+    "name": "BMW 428 Cabriolet",
+    "brand": "BMW",
+    "category": "business",
+    "dailyPrice": 250,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2018,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/bmw-428-cabriolet.jpg"
+    ],
+    "description": {
+      "az": "BMW 428 Cabriolet (2018) - Great choice for your trip.",
+      "en": "BMW 428 Cabriolet (2018) - Great choice for your trip.",
+      "ru": "BMW 428 Cabriolet (2018) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-015",
+    "slug": "chevrolet-camaro-business-250-2021",
+    "name": "Chevrolet Camaro",
+    "brand": "Chevrolet",
+    "category": "business",
+    "dailyPrice": 250,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2021,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/chevrolet-camaro.jpg"
+    ],
+    "description": {
+      "az": "Chevrolet Camaro (2021) - Great choice for your trip.",
+      "en": "Chevrolet Camaro (2021) - Great choice for your trip.",
+      "ru": "Chevrolet Camaro (2021) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-016",
+    "slug": "mercedes-benz-v-class-premium-220-2019",
+    "name": "Mercedes-Benz V-Class",
+    "brand": "Mercedes-Benz",
+    "category": "premium",
+    "dailyPrice": 220,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2019,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/mercedes-v-class.jpg"
+    ],
+    "description": {
+      "az": "Mercedes-Benz V-Class (2019) - Great choice for your trip.",
+      "en": "Mercedes-Benz V-Class (2019) - Great choice for your trip.",
+      "ru": "Mercedes-Benz V-Class (2019) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-017",
+    "slug": "bmw-x5-premium-350-2021",
+    "name": "BMW X5",
+    "brand": "BMW",
+    "category": "premium",
+    "dailyPrice": 350,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2021,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/bmw-x5.jpg"
+    ],
+    "description": {
+      "az": "BMW X5 (2021) - Great choice for your trip.",
+      "en": "BMW X5 (2021) - Great choice for your trip.",
+      "ru": "BMW X5 (2021) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-018",
+    "slug": "range-rover-premium-450-2021",
+    "name": "Range Rover",
+    "brand": "Range",
+    "category": "premium",
+    "dailyPrice": 450,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2021,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/range-rover.jpg"
+    ],
+    "description": {
+      "az": "Range Rover (2021) - Great choice for your trip.",
+      "en": "Range Rover (2021) - Great choice for your trip.",
+      "ru": "Range Rover (2021) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-019",
+    "slug": "land-rover-defender-premium-450-2021",
+    "name": "Land Rover Defender",
+    "brand": "Land",
+    "category": "premium",
+    "dailyPrice": 450,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2021,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/land-rover-defender.jpg"
+    ],
+    "description": {
+      "az": "Land Rover Defender (2021) - Great choice for your trip.",
+      "en": "Land Rover Defender (2021) - Great choice for your trip.",
+      "ru": "Land Rover Defender (2021) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-020",
+    "slug": "mercedes-benz-g-class-premium-1000-2020",
+    "name": "Mercedes-Benz G-Class",
+    "brand": "Mercedes-Benz",
+    "category": "premium",
+    "dailyPrice": 1000,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2020,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/mercedes-g-class.jpg"
+    ],
+    "description": {
+      "az": "Mercedes-Benz G-Class (2020) - Great choice for your trip.",
+      "en": "Mercedes-Benz G-Class (2020) - Great choice for your trip.",
+      "ru": "Mercedes-Benz G-Class (2020) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-021",
+    "slug": "range-rover-premium-1500-2024",
+    "name": "Range Rover",
+    "brand": "Range",
+    "category": "premium",
+    "dailyPrice": 1500,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2024,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/range-rover.jpg"
+    ],
+    "description": {
+      "az": "Range Rover (2024) - Great choice for your trip.",
+      "en": "Range Rover (2024) - Great choice for your trip.",
+      "ru": "Range Rover (2024) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-022",
+    "slug": "kia-carnival-minivan-150-2017",
+    "name": "Kia Carnival",
+    "brand": "Kia",
+    "category": "minivan",
+    "dailyPrice": 150,
+    "rating": 4.8,
+    "seats": 7,
+    "luggage": 5,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2017,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/kia-carnival.jpg"
+    ],
+    "description": {
+      "az": "Kia Carnival (2017) - Great choice for your trip.",
+      "en": "Kia Carnival (2017) - Great choice for your trip.",
+      "ru": "Kia Carnival (2017) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-023",
+    "slug": "hyundai-h-1-minivan-150-2017",
+    "name": "Hyundai H-1",
+    "brand": "Hyundai",
+    "category": "minivan",
+    "dailyPrice": 150,
+    "rating": 4.8,
+    "seats": 7,
+    "luggage": 5,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2017,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/hyundai-h-1.jpg"
+    ],
+    "description": {
+      "az": "Hyundai H-1 (2017) - Great choice for your trip.",
+      "en": "Hyundai H-1 (2017) - Great choice for your trip.",
+      "ru": "Hyundai H-1 (2017) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-024",
+    "slug": "hyundai-h-1-minivan-160-2020",
+    "name": "Hyundai H-1",
+    "brand": "Hyundai",
+    "category": "minivan",
+    "dailyPrice": 160,
+    "rating": 4.8,
+    "seats": 7,
+    "luggage": 5,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2020,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/hyundai-h-1.jpg"
+    ],
+    "description": {
+      "az": "Hyundai H-1 (2020) - Great choice for your trip.",
+      "en": "Hyundai H-1 (2020) - Great choice for your trip.",
+      "ru": "Hyundai H-1 (2020) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-025",
+    "slug": "mercedes-benz-v-class-minivan-220-2018",
+    "name": "Mercedes-Benz V-Class",
+    "brand": "Mercedes-Benz",
+    "category": "minivan",
+    "dailyPrice": 220,
+    "rating": 4.8,
+    "seats": 7,
+    "luggage": 5,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2018,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/mercedes-v-class.jpg"
+    ],
+    "description": {
+      "az": "Mercedes-Benz V-Class (2018) - Great choice for your trip.",
+      "en": "Mercedes-Benz V-Class (2018) - Great choice for your trip.",
+      "ru": "Mercedes-Benz V-Class (2018) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-026",
+    "slug": "hyundai-santa-fe-suv-90-2014",
+    "name": "Hyundai Santa Fe",
+    "brand": "Hyundai",
+    "category": "suv",
+    "dailyPrice": 90,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2014,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/hyundai-santa-fe.jpg"
+    ],
+    "description": {
+      "az": "Hyundai Santa Fe (2014) - Great choice for your trip.",
+      "en": "Hyundai Santa Fe (2014) - Great choice for your trip.",
+      "ru": "Hyundai Santa Fe (2014) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-027",
+    "slug": "toyota-corolla-cross-hybrid--suv-110-2024",
+    "name": "Toyota Corolla Cross (Hybrid)",
+    "brand": "Toyota",
+    "category": "suv",
+    "dailyPrice": 110,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2024,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/toyota-corolla-cross.jpg"
+    ],
+    "description": {
+      "az": "Toyota Corolla Cross (Hybrid) (2024) - Great choice for your trip.",
+      "en": "Toyota Corolla Cross (Hybrid) (2024) - Great choice for your trip.",
+      "ru": "Toyota Corolla Cross (Hybrid) (2024) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-028",
+    "slug": "lada-niva-suv-110-2025",
+    "name": "Lada Niva",
+    "brand": "Lada",
+    "category": "suv",
+    "dailyPrice": 110,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2025,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/lada-niva.jpg"
+    ],
+    "description": {
+      "az": "Lada Niva (2025) - Great choice for your trip.",
+      "en": "Lada Niva (2025) - Great choice for your trip.",
+      "ru": "Lada Niva (2025) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-029",
+    "slug": "bestune-t-77-suv-110-2023",
+    "name": "Bestune T-77",
+    "brand": "Bestune",
+    "category": "suv",
+    "dailyPrice": 110,
     "rating": 4.8,
     "seats": 5,
     "luggage": 3,
@@ -2956,541 +1192,37 @@
     "fuelEconomy": "8.0 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/mercedes-e-class.jpg"
+      "/images/cars/bestune-t-77.jpg"
     ],
     "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
+      "az": "Bestune T-77 (2023) - Great choice for your trip.",
+      "en": "Bestune T-77 (2023) - Great choice for your trip.",
+      "ru": "Bestune T-77 (2023) - Great choice for your trip."
     },
     "highlights": [
       {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
       },
       {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
       },
       {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
       }
     ]
   },
   {
-    "id": "car-072",
-    "slug": "mercedes-benz-v-class-business-220",
-    "name": "Mercedes-Benz V-Class",
-    "brand": "Mercedes-Benz",
-    "category": "business",
-    "dailyPrice": 220,
-    "rating": 4.6,
-    "seats": 6,
-    "luggage": 5,
-    "transmission": "automatic",
-    "fuelType": "diesel",
-    "year": 2023,
-    "engine": "2.2L Diesel",
-    "fuelEconomy": "9.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/mercedes-v-class.jpg"
-    ],
-    "description": {
-      "az": "Roomy minivan built for group travel.",
-      "en": "Roomy minivan built for group travel.",
-      "ru": "Roomy minivan built for group travel."
-    },
-    "highlights": [
-      {
-        "az": "Group seating",
-        "en": "Group seating",
-        "ru": "Group seating"
-      },
-      {
-        "az": "Spacious luggage",
-        "en": "Spacious luggage",
-        "ru": "Spacious luggage"
-      },
-      {
-        "az": "Climate control",
-        "en": "Climate control",
-        "ru": "Climate control"
-      }
-    ]
-  },
-  {
-    "id": "car-073",
-    "slug": "ford-mustang-business-220",
-    "name": "Ford Mustang",
-    "brand": "Ford",
-    "category": "business",
-    "dailyPrice": 220,
-    "rating": 4.8,
-    "seats": 4,
-    "luggage": 2,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/ford-mustang.jpg"
-    ],
-    "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
-    },
-    "highlights": [
-      {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
-      },
-      {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
-      },
-      {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
-      }
-    ]
-  },
-  {
-    "id": "car-074",
-    "slug": "bmw-428-cabriolet-business-250",
-    "name": "BMW 428 Cabriolet",
-    "brand": "BMW",
-    "category": "business",
-    "dailyPrice": 250,
-    "rating": 4.9,
-    "seats": 4,
-    "luggage": 2,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/bmw-428-cabriolet.jpg"
-    ],
-    "description": {
-      "az": "Luxury ride with premium comfort features.",
-      "en": "Luxury ride with premium comfort features.",
-      "ru": "Luxury ride with premium comfort features."
-    },
-    "highlights": [
-      {
-        "az": "Luxury interior",
-        "en": "Luxury interior",
-        "ru": "Luxury interior"
-      },
-      {
-        "az": "Premium sound",
-        "en": "Premium sound",
-        "ru": "Premium sound"
-      },
-      {
-        "az": "Advanced safety",
-        "en": "Advanced safety",
-        "ru": "Advanced safety"
-      }
-    ]
-  },
-  {
-    "id": "car-075",
-    "slug": "jetour-t-2-business-240",
-    "name": "Jetour T-2",
-    "brand": "Jetour",
-    "category": "business",
-    "dailyPrice": 240,
-    "rating": 4.7,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/jetour-t-2.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-076",
-    "slug": "chevrolet-camaro-business-250",
-    "name": "Chevrolet Camaro",
-    "brand": "Chevrolet",
-    "category": "business",
-    "dailyPrice": 250,
-    "rating": 4.8,
-    "seats": 4,
-    "luggage": 2,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/chevrolet-camaro.jpg"
-    ],
-    "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
-    },
-    "highlights": [
-      {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
-      },
-      {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
-      },
-      {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
-      }
-    ]
-  },
-  {
-    "id": "car-077",
-    "slug": "range-rover-business-350",
-    "name": "Range Rover",
-    "brand": "Land Rover",
-    "category": "business",
-    "dailyPrice": 350,
-    "rating": 4.9,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/range-rover.jpg"
-    ],
-    "description": {
-      "az": "Luxury ride with premium comfort features.",
-      "en": "Luxury ride with premium comfort features.",
-      "ru": "Luxury ride with premium comfort features."
-    },
-    "highlights": [
-      {
-        "az": "Luxury interior",
-        "en": "Luxury interior",
-        "ru": "Luxury interior"
-      },
-      {
-        "az": "Premium sound",
-        "en": "Premium sound",
-        "ru": "Premium sound"
-      },
-      {
-        "az": "Advanced safety",
-        "en": "Advanced safety",
-        "ru": "Advanced safety"
-      }
-    ]
-  },
-  {
-    "id": "car-078",
-    "slug": "bmw-x5-business-350",
-    "name": "BMW X5",
-    "brand": "BMW",
-    "category": "business",
-    "dailyPrice": 350,
-    "rating": 4.9,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/bmw-x5.jpg"
-    ],
-    "description": {
-      "az": "Luxury ride with premium comfort features.",
-      "en": "Luxury ride with premium comfort features.",
-      "ru": "Luxury ride with premium comfort features."
-    },
-    "highlights": [
-      {
-        "az": "Luxury interior",
-        "en": "Luxury interior",
-        "ru": "Luxury interior"
-      },
-      {
-        "az": "Premium sound",
-        "en": "Premium sound",
-        "ru": "Premium sound"
-      },
-      {
-        "az": "Advanced safety",
-        "en": "Advanced safety",
-        "ru": "Advanced safety"
-      }
-    ]
-  },
-  {
-    "id": "car-079",
-    "slug": "toyota-land-cruiser-business-400",
-    "name": "Toyota Land Cruiser",
-    "brand": "Toyota",
-    "category": "business",
-    "dailyPrice": 400,
-    "rating": 4.7,
-    "seats": 7,
-    "luggage": 6,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/toyota-land-cruiser.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-080",
-    "slug": "land-rover-defender-business-450",
-    "name": "Land Rover Defender",
-    "brand": "Land Rover",
-    "category": "business",
-    "dailyPrice": 450,
-    "rating": 4.9,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/land-rover-defender.jpg"
-    ],
-    "description": {
-      "az": "Luxury ride with premium comfort features.",
-      "en": "Luxury ride with premium comfort features.",
-      "ru": "Luxury ride with premium comfort features."
-    },
-    "highlights": [
-      {
-        "az": "Luxury interior",
-        "en": "Luxury interior",
-        "ru": "Luxury interior"
-      },
-      {
-        "az": "Premium sound",
-        "en": "Premium sound",
-        "ru": "Premium sound"
-      },
-      {
-        "az": "Advanced safety",
-        "en": "Advanced safety",
-        "ru": "Advanced safety"
-      }
-    ]
-  },
-  {
-    "id": "car-081",
-    "slug": "mercedes-benz-g-class-business-1000",
-    "name": "Mercedes-Benz G-Class",
-    "brand": "Mercedes-Benz",
-    "category": "business",
-    "dailyPrice": 1000,
-    "rating": 4.9,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/mercedes-g-class.jpg"
-    ],
-    "description": {
-      "az": "Luxury ride with premium comfort features.",
-      "en": "Luxury ride with premium comfort features.",
-      "ru": "Luxury ride with premium comfort features."
-    },
-    "highlights": [
-      {
-        "az": "Luxury interior",
-        "en": "Luxury interior",
-        "ru": "Luxury interior"
-      },
-      {
-        "az": "Premium sound",
-        "en": "Premium sound",
-        "ru": "Premium sound"
-      },
-      {
-        "az": "Advanced safety",
-        "en": "Advanced safety",
-        "ru": "Advanced safety"
-      }
-    ]
-  },
-  {
-    "id": "car-082",
-    "slug": "range-rover-business-1500",
-    "name": "Range Rover",
-    "brand": "Land Rover",
-    "category": "business",
-    "dailyPrice": 1500,
-    "rating": 4.9,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/range-rover.jpg"
-    ],
-    "description": {
-      "az": "Luxury ride with premium comfort features.",
-      "en": "Luxury ride with premium comfort features.",
-      "ru": "Luxury ride with premium comfort features."
-    },
-    "highlights": [
-      {
-        "az": "Luxury interior",
-        "en": "Luxury interior",
-        "ru": "Luxury interior"
-      },
-      {
-        "az": "Premium sound",
-        "en": "Premium sound",
-        "ru": "Premium sound"
-      },
-      {
-        "az": "Advanced safety",
-        "en": "Advanced safety",
-        "ru": "Advanced safety"
-      }
-    ]
-  },
-  {
-    "id": "car-083",
-    "slug": "changan-uni-k-business-150",
-    "name": "Changan UNI-K",
+    "id": "car-030",
+    "slug": "changan-cs55-plus-suv-130-2023",
+    "name": "Changan CS55 Plus",
     "brand": "Changan",
-    "category": "business",
-    "dailyPrice": 150,
-    "rating": 4.7,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/changan-uni-k.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-084",
-    "slug": "toyota-camry-business-130",
-    "name": "Toyota Camry",
-    "brand": "Toyota",
-    "category": "business",
+    "category": "suv",
     "dailyPrice": 130,
     "rating": 4.8,
     "seats": 5,
@@ -3502,293 +1234,41 @@
     "fuelEconomy": "8.0 L/100km",
     "availability": "available",
     "images": [
-      "/images/cars/toyota-camry.jpg"
+      "/images/cars/changan-cs55plus.jpg"
     ],
     "description": {
-      "az": "Professional transfer ride with added comfort.",
-      "en": "Professional transfer ride with added comfort.",
-      "ru": "Professional transfer ride with added comfort."
+      "az": "Changan CS55 Plus (2023) - Great choice for your trip.",
+      "en": "Changan CS55 Plus (2023) - Great choice for your trip.",
+      "ru": "Changan CS55 Plus (2023) - Great choice for your trip."
     },
     "highlights": [
       {
-        "az": "Comfort ride",
-        "en": "Comfort ride",
-        "ru": "Comfort ride"
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
       },
       {
-        "az": "Professional service",
-        "en": "Professional service",
-        "ru": "Professional service"
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
       },
       {
-        "az": "Wi-Fi available",
-        "en": "Wi-Fi available",
-        "ru": "Wi-Fi available"
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
       }
     ]
   },
   {
-    "id": "car-085",
-    "slug": "toyota-land-cruiser-prado-transfer-160",
-    "name": "Toyota Land Cruiser Prado",
-    "brand": "Toyota",
-    "category": "transfer",
-    "dailyPrice": 160,
-    "rating": 4.7,
-    "seats": 7,
-    "luggage": 5,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/toyota-land-cruiser-prado.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-086",
-    "slug": "hyundai-h-1-transfer-150",
-    "name": "Hyundai H-1",
-    "brand": "Hyundai",
-    "category": "transfer",
-    "dailyPrice": 150,
-    "rating": 4.6,
-    "seats": 8,
-    "luggage": 6,
-    "transmission": "automatic",
-    "fuelType": "diesel",
-    "year": 2023,
-    "engine": "2.2L Diesel",
-    "fuelEconomy": "9.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/hyundai-h-1.jpg"
-    ],
-    "description": {
-      "az": "Roomy minivan built for group travel.",
-      "en": "Roomy minivan built for group travel.",
-      "ru": "Roomy minivan built for group travel."
-    },
-    "highlights": [
-      {
-        "az": "Group seating",
-        "en": "Group seating",
-        "ru": "Group seating"
-      },
-      {
-        "az": "Spacious luggage",
-        "en": "Spacious luggage",
-        "ru": "Spacious luggage"
-      },
-      {
-        "az": "Climate control",
-        "en": "Climate control",
-        "ru": "Climate control"
-      }
-    ]
-  },
-  {
-    "id": "car-087",
-    "slug": "jetour-t-2-transfer-240",
-    "name": "Jetour T-2",
-    "brand": "Jetour",
-    "category": "transfer",
-    "dailyPrice": 240,
-    "rating": 4.7,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/jetour-t-2.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-088",
-    "slug": "bmw-x5-transfer-350",
-    "name": "BMW X5",
-    "brand": "BMW",
-    "category": "transfer",
-    "dailyPrice": 350,
-    "rating": 4.9,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/bmw-x5.jpg"
-    ],
-    "description": {
-      "az": "Luxury ride with premium comfort features.",
-      "en": "Luxury ride with premium comfort features.",
-      "ru": "Luxury ride with premium comfort features."
-    },
-    "highlights": [
-      {
-        "az": "Luxury interior",
-        "en": "Luxury interior",
-        "ru": "Luxury interior"
-      },
-      {
-        "az": "Premium sound",
-        "en": "Premium sound",
-        "ru": "Premium sound"
-      },
-      {
-        "az": "Advanced safety",
-        "en": "Advanced safety",
-        "ru": "Advanced safety"
-      }
-    ]
-  },
-  {
-    "id": "car-089",
-    "slug": "toyota-land-cruiser-transfer-400",
-    "name": "Toyota Land Cruiser",
-    "brand": "Toyota",
-    "category": "transfer",
-    "dailyPrice": 400,
-    "rating": 4.7,
-    "seats": 7,
-    "luggage": 6,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/toyota-land-cruiser.jpg"
-    ],
-    "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
-    },
-    "highlights": [
-      {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
-      },
-      {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
-      },
-      {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
-      }
-    ]
-  },
-  {
-    "id": "car-090",
-    "slug": "range-rover-transfer-350",
-    "name": "Range Rover",
-    "brand": "Land Rover",
-    "category": "transfer",
-    "dailyPrice": 350,
-    "rating": 4.9,
-    "seats": 5,
-    "luggage": 4,
-    "transmission": "automatic",
-    "fuelType": "petrol",
-    "year": 2023,
-    "engine": "2.0L",
-    "fuelEconomy": "8.0 L/100km",
-    "availability": "available",
-    "images": [
-      "/images/cars/range-rover.jpg"
-    ],
-    "description": {
-      "az": "Luxury ride with premium comfort features.",
-      "en": "Luxury ride with premium comfort features.",
-      "ru": "Luxury ride with premium comfort features."
-    },
-    "highlights": [
-      {
-        "az": "Luxury interior",
-        "en": "Luxury interior",
-        "ru": "Luxury interior"
-      },
-      {
-        "az": "Premium sound",
-        "en": "Premium sound",
-        "ru": "Premium sound"
-      },
-      {
-        "az": "Advanced safety",
-        "en": "Advanced safety",
-        "ru": "Advanced safety"
-      }
-    ]
-  },
-  {
-    "id": "car-091",
-    "slug": "changan-uni-k-transfer-150",
+    "id": "car-031",
+    "slug": "changan-uni-k-suv-150-2023",
     "name": "Changan UNI-K",
     "brand": "Changan",
-    "category": "transfer",
+    "category": "suv",
     "dailyPrice": 150,
-    "rating": 4.7,
+    "rating": 4.8,
     "seats": 5,
-    "luggage": 4,
+    "luggage": 3,
     "transmission": "automatic",
     "fuelType": "petrol",
     "year": 2023,
@@ -3799,25 +1279,1789 @@
       "/images/cars/changan-uni-k.jpg"
     ],
     "description": {
-      "az": "Spacious SUV with confident road presence.",
-      "en": "Spacious SUV with confident road presence.",
-      "ru": "Spacious SUV with confident road presence."
+      "az": "Changan UNI-K (2023) - Great choice for your trip.",
+      "en": "Changan UNI-K (2023) - Great choice for your trip.",
+      "ru": "Changan UNI-K (2023) - Great choice for your trip."
     },
     "highlights": [
       {
-        "az": "Spacious cabin",
-        "en": "Spacious cabin",
-        "ru": "Spacious cabin"
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
       },
       {
-        "az": "Strong road presence",
-        "en": "Strong road presence",
-        "ru": "Strong road presence"
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
       },
       {
-        "az": "Large luggage",
-        "en": "Large luggage",
-        "ru": "Large luggage"
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-032",
+    "slug": "toyota-land-cruiser-prado-suv-150-2018",
+    "name": "Toyota Land Cruiser Prado",
+    "brand": "Toyota",
+    "category": "suv",
+    "dailyPrice": 150,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2018,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/toyota-land-cruiser-prado.jpg"
+    ],
+    "description": {
+      "az": "Toyota Land Cruiser Prado (2018) - Great choice for your trip.",
+      "en": "Toyota Land Cruiser Prado (2018) - Great choice for your trip.",
+      "ru": "Toyota Land Cruiser Prado (2018) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-033",
+    "slug": "toyota-land-cruiser-prado-suv-160-2022",
+    "name": "Toyota Land Cruiser Prado",
+    "brand": "Toyota",
+    "category": "suv",
+    "dailyPrice": 160,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2022,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/toyota-land-cruiser-prado.jpg"
+    ],
+    "description": {
+      "az": "Toyota Land Cruiser Prado (2022) - Great choice for your trip.",
+      "en": "Toyota Land Cruiser Prado (2022) - Great choice for your trip.",
+      "ru": "Toyota Land Cruiser Prado (2022) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-034",
+    "slug": "jetour-t-2-suv-240-2025",
+    "name": "Jetour T-2",
+    "brand": "Jetour",
+    "category": "suv",
+    "dailyPrice": 240,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2025,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/jetour-t-2.jpg"
+    ],
+    "description": {
+      "az": "Jetour T-2 (2025) - Great choice for your trip.",
+      "en": "Jetour T-2 (2025) - Great choice for your trip.",
+      "ru": "Jetour T-2 (2025) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-035",
+    "slug": "bmw-x5-suv-350-2021",
+    "name": "BMW X5",
+    "brand": "BMW",
+    "category": "suv",
+    "dailyPrice": 350,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2021,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/bmw-x5.jpg"
+    ],
+    "description": {
+      "az": "BMW X5 (2021) - Great choice for your trip.",
+      "en": "BMW X5 (2021) - Great choice for your trip.",
+      "ru": "BMW X5 (2021) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-036",
+    "slug": "range-rover-suv-350-2021",
+    "name": "Range Rover",
+    "brand": "Range",
+    "category": "suv",
+    "dailyPrice": 350,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2021,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/range-rover.jpg"
+    ],
+    "description": {
+      "az": "Range Rover (2021) - Great choice for your trip.",
+      "en": "Range Rover (2021) - Great choice for your trip.",
+      "ru": "Range Rover (2021) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-037",
+    "slug": "toyota-land-cruiser-suv-400-2025",
+    "name": "Toyota Land Cruiser",
+    "brand": "Toyota",
+    "category": "suv",
+    "dailyPrice": 400,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2025,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/toyota-land-cruiser.jpg"
+    ],
+    "description": {
+      "az": "Toyota Land Cruiser (2025) - Great choice for your trip.",
+      "en": "Toyota Land Cruiser (2025) - Great choice for your trip.",
+      "ru": "Toyota Land Cruiser (2025) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-038",
+    "slug": "land-rover-defender-suv-450-2021",
+    "name": "Land Rover Defender",
+    "brand": "Land",
+    "category": "suv",
+    "dailyPrice": 450,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2021,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/land-rover-defender.jpg"
+    ],
+    "description": {
+      "az": "Land Rover Defender (2021) - Great choice for your trip.",
+      "en": "Land Rover Defender (2021) - Great choice for your trip.",
+      "ru": "Land Rover Defender (2021) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-039",
+    "slug": "mercedes-benz-g-class-suv-1000-2020",
+    "name": "Mercedes-Benz G-Class",
+    "brand": "Mercedes-Benz",
+    "category": "suv",
+    "dailyPrice": 1000,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2020,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/mercedes-g-class.jpg"
+    ],
+    "description": {
+      "az": "Mercedes-Benz G-Class (2020) - Great choice for your trip.",
+      "en": "Mercedes-Benz G-Class (2020) - Great choice for your trip.",
+      "ru": "Mercedes-Benz G-Class (2020) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-040",
+    "slug": "range-rover-suv-1500-2024",
+    "name": "Range Rover",
+    "brand": "Range",
+    "category": "suv",
+    "dailyPrice": 1500,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2024,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/range-rover.jpg"
+    ],
+    "description": {
+      "az": "Range Rover (2024) - Great choice for your trip.",
+      "en": "Range Rover (2024) - Great choice for your trip.",
+      "ru": "Range Rover (2024) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-041",
+    "slug": "hyundai-h-1-transport-150-2016",
+    "name": "Hyundai H-1",
+    "brand": "Hyundai",
+    "category": "transport",
+    "dailyPrice": 150,
+    "rating": 4.8,
+    "seats": 7,
+    "luggage": 5,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2016,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/hyundai-h-1.jpg"
+    ],
+    "description": {
+      "az": "Hyundai H-1 (2016) - Great choice for your trip.",
+      "en": "Hyundai H-1 (2016) - Great choice for your trip.",
+      "ru": "Hyundai H-1 (2016) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-042",
+    "slug": "hyundai-h-1-transport-160-2021",
+    "name": "Hyundai H-1",
+    "brand": "Hyundai",
+    "category": "transport",
+    "dailyPrice": 160,
+    "rating": 4.8,
+    "seats": 7,
+    "luggage": 5,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2021,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/hyundai-h-1.jpg"
+    ],
+    "description": {
+      "az": "Hyundai H-1 (2021) - Great choice for your trip.",
+      "en": "Hyundai H-1 (2021) - Great choice for your trip.",
+      "ru": "Hyundai H-1 (2021) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-043",
+    "slug": "mercedes-benz-v-class-transport-220-2019",
+    "name": "Mercedes-Benz V-Class",
+    "brand": "Mercedes-Benz",
+    "category": "transport",
+    "dailyPrice": 220,
+    "rating": 4.8,
+    "seats": 7,
+    "luggage": 5,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2019,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/mercedes-v-class.jpg"
+    ],
+    "description": {
+      "az": "Mercedes-Benz V-Class (2019) - Great choice for your trip.",
+      "en": "Mercedes-Benz V-Class (2019) - Great choice for your trip.",
+      "ru": "Mercedes-Benz V-Class (2019) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-044",
+    "slug": "mercedes-benz-0403-transport-quote-2013",
+    "name": "Mercedes-Benz 0403",
+    "brand": "Mercedes-Benz",
+    "category": "transport",
+    "dailyPrice": 0,
+    "rating": 4.8,
+    "seats": 18,
+    "luggage": 5,
+    "transmission": "manual",
+    "fuelType": "diesel",
+    "year": 2013,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/mercedes-benz-0403.jpg"
+    ],
+    "description": {
+      "az": "Mercedes-Benz 0403 (2013) - Great choice for your trip.",
+      "en": "Mercedes-Benz 0403 (2013) - Great choice for your trip.",
+      "ru": "Mercedes-Benz 0403 (2013) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-045",
+    "slug": "mercedes-benz-sprinter-transport-quote-2022",
+    "name": "Mercedes-Benz Sprinter",
+    "brand": "Mercedes-Benz",
+    "category": "transport",
+    "dailyPrice": 0,
+    "rating": 4.8,
+    "seats": 18,
+    "luggage": 5,
+    "transmission": "manual",
+    "fuelType": "diesel",
+    "year": 2022,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/mercedes-sprinter.jpg"
+    ],
+    "description": {
+      "az": "Mercedes-Benz Sprinter (2022) - Great choice for your trip.",
+      "en": "Mercedes-Benz Sprinter (2022) - Great choice for your trip.",
+      "ru": "Mercedes-Benz Sprinter (2022) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-046",
+    "slug": "neoplan-transport-quote-2021",
+    "name": "Neoplan",
+    "brand": "Neoplan",
+    "category": "transport",
+    "dailyPrice": 0,
+    "rating": 4.8,
+    "seats": 18,
+    "luggage": 5,
+    "transmission": "manual",
+    "fuelType": "diesel",
+    "year": 2021,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/neoplan.jpg"
+    ],
+    "description": {
+      "az": "Neoplan (2021) - Great choice for your trip.",
+      "en": "Neoplan (2021) - Great choice for your trip.",
+      "ru": "Neoplan (2021) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-047",
+    "slug": "isuzu-novo-transport-quote-2022",
+    "name": "Isuzu Novo",
+    "brand": "Isuzu",
+    "category": "transport",
+    "dailyPrice": 0,
+    "rating": 4.8,
+    "seats": 7,
+    "luggage": 5,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2022,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/isuzu-novo.jpg"
+    ],
+    "description": {
+      "az": "Isuzu Novo (2022) - Great choice for your trip.",
+      "en": "Isuzu Novo (2022) - Great choice for your trip.",
+      "ru": "Isuzu Novo (2022) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-048",
+    "slug": "mercedes-benz-travego-transport-quote-2014",
+    "name": "Mercedes-Benz Travego",
+    "brand": "Mercedes-Benz",
+    "category": "transport",
+    "dailyPrice": 0,
+    "rating": 4.8,
+    "seats": 7,
+    "luggage": 5,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2014,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/mercedes-benz-travego.jpg"
+    ],
+    "description": {
+      "az": "Mercedes-Benz Travego (2014) - Great choice for your trip.",
+      "en": "Mercedes-Benz Travego (2014) - Great choice for your trip.",
+      "ru": "Mercedes-Benz Travego (2014) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-049",
+    "slug": "hyundai-accent-transfer-50-2017",
+    "name": "Hyundai Accent",
+    "brand": "Hyundai",
+    "category": "transfer",
+    "dailyPrice": 50,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2017,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/hyundai-accent.jpg"
+    ],
+    "description": {
+      "az": "Hyundai Accent (2017) - Great choice for your trip.",
+      "en": "Hyundai Accent (2017) - Great choice for your trip.",
+      "ru": "Hyundai Accent (2017) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-050",
+    "slug": "chevrolet-cruze-transfer-60-2011",
+    "name": "Chevrolet Cruze",
+    "brand": "Chevrolet",
+    "category": "transfer",
+    "dailyPrice": 60,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2011,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/chevrolet-cruze.jpg"
+    ],
+    "description": {
+      "az": "Chevrolet Cruze (2011) - Great choice for your trip.",
+      "en": "Chevrolet Cruze (2011) - Great choice for your trip.",
+      "ru": "Chevrolet Cruze (2011) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-051",
+    "slug": "hyundai-accent-transfer-60-2018",
+    "name": "Hyundai Accent",
+    "brand": "Hyundai",
+    "category": "transfer",
+    "dailyPrice": 60,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2018,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/hyundai-accent.jpg"
+    ],
+    "description": {
+      "az": "Hyundai Accent (2018) - Great choice for your trip.",
+      "en": "Hyundai Accent (2018) - Great choice for your trip.",
+      "ru": "Hyundai Accent (2018) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-052",
+    "slug": "kia-forte-transfer-80-2020",
+    "name": "Kia Forte",
+    "brand": "Kia",
+    "category": "transfer",
+    "dailyPrice": 80,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2020,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/kia-forte.jpg"
+    ],
+    "description": {
+      "az": "Kia Forte (2020) - Great choice for your trip.",
+      "en": "Kia Forte (2020) - Great choice for your trip.",
+      "ru": "Kia Forte (2020) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-053",
+    "slug": "toyota-corolla-hybrid--transfer-85-2024",
+    "name": "Toyota Corolla (Hybrid)",
+    "brand": "Toyota",
+    "category": "transfer",
+    "dailyPrice": 85,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2024,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/toyota-corolla-hybrid.jpg"
+    ],
+    "description": {
+      "az": "Toyota Corolla (Hybrid) (2024) - Great choice for your trip.",
+      "en": "Toyota Corolla (Hybrid) (2024) - Great choice for your trip.",
+      "ru": "Toyota Corolla (Hybrid) (2024) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-054",
+    "slug": "hyundai-elantra-transfer-85-2024",
+    "name": "Hyundai Elantra",
+    "brand": "Hyundai",
+    "category": "transfer",
+    "dailyPrice": 85,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2024,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/hyundai-elantra.jpg"
+    ],
+    "description": {
+      "az": "Hyundai Elantra (2024) - Great choice for your trip.",
+      "en": "Hyundai Elantra (2024) - Great choice for your trip.",
+      "ru": "Hyundai Elantra (2024) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-055",
+    "slug": "toyota-corolla-cross-hybrid--transfer-110-2024",
+    "name": "Toyota Corolla Cross (Hybrid)",
+    "brand": "Toyota",
+    "category": "transfer",
+    "dailyPrice": 110,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2024,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/toyota-corolla-cross.jpg"
+    ],
+    "description": {
+      "az": "Toyota Corolla Cross (Hybrid) (2024) - Great choice for your trip.",
+      "en": "Toyota Corolla Cross (Hybrid) (2024) - Great choice for your trip.",
+      "ru": "Toyota Corolla Cross (Hybrid) (2024) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-056",
+    "slug": "lada-niva-transfer-110-2025",
+    "name": "Lada Niva",
+    "brand": "Lada",
+    "category": "transfer",
+    "dailyPrice": 110,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2025,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/lada-niva.jpg"
+    ],
+    "description": {
+      "az": "Lada Niva (2025) - Great choice for your trip.",
+      "en": "Lada Niva (2025) - Great choice for your trip.",
+      "ru": "Lada Niva (2025) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-057",
+    "slug": "hyundai-sonata-transfer-130-2023",
+    "name": "Hyundai Sonata",
+    "brand": "Hyundai",
+    "category": "transfer",
+    "dailyPrice": 130,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2023,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/hyundai-sonata.jpg"
+    ],
+    "description": {
+      "az": "Hyundai Sonata (2023) - Great choice for your trip.",
+      "en": "Hyundai Sonata (2023) - Great choice for your trip.",
+      "ru": "Hyundai Sonata (2023) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-058",
+    "slug": "changan-cs55-plus-transfer-130-2023",
+    "name": "Changan CS55 Plus",
+    "brand": "Changan",
+    "category": "transfer",
+    "dailyPrice": 130,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2023,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/changan-cs55plus.jpg"
+    ],
+    "description": {
+      "az": "Changan CS55 Plus (2023) - Great choice for your trip.",
+      "en": "Changan CS55 Plus (2023) - Great choice for your trip.",
+      "ru": "Changan CS55 Plus (2023) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-059",
+    "slug": "changan-uni-z-transfer-140-2025",
+    "name": "Changan UNI-Z",
+    "brand": "Changan",
+    "category": "transfer",
+    "dailyPrice": 140,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2025,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/changan-uni-z.jpg"
+    ],
+    "description": {
+      "az": "Changan UNI-Z (2025) - Great choice for your trip.",
+      "en": "Changan UNI-Z (2025) - Great choice for your trip.",
+      "ru": "Changan UNI-Z (2025) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-060",
+    "slug": "bmw-5-series-f10-transfer-140-2013",
+    "name": "BMW 5-Series F10",
+    "brand": "BMW",
+    "category": "transfer",
+    "dailyPrice": 140,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2013,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/bmw-5-series-f10.jpg"
+    ],
+    "description": {
+      "az": "BMW 5-Series F10 (2013) - Great choice for your trip.",
+      "en": "BMW 5-Series F10 (2013) - Great choice for your trip.",
+      "ru": "BMW 5-Series F10 (2013) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-061",
+    "slug": "kia-carnival-transfer-150-2017",
+    "name": "Kia Carnival",
+    "brand": "Kia",
+    "category": "transfer",
+    "dailyPrice": 150,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2017,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/kia-carnival.jpg"
+    ],
+    "description": {
+      "az": "Kia Carnival (2017) - Great choice for your trip.",
+      "en": "Kia Carnival (2017) - Great choice for your trip.",
+      "ru": "Kia Carnival (2017) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-062",
+    "slug": "toyota-land-cruiser-prado-transfer-150-2018",
+    "name": "Toyota Land Cruiser Prado",
+    "brand": "Toyota",
+    "category": "transfer",
+    "dailyPrice": 150,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2018,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/toyota-land-cruiser-prado.jpg"
+    ],
+    "description": {
+      "az": "Toyota Land Cruiser Prado (2018) - Great choice for your trip.",
+      "en": "Toyota Land Cruiser Prado (2018) - Great choice for your trip.",
+      "ru": "Toyota Land Cruiser Prado (2018) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-063",
+    "slug": "toyota-land-cruiser-prado-transfer-160-2022",
+    "name": "Toyota Land Cruiser Prado",
+    "brand": "Toyota",
+    "category": "transfer",
+    "dailyPrice": 160,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2022,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/toyota-land-cruiser-prado.jpg"
+    ],
+    "description": {
+      "az": "Toyota Land Cruiser Prado (2022) - Great choice for your trip.",
+      "en": "Toyota Land Cruiser Prado (2022) - Great choice for your trip.",
+      "ru": "Toyota Land Cruiser Prado (2022) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-064",
+    "slug": "toyota-camry-transfer-170-2024",
+    "name": "Toyota Camry",
+    "brand": "Toyota",
+    "category": "transfer",
+    "dailyPrice": 170,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2024,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/toyota-camry.jpg"
+    ],
+    "description": {
+      "az": "Toyota Camry (2024) - Great choice for your trip.",
+      "en": "Toyota Camry (2024) - Great choice for your trip.",
+      "ru": "Toyota Camry (2024) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-065",
+    "slug": "mercedes-benz-e-class-transfer-200-2018",
+    "name": "Mercedes-Benz E-Class",
+    "brand": "Mercedes-Benz",
+    "category": "transfer",
+    "dailyPrice": 200,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2018,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/mercedes-e-class.jpg"
+    ],
+    "description": {
+      "az": "Mercedes-Benz E-Class (2018) - Great choice for your trip.",
+      "en": "Mercedes-Benz E-Class (2018) - Great choice for your trip.",
+      "ru": "Mercedes-Benz E-Class (2018) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-066",
+    "slug": "mercedes-benz-v-class-transfer-220-2019",
+    "name": "Mercedes-Benz V-Class",
+    "brand": "Mercedes-Benz",
+    "category": "transfer",
+    "dailyPrice": 220,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2019,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/mercedes-v-class.jpg"
+    ],
+    "description": {
+      "az": "Mercedes-Benz V-Class (2019) - Great choice for your trip.",
+      "en": "Mercedes-Benz V-Class (2019) - Great choice for your trip.",
+      "ru": "Mercedes-Benz V-Class (2019) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-067",
+    "slug": "ford-mustang-transfer-220-2019",
+    "name": "Ford Mustang",
+    "brand": "Ford",
+    "category": "transfer",
+    "dailyPrice": 220,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2019,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/ford-mustang.jpg"
+    ],
+    "description": {
+      "az": "Ford Mustang (2019) - Great choice for your trip.",
+      "en": "Ford Mustang (2019) - Great choice for your trip.",
+      "ru": "Ford Mustang (2019) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-068",
+    "slug": "bmw-428-cabriolet-transfer-250-2018",
+    "name": "BMW 428 Cabriolet",
+    "brand": "BMW",
+    "category": "transfer",
+    "dailyPrice": 250,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2018,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/bmw-428-cabriolet.jpg"
+    ],
+    "description": {
+      "az": "BMW 428 Cabriolet (2018) - Great choice for your trip.",
+      "en": "BMW 428 Cabriolet (2018) - Great choice for your trip.",
+      "ru": "BMW 428 Cabriolet (2018) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-069",
+    "slug": "chevrolet-camaro-transfer-250-2021",
+    "name": "Chevrolet Camaro",
+    "brand": "Chevrolet",
+    "category": "transfer",
+    "dailyPrice": 250,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2021,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/chevrolet-camaro.jpg"
+    ],
+    "description": {
+      "az": "Chevrolet Camaro (2021) - Great choice for your trip.",
+      "en": "Chevrolet Camaro (2021) - Great choice for your trip.",
+      "ru": "Chevrolet Camaro (2021) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-070",
+    "slug": "range-rover-transfer-450-2021",
+    "name": "Range Rover",
+    "brand": "Range",
+    "category": "transfer",
+    "dailyPrice": 450,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2021,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/range-rover.jpg"
+    ],
+    "description": {
+      "az": "Range Rover (2021) - Great choice for your trip.",
+      "en": "Range Rover (2021) - Great choice for your trip.",
+      "ru": "Range Rover (2021) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-071",
+    "slug": "land-rover-defender-transfer-450-2021",
+    "name": "Land Rover Defender",
+    "brand": "Land",
+    "category": "transfer",
+    "dailyPrice": 450,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2021,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/land-rover-defender.jpg"
+    ],
+    "description": {
+      "az": "Land Rover Defender (2021) - Great choice for your trip.",
+      "en": "Land Rover Defender (2021) - Great choice for your trip.",
+      "ru": "Land Rover Defender (2021) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-072",
+    "slug": "mercedes-benz-g-class-transfer-1000-2020",
+    "name": "Mercedes-Benz G-Class",
+    "brand": "Mercedes-Benz",
+    "category": "transfer",
+    "dailyPrice": 1000,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2020,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/mercedes-g-class.jpg"
+    ],
+    "description": {
+      "az": "Mercedes-Benz G-Class (2020) - Great choice for your trip.",
+      "en": "Mercedes-Benz G-Class (2020) - Great choice for your trip.",
+      "ru": "Mercedes-Benz G-Class (2020) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
+      }
+    ]
+  },
+  {
+    "id": "car-073",
+    "slug": "range-rover-transfer-1500-2024",
+    "name": "Range Rover",
+    "brand": "Range",
+    "category": "transfer",
+    "dailyPrice": 1500,
+    "rating": 4.8,
+    "seats": 5,
+    "luggage": 3,
+    "transmission": "automatic",
+    "fuelType": "petrol",
+    "year": 2024,
+    "engine": "2.0L",
+    "fuelEconomy": "8.0 L/100km",
+    "availability": "available",
+    "images": [
+      "/images/cars/range-rover.jpg"
+    ],
+    "description": {
+      "az": "Range Rover (2024) - Great choice for your trip.",
+      "en": "Range Rover (2024) - Great choice for your trip.",
+      "ru": "Range Rover (2024) - Great choice for your trip."
+    },
+    "highlights": [
+      {
+        "az": "Comfort",
+        "en": "Comfort",
+        "ru": "Comfort"
+      },
+      {
+        "az": "Safety",
+        "en": "Safety",
+        "ru": "Safety"
+      },
+      {
+        "az": "Clean",
+        "en": "Clean",
+        "ru": "Clean"
       }
     ]
   }
