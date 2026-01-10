@@ -63,7 +63,7 @@ export function buildOrganizationJsonLd() {
     sameAs: [
       "https://www.instagram.com/",
       "https://www.facebook.com/",
-      "https://wa.me/994000000000",
+      "https://wa.me/994997900066",
     ],
   };
 }

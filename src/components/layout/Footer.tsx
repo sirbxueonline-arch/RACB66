@@ -14,9 +14,8 @@ export default function Footer() {
           <p className="text-lg font-semibold">{t("brand")}</p>
           <p className="mt-3 text-sm text-white/70">{t("tagline")}</p>
           <div className="mt-6 space-y-2 text-sm text-white/70">
-            <p>{t("phone")}: +994 (99) 790 00 66</p>
-            <p>{t("phone")}: +994 (70) 510 00 66</p>
-            <p>{t("whatsapp")}: +994 (70) 510 00 66</p>
+            <p>{t("phone")}: +994 997 90 00 66</p>
+            <p>{t("whatsapp")}: +994 997 90 00 66</p>
             <p>{t("email")}: info@rent66.az</p>
             <p>{t("address")}: {t("addressValue")}</p>
           </div>
@@ -105,7 +104,7 @@ export default function Footer() {
               {t("telegram")}
             </a>
             <a
-              href="https://api.whatsapp.com/send/?phone=%2B994705100066&text&type=phone_number&app_absent=0"
+              href="https://api.whatsapp.com/send/?phone=%2B994997900066&text&type=phone_number&app_absent=0"
               target="_blank"
               rel="noreferrer"
               className="focus-ring inline-flex items-center gap-2 rounded-full border border-white/20 px-3 py-1 text-xs font-semibold uppercase tracking-wide"

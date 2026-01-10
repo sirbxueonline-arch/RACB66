@@ -27,9 +27,8 @@ export default function ContactContent() {
                 {t("details")}
               </h2>
               <div className="mt-4 space-y-3 text-sm text-black/70">
-                <p>{t("phone")}: +994 (99) 790 00 66</p>
-                <p>{t("phone")}: +994 (70) 510 00 66</p>
-                <p>{t("whatsapp")}: +994 (70) 510 00 66</p>
+                <p>{t("phone")}: +994 997 90 00 66</p>
+                <p>{t("whatsapp")}: +994 997 90 00 66</p>
                 <p>{t("telegram")}: @rentacarbaku66az</p>
                 <p>{t("instagram")}: @rentacarbaku66.az</p>
                 <p>{t("facebook")}: rentacarbaku66</p>
@@ -39,7 +38,7 @@ export default function ContactContent() {
               </div>
               <div className="mt-6 flex flex-wrap gap-3">
                 <a
-                  href="https://api.whatsapp.com/send/?phone=%2B994705100066&text&type=phone_number&app_absent=0"
+                  href="https://api.whatsapp.com/send/?phone=%2B994997900066&text&type=phone_number&app_absent=0"
                   target="_blank"
                   rel="noreferrer"
                   className="rounded-full border border-black/10 px-4 py-2 text-xs font-semibold uppercase tracking-wide text-black/70"

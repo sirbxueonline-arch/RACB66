@@ -2,6 +2,7 @@
 
 import { useId, useState } from "react";
 import { z } from "zod";
+import emailjs from "@emailjs/browser";
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
 import Input from "@/components/ui/Input";
@@ -21,7 +22,6 @@ const schema = z.object({
 });
 
 const categories = ["economy", "business", "premium", "suv", "minivan"];
-const formspreeEndpoint = "https://formspree.io/f/mjgkkdyg";
 
 export default function ContactForm() {
   const t = useTranslations("contact.form");
@@ -54,17 +54,15 @@ export default function ContactForm() {
     }
     setErrors([]);
     setIsSubmitting(true);
+    
     try {
-      const formData = new FormData(event.currentTarget);
-      const response = await fetch(formspreeEndpoint, {
-        method: "POST",
-        headers: { Accept: "application/json" },
-        body: formData,
-      });
-      if (!response.ok) {
-        setErrors([t("error")]);
-        return;
-      }
+      await emailjs.sendForm(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+        event.currentTarget,
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
+      );
+
       pushToast(t("success"), "success");
       setValues({
         pickup: "",
@@ -90,8 +88,6 @@ export default function ContactForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      action={formspreeEndpoint}
-      method="POST"
       className="space-y-4"
     >
       {errors.length > 0 && (

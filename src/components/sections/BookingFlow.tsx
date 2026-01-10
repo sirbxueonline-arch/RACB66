@@ -3,6 +3,7 @@
 import { useEffect, useId, useMemo, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import emailjs from "@emailjs/browser";
 import { z } from "zod";
 import {
   carsData,
@@ -53,7 +54,7 @@ const step4Schema = z.object({
 });
 
 const storageKey = "prime-rent-booking-draft";
-const formspreeEndpoint = "https://formspree.io/f/mjgkkdyg";
+
 
 const formatDateNumeric = (value: string) => {
   if (!value) return "-";
@@ -324,33 +325,28 @@ export default function BookingFlow() {
       carName: selectedCar?.name ?? "",
     };
     try {
-      const formPayload = new FormData();
-      formPayload.append("name", formData.name);
-      formPayload.append("phone", formData.phone);
-      formPayload.append("email", formData.email);
-      formPayload.append("car", selectedCar.name);
-      formPayload.append("category", categoryLabel);
-      formPayload.append("pickup", formData.pickupLocation);
-      formPayload.append("dropoff", formData.dropoffLocation);
-      formPayload.append("pickupDate", formData.pickupDate);
-      formPayload.append("returnDate", formData.dropoffDate);
-      formPayload.append("licenseNumber", formData.licenseNumber);
-      formPayload.append("licenseIssue", formData.licenseIssue);
-      formPayload.append("licenseExpiry", formData.licenseExpiry);
-      formPayload.append("message", message);
-      formPayload.append("_subject", "Yeni Sifariş - Prime Rent A Car");
-      formPayload.append("_replyto", formData.email);
-
-      const response = await fetch(formspreeEndpoint, {
-        method: "POST",
-        headers: { Accept: "application/json" },
-        body: formPayload,
-      });
-
-      if (!response.ok) {
-        setErrors([t("submitError")]);
-        return;
-      }
+      await emailjs.send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+        {
+          reference,
+          name: formData.name,
+          phone: formData.phone,
+          email: formData.email,
+          car: selectedCar.name,
+          category: categoryLabel,
+          pickup: formData.pickupLocation,
+          dropoff: formData.dropoffLocation,
+          pickupDate: formatDateTimeNumeric(formData.pickupDate),
+          returnDate: formatDateTimeNumeric(formData.dropoffDate),
+          licenseNumber: formData.licenseNumber,
+          licenseIssue: formatDateNumeric(formData.licenseIssue),
+          licenseExpiry: formatDateNumeric(formData.licenseExpiry),
+          total: `${pricing?.total} AZN`,
+          message: message
+        },
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
+      );
 
       localStorage.setItem(
         "prime-rent-booking-confirmation",

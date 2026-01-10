@@ -13,7 +13,7 @@ export default function FloatingContacts() {
     },
     {
       href:
-        "https://api.whatsapp.com/send/?phone=%2B994705100066&text&type=phone_number&app_absent=0",
+        "https://api.whatsapp.com/send/?phone=%2B994997900066&text&type=phone_number&app_absent=0",
       label: t("whatsapp"),
       icon: "/icons/whatsapp.jpg",
     },
