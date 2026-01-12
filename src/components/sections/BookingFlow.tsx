@@ -20,7 +20,7 @@ import PricingBreakdown from "@/components/ui/PricingBreakdown";
 import { useToast } from "@/components/ui/ToastProvider";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 
-type InsuranceTier = "basic" | "standard" | "premium";
+
 
 const step1Schema = z.object({
   carSlug: z.string().min(1),
@@ -28,7 +28,7 @@ const step1Schema = z.object({
   dropoffLocation: z.string().min(1),
   pickupDate: z.string().min(1),
   dropoffDate: z.string().min(1),
-  insurance: z.enum(["basic", "standard", "premium"]),
+  dropoffDate: z.string().min(1),
   promoCode: z.string().optional(),
   extras: z.object({
     gps: z.boolean(),
@@ -95,7 +95,7 @@ export default function BookingFlow() {
     dropoffLocation: string;
     pickupDate: string;
     dropoffDate: string;
-    insurance: InsuranceTier;
+    dropoffDate: string;
     promoCode: string;
     extras: {
       gps: boolean;
@@ -118,7 +118,6 @@ export default function BookingFlow() {
       dropoffLocation: fallbackLocation,
       pickupDate: "",
       dropoffDate: "",
-      insurance: "standard",
       promoCode: "",
       extras: {
         gps: false,
@@ -144,7 +143,6 @@ export default function BookingFlow() {
 
     const next = {
       ...baseFormData,
-      insurance: baseFormData.insurance as "basic" | "standard" | "premium",
     };
     const draft = localStorage.getItem(storageKey);
     if (draft) {
@@ -164,13 +162,7 @@ export default function BookingFlow() {
       next.dropoffLocation = params.dropoffLocation ?? next.dropoffLocation;
       next.pickupDate = params.pickupDate ?? next.pickupDate;
       next.dropoffDate = params.dropoffDate ?? next.dropoffDate;
-      if (
-        params.insurance === "basic" ||
-        params.insurance === "standard" ||
-        params.insurance === "premium"
-      ) {
-        next.insurance = params.insurance;
-      }
+
       next.promoCode = params.promoCode ?? next.promoCode;
       next.extras = {
         ...next.extras,
@@ -222,7 +214,6 @@ export default function BookingFlow() {
       endDate: formData.dropoffDate,
       pickupLocation: formData.pickupLocation,
       dropoffLocation: formData.dropoffLocation,
-      insurance: formData.insurance,
       promoCode: formData.promoCode,
       extras: formData.extras,
     });
@@ -518,35 +509,9 @@ export default function BookingFlow() {
                         />
                       </div>
                     </div>
-                    <div className="grid gap-4 md:grid-cols-2">
-                      <div>
-                        <label
-                          htmlFor={`${id}-insurance`}
-                          className="text-xs font-semibold uppercase tracking-wide text-black/50"
-                        >
-                          {t("insurance")}
-                        </label>
-                        <Select
-                          id={`${id}-insurance`}
-                          value={formData.insurance}
-                          onChange={(event) =>
-                            setFormData((prev) => ({
-                              ...prev,
-                              insurance: event.target.value as
-                                | "basic"
-                                | "standard"
-                                | "premium",
-                            }))
-                          }
-                        >
-                          <option value="basic">{t("insuranceBasic")}</option>
-                          <option value="standard">{t("insuranceStandard")}</option>
-                          <option value="premium">{t("insurancePremium")}</option>
-                        </Select>
-                      </div>
-                      <div>
-                        <label
-                          htmlFor={`${id}-promo`}
+      <div>
+        <label
+          htmlFor={`${id}-promo`}
                           className="text-xs font-semibold uppercase tracking-wide text-black/50"
                         >
                           {t("promo")}

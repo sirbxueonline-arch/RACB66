@@ -8,7 +8,7 @@ export const bookingInputSchema = z.object({
   endDate: z.string(),
   pickupLocation: z.string(),
   dropoffLocation: z.string(),
-  insurance: z.enum(["basic", "standard", "premium"]),
+  dropoffLocation: z.string(),
   extras: z.object({
     gps: z.boolean(),
     childSeat: z.boolean(),
@@ -35,11 +35,7 @@ export type PricingResult = {
   weekendDays: number;
 };
 
-const insuranceRates = {
-  basic: 0,
-  standard: 15,
-  premium: 30,
-};
+
 
 const extrasRates = {
   gps: 5,
@@ -69,13 +65,7 @@ function countWeekendDays(start: string, days: number) {
 }
 
 function getDeliveryFee(location: string) {
-  const match = deliveryFeesData.find(
-    (fee) =>
-      fee.location.az === location ||
-      fee.location.en === location ||
-      fee.location.ru === location
-  );
-  return match?.fee ?? 0;
+  return 0;
 }
 
 function applyPromo(
@@ -140,7 +130,7 @@ export function calculatePricing(car: Car, input: BookingInput): PricingResult {
   const pickupFee = getDeliveryFee(input.pickupLocation);
   const dropoffFee = getDeliveryFee(input.dropoffLocation);
   const deliveryTotal = pickupFee + dropoffFee;
-  const insuranceFee = insuranceRates[input.insurance] * days;
+
   const extrasFee =
     (input.extras.gps ? extrasRates.gps * days : 0) +
     (input.extras.childSeat ? extrasRates.childSeat * days : 0) +
@@ -174,14 +164,7 @@ export function calculatePricing(car: Car, input: BookingInput): PricingResult {
     });
   }
 
-  if (insuranceFee > 0) {
-    lines.push({
-      id: "insurance",
-      label: "Insurance tier",
-      amount: insuranceFee,
-      type: "add",
-    });
-  }
+
 
   if (extrasFee > 0) {
     lines.push({

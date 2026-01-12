@@ -131,7 +131,7 @@ export default function CarsListing() {
       endDate: previewDates.endDate,
       pickupLocation: previewLocation,
       dropoffLocation: previewLocation,
-      insurance: "standard" as const,
+      dropoffLocation: previewLocation,
       extras: {
         gps: false,
         childSeat: false,
@@ -242,7 +242,10 @@ export default function CarsListing() {
                             "bg-red-600 text-white"
                         )}
                       >
-                        {t(`availability.${car.availability}`)}
+                      {t(`availability.${car.availability}`)}
+                      </span>
+                      <span className="absolute right-4 top-4 rounded-full bg-emerald-500 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white shadow-sm">
+                        Free Delivery
                       </span>
                     </div>
                     <div className="flex flex-1 flex-col p-5">

@@ -56,8 +56,8 @@ export default function HomeHero() {
                 <Image
                   src="/images/hero-baku.jpg"
                   alt={t("imageAltCity")}
-                  width={640}
-                  height={480}
+                  width={1280}
+                  height={960}
                   className="h-full w-full rounded-2xl object-cover"
                   priority
                 />

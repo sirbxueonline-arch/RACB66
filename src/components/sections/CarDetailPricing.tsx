@@ -23,9 +23,7 @@ export default function CarDetailPricing({ car }: { car: Car }) {
   const [dropoffLocation, setDropoffLocation] = useState(fallbackLocation);
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
-  const [insurance, setInsurance] = useState<"basic" | "standard" | "premium">(
-    "standard"
-  );
+
   const [promoCode, setPromoCode] = useState("");
   const [extras, setExtras] = useState({
     gps: false,
@@ -55,11 +53,11 @@ export default function CarDetailPricing({ car }: { car: Car }) {
         endDate,
         pickupLocation,
         dropoffLocation,
-        insurance,
+        dropoffLocation,
         extras,
         promoCode,
       }),
-    [car, dropoffLocation, endDate, extras, insurance, pickupLocation, promoCode, startDate]
+    [car, dropoffLocation, endDate, extras, pickupLocation, promoCode, startDate]
   );
 
   const bookingParams = new URLSearchParams({
@@ -68,7 +66,6 @@ export default function CarDetailPricing({ car }: { car: Car }) {
     dropoffLocation,
     pickupDate: startDate,
     dropoffDate: endDate,
-    insurance,
     promoCode,
     gps: extras.gps ? "1" : "0",
     childSeat: extras.childSeat ? "1" : "0",
@@ -146,29 +143,9 @@ export default function CarDetailPricing({ car }: { car: Car }) {
           />
         </div>
       </div>
-      <div className="mt-4 grid gap-4 md:grid-cols-2">
-        <div>
-          <label
-            htmlFor={`${id}-insurance`}
-            className="text-xs font-semibold uppercase tracking-wide text-black/50"
-          >
-            {t("insurance")}
-          </label>
-          <Select
-            id={`${id}-insurance`}
-            value={insurance}
-            onChange={(event) =>
-              setInsurance(event.target.value as "basic" | "standard" | "premium")
-            }
-          >
-            <option value="basic">{t("insuranceBasic")}</option>
-            <option value="standard">{t("insuranceStandard")}</option>
-            <option value="premium">{t("insurancePremium")}</option>
-          </Select>
-        </div>
-        <div>
-          <label
-            htmlFor={`${id}-promo`}
+      <div>
+        <label
+          htmlFor={`${id}-promo`}
             className="text-xs font-semibold uppercase tracking-wide text-black/50"
           >
             {t("promo")}

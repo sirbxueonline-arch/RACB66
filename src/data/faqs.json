@@ -77,19 +77,7 @@
       "ru": "Авто выдаётся с полным баком и возвращается полным."
     }
   },
-  {
-    "id": "faq-07",
-    "question": {
-      "az": "Sığorta paketləri nələri əhatə edir?",
-      "en": "What do insurance tiers cover?",
-      "ru": "Что покрывают уровни страховки?"
-    },
-    "answer": {
-      "az": "Standart və premium paketlər əlavə müdafiə və daha yüksək limitlər təqdim edir.",
-      "en": "Standard and premium tiers add extra coverage and higher limits.",
-      "ru": "Стандарт и премиум дают больше покрытия и лимитов."
-    }
-  },
+
   {
     "id": "faq-08",
     "question": {

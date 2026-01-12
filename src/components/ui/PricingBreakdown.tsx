@@ -36,8 +36,7 @@ export default function PricingBreakdown({
           label = t("weekend");
         } else if (line.id === "delivery") {
           label = t("delivery");
-        } else if (line.id === "insurance") {
-          label = t("insurance");
+
         } else if (line.id === "extras") {
           label = t("extras");
         } else if (line.id.startsWith("promo")) {
