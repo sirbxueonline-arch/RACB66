@@ -528,7 +528,6 @@ export default function BookingFlow() {
                           placeholder="BAKU66"
                         />
                       </div>
-                    </div>
                     <div className="space-y-2 text-sm text-black/70">
                       <label className="flex items-center gap-2">
                         <input

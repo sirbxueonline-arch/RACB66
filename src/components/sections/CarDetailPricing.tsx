@@ -157,7 +157,6 @@ export default function CarDetailPricing({ car }: { car: Car }) {
             placeholder="BAKU66"
           />
         </div>
-      </div>
       <div className="mt-4 space-y-2 text-sm text-black/70">
         <label className="flex items-center gap-2">
           <input
