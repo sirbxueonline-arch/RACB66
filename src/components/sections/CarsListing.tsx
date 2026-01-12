@@ -131,7 +131,7 @@ export default function CarsListing() {
       endDate: previewDates.endDate,
       pickupLocation: previewLocation,
       dropoffLocation: previewLocation,
-      dropoffLocation: previewLocation,
+
       extras: {
         gps: false,
         childSeat: false,

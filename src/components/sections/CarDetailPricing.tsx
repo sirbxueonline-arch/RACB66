@@ -53,7 +53,7 @@ export default function CarDetailPricing({ car }: { car: Car }) {
         endDate,
         pickupLocation,
         dropoffLocation,
-        dropoffLocation,
+
         extras,
         promoCode,
       }),

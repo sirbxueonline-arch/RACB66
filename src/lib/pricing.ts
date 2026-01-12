@@ -8,7 +8,7 @@ export const bookingInputSchema = z.object({
   endDate: z.string(),
   pickupLocation: z.string(),
   dropoffLocation: z.string(),
-  dropoffLocation: z.string(),
+
   extras: z.object({
     gps: z.boolean(),
     childSeat: z.boolean(),

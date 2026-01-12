@@ -28,7 +28,7 @@ const step1Schema = z.object({
   dropoffLocation: z.string().min(1),
   pickupDate: z.string().min(1),
   dropoffDate: z.string().min(1),
-  dropoffDate: z.string().min(1),
+
   promoCode: z.string().optional(),
   extras: z.object({
     gps: z.boolean(),
@@ -95,7 +95,7 @@ export default function BookingFlow() {
     dropoffLocation: string;
     pickupDate: string;
     dropoffDate: string;
-    dropoffDate: string;
+
     promoCode: string;
     extras: {
       gps: boolean;
