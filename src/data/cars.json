@@ -1,7 +1,7 @@
 [
   {
     "id": "car-001",
-    "slug": "hyundai-accent-economy-50-2017",
+    "slug": "hyundai-accent-economy-50-2019",
     "name": "Hyundai Accent",
     "brand": "Hyundai",
     "category": "economy",
@@ -11,7 +11,7 @@
     "luggage": 3,
     "transmission": "automatic",
     "fuelType": "petrol",
-    "year": 2017,
+    "year": 2019,
     "engine": "2.0L",
     "fuelEconomy": "8.0 L/100km",
     "availability": "available",
@@ -19,9 +19,9 @@
       "/images/cars/hyundai-accent.jpg"
     ],
     "description": {
-      "az": "Hyundai Accent (2017) - Great choice for your trip.",
-      "en": "Hyundai Accent (2017) - Great choice for your trip.",
-      "ru": "Hyundai Accent (2017) - Great choice for your trip."
+      "az": "Hyundai Accent (2019) - Great choice for your trip.",
+      "en": "Hyundai Accent (2019) - Great choice for your trip.",
+      "ru": "Hyundai Accent (2019) - Great choice for your trip."
     },
     "highlights": [
       {
@@ -85,7 +85,7 @@
   },
   {
     "id": "car-003",
-    "slug": "chevrolet-cruze-economy-60-2011",
+    "slug": "chevrolet-cruze-economy-60-2014",
     "name": "Chevrolet Cruze",
     "brand": "Chevrolet",
     "category": "economy",
@@ -95,7 +95,7 @@
     "luggage": 3,
     "transmission": "automatic",
     "fuelType": "petrol",
-    "year": 2011,
+    "year": 2014,
     "engine": "2.0L",
     "fuelEconomy": "8.0 L/100km",
     "availability": "available",
@@ -103,9 +103,9 @@
       "/images/cars/chevrolet-cruze.jpg"
     ],
     "description": {
-      "az": "Chevrolet Cruze (2011) - Great choice for your trip.",
-      "en": "Chevrolet Cruze (2011) - Great choice for your trip.",
-      "ru": "Chevrolet Cruze (2011) - Great choice for your trip."
+      "az": "Chevrolet Cruze (2014) - Great choice for your trip.",
+      "en": "Chevrolet Cruze (2014) - Great choice for your trip.",
+      "ru": "Chevrolet Cruze (2014) - Great choice for your trip."
     },
     "highlights": [
       {
@@ -211,7 +211,7 @@
   },
   {
     "id": "car-006",
-    "slug": "hyundai-elantra-economy-85-2024",
+    "slug": "hyundai-elantra-economy-85-2025",
     "name": "Hyundai Elantra",
     "brand": "Hyundai",
     "category": "economy",
@@ -221,7 +221,7 @@
     "luggage": 3,
     "transmission": "automatic",
     "fuelType": "petrol",
-    "year": 2024,
+    "year": 2025,
     "engine": "2.0L",
     "fuelEconomy": "8.0 L/100km",
     "availability": "available",
@@ -229,9 +229,9 @@
       "/images/cars/hyundai-elantra.jpg"
     ],
     "description": {
-      "az": "Hyundai Elantra (2024) - Great choice for your trip.",
-      "en": "Hyundai Elantra (2024) - Great choice for your trip.",
-      "ru": "Hyundai Elantra (2024) - Great choice for your trip."
+      "az": "Hyundai Elantra (2025) - Great choice for your trip.",
+      "en": "Hyundai Elantra (2025) - Great choice for your trip.",
+      "ru": "Hyundai Elantra (2025) - Great choice for your trip."
     },
     "highlights": [
       {
