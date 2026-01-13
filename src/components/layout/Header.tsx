@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "@/components/layout/LanguageSwitcher";
@@ -50,13 +51,33 @@ export default function Header() {
           </Link>
         </div>
 
-        <MobileNav
-          navItems={navItems}
-          ctaLabel={t("bookNow")}
-          menuLabel={t("menu")}
-          closeLabel={t("close")}
-          navigationLabel={t("navigation")}
-        />
+        <div className="flex flex-nowrap items-center gap-2 lg:hidden">
+          <a
+            href="https://api.whatsapp.com/send/?phone=%2B994997900066&text&type=phone_number&app_absent=0"
+            className="focus-ring flex items-center gap-1.5 rounded-full bg-black/5 px-2 py-1.5 transition hover:bg-black/10 sm:px-3"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Image
+              src="/icons/whatsapp.jpg"
+              alt="WhatsApp"
+              width={20}
+              height={20}
+              className="h-5 w-5 rounded-full object-contain"
+            />
+            <span className="text-[10px] font-semibold text-black">
+              +994 99 790 00 66
+            </span>
+          </a>
+          <LanguageSwitcher />
+          <MobileNav
+            navItems={navItems}
+            ctaLabel={t("bookNow")}
+            menuLabel={t("menu")}
+            closeLabel={t("close")}
+            navigationLabel={t("navigation")}
+          />
+        </div>
       </div>
     </header>
   );

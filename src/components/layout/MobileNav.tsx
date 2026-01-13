@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import Link from "next/link";
 import { createPortal } from "react-dom";
+import { Menu } from "lucide-react";
 import LanguageSwitcher from "@/components/layout/LanguageSwitcher";
 import { transition } from "@/lib/motion";
 
@@ -50,13 +51,14 @@ export default function MobileNav({
   return (
     <div className="lg:hidden">
       <button
-        className="focus-ring rounded-full border border-black/10 px-4 py-2 text-xs font-semibold uppercase tracking-wide"
+        className="focus-ring flex h-9 w-9 items-center justify-center rounded-full border border-black/10 transition hover:bg-black/5"
         onClick={() => setOpen(true)}
         type="button"
         aria-expanded={open}
         aria-controls="mobile-nav"
+        aria-label={menuLabel}
       >
-        {menuLabel}
+        <Menu className="h-5 w-5" />
       </button>
       {mounted
         ? createPortal(
