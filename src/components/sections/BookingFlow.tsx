@@ -43,11 +43,7 @@ const step2Schema = z.object({
   email: z.string().email(),
 });
 
-const step3Schema = z.object({
-  licenseNumber: z.string().min(5),
-  licenseIssue: z.string().min(1),
-  licenseExpiry: z.string().min(1),
-});
+
 
 const step4Schema = z.object({
   termsAccepted: z.literal(true),
@@ -105,9 +101,7 @@ export default function BookingFlow() {
     name: string;
     phone: string;
     email: string;
-    licenseNumber: string;
-    licenseIssue: string;
-    licenseExpiry: string;
+
     termsAccepted: boolean;
   };
 
@@ -127,9 +121,7 @@ export default function BookingFlow() {
       name: "",
       phone: "",
       email: "",
-      licenseNumber: "",
-      licenseIssue: "",
-      licenseExpiry: "",
+
       termsAccepted: false,
     };
   }, [defaultCar, fallbackLocation]);
@@ -222,7 +214,6 @@ export default function BookingFlow() {
   const steps = [
     t("steps.vehicle"),
     t("steps.contact"),
-    t("steps.license"),
     t("steps.review"),
   ];
 
@@ -243,13 +234,6 @@ export default function BookingFlow() {
       }
     }
     if (step === 2) {
-      const result = step3Schema.safeParse(formData);
-      if (!result.success) {
-        setErrors([t("validationError")]);
-        return false;
-      }
-    }
-    if (step === 3) {
       const result = step4Schema.safeParse(formData);
       if (!result.success) {
         setErrors([t("termsError")]);
@@ -300,11 +284,6 @@ export default function BookingFlow() {
       "🕒 Tarixlər:",
       `Götürmə tarixi:    ${formatDateTimeNumeric(formData.pickupDate)}`,
       `Təhvil tarixi:     ${formatDateTimeNumeric(formData.dropoffDate)}`,
-      "",
-      "🪪 Sürücülük vəsiqəsi:",
-      `Nömrə:            ${formData.licenseNumber}`,
-      `Verilmə tarixi:   ${formatDateNumeric(formData.licenseIssue)}`,
-      `Bitmə tarixi:     ${formatDateNumeric(formData.licenseExpiry)}`,
     ]
       .filter((line) => line !== null)
       .join("\n");
@@ -334,9 +313,6 @@ export default function BookingFlow() {
           dropoff: formData.dropoffLocation,
           pickupDate: formatDateTimeNumeric(formData.pickupDate),
           returnDate: formatDateTimeNumeric(formData.dropoffDate),
-          licenseNumber: formData.licenseNumber,
-          licenseIssue: formatDateNumeric(formData.licenseIssue),
-          licenseExpiry: formatDateNumeric(formData.licenseExpiry),
           total: `${pricing?.total} AZN`,
           message: message
         },
@@ -639,67 +615,6 @@ export default function BookingFlow() {
                 )}
 
                 {step === 2 && (
-                  <div className="space-y-4">
-                    <div>
-                      <label
-                        htmlFor={`${id}-license-number`}
-                        className="text-xs font-semibold uppercase tracking-wide text-black/50"
-                      >
-                        {t("licenseNumber")}
-                      </label>
-                      <Input
-                        id={`${id}-license-number`}
-                        value={formData.licenseNumber}
-                        onChange={(event) =>
-                          setFormData((prev) => ({
-                            ...prev,
-                            licenseNumber: event.target.value,
-                          }))
-                        }
-                      />
-                    </div>
-                    <div>
-                      <label
-                        htmlFor={`${id}-license-issue`}
-                        className="text-xs font-semibold uppercase tracking-wide text-black/50"
-                      >
-                        {t("licenseIssue")}
-                      </label>
-                      <Input
-                        id={`${id}-license-issue`}
-                        type="date"
-                        value={formData.licenseIssue}
-                        onChange={(event) =>
-                          setFormData((prev) => ({
-                            ...prev,
-                            licenseIssue: event.target.value,
-                          }))
-                        }
-                      />
-                    </div>
-                    <div>
-                      <label
-                        htmlFor={`${id}-license-expiry`}
-                        className="text-xs font-semibold uppercase tracking-wide text-black/50"
-                      >
-                        {t("licenseExpiry")}
-                      </label>
-                      <Input
-                        id={`${id}-license-expiry`}
-                        type="date"
-                        value={formData.licenseExpiry}
-                        onChange={(event) =>
-                          setFormData((prev) => ({
-                            ...prev,
-                            licenseExpiry: event.target.value,
-                          }))
-                        }
-                      />
-                    </div>
-                  </div>
-                )}
-
-                {step === 3 && (
                   <div className="space-y-4 text-sm text-black/70">
                     <div className="rounded-2xl border border-black/10 p-4">
                       <p className="font-semibold text-black">{t("summary")}</p>
