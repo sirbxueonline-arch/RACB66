@@ -18,6 +18,13 @@ export const metadata: Metadata = {
   title: DEFAULT_META_TITLE,
   description: DEFAULT_META_DESCRIPTION,
   keywords: DEFAULT_META_KEYWORDS,
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/icons/icon-192.png", type: "image/png" },
+    ],
+    apple: "/icons/icon-192.png",
+  },
 };
 
 export default function RootLayout({
