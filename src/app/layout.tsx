@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import I18nProvider from "@/components/providers/I18nProvider";
 import AppShell from "@/components/layout/AppShell";
+import Script from "next/script";
 import {
   DEFAULT_META_DESCRIPTION,
   DEFAULT_META_KEYWORDS,
@@ -28,6 +29,19 @@ export default function RootLayout({
   return (
     <html lang="az" suppressHydrationWarning>
       <body className={`${inter.variable} antialiased`}>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17872784245"
+          strategy="afterInteractive"
+        />
+        <Script id="google-ads-tag" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'AW-17872784245');
+          `}
+        </Script>
         <I18nProvider>
           <AppShell>{children}</AppShell>
         </I18nProvider>
