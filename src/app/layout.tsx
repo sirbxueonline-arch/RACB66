@@ -9,6 +9,7 @@ import {
   DEFAULT_META_TITLE,
 } from "@/lib/seo";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -45,6 +46,7 @@ export default function RootLayout({
         <I18nProvider>
           <AppShell>{children}</AppShell>
         </I18nProvider>
+        <Analytics />
       </body>
     </html>
   );
