@@ -9,7 +9,7 @@ import {
   DEFAULT_META_TITLE,
 } from "@/lib/seo";
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({
   variable: "--font-inter",
