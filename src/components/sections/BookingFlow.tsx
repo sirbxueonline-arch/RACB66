@@ -23,8 +23,6 @@ import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 
 
 const step1Schema = z.object({
-  name: z.string().min(2),
-  phone: z.string().min(5),
   carSlug: z.string().min(1),
   pickupLocation: z.string().min(1),
   dropoffLocation: z.string().min(1),
@@ -102,10 +100,6 @@ export default function BookingFlow() {
       childSeat: boolean;
       additionalDriver: boolean;
     };
-    name: string;
-    phone: string;
-    countryCode: string;
-    email: string;
 
     termsAccepted: boolean;
   };
@@ -123,10 +117,6 @@ export default function BookingFlow() {
         childSeat: false,
         additionalDriver: false,
       },
-      name: "",
-      phone: "",
-      countryCode: "+994",
-      email: "",
 
       termsAccepted: false,
     };
@@ -254,16 +244,12 @@ export default function BookingFlow() {
     
     // Redirect to WhatsApp immediately with booking details
     if (selectedCar && pricing) {
-       const fullPhone = `${formData.countryCode}${formData.phone}`;
-       
        const message = `
 *New Order Request*
 ------------------
 *Car:* ${selectedCar.brand} ${selectedCar.name} (${selectedCar.year})
 *Dates:* ${formData.pickupDate.replace("T", " ")} - ${formData.dropoffDate.replace("T", " ")}
 *Locations:* ${formData.pickupLocation} -> ${formData.dropoffLocation}
-*Name:* ${formData.name}
-*Phone:* ${fullPhone}
 *Total:* ${pricing.total} AZN
        `.trim();
    
@@ -297,11 +283,6 @@ export default function BookingFlow() {
     const message = [
       "🚗 Yeni Sifariş - Prime Rent A Car",
       "",
-      "👤 Müştəri məlumatı:",
-      `Ad Soyad:  ${formData.name}`,
-      `Telefon:   ${formData.phone}`,
-      formData.email ? `Email:     ${formData.email}` : null,
-      "",
       "🚘 Maşın məlumatı:",
       `Model:             ${selectedCar.name}`,
       `Kateqoriya:        ${categoryLabel}`,
@@ -333,9 +314,6 @@ export default function BookingFlow() {
         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
         {
           reference,
-          name: formData.name,
-          phone: formData.phone,
-          email: formData.email,
           car: selectedCar.name,
           category: categoryLabel,
           pickup: formData.pickupLocation,
@@ -391,60 +369,6 @@ export default function BookingFlow() {
               >
                 {step === 0 && (
                   <div className="space-y-4">
-                    <div>
-                      <label
-                        htmlFor={`${id}-name`}
-                        className="text-xs font-semibold uppercase tracking-wide text-black/50"
-                      >
-                        {t("name")}
-                      </label>
-                      <Input
-                        id={`${id}-name`}
-                        value={formData.name}
-                        onChange={(event) =>
-                          setFormData((prev) => ({
-                            ...prev,
-                            name: event.target.value,
-                          }))
-                        }
-                      />
-                    </div>
-                    <div>
-                      <label
-                        htmlFor={`${id}-phone`}
-                        className="text-xs font-semibold uppercase tracking-wide text-black/50"
-                      >
-                        {t("phone")}
-                      </label>
-                      <div className="flex gap-2">
-                        <Select
-                          value={formData.countryCode}
-                          onChange={(event) =>
-                            setFormData((prev) => ({
-                              ...prev,
-                              countryCode: event.target.value,
-                            }))
-                          }
-                          className="w-[140px] shrink-0"
-                        >
-                            {countryCodes.map((country) => (
-                            <option key={country.code} value={country.code}>
-                                {country.label}
-                            </option>
-                            ))}
-                        </Select>
-                        <Input
-                            id={`${id}-phone`}
-                            value={formData.phone}
-                            onChange={(event) =>
-                            setFormData((prev) => ({
-                                ...prev,
-                                phone: event.target.value,
-                            }))
-                            }
-                        />
-                      </div>
-                    </div>
                     <div>
                       <label
                         htmlFor={`${id}-car`}

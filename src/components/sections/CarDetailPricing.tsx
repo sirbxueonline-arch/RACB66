@@ -37,10 +37,7 @@ export default function CarDetailPricing({ car }: { car: Car }) {
 
   // Modal State
   const [isOrderModalOpen, setOrderModalOpen] = useState(false);
-  const [customerName, setCustomerName] = useState("");
-  const [customerPhone, setCustomerPhone] = useState("");
-  const [countryCode, setCountryCode] = useState("+994"); // Added state
-
+  
   useEffect(() => {
     setPickupLocation((prev) => mapLocationToLocale(prev, locale as never));
     setDropoffLocation((prev) => mapLocationToLocale(prev, locale as never));
@@ -71,12 +68,6 @@ export default function CarDetailPricing({ car }: { car: Car }) {
   );
 
   const handleWhatsAppOrder = () => {
-    if (!customerPhone || !customerName) {
-        alert(tBooking("validationError"));
-        return;
-    }
-
-    const fullPhone = `${countryCode}${customerPhone}`; // Combined country code and phone
 
     const message = `
 *New Order Request*
@@ -85,9 +76,6 @@ export default function CarDetailPricing({ car }: { car: Car }) {
 *Dates:* ${startDate.replace("T", " ")} - ${endDate.replace("T", " ")}
 *Pickup:* ${pickupLocation}
 *Dropoff:* ${dropoffLocation}
-------------------
-*Name:* ${customerName}
-*Phone:* ${fullPhone}
 ------------------
 *Total:* ${result.total} AZN
     `.trim();
@@ -214,59 +202,10 @@ export default function CarDetailPricing({ car }: { car: Car }) {
           <PricingBreakdown result={result} />
         </div>
         <div className="mt-6 flex flex-wrap gap-3">
-          <Button onClick={() => setOrderModalOpen(true)}>{t("order")}</Button>
-          <Button variant="outline">{t("askAgent")}</Button>
+          <Button onClick={handleWhatsAppOrder}>{t("order")}</Button>
         </div>
       </div>
 
-      <Modal
-        isOpen={isOrderModalOpen}
-        onClose={() => setOrderModalOpen(false)}
-        title={tBooking("contact")}
-      >
-        <div className="space-y-4">
-             <div>
-                <label className="mb-1 block text-sm font-medium text-gray-700">
-                    Name
-                </label>
-                <Input
-                    placeholder="Name"
-                    value={customerName}
-                    onChange={(e) => setCustomerName(e.target.value)}
-                    autoFocus
-                />
-            </div>
-             <div>
-                <label className="mb-1 block text-sm font-medium text-gray-700">
-                    {tBooking("phone")}
-                </label>
-                <div className="flex gap-2">
-                  <Select
-                    value={countryCode}
-                    onChange={(e) => setCountryCode(e.target.value)}
-                    className="w-[140px] shrink-0"
-                  >
-                     {countryCodes.map((country) => (
-                        <option key={country.code} value={country.code}>
-                            {country.label}
-                        </option>
-                     ))}
-                  </Select>
-                  <Input
-                      placeholder="50 000 00 00"
-                      value={customerPhone}
-                      onChange={(e) => setCustomerPhone(e.target.value)}
-                  />
-                </div>
-            </div>
-            
-            <div className="pt-2">
-                <Button onClick={handleWhatsAppOrder} className="w-full">
-                    {tFooter("whatsapp")}
-                </Button>
-            </div>
-        </div>
-      </Modal>
     </>
   );
 }
