@@ -579,7 +579,7 @@ export default function BookingFlow() {
                 {t("back")}
               </Button>
               {step < steps.length - 1 ? (
-                <Button onClick={handleNext}>{t("next")}</Button>
+                <Button onClick={handleNext}>Order Now</Button>
               ) : (
                 <Button
                   onClick={handleConfirm}
