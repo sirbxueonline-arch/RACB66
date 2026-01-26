@@ -23,6 +23,8 @@ import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 
 
 const step1Schema = z.object({
+  name: z.string().min(2),
+  phone: z.string().min(5),
   carSlug: z.string().min(1),
   pickupLocation: z.string().min(1),
   dropoffLocation: z.string().min(1),
@@ -67,6 +69,8 @@ const formatDateTimeNumeric = (value: string) => {
   return `${date} ${time}`;
 };
 
+import { countryCodes } from "@/lib/countries";
+
 export default function BookingFlow() {
   const t = useTranslations("booking");
   const tCategories = useTranslations("categories");
@@ -100,6 +104,7 @@ export default function BookingFlow() {
     };
     name: string;
     phone: string;
+    countryCode: string;
     email: string;
 
     termsAccepted: boolean;
@@ -120,6 +125,7 @@ export default function BookingFlow() {
       },
       name: "",
       phone: "",
+      countryCode: "+994",
       email: "",
 
       termsAccepted: false,
@@ -245,7 +251,30 @@ export default function BookingFlow() {
 
   const handleNext = () => {
     if (!validateCurrentStep()) return;
-    setStep((prev) => Math.min(prev + 1, steps.length - 1));
+    
+    // Redirect to WhatsApp immediately with booking details
+    if (selectedCar && pricing) {
+       const fullPhone = `${formData.countryCode}${formData.phone}`;
+       
+       const message = `
+*New Order Request*
+------------------
+*Car:* ${selectedCar.brand} ${selectedCar.name} (${selectedCar.year})
+*Dates:* ${formData.pickupDate.replace("T", " ")} - ${formData.dropoffDate.replace("T", " ")}
+*Locations:* ${formData.pickupLocation} -> ${formData.dropoffLocation}
+*Name:* ${formData.name}
+*Phone:* ${fullPhone}
+*Total:* ${pricing.total} AZN
+       `.trim();
+   
+       const phoneNumber = "994997900066";
+       const url = `https://api.whatsapp.com/send/?phone=${phoneNumber}&text=${encodeURIComponent(message)}&type=phone_number&app_absent=0`;
+       
+       window.open(url, "_blank");
+    }
+
+    // Original behavior (disabled for now as we redirect to WhatsApp)
+    // setStep((prev) => Math.min(prev + 1, steps.length - 1));
   };
 
   const handleBack = () => {
@@ -340,18 +369,7 @@ export default function BookingFlow() {
         <h1 className="text-3xl font-semibold text-black">{t("title")}</h1>
         <p className="mt-2 text-sm text-black/60">{t("subtitle")}</p>
 
-        <div className="mt-8 flex flex-wrap gap-3 text-xs font-semibold uppercase tracking-[0.25em] text-black/40">
-          {steps.map((label, index) => (
-            <span
-              key={label}
-              className={
-                index === step ? "text-black" : "text-black/40"
-              }
-            >
-              {label}
-            </span>
-          ))}
-        </div>
+
 
         {errors.length > 0 && (
           <div className="mt-6 rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-700">
@@ -373,6 +391,60 @@ export default function BookingFlow() {
               >
                 {step === 0 && (
                   <div className="space-y-4">
+                    <div>
+                      <label
+                        htmlFor={`${id}-name`}
+                        className="text-xs font-semibold uppercase tracking-wide text-black/50"
+                      >
+                        {t("name")}
+                      </label>
+                      <Input
+                        id={`${id}-name`}
+                        value={formData.name}
+                        onChange={(event) =>
+                          setFormData((prev) => ({
+                            ...prev,
+                            name: event.target.value,
+                          }))
+                        }
+                      />
+                    </div>
+                    <div>
+                      <label
+                        htmlFor={`${id}-phone`}
+                        className="text-xs font-semibold uppercase tracking-wide text-black/50"
+                      >
+                        {t("phone")}
+                      </label>
+                      <div className="flex gap-2">
+                        <Select
+                          value={formData.countryCode}
+                          onChange={(event) =>
+                            setFormData((prev) => ({
+                              ...prev,
+                              countryCode: event.target.value,
+                            }))
+                          }
+                          className="w-[140px] shrink-0"
+                        >
+                            {countryCodes.map((country) => (
+                            <option key={country.code} value={country.code}>
+                                {country.label}
+                            </option>
+                            ))}
+                        </Select>
+                        <Input
+                            id={`${id}-phone`}
+                            value={formData.phone}
+                            onChange={(event) =>
+                            setFormData((prev) => ({
+                                ...prev,
+                                phone: event.target.value,
+                            }))
+                            }
+                        />
+                      </div>
+                    </div>
                     <div>
                       <label
                         htmlFor={`${id}-car`}
@@ -485,25 +557,7 @@ export default function BookingFlow() {
                         />
                       </div>
                     </div>
-      <div>
-        <label
-          htmlFor={`${id}-promo`}
-                          className="text-xs font-semibold uppercase tracking-wide text-black/50"
-                        >
-                          {t("promo")}
-                        </label>
-                        <Input
-                          id={`${id}-promo`}
-                          value={formData.promoCode}
-                          onChange={(event) =>
-                            setFormData((prev) => ({
-                              ...prev,
-                              promoCode: event.target.value,
-                            }))
-                          }
-                          placeholder="BAKU66"
-                        />
-                      </div>
+
                     <div className="space-y-2 text-sm text-black/70">
                       <label className="flex items-center gap-2">
                         <input
@@ -550,66 +604,6 @@ export default function BookingFlow() {
                         />
                         {t("extraDriver")}
                       </label>
-                    </div>
-                  </div>
-                )}
-
-                {step === 1 && (
-                  <div className="space-y-4">
-                    <div>
-                      <label
-                        htmlFor={`${id}-name`}
-                        className="text-xs font-semibold uppercase tracking-wide text-black/50"
-                      >
-                        {t("name")}
-                      </label>
-                      <Input
-                        id={`${id}-name`}
-                        value={formData.name}
-                        onChange={(event) =>
-                          setFormData((prev) => ({
-                            ...prev,
-                            name: event.target.value,
-                          }))
-                        }
-                      />
-                    </div>
-                    <div>
-                      <label
-                        htmlFor={`${id}-phone`}
-                        className="text-xs font-semibold uppercase tracking-wide text-black/50"
-                      >
-                        {t("phone")}
-                      </label>
-                      <Input
-                        id={`${id}-phone`}
-                        value={formData.phone}
-                        onChange={(event) =>
-                          setFormData((prev) => ({
-                            ...prev,
-                            phone: event.target.value,
-                          }))
-                        }
-                      />
-                    </div>
-                    <div>
-                      <label
-                        htmlFor={`${id}-email`}
-                        className="text-xs font-semibold uppercase tracking-wide text-black/50"
-                      >
-                        {t("email")}
-                      </label>
-                      <Input
-                        id={`${id}-email`}
-                        type="email"
-                        value={formData.email}
-                        onChange={(event) =>
-                          setFormData((prev) => ({
-                            ...prev,
-                            email: event.target.value,
-                          }))
-                        }
-                      />
                     </div>
                   </div>
                 )}

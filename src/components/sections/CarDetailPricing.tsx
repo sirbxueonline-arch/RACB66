@@ -11,6 +11,7 @@ import Select from "@/components/ui/Select";
 import PricingBreakdown from "@/components/ui/PricingBreakdown";
 import Button from "@/components/ui/Button";
 import Modal from "@/components/ui/Modal";
+import { countryCodes } from "@/lib/countries";
 
 export default function CarDetailPricing({ car }: { car: Car }) {
   const t = useTranslations("carDetail.pricing");
@@ -37,8 +38,8 @@ export default function CarDetailPricing({ car }: { car: Car }) {
   // Modal State
   const [isOrderModalOpen, setOrderModalOpen] = useState(false);
   const [customerName, setCustomerName] = useState("");
-  const [customerSurname, setCustomerSurname] = useState("");
   const [customerPhone, setCustomerPhone] = useState("");
+  const [countryCode, setCountryCode] = useState("+994"); // Added state
 
   useEffect(() => {
     setPickupLocation((prev) => mapLocationToLocale(prev, locale as never));
@@ -70,10 +71,12 @@ export default function CarDetailPricing({ car }: { car: Car }) {
   );
 
   const handleWhatsAppOrder = () => {
-    if (!customerName || !customerSurname || !customerPhone) {
+    if (!customerPhone || !customerName) {
         alert(tBooking("validationError"));
         return;
     }
+
+    const fullPhone = `${countryCode}${customerPhone}`; // Combined country code and phone
 
     const message = `
 *New Order Request*
@@ -83,8 +86,8 @@ export default function CarDetailPricing({ car }: { car: Car }) {
 *Pickup:* ${pickupLocation}
 *Dropoff:* ${dropoffLocation}
 ------------------
-*Client:* ${customerName} ${customerSurname}
-*Phone:* ${customerPhone}
+*Name:* ${customerName}
+*Phone:* ${fullPhone}
 ------------------
 *Total:* ${result.total} AZN
     `.trim();
@@ -168,20 +171,7 @@ export default function CarDetailPricing({ car }: { car: Car }) {
             />
           </div>
         </div>
-        <div>
-          <label
-            htmlFor={`${id}-promo`}
-              className="text-xs font-semibold uppercase tracking-wide text-black/50"
-            >
-              {t("promo")}
-            </label>
-            <Input
-              id={`${id}-promo`}
-              value={promoCode}
-              onChange={(event) => setPromoCode(event.target.value)}
-              placeholder="BAKU66"
-            />
-          </div>
+
         <div className="mt-4 space-y-2 text-sm text-black/70">
           <label className="flex items-center gap-2">
             <input
@@ -235,7 +225,7 @@ export default function CarDetailPricing({ car }: { car: Car }) {
         title={tBooking("contact")}
       >
         <div className="space-y-4">
-            <div>
+             <div>
                 <label className="mb-1 block text-sm font-medium text-gray-700">
                     Name
                 </label>
@@ -243,27 +233,31 @@ export default function CarDetailPricing({ car }: { car: Car }) {
                     placeholder="Name"
                     value={customerName}
                     onChange={(e) => setCustomerName(e.target.value)}
+                    autoFocus
                 />
             </div>
-            <div>
-                <label className="mb-1 block text-sm font-medium text-gray-700">
-                    Surname
-                </label>
-                <Input
-                    placeholder="Surname"
-                    value={customerSurname}
-                    onChange={(e) => setCustomerSurname(e.target.value)}
-                />
-             </div>
              <div>
                 <label className="mb-1 block text-sm font-medium text-gray-700">
                     {tBooking("phone")}
                 </label>
-                <Input
-                    placeholder="+994 50 000 00 00"
-                    value={customerPhone}
-                    onChange={(e) => setCustomerPhone(e.target.value)}
-                />
+                <div className="flex gap-2">
+                  <Select
+                    value={countryCode}
+                    onChange={(e) => setCountryCode(e.target.value)}
+                    className="w-[140px] shrink-0"
+                  >
+                     {countryCodes.map((country) => (
+                        <option key={country.code} value={country.code}>
+                            {country.label}
+                        </option>
+                     ))}
+                  </Select>
+                  <Input
+                      placeholder="50 000 00 00"
+                      value={customerPhone}
+                      onChange={(e) => setCustomerPhone(e.target.value)}
+                  />
+                </div>
             </div>
             
             <div className="pt-2">
