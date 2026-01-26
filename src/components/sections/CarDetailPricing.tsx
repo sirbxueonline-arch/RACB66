@@ -10,9 +10,12 @@ import Input from "@/components/ui/Input";
 import Select from "@/components/ui/Select";
 import PricingBreakdown from "@/components/ui/PricingBreakdown";
 import Button from "@/components/ui/Button";
+import Modal from "@/components/ui/Modal";
 
 export default function CarDetailPricing({ car }: { car: Car }) {
   const t = useTranslations("carDetail.pricing");
+  const tBooking = useTranslations("booking");
+  const tFooter = useTranslations("footer");
   const locale = useLocale();
   const id = useId();
   const locations = deliveryFeesData.map((fee) =>
@@ -30,6 +33,12 @@ export default function CarDetailPricing({ car }: { car: Car }) {
     childSeat: false,
     additionalDriver: false,
   });
+
+  // Modal State
+  const [isOrderModalOpen, setOrderModalOpen] = useState(false);
+  const [customerName, setCustomerName] = useState("");
+  const [customerSurname, setCustomerSurname] = useState("");
+  const [customerPhone, setCustomerPhone] = useState("");
 
   useEffect(() => {
     setPickupLocation((prev) => mapLocationToLocale(prev, locale as never));
@@ -60,150 +69,210 @@ export default function CarDetailPricing({ car }: { car: Car }) {
     [car, dropoffLocation, endDate, extras, pickupLocation, promoCode, startDate]
   );
 
-  const bookingParams = new URLSearchParams({
-    car: car.slug,
-    pickupLocation,
-    dropoffLocation,
-    pickupDate: startDate,
-    dropoffDate: endDate,
-    promoCode,
-    gps: extras.gps ? "1" : "0",
-    childSeat: extras.childSeat ? "1" : "0",
-    additionalDriver: extras.additionalDriver ? "1" : "0",
-  }).toString();
+  const handleWhatsAppOrder = () => {
+    if (!customerName || !customerSurname || !customerPhone) {
+        alert(tBooking("validationError"));
+        return;
+    }
+
+    const message = `
+*New Order Request*
+------------------
+*Car:* ${car.brand} ${car.name} (${car.year})
+*Dates:* ${startDate.replace("T", " ")} - ${endDate.replace("T", " ")}
+*Pickup:* ${pickupLocation}
+*Dropoff:* ${dropoffLocation}
+------------------
+*Client:* ${customerName} ${customerSurname}
+*Phone:* ${customerPhone}
+------------------
+*Total:* ${result.total} AZN
+    `.trim();
+
+    const phoneNumber = "994997900066"; // Number from footer
+    const url = `https://api.whatsapp.com/send/?phone=${phoneNumber}&text=${encodeURIComponent(message)}&type=phone_number&app_absent=0`;
+    
+    window.open(url, "_blank");
+    setOrderModalOpen(false);
+  };
 
   return (
-    <div className="rounded-3xl border border-black/10 bg-white p-6 shadow-soft">
-      <h3 className="text-lg font-semibold text-black">{t("title")}</h3>
-      <div className="mt-4 grid gap-4 md:grid-cols-2">
-        <div>
-          <label
-            htmlFor={`${id}-pickup`}
-            className="text-xs font-semibold uppercase tracking-wide text-black/50"
-          >
-            {t("pickup")}
-          </label>
-          <Select
-            id={`${id}-pickup`}
-            value={pickupLocation}
-            onChange={(event) => setPickupLocation(event.target.value)}
-          >
-            {locations.map((location) => (
-              <option key={location} value={location}>
-                {location}
-              </option>
-            ))}
-          </Select>
+    <>
+      <div className="rounded-3xl border border-black/10 bg-white p-6 shadow-soft">
+        <h3 className="text-lg font-semibold text-black">{t("title")}</h3>
+        <div className="mt-4 grid gap-4 md:grid-cols-2">
+          <div>
+            <label
+              htmlFor={`${id}-pickup`}
+              className="text-xs font-semibold uppercase tracking-wide text-black/50"
+            >
+              {t("pickup")}
+            </label>
+            <Select
+              id={`${id}-pickup`}
+              value={pickupLocation}
+              onChange={(event) => setPickupLocation(event.target.value)}
+            >
+              {locations.map((location) => (
+                <option key={location} value={location}>
+                  {location}
+                </option>
+              ))}
+            </Select>
+          </div>
+          <div>
+            <label
+              htmlFor={`${id}-dropoff`}
+              className="text-xs font-semibold uppercase tracking-wide text-black/50"
+            >
+              {t("dropoff")}
+            </label>
+            <Select
+              id={`${id}-dropoff`}
+              value={dropoffLocation}
+              onChange={(event) => setDropoffLocation(event.target.value)}
+            >
+              {locations.map((location) => (
+                <option key={location} value={location}>
+                  {location}
+                </option>
+              ))}
+            </Select>
+          </div>
+          <div>
+            <label
+              htmlFor={`${id}-start`}
+              className="text-xs font-semibold uppercase tracking-wide text-black/50"
+            >
+              {t("startDate")}
+            </label>
+            <Input
+              id={`${id}-start`}
+              type="datetime-local"
+              value={startDate}
+              onChange={(event) => setStartDate(event.target.value)}
+            />
+          </div>
+          <div>
+            <label
+              htmlFor={`${id}-end`}
+              className="text-xs font-semibold uppercase tracking-wide text-black/50"
+            >
+              {t("endDate")}
+            </label>
+            <Input
+              id={`${id}-end`}
+              type="datetime-local"
+              value={endDate}
+              onChange={(event) => setEndDate(event.target.value)}
+            />
+          </div>
         </div>
         <div>
           <label
-            htmlFor={`${id}-dropoff`}
-            className="text-xs font-semibold uppercase tracking-wide text-black/50"
-          >
-            {t("dropoff")}
+            htmlFor={`${id}-promo`}
+              className="text-xs font-semibold uppercase tracking-wide text-black/50"
+            >
+              {t("promo")}
+            </label>
+            <Input
+              id={`${id}-promo`}
+              value={promoCode}
+              onChange={(event) => setPromoCode(event.target.value)}
+              placeholder="BAKU66"
+            />
+          </div>
+        <div className="mt-4 space-y-2 text-sm text-black/70">
+          <label className="flex items-center gap-2">
+            <input
+              type="checkbox"
+              checked={extras.gps}
+              onChange={(event) =>
+                setExtras((prev) => ({ ...prev, gps: event.target.checked }))
+              }
+            />
+            {t("extraGps")}
           </label>
-          <Select
-            id={`${id}-dropoff`}
-            value={dropoffLocation}
-            onChange={(event) => setDropoffLocation(event.target.value)}
-          >
-            {locations.map((location) => (
-              <option key={location} value={location}>
-                {location}
-              </option>
-            ))}
-          </Select>
+          <label className="flex items-center gap-2">
+            <input
+              type="checkbox"
+              checked={extras.childSeat}
+              onChange={(event) =>
+                setExtras((prev) => ({
+                  ...prev,
+                  childSeat: event.target.checked,
+                }))
+              }
+            />
+            {t("extraChildSeat")}
+          </label>
+          <label className="flex items-center gap-2">
+            <input
+              type="checkbox"
+              checked={extras.additionalDriver}
+              onChange={(event) =>
+                setExtras((prev) => ({
+                  ...prev,
+                  additionalDriver: event.target.checked,
+                }))
+              }
+            />
+            {t("extraDriver")}
+          </label>
         </div>
-        <div>
-          <label
-            htmlFor={`${id}-start`}
-            className="text-xs font-semibold uppercase tracking-wide text-black/50"
-          >
-            {t("startDate")}
-          </label>
-          <Input
-            id={`${id}-start`}
-            type="datetime-local"
-            value={startDate}
-            onChange={(event) => setStartDate(event.target.value)}
-          />
+        <div className="mt-6">
+          <PricingBreakdown result={result} />
         </div>
-        <div>
-          <label
-            htmlFor={`${id}-end`}
-            className="text-xs font-semibold uppercase tracking-wide text-black/50"
-          >
-            {t("endDate")}
-          </label>
-          <Input
-            id={`${id}-end`}
-            type="datetime-local"
-            value={endDate}
-            onChange={(event) => setEndDate(event.target.value)}
-          />
+        <div className="mt-6 flex flex-wrap gap-3">
+          <Button onClick={() => setOrderModalOpen(true)}>{t("order")}</Button>
+          <Button variant="outline">{t("askAgent")}</Button>
         </div>
       </div>
-      <div>
-        <label
-          htmlFor={`${id}-promo`}
-            className="text-xs font-semibold uppercase tracking-wide text-black/50"
-          >
-            {t("promo")}
-          </label>
-          <Input
-            id={`${id}-promo`}
-            value={promoCode}
-            onChange={(event) => setPromoCode(event.target.value)}
-            placeholder="BAKU66"
-          />
+
+      <Modal
+        isOpen={isOrderModalOpen}
+        onClose={() => setOrderModalOpen(false)}
+        title={tBooking("contact")}
+      >
+        <div className="space-y-4">
+            <div>
+                <label className="mb-1 block text-sm font-medium text-gray-700">
+                    Name
+                </label>
+                <Input
+                    placeholder="Name"
+                    value={customerName}
+                    onChange={(e) => setCustomerName(e.target.value)}
+                />
+            </div>
+            <div>
+                <label className="mb-1 block text-sm font-medium text-gray-700">
+                    Surname
+                </label>
+                <Input
+                    placeholder="Surname"
+                    value={customerSurname}
+                    onChange={(e) => setCustomerSurname(e.target.value)}
+                />
+             </div>
+             <div>
+                <label className="mb-1 block text-sm font-medium text-gray-700">
+                    {tBooking("phone")}
+                </label>
+                <Input
+                    placeholder="+994 50 000 00 00"
+                    value={customerPhone}
+                    onChange={(e) => setCustomerPhone(e.target.value)}
+                />
+            </div>
+            
+            <div className="pt-2">
+                <Button onClick={handleWhatsAppOrder} className="w-full">
+                    {tFooter("whatsapp")}
+                </Button>
+            </div>
         </div>
-      <div className="mt-4 space-y-2 text-sm text-black/70">
-        <label className="flex items-center gap-2">
-          <input
-            type="checkbox"
-            checked={extras.gps}
-            onChange={(event) =>
-              setExtras((prev) => ({ ...prev, gps: event.target.checked }))
-            }
-          />
-          {t("extraGps")}
-        </label>
-        <label className="flex items-center gap-2">
-          <input
-            type="checkbox"
-            checked={extras.childSeat}
-            onChange={(event) =>
-              setExtras((prev) => ({
-                ...prev,
-                childSeat: event.target.checked,
-              }))
-            }
-          />
-          {t("extraChildSeat")}
-        </label>
-        <label className="flex items-center gap-2">
-          <input
-            type="checkbox"
-            checked={extras.additionalDriver}
-            onChange={(event) =>
-              setExtras((prev) => ({
-                ...prev,
-                additionalDriver: event.target.checked,
-              }))
-            }
-          />
-          {t("extraDriver")}
-        </label>
-      </div>
-      <div className="mt-6">
-        <PricingBreakdown result={result} />
-      </div>
-      <div className="mt-6 flex flex-wrap gap-3">
-        <Link href={`/booking?${bookingParams}`}>
-          <Button>{t("order")}</Button>
-        </Link>
-        <Button variant="outline">{t("askAgent")}</Button>
-      </div>
-    </div>
+      </Modal>
+    </>
   );
 }
