@@ -124,6 +124,38 @@ export default function Footer() {
       <div className="border-t border-white/10 py-4 text-center text-xs text-white/60">
         {t("copyright")}
       </div>
+
+      {/* GULUZADA Studio Signature */}
+      <div 
+        className="guluzada-credit" 
+        style={{
+          textAlign: "center",
+          padding: "2rem 0",
+          fontSize: "14px",
+          fontFamily: "'Space Grotesk', sans-serif",
+          color: "currentColor",
+          opacity: 0.8,
+        }}
+      >
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&display=swap" rel="stylesheet" />
+        
+        <span style={{ fontWeight: 400, opacity: 0.7 }}>by </span> 
+        <a 
+          href="https://guluzadastudio.com" 
+          target="_blank" 
+          rel="noreferrer"
+          style={{
+            textDecoration: "none",
+            color: "inherit",
+            display: "inline-block",
+            transition: "opacity 0.3s ease",
+          }}
+          onMouseOver={(e) => (e.currentTarget.style.opacity = "0.6")}
+          onMouseOut={(e) => (e.currentTarget.style.opacity = "1")}
+        >
+          <span style={{ fontWeight: 700, letterSpacing: "-0.02em" }}>GULUZADA</span> <span style={{ fontWeight: 300 }}>Studio</span>
+        </a>
+      </div>
     </footer>
   );
 }
